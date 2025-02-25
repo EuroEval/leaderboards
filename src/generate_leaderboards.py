@@ -1,19 +1,19 @@
 """Generate leaderboard CSV files from the ScandEval results."""
 
-from collections import defaultdict
+import datetime as dt
 import json
+import logging
 import math
 import re
-from pathlib import Path
 import warnings
+from collections import defaultdict
+from pathlib import Path
+
 import click
-from yaml import safe_load
-import logging
+import numpy as np
 import pandas as pd
 import scipy.stats as stats
-import numpy as np
-import datetime as dt
-
+from yaml import safe_load
 
 logging.basicConfig(
     level=logging.INFO,
@@ -292,14 +292,14 @@ def group_results_by_model(
             model_scores[model_id][dataset].append((raw_scores, total_score, std_err))
 
     # Remove the models that don't have scores for all datasets in at least one category
-    model_scores = {
-        model_id: scores
-        for model_id, scores in model_scores.items()
-        if any(
-            all(dataset in scores for dataset in datasets)
-            for datasets in required_datasets_per_category
-        )
-    }
+    # model_scores = {
+    #     model_id: scores
+    #     for model_id, scores in model_scores.items()
+    #     if any(
+    #         all(dataset in scores for dataset in datasets)
+    #         for datasets in required_datasets_per_category
+    #     )
+    # }
 
     return model_scores
 
@@ -564,9 +564,14 @@ def generate_dataframe(
 
             # Get individual dataset scores for the model
             total_results = dict()
-            for dataset, scores in results.items():
-                if dataset not in category_to_datasets[category]:
-                    continue
+            for dataset in category_to_datasets[category]:
+                if dataset in results:
+                    scores = results[dataset]
+                else:
+                    scores = [(list(), float("nan"), 0)]
+                    logger.info(
+                        f"Model {model_id!r} is missing scores for dataset {dataset!r}."
+                    )
                 main_score = scores[0][1]
                 total_results[dataset] = (
                     " / ".join(
@@ -584,6 +589,9 @@ def generate_dataframe(
                 if not key.endswith("_version")
                 or key.replace("_version", "") in category_to_datasets[category]
             }
+            if "speed" not in category_to_datasets[category]:
+                logger.info(f"Model {model_id!r} is missing speed scores.")
+                metadata["speed"] = float("nan")
 
             # Add all the model values to the data dictionary
             model_values = (
