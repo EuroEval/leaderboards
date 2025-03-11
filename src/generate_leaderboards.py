@@ -87,8 +87,10 @@ def main(leaderboard_config: str | Path, force: bool, categories: tuple[str]) ->
 
     # Load results and set them up for the leaderboard
     results = load_results(allowed_datasets=datasets + ["speed"])
-    model_results = group_results_by_model(
-        results=results, task_config=task_config, leaderboard_configs=configs
+    model_results: dict[str, dict[str, list[tuple[list[float], float, float]]]] = (
+        group_results_by_model(
+            results=results, task_config=task_config, leaderboard_configs=configs
+        )
     )
     ranks = compute_ranks(
         model_results=model_results, task_config=task_config, configs=configs
@@ -236,28 +238,6 @@ def group_results_by_model(
     Returns:
         The results grouped by model ID.
     """
-    # Create list of the datasets belonging to each category
-    required_datasets_per_category = list()
-    available_categories = {
-        task_config[task]["category"]
-        for config in leaderboard_configs.values()
-        for task in config
-    }
-    for category in available_categories:
-        category_tasks = {
-            task
-            for config in leaderboard_configs.values()
-            for task in config
-            if task_config[task]["category"] == category
-        }
-        category_datasets = [
-            dataset
-            for config in leaderboard_configs.values()
-            for task in category_tasks
-            for dataset in config.get(task, [])
-        ] + ["speed"]
-        required_datasets_per_category.append(category_datasets)
-
     model_scores: dict[str, dict[str, list[tuple[list[float], float, float]]]] = (
         defaultdict(lambda: defaultdict(list))
     )
@@ -536,12 +516,6 @@ def generate_dataframe(
     for category in categories:
         data_dict: dict[str, list] = defaultdict(list)
         for model_id, results in model_results.items():
-            # Skip models that don't have scores for the category
-            if category not in ranks[model_id] or math.isinf(
-                ranks[model_id][category]["overall"]
-            ):
-                continue
-
             # Get the overall rank for the model
             rank = round(ranks[model_id][category]["overall"], 2)
             language_ranks = ranks[model_id][category]
@@ -563,13 +537,14 @@ def generate_dataframe(
                         f"Model {model_id!r} is missing scores for dataset {dataset!r}."
                     )
                 main_score = scores[0][1]
-                total_results[dataset] = (
-                    " / ".join(
+                if not math.isnan(main_score):
+                    score_str = " / ".join(
                         f"{total_score:,.2f} ± {std_err:,.2f}"
                         for _, total_score, std_err in scores
                     )
-                    + f"@@{main_score}"
-                )
+                else:
+                    score_str = "-@@0"
+                total_results[dataset] = score_str + f"@@{main_score}"
 
             # Filter metadata dict to only keep the dataset versions belonging to the
             # category
@@ -602,14 +577,6 @@ def generate_dataframe(
                 f"{dict([(key, len(values)) for key, values in data_dict.items()])}."
             )
 
-            # Sanity check that there is no infinite values
-            assert not any(
-                math.isinf(value)
-                for values in data_dict.values()
-                for value in values
-                if isinstance(value, (int, float))
-            ), "There are infinite values in the data dictionary."
-
         # Create dataframe and sort by rank
         df = (
             pd.DataFrame(data_dict)
@@ -617,16 +584,25 @@ def generate_dataframe(
             .reset_index(drop=True)
         )
 
+        # ensure that inf appear at the buttom
+        rank_cols = ["rank"]
+        if len(leaderboard_configs) > 1:
+            rank_cols += list(leaderboard_configs.keys())
+
+        # convert rank to string, where {shown value}@@{sort value} to ensure that nan values appear at the buttom.
+        for col in rank_cols:
+            df[col] = [
+                f"{value:.2f}@@{value:.2f}"
+                if not math.isinf(value)
+                else "-@@100"  # just a large number
+                for value in df[col]
+            ]
+
         # Replace dashes with underlines in all column names
         df.columns = df.columns.str.replace("-", "_")
 
         # Reorder columns
-        cols = [
-            "model",
-            "rank",
-        ]
-        if len(leaderboard_configs) > 1:
-            cols += list(leaderboard_configs.keys())
+        cols = ["model"] + rank_cols
         cols += [
             "parameters",
             "vocabulary_size",
