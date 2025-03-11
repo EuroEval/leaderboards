@@ -524,7 +524,7 @@ def generate_dataframe(
             # Get the default values for the dataset columns
             default_dataset_values = {
                 ds: float("nan") for ds in category_to_datasets[category]
-            } | {f"{ds}_version": "<9.2.0@@0" for ds in category_to_datasets[category]}
+            } | {f"{ds}_version": "-@@0" for ds in category_to_datasets[category]}
 
             # Get individual dataset scores for the model
             total_results = dict()
