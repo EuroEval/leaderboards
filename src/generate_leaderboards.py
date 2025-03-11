@@ -86,7 +86,7 @@ def main(leaderboard_config: str | Path, force: bool, categories: tuple[str]) ->
     ]
 
     # Load results and set them up for the leaderboard
-    results = load_results(allowed_datasets=datasets + ["speed"])
+    results = load_results(allowed_datasets=datasets)
     model_results: dict[str, dict[str, list[tuple[list[float], float, float]]]] = (
         group_results_by_model(
             results=results, task_config=task_config, leaderboard_configs=configs
@@ -420,11 +420,12 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
                 merge=record.get("merge", False),
             )
         )
-        if record["dataset"] == "speed":
-            metadata_dict[model_id]["speed"] = record["results"]["total"]["test_speed"]
 
-        version = record.get("scandeval_version", "<9.2.0@@0")
-        if "@" not in version:
+        version = record.get(
+            "scandeval_version", "<9.2.0"
+        )  # version was not safed before 9.2.0
+
+        if version != "<9.2.0":
             version_sort_value = int(
                 "".join(
                     [
@@ -436,6 +437,8 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
                 )
             )
             version += f"@@{version_sort_value}"
+        else:
+            version += "@@0"
         metadata_dict[model_id][f"{record['dataset']}_version"] = version
 
     return metadata_dict
@@ -543,7 +546,7 @@ def generate_dataframe(
                         for _, total_score, std_err in scores
                     )
                 else:
-                    score_str = "-@@0"
+                    score_str = "-@@-1"
                 total_results[dataset] = score_str + f"@@{main_score}"
 
             # Filter metadata dict to only keep the dataset versions belonging to the
@@ -554,9 +557,6 @@ def generate_dataframe(
                 if not key.endswith("_version")
                 or key.replace("_version", "") in category_to_datasets[category]
             }
-            if "speed" not in category_to_datasets[category]:
-                logger.info(f"Model {model_id!r} is missing speed scores.")
-                metadata["speed"] = float("nan")
 
             # Add all the model values to the data dictionary
             model_values = (
@@ -584,12 +584,12 @@ def generate_dataframe(
             .reset_index(drop=True)
         )
 
-        # ensure that inf appear at the buttom
+        # Ensure that inf values appear at the bottom
         rank_cols = ["rank"]
         if len(leaderboard_configs) > 1:
             rank_cols += list(leaderboard_configs.keys())
 
-        # convert rank to string, where {shown value}@@{sort value} to ensure that nan values appear at the buttom.
+        # Convert rank to string, where {shown value}@@{sort value} to ensures that NaN values appear at the bottom.
         for col in rank_cols:
             df[col] = [
                 f"{value:.2f}@@{value:.2f}"
@@ -607,7 +607,6 @@ def generate_dataframe(
             "parameters",
             "vocabulary_size",
             "context",
-            "speed",
             "generative_type",
             "commercial",
             "merge",

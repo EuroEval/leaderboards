@@ -155,6 +155,8 @@ def add_missing_entries(record: dict) -> dict:
         record["few_shot"] = True
     if "generative" not in record:
         record["generative"] = False
+    if "scandeval_version" not in record:
+        record["scandeval_version"] = "<9.2.0"
     record["generative_type"] = get_generative_type(record=record)
     record["merge"] = is_merge(record=record)
     record["commercially_licensed"] = is_commercially_licensed(record=record)
