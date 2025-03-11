@@ -291,16 +291,6 @@ def group_results_by_model(
 
             model_scores[model_id][dataset].append((raw_scores, total_score, std_err))
 
-    # Remove the models that don't have scores for all datasets in at least one category
-    # model_scores = {
-    #     model_id: scores
-    #     for model_id, scores in model_scores.items()
-    #     if any(
-    #         all(dataset in scores for dataset in datasets)
-    #         for datasets in required_datasets_per_category
-    #     )
-    # }
-
     return model_scores
 
 
