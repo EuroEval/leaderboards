@@ -1,4 +1,4 @@
-"""Process ScandEval records from a JSONL file."""
+"""Process EuroEval records from a JSONL file."""
 
 import warnings
 import click
@@ -27,7 +27,7 @@ COMMERCIALLY_LICENSED_CACHE: dict[str, bool] = dict()
 @click.command()
 @click.argument("filename")
 def main(filename: str) -> None:
-    """Process ScandEval records from a JSONL file.
+    """Process EuroEval records from a JSONL file.
 
     Args:
         filename:
@@ -93,7 +93,9 @@ def main(filename: str) -> None:
                     re.sub(
                         pattern=r"\.dev[0-9]+",
                         repl="",
-                        string=match.get("scandeval_version", "0.0.0"),
+                        string=match.get(
+                            "euroeval_version", match.get("scandeval_version", "0.0.0")
+                        ),
                     ).split("."),
                 )
             )
@@ -175,6 +177,9 @@ def fix_metadata(record: dict) -> dict:
     """
     if record["task"] == "question-answering":
         record["task"] = "reading-comprehension"
+    if "scandeval_version" in record:
+        record["euroeval_version"] = record["scandeval_version"]
+        del record["scandeval_version"]
     return record
 
 
@@ -344,7 +349,7 @@ def record_is_valid(record: dict) -> bool:
     Returns:
         True if the record is valid, False otherwise.
     """
-    if record.get("scandeval_version") in BANNED_VERSIONS:
+    if record.get("euroeval_version") in BANNED_VERSIONS:
         return False
     if any(
         re.search(pattern=pattern, string=record["model"]) for pattern in BANNED_MODELS

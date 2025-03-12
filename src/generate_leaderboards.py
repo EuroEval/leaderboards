@@ -1,4 +1,4 @@
-"""Generate leaderboard CSV files from the ScandEval results."""
+"""Generate leaderboard CSV files from the EuroEval results."""
 
 import datetime as dt
 import json
@@ -45,7 +45,7 @@ warnings.simplefilter(action="ignore", category=RuntimeWarning)
     help="The categories of leaderboards to generate.",
 )
 def main(leaderboard_config: str | Path, force: bool, categories: tuple[str]) -> None:
-    """Generate leaderboard CSV files from the ScandEval results.
+    """Generate leaderboard CSV files from the EuroEval results.
 
     Args:
         leaderboard_config:

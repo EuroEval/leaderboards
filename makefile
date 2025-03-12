@@ -6,15 +6,9 @@ update: check download process_results generate_leaderboards publish
 force-update: check download process_results force_generate_leaderboards publish
 
 download:
-	@scp -o ConnectTimeout=5 percival:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl percival_results.jsonl || true
-	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl lancelot_results.jsonl || true
-	@scp -o ConnectTimeout=5 blackknight:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
-	@scp -o ConnectTimeout=5 runpod:/root/scandeval/scandeval_benchmark_results.jsonl runpod_results.jsonl || true
+	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/euroeval/euroeval_benchmark_results.jsonl lancelot_results.jsonl || true
+	@scp -o ConnectTimeout=5 blackknight:/home/alex-admin/euroeval/euroeval_benchmark_results.jsonl blackknight_results.jsonl || true
 	@touch results/results.jsonl
-	@if [ -f percival_results.jsonl ]; then \
-		cat percival_results.jsonl >> results/results.jsonl; \
-		rm percival_results.jsonl; \
-	fi
 	@if [ -f lancelot_results.jsonl ]; then \
 		cat lancelot_results.jsonl >> results/results.jsonl; \
 		rm lancelot_results.jsonl; \
@@ -22,10 +16,6 @@ download:
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> results/results.jsonl; \
 		rm blackknight_results.jsonl; \
-	fi
-	@if [ -f runpod_results.jsonl ]; then \
-		cat runpod_results.jsonl >> results/results.jsonl; \
-		rm runpod_results.jsonl; \
 	fi
 
 process_results:

@@ -1,7 +1,7 @@
 [project]
 name = "leaderboards"
 version = "0.1.0"
-description = "Collection of all evaluation results from the ScandEval framework."
+description = "Collection of all evaluation results from the EuroEval framework."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
