@@ -421,10 +421,7 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
             )
         )
 
-        version = record.get(
-            "scandeval_version", "<9.2.0"
-        )  # version was not safed before 9.2.0
-
+        version = record["euroeval_version"]
         if version != "<9.2.0":
             version_sort_value = int(
                 "".join(
