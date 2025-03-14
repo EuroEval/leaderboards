@@ -1,19 +1,19 @@
 """Generate leaderboard CSV files from the EuroEval results."""
 
-from collections import defaultdict
+import datetime as dt
 import json
+import logging
 import math
 import re
-from pathlib import Path
 import warnings
+from collections import defaultdict
+from pathlib import Path
+
 import click
-from yaml import safe_load
-import logging
+import numpy as np
 import pandas as pd
 import scipy.stats as stats
-import numpy as np
-import datetime as dt
-
+from yaml import safe_load
 
 logging.basicConfig(
     level=logging.INFO,
@@ -86,9 +86,11 @@ def main(leaderboard_config: str | Path, force: bool, categories: tuple[str]) ->
     ]
 
     # Load results and set them up for the leaderboard
-    results = load_results(allowed_datasets=datasets + ["speed"])
-    model_results = group_results_by_model(
-        results=results, task_config=task_config, leaderboard_configs=configs
+    results = load_results(allowed_datasets=datasets)
+    model_results: dict[str, dict[str, list[tuple[list[float], float, float]]]] = (
+        group_results_by_model(
+            results=results, task_config=task_config, leaderboard_configs=configs
+        )
     )
     ranks = compute_ranks(
         model_results=model_results, task_config=task_config, configs=configs
@@ -236,28 +238,6 @@ def group_results_by_model(
     Returns:
         The results grouped by model ID.
     """
-    # Create list of the datasets belonging to each category
-    required_datasets_per_category = list()
-    available_categories = {
-        task_config[task]["category"]
-        for config in leaderboard_configs.values()
-        for task in config
-    }
-    for category in available_categories:
-        category_tasks = {
-            task
-            for config in leaderboard_configs.values()
-            for task in config
-            if task_config[task]["category"] == category
-        }
-        category_datasets = [
-            dataset
-            for config in leaderboard_configs.values()
-            for task in category_tasks
-            for dataset in config.get(task, [])
-        ] + ["speed"]
-        required_datasets_per_category.append(category_datasets)
-
     model_scores: dict[str, dict[str, list[tuple[list[float], float, float]]]] = (
         defaultdict(lambda: defaultdict(list))
     )
@@ -290,16 +270,6 @@ def group_results_by_model(
                 raw_scores = [score * 100 for score in raw_scores]
 
             model_scores[model_id][dataset].append((raw_scores, total_score, std_err))
-
-    # Remove the models that don't have scores for all datasets in at least one category
-    model_scores = {
-        model_id: scores
-        for model_id, scores in model_scores.items()
-        if any(
-            all(dataset in scores for dataset in datasets)
-            for datasets in required_datasets_per_category
-        )
-    }
 
     return model_scores
 
@@ -450,11 +420,9 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
                 merge=record.get("merge", False),
             )
         )
-        if record["dataset"] == "speed":
-            metadata_dict[model_id]["speed"] = record["results"]["total"]["test_speed"]
 
-        version = record.get("euroeval_version", "<9.2.0@@0")
-        if "@" not in version:
+        version = record.get("euroeval_version", "<9.2.0")
+        if version != "<9.2.0":
             version_sort_value = int(
                 "".join(
                     [
@@ -466,6 +434,8 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
                 )
             )
             version += f"@@{version_sort_value}"
+        else:
+            version += "@@0"
         metadata_dict[model_id][f"{record['dataset']}_version"] = version
 
     return metadata_dict
@@ -546,12 +516,6 @@ def generate_dataframe(
     for category in categories:
         data_dict: dict[str, list] = defaultdict(list)
         for model_id, results in model_results.items():
-            # Skip models that don't have scores for the category
-            if category not in ranks[model_id] or math.isinf(
-                ranks[model_id][category]["overall"]
-            ):
-                continue
-
             # Get the overall rank for the model
             rank = round(ranks[model_id][category]["overall"], 2)
             language_ranks = ranks[model_id][category]
@@ -560,21 +524,27 @@ def generate_dataframe(
             # Get the default values for the dataset columns
             default_dataset_values = {
                 ds: float("nan") for ds in category_to_datasets[category]
-            } | {f"{ds}_version": "<9.2.0@@0" for ds in category_to_datasets[category]}
+            } | {f"{ds}_version": "-@@0" for ds in category_to_datasets[category]}
 
             # Get individual dataset scores for the model
             total_results = dict()
-            for dataset, scores in results.items():
-                if dataset not in category_to_datasets[category]:
-                    continue
+            for dataset in category_to_datasets[category]:
+                if dataset in results:
+                    scores = results[dataset]
+                else:
+                    scores = [(list(), float("nan"), 0)]
                 main_score = scores[0][1]
-                total_results[dataset] = (
-                    " / ".join(
-                        f"{total_score:,.2f} ± {std_err:,.2f}"
-                        for _, total_score, std_err in scores
+                if not math.isnan(main_score):
+                    score_str = (
+                        " / ".join(
+                            f"{total_score:,.2f} ± {std_err:,.2f}"
+                            for _, total_score, std_err in scores
+                        )
+                        + f"@@{main_score}"
                     )
-                    + f"@@{main_score}"
-                )
+                else:
+                    score_str = "-@@-1"
+                total_results[dataset] = score_str
 
             # Filter metadata dict to only keep the dataset versions belonging to the
             # category
@@ -604,14 +574,6 @@ def generate_dataframe(
                 f"{dict([(key, len(values)) for key, values in data_dict.items()])}."
             )
 
-            # Sanity check that there is no infinite values
-            assert not any(
-                math.isinf(value)
-                for values in data_dict.values()
-                for value in values
-                if isinstance(value, (int, float))
-            ), "There are infinite values in the data dictionary."
-
         # Create dataframe and sort by rank
         df = (
             pd.DataFrame(data_dict)
@@ -619,22 +581,30 @@ def generate_dataframe(
             .reset_index(drop=True)
         )
 
+        # Ensure that inf values appear at the bottom
+        rank_cols = ["rank"]
+        if len(leaderboard_configs) > 1:
+            rank_cols += list(leaderboard_configs.keys())
+
+        # Convert rank to string, where {shown value}@@{sort value} to ensures that NaN
+        # values appear at the bottom.
+        for col in rank_cols:
+            df[col] = [
+                f"{value:.2f}@@{value:.2f}"
+                if not math.isinf(value)
+                else "-@@100"  # just a large number
+                for value in df[col]
+            ]
+
         # Replace dashes with underlines in all column names
         df.columns = df.columns.str.replace("-", "_")
 
         # Reorder columns
-        cols = [
-            "model",
-            "rank",
-        ]
-        if len(leaderboard_configs) > 1:
-            cols += list(leaderboard_configs.keys())
+        cols = ["generative_type", "model"] + rank_cols
         cols += [
             "parameters",
             "vocabulary_size",
             "context",
-            "speed",
-            "generative_type",
             "commercial",
             "merge",
         ]

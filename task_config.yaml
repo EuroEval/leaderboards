@@ -32,8 +32,3 @@ summarization:
   category: nlg
   primary_metric: bertscore
   secondary_metric: rouge_l
-
-speed:
-  category: null
-  primary_metric: speed
-  secondary_metric: speed_short

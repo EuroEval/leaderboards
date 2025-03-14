@@ -9,6 +9,6 @@ reading-comprehension:
 summarization:
   - rrn
 knowledge:
-  - arc-is
+  - icelandic-knowledge
 common-sense-reasoning:
   - winogrande-is

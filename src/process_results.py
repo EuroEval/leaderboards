@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import logging
 from huggingface_hub import HfApi
+from huggingface_hub.errors import HFValidationError
 from huggingface_hub.hf_api import RepositoryNotFoundError
 from tqdm.auto import tqdm
 import typing as t
@@ -157,6 +158,8 @@ def add_missing_entries(record: dict) -> dict:
         record["few_shot"] = True
     if "generative" not in record:
         record["generative"] = False
+    if "euroeval_version" not in record and "scandeval_version" not in record:
+        record["euroeval_version"] = "<9.2.0"
     record["generative_type"] = get_generative_type(record=record)
     record["merge"] = is_merge(record=record)
     record["commercially_licensed"] = is_commercially_licensed(record=record)
@@ -326,7 +329,7 @@ def is_merge(record: dict) -> bool:
         with warnings.catch_warnings():
             warnings.simplefilter("ignore", category=UserWarning)
             model_info = api.model_info(repo_id=model_id)
-    except RepositoryNotFoundError:
+    except (RepositoryNotFoundError, HFValidationError):
         MERGE_CACHE[model_id] = False
         return False
 

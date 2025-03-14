@@ -11,6 +11,6 @@ reading-comprehension:
 summarization:
   - no-sammendrag
 knowledge:
-  - mmlu-no
+  - nrk-quiz-qa
 common-sense-reasoning:
-  - hellaswag-no
+  - nor-common-sense-qa
