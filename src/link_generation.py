@@ -91,8 +91,22 @@ def generate_openai_url(model_id: str) -> str | None:
     available_openai_models = [
         model_info.id for model_info in openai.models.list().data
     ]
-    if model_id in available_openai_models:
-        return f"https://platform.openai.com/docs/models/{model_id}"
+
+    if model_id == "gpt-4-1106-preview":
+        model_id_without_version_id = "gpt-4-turbo"
+    else:
+        model_id_without_version_id_parts: list[str] = []
+        for part in model_id.split("-"):
+            if re.match(r"^\d{2,}$", part):
+                break
+            model_id_without_version_id_parts.append(part)
+        model_id_without_version_id = "-".join(model_id_without_version_id_parts)
+
+    if (
+        model_id in available_openai_models
+        or model_id_without_version_id in available_openai_models
+    ):
+        return f"https://platform.openai.com/docs/models/{model_id_without_version_id}"
     return None
 
 
