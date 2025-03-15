@@ -5,9 +5,11 @@
 __pycache__
 *.pyc
 
-# tmp files
-tmp.py
+# Temporary files
+**/*tmp*
 
-# vs code
+# VSCode
 launch.json
 
+# Environment variables
+.env

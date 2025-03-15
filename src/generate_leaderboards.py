@@ -15,15 +15,13 @@ import pandas as pd
 import scipy.stats as stats
 from yaml import safe_load
 
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s ⋅ %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
-
 logger = logging.getLogger(__name__)
-
-
 warnings.simplefilter(action="ignore", category=RuntimeWarning)
 
 
@@ -464,7 +462,7 @@ def extract_model_id_from_record(record: dict) -> str:
         model_notes.append("val")
 
     if model_notes:
-        model_id += f" ({', '.join(model_notes)})"
+        model_id = f"{re.sub(r'</a>$', '', model_id)} ({', '.join(model_notes)})</a>"
 
     return model_id
 

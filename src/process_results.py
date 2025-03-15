@@ -12,9 +12,14 @@ from tqdm.auto import tqdm
 import typing as t
 import re
 
+from link_generation import generate_anchor_tag
+
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
+    level=logging.INFO,
+    format="%(asctime)s ⋅ %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
+
 logger = logging.getLogger(__name__)
 
 
@@ -23,6 +28,7 @@ BANNED_MODELS: list[re.Pattern] = []
 GENERATIVE_TYPE_CACHE: dict[str, str | None] = dict()
 MERGE_CACHE: dict[str, bool] = dict()
 COMMERCIALLY_LICENSED_CACHE: dict[str, bool] = dict()
+ANCHOR_TAG_CACHE: dict[str, str] = dict()
 
 
 @click.command()
@@ -38,6 +44,7 @@ def main(filename: str) -> None:
     global GENERATIVE_TYPE_CACHE
     global MERGE_CACHE
     global COMMERCIALLY_LICENSED_CACHE
+    global ANCHOR_TAG_CACHE
     old_records: list[dict[str, t.Any]] = list()
     with Path(filename).with_suffix(".processed.jsonl").open(mode="r") as f:
         for line_idx, line in enumerate(f):
@@ -54,12 +61,20 @@ def main(filename: str) -> None:
     for record in tqdm(old_records, desc="Building caches"):
         model_id: str = record["model"]
         model_id = model_id.split("@")[0]
+        if (match := re.search(r">(.+?)<", record["model"])) is not None:
+            model_id = match.group(1)
         if "generative_type" in record:
             GENERATIVE_TYPE_CACHE[model_id] = record["generative_type"]
         if "merge" in record:
             MERGE_CACHE[model_id] = record["merge"]
         if "commercially_licensed" in record:
             COMMERCIALLY_LICENSED_CACHE[model_id] = record["commercially_licensed"]
+        if record["model"].startswith("<a href="):
+            inner_model_id_match = re.search(r">(.+?)<", record["model"])
+            if inner_model_id_match:
+                inner_model_id = inner_model_id_match.group(1)
+                inner_model_id = re.sub(r" *\(.*?\)", "", inner_model_id)
+                ANCHOR_TAG_CACHE[inner_model_id] = record["model"]
     del old_records
 
     records = list()
@@ -181,6 +196,12 @@ def fix_metadata(record: dict) -> dict:
     if "scandeval_version" in record:
         record["euroeval_version"] = record["scandeval_version"]
         del record["scandeval_version"]
+    if record["model"] in ANCHOR_TAG_CACHE:
+        record["model"] = ANCHOR_TAG_CACHE[record["model"]]
+    else:
+        anchor_tag = generate_anchor_tag(model_id=record["model"])
+        ANCHOR_TAG_CACHE[record["model"]] = anchor_tag
+        record["model"] = anchor_tag
     return record
 
 
