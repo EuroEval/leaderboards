@@ -1,6 +1,7 @@
 """Generating links for models."""
 
 import logging
+import re
 from huggingface_hub.errors import (
     GatedRepoError,
     HFValidationError,
@@ -37,11 +38,19 @@ def generate_anchor_tag(model_id: str) -> str:
     """
     logging.getLogger("httpx").setLevel(logging.CRITICAL)
     logging.getLogger("huggingface_hub").setLevel(logging.CRITICAL)
-    url = generate_hf_hub_url(model_id=model_id)
+
+    model_id_without_revision = model_id.split("@")[0]
+
+    url = generate_ollama_url(model_id=model_id_without_revision)
     if url is None:
-        url = generate_openai_url(model_id=model_id)
+        url = generate_hf_hub_url(model_id=model_id_without_revision)
     if url is None:
-        url = generate_anthropic_url(model_id=model_id)
+        url = generate_openai_url(model_id=model_id_without_revision)
+    if url is None:
+        url = generate_anthropic_url(model_id=model_id_without_revision)
+    if url is None:
+        logger.error(f"Could not find a URL for model {model_id_without_revision}.")
+
     return model_id if url is None else f"<a href='{url}'>{model_id}</a>"
 
 
@@ -86,8 +95,7 @@ def generate_openai_url(model_id: str) -> str | None:
     ]
     if model_id in available_openai_models:
         return f"https://platform.openai.com/docs/models/{model_id}"
-    else:
-        return None
+    return None
 
 
 def generate_anthropic_url(model_id: str) -> str | None:
@@ -107,5 +115,20 @@ def generate_anthropic_url(model_id: str) -> str | None:
     ]
     if model_id in available_anthropic_models:
         return "https://docs.anthropic.com/en/docs/about-claude/models/all-models"
-    else:
-        return None
+    return None
+
+
+def generate_ollama_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on Ollama.
+
+    Args:
+        model_id:
+            The Ollama model ID.
+
+    Returns:
+        The URL for the model on Ollama, or None if the model does not exist on Ollama.
+    """
+    if model_id.startswith("ollama/") or model_id.startswith("ollama_chat/"):
+        model_id_without_prefix_and_suffix = re.sub(":.+$", "", model_id.split("/")[1])
+        return f"https://ollama.com/library/{model_id_without_prefix_and_suffix}"
+    return None
