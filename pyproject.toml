@@ -8,6 +8,7 @@ dependencies = [
     "click>=8.1.7",
     "huggingface-hub>=0.26.5",
     "mypy>=1.13.0",
+    "openai>=1.66.3",
     "pandas>=2.2.3",
     "pip>=24.3.1",
     "pre-commit>=4.0.1",
