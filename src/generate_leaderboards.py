@@ -13,7 +13,6 @@ import click
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
-from tqdm.auto import tqdm
 from yaml import safe_load
 
 
@@ -24,10 +23,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 warnings.simplefilter(action="ignore", category=RuntimeWarning)
-tqdm.pandas(desc="Adding URLs to models")
-
-
-URL_CACHE: dict[str, str] = dict()
 
 
 @click.command()
