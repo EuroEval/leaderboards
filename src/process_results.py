@@ -61,6 +61,8 @@ def main(filename: str) -> None:
     for record in tqdm(old_records, desc="Building caches"):
         model_id: str = record["model"]
         model_id = model_id.split("@")[0]
+        if (match := re.search(r">(.+?)<", record["model"])) is not None:
+            model_id = match.group(1)
         if "generative_type" in record:
             GENERATIVE_TYPE_CACHE[model_id] = record["generative_type"]
         if "merge" in record:
