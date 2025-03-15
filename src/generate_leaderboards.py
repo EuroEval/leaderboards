@@ -631,6 +631,7 @@ def generate_dataframe(
             lambda x: generative_type_emoji_mapping.get(x, "🔍")
         )
 
+        assert isinstance(df, pd.DataFrame)
         dfs.append(df)
 
     return dfs
