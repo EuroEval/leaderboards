@@ -13,10 +13,8 @@ from huggingface_hub import HfApi
 from requests.exceptions import RequestException
 from dotenv import load_dotenv
 from anthropic import Anthropic
-from tqdm.auto import tqdm
 
 
-tqdm.pandas(desc="Adding URLs to models")
 load_dotenv()
 logging.basicConfig(
     level=logging.INFO,
