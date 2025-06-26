@@ -250,8 +250,8 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.42,7241732096,32000,8192,✓,�
 <a href='https://hf.co/norallm/normistral-7b-warm-instruct'>norallm/normistral-7b-warm-instruct</a>,📝,2.73,,32768,2048,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B'>allenai/OLMo-2-1124-13B</a>,🧠,2.74,13716198400,100352,4096,✓,✗
 <a href='https://hf.co/jannikskytt/MeDa-Bert'>jannikskytt/MeDa-Bert</a>,🔍,2.74,110619651,32000,511,✓,✗
-<a href='https://hf.co/lightonai/alfred-40b-1023'>lightonai/alfred-40b-1023</a>,📝,2.74,,65024,,✓,✗
 <a href='https://hf.co/jonfd/electra-small-nordic'>jonfd/electra-small-nordic</a>,🔍,2.75,21944195,96105,128,✓,✗
+<a href='https://hf.co/lightonai/alfred-40b-1023'>lightonai/alfred-40b-1023</a>,📝,2.75,,65024,,✓,✗
 <a href='https://hf.co/emillykkejensen/Phi-3-mini-4k-instruct-dansk'>emillykkejensen/Phi-3-mini-4k-instruct-dansk</a>,📝,2.75,3821079552,32064,4096,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.76,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/ltg/norbert3-xs'>ltg/norbert3-xs</a>,🔍,2.76,14972355,50000,512,✓,✗
@@ -299,10 +299,10 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.42,7241732096,32000,8192,✓,�
 <a href='https://hf.co/common-pile/comma-v0.1-2t'>common-pile/comma-v0.1-2t</a>,🧠,3.03,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-3b-a800m-instruct'>ibm-granite/granite-3.0-3b-a800m-instruct</a>,📝,3.03,3374295552,49155,4096,✓,✗
 <a href='https://hf.co/microsoft/Phi-3-mini-128k-instruct'>microsoft/Phi-3-mini-128k-instruct</a>,📝,3.05,3821079552,32064,131072,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b-instruct'>AI-Sweden-Models/gpt-sw3-20b-instruct</a>,📝,3.06,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-Math-7B'>Qwen/Qwen2.5-Math-7B</a>,📝,3.06,7615616512,152064,4096,✓,✗
 <a href='https://hf.co/Maltehb/danish-bert-botxo'>Maltehb/danish-bert-botxo</a>,🔍,3.06,110619651,32000,512,✓,✗
 <a href='https://hf.co/google/gemma-2-2b'>google/gemma-2-2b</a>,🧠,3.06,2614341888,256000,8192,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b-instruct'>AI-Sweden-Models/gpt-sw3-20b-instruct</a>,📝,3.07,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/KBLab/roberta-base-swedish-cased'>KBLab/roberta-base-swedish-cased</a>,🔍,3.07,125980419,52000,514,✓,✗
 <a href='https://hf.co/DDSC/roberta-base-danish'>DDSC/roberta-base-danish</a>,🔍,3.08,124697947,50265,514,✓,✗
 <a href='https://ollama.com/library/gemma3:1b'>ollama_chat/gemma3:1b</a>,📝,3.08,1000000000,262144,32768,✓,✗
@@ -410,7 +410,7 @@ fresh-electra-small,🔍,4.27,13549571,30522,512,✓,✗
 <a href='https://hf.co/infly/OpenCoder-1.5B-Base'>infly/OpenCoder-1.5B-Base</a>,📝,4.49,1905650960,96640,4096,✓,✗
 <a href='https://hf.co/marksverdhei/modern-norbert3-base'>marksverdhei/modern-norbert3-base</a>,🔍,4.49,123994448,50000,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.50,134515008,49152,8192,✓,✗
-<a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.52,379988992,50257,1024,✓,✗
+<a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.53,379988992,50257,1024,✓,✗
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,4.54,811778816,50257,1024,✓,✗
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,4.61,137022720,50257,1024,✓,✗
 <a href='https://hf.co/marksverdhei/modern-norbert3-small'>marksverdhei/modern-norbert3-small</a>,🔍,4.61,40641104,50000,512,✓,✗
