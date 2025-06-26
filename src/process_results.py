@@ -197,6 +197,8 @@ def fix_metadata(record: dict) -> dict:
     Returns:
         The record with fixed metadata.
     """
+    global ANCHOR_TAG_CACHE
+
     if record["task"] == "question-answering":
         record["task"] = "reading-comprehension"
     if "scandeval_version" in record:
