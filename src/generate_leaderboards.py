@@ -494,9 +494,7 @@ def extract_model_id_from_record(record: dict) -> str:
     model_notes: list[str] = list()
 
     if record.get("generative", True):
-        if record.get("few_shot", True):
-            model_notes.append("few-shot")
-        else:
+        if not record.get("few_shot", True):
             model_notes.append("zero-shot")
 
     if record.get("validation_split", False):
