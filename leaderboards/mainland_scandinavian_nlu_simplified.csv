@@ -395,8 +395,8 @@ fresh-xlm-roberta-base,🔍,4.13,278045955,250002,512,✓,✗
 <a href='https://huggingface.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M (few-shot)</a>,🧠,4.15,361821120,49152,8192,✓,✗
 <a href='https://huggingface.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview (few-shot)</a>,🧠,4.15,353424384,65536,2048,✓,✗
 <a href='https://huggingface.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot)</a>,📝,4.16,186112512,64000,2048,✓,✗
-<a href='https://huggingface.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot)</a>,📝,4.21,470607872,64000,2048,✓,✗
 <a href='https://huggingface.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico (few-shot)</a>,🧠,4.21,353424384,65536,2048,✓,✗
+<a href='https://huggingface.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot)</a>,📝,4.22,470607872,64000,2048,✓,✗
 <a href='https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct (few-shot)</a>,📝,4.23,361821120,49152,8192,✓,✗
 fresh-electra-small,🔍,4.27,13549571,30522,512,✓,✗
 <a href='https://huggingface.co/NbAiLab/nb-gpt-j-6B'>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</a>,🧠,4.30,,50400,1024,✓,✗

@@ -193,7 +193,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://huggingface.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning (few-shot)</a>,🤔,3.64,14659507200,100352,32768,✓,✗
 <a href='https://huggingface.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview (few-shot)</a>,🧠,3.69,1195468800,65536,2048,✓,✗
 <a href='https://huggingface.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.69,149655232,50368,8192,✓,✗
-<a href='https://huggingface.co/timpal0l/Mistral-7B-v0.1-flashback-v2'>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</a>,📝,3.72,7241732096,32000,4096,✓,✗
+<a href='https://huggingface.co/timpal0l/Mistral-7B-v0.1-flashback-v2'>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</a>,📝,3.73,7241732096,32000,4096,✓,✗
 <a href='https://huggingface.co/microsoft/phi-2'>microsoft/phi-2 (few-shot)</a>,🧠,3.78,2779683840,51200,2048,✓,✗
 <a href='https://huggingface.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b (few-shot)</a>,🧠,3.78,68977172480,32032,8192,✗,✗
 <a href='https://huggingface.co/ibm-granite/granite-3.0-1b-a400m-base'>ibm-granite/granite-3.0-1b-a400m-base (few-shot)</a>,🧠,3.81,1384956928,49152,4096,✓,✗
