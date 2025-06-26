@@ -262,7 +262,7 @@ def get_generative_type(record: dict) -> str | None:
 
         msg = f"What is the generative type of {model_id!r}?"
         if "/" in model_id:
-            msg += f" (https://huggingface.co/{model_id})"
+            msg += f" (https://hf.co/{model_id})"
         msg += " [0=null, 1=base, 2=instruction_tuned, 3=reasoning] "
         user_input = input(msg)
         if user_input.lower() in {"0", "null"}:
@@ -302,7 +302,7 @@ def is_commercially_licensed(record: dict) -> bool:
 
         msg = f"Is {model_id!r} commercially licensed?"
         if "/" in model_id:
-            msg += f" (https://huggingface.co/{model_id})"
+            msg += f" (https://hf.co/{model_id})"
         msg += " [y/n] "
         user_input = input(msg)
         if user_input.lower() in {"y", "yes"}:

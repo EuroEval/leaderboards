@@ -102,7 +102,7 @@ def generate_hf_hub_url(model_id: str) -> str | None:
     hf_api = HfApi()
     try:
         hf_api.model_info(repo_id=model_id)
-        return f"https://huggingface.co/{model_id}"
+        return f"https://hf.co/{model_id}"
     except (
         GatedRepoError,
         LocalTokenNotFoundError,
