@@ -163,7 +163,7 @@ def generate_anthropic_url(model_id: str) -> str | None:
         model_info.id for model_info in client.models.list().data
     ]
     if model_id in available_anthropic_models:
-        return "https://docs.anthropic.com/en/docs/about-claude/models/all-models"
+        return "https://docs.anthropic.com/en/docs/about-claude"
     return None
 
 
