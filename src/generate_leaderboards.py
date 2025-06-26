@@ -143,7 +143,10 @@ def main(leaderboard_config: str | Path, force: bool, categories: tuple[str]) ->
             col for col in df.columns if col not in not_comparison_columns
         ]
         if leaderboard_path.exists():
-            old_df = pd.read_csv(leaderboard_path)
+            old_df = pd.read_csv(leaderboard_path, header=0, skiprows=1)
+            old_df.columns = [
+                re.sub(r"<a href=.*?>(.*?)</a>", r"\1", col) for col in old_df.columns
+            ]
             if any(col not in old_df.columns for col in comparison_columns):
                 new_records = df.model.tolist()
             else:
@@ -167,11 +170,24 @@ def main(leaderboard_config: str | Path, force: bool, categories: tuple[str]) ->
                         new_records.append(model_id)
                         continue
 
+                    def convert_to_float(value: str | float) -> float | str:
+                        """Convert a value to float if possible."""
+                        try:
+                            return float(value)
+                        except Exception:
+                            return value
+
                     old_model_results = (
-                        old_df[comparison_columns].query("model == @model_id").dropna()
+                        old_df[comparison_columns]
+                        .query("model == @model_id")
+                        .dropna()
+                        .map(convert_to_float)
                     )
                     new_model_results = (
-                        df[comparison_columns].query("model == @model_id").dropna()
+                        df[comparison_columns]
+                        .query("model == @model_id")
+                        .dropna()
+                        .map(convert_to_float)
                     )
                     model_has_new_results = not np.all(
                         old_model_results.values == new_model_results.values
