@@ -667,7 +667,7 @@ def generate_dataframe(
                             f"{total_score:,.2f} ± {std_err:,.2f}"
                             for _, total_score, std_err in scores
                         )
-                        + f"@@{main_score}"
+                        + f"@@{main_score:.2f}"
                     )
                 else:
                     score_str = "-@@-1"
