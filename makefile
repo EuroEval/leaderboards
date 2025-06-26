@@ -74,6 +74,7 @@ install:
 	@$(MAKE) --quiet install-rust
 	@$(MAKE) --quiet install-uv
 	@$(MAKE) --quiet install-dependencies
+	@$(MAKE) --quiet install-pre-commit
 	@echo "Installed the 'leaderboards' project. If you want to use pre-commit hooks, run 'make install-pre-commit'."
 
 install-rust:
