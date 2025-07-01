@@ -214,7 +214,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.26,353424384,65536,2048,✓,✗
 fresh-xlm-roberta-base,🔍,4.30,278045955,250002,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.33,1543714304,151936,4096,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.33,353424384,65536,2048,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.34,353424384,65536,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.37,470607872,64000,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.42,134515008,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.42,186112512,64000,2048,✓,✗
