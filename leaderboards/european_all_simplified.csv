@@ -95,7 +95,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.1'>mistralai/Mistral-7B-Instruct-v0.1</a>,📝,2.96,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,2.99,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-33B'>LumiOpen/Viking-33B</a>,🧠,3.01,33119034368,131072,4096,✓,✗
-<a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,3.07,7241748480,32002,32768,✗,✗
+<a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,3.08,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,3.12,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,3.14,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-Math-7B'>Qwen/Qwen2.5-Math-7B</a>,📝,3.15,7615616512,152064,4096,✓,✗

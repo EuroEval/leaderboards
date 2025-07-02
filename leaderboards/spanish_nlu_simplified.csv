@@ -144,7 +144,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Twitter/twhin-bert-base'>Twitter/twhin-bert-base</a>,🔍,2.84,279080594,250002,512,✓,✗
 <a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,2.84,278044162,250002,512,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-3b-a800m-base'>ibm-granite/granite-3.0-3b-a800m-base</a>,🧠,2.84,3374286336,49152,4096,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,2.85,999885952,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,2.86,999885952,262144,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B</a>,🤔,2.87,751632384,151936,40960,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,2.88,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/sentence-transformers/quora-distilbert-multilingual'>sentence-transformers/quora-distilbert-multilingual</a>,🔍,2.93,134734080,119547,512,✓,✗
@@ -192,17 +192,17 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.87,361821120,49152,8192,✓,✗
 <a href='https://hf.co/croissantllm/CroissantLLMBase'>croissantllm/CroissantLLMBase</a>,🧠,3.88,,32000,2048,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,3.91,353424384,65536,2048,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.01,134515008,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.02,134515008,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,4.05,470607872,64000,2048,✓,✗
 <a href='https://hf.co/croissantllm/CroissantLLMChat-v0.1'>croissantllm/CroissantLLMChat-v0.1</a>,📝,4.14,1345431552,32002,2048,✗,✗
-fresh-xlm-roberta-base,🔍,4.14,278885778,250002,512,✓,✗
+fresh-xlm-roberta-base,🔍,4.15,278885778,250002,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.19,134515008,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.35,470607872,64000,2048,✓,✗
 fresh-electra-small,🔍,4.38,13738755,32000,128,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.42,186112512,64000,2048,✓,✗
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.49,379988992,50257,1024,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.51,186112512,64000,2048,✓,✗
 <a href='https://hf.co/dbmdz/bert-tiny-historic-multilingual-cased'>dbmdz/bert-tiny-historic-multilingual-cased</a>,🔍,4.52,4624642,32000,512,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.52,186112512,64000,2048,✓,✗
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,4.57,811778816,50257,1024,✓,✗
 <a href='https://hf.co/alea-institute/kl3m-003-3.7b'>alea-institute/kl3m-003-3.7b</a>,🧠,4.62,3691382784,32768,4096,✓,✗
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,4.64,137022720,50257,1024,✓,✗

@@ -112,8 +112,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.48,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.1'>mistralai/Mistral-7B-Instruct-v0.1</a>,📝,2.49,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,2.51,8028033024,256000,8192,✗,✗
-<a href='https://hf.co/Qwen/Qwen2.5-Math-7B'>Qwen/Qwen2.5-Math-7B</a>,📝,2.51,7615616512,152064,4096,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.3'>mistralai/Mistral-7B-v0.3</a>,🧠,2.51,7248023552,32768,32768,✓,✗
+<a href='https://hf.co/Qwen/Qwen2.5-Math-7B'>Qwen/Qwen2.5-Math-7B</a>,📝,2.52,7615616512,152064,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.52,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.53,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.55,7241732096,32000,32768,✓,✗
