@@ -1,27 +1,21 @@
 # Set the PATH env var used by cargo and uv
 export PATH := ${HOME}/.local/bin:${HOME}/.cargo/bin:$(PATH)
 
-update: pull check download process_results generate_leaderboards publish
+update: pull check download generate_leaderboards publish
 
-force-update: pull check download process_results force_generate_leaderboards publish
+force-update: pull check download force_generate_leaderboards publish
 
-no-download-update: pull check process_results generate_leaderboards publish
+no-download-update: pull check generate_leaderboards publish
 
 pull:
 	@git pull
 
 download:
-	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/euroeval/euroeval_benchmark_results.jsonl lancelot_results.jsonl || true
 	@scp -o ConnectTimeout=5 ucloud:/home/ucloud/euroeval_benchmark_results.jsonl ucloud_results.jsonl || true
 	@scp -o ConnectTimeout=5 ucloud:/home/ucloud/api/euroeval_benchmark_results.jsonl ucloud_api_results.jsonl || true
-	@scp -o ConnectTimeout=5 ucloud2:/home/ucloud/euroeval_benchmark_results.jsonl ucloud2_results.jsonl || true
 	@scp -o ConnectTimeout=5 70b-ucloud:/home/ucloud/euroeval_benchmark_results.jsonl 70b_ucloud_results.jsonl || true
 	@scp -o ConnectTimeout=5 b200:/home/ucloud/euroeval_benchmark_results.jsonl b200_results.jsonl || true
 	@touch results/results.jsonl
-	@if [ -f lancelot_results.jsonl ]; then \
-		cat lancelot_results.jsonl >> results/results.jsonl; \
-		rm lancelot_results.jsonl; \
-	fi
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> results/results.jsonl; \
 		rm blackknight_results.jsonl; \
@@ -34,10 +28,6 @@ download:
 		cat ucloud_api_results.jsonl >> results/results.jsonl; \
 		rm ucloud_api_results.jsonl; \
 	fi
-	@if [ -f ucloud2_results.jsonl ]; then \
-		cat ucloud2_results.jsonl >> results/results.jsonl; \
-		rm ucloud2_results.jsonl; \
-	fi
 	@if [ -f 70b_ucloud_results.jsonl ]; then \
 		cat 70b_ucloud_results.jsonl >> results/results.jsonl; \
 		rm 70b_ucloud_results.jsonl; \
@@ -47,18 +37,11 @@ download:
 		rm b200_results.jsonl; \
 	fi
 
-process_results:
-	@uv run src/process_results.py results/results.jsonl
-
 generate_leaderboards:
-	@for config in leaderboard_configs/*.yaml; do \
-		uv run src/generate_leaderboards.py $${config}; \
-	done
+	@uv run src/scripts/generate_leaderboards.py
 
 force_generate_leaderboards:
-	@for config in leaderboard_configs/*.yaml; do \
-		uv run src/generate_leaderboards.py --force $${config}; \
-	done
+	@uv run src/scripts/generate_leaderboards.py --force
 
 publish:
 	@for leaderboard in leaderboards/*.csv; do \
@@ -80,7 +63,7 @@ install:
 	@$(MAKE) --quiet install-uv
 	@$(MAKE) --quiet install-dependencies
 	@$(MAKE) --quiet install-pre-commit
-	@echo "Installed the 'leaderboards' project. If you want to use pre-commit hooks, run 'make install-pre-commit'."
+	@echo "Installed the 'leaderboards' project.."
 
 install-rust:
 	@if [ "$(shell which rustup)" = "" ]; then \

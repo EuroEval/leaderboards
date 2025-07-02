@@ -1,0 +1,236 @@
+"""Generating links for models."""
+
+import logging
+import os
+import re
+
+import openai
+from anthropic import Anthropic
+from dotenv import load_dotenv
+from google.genai import Client as GoogleClient
+from huggingface_hub import HfApi
+from huggingface_hub.errors import (
+    GatedRepoError,
+    HFValidationError,
+    LocalTokenNotFoundError,
+    RepositoryNotFoundError,
+)
+from requests.exceptions import RequestException
+
+load_dotenv()
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s ⋅ %(name)s ⋅ %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+
+
+KNOWN_MODELS_WITHOUT_URLS = [
+    "fresh-electra-small",
+    "fresh-xlm-roberta-base",
+    "skole-gpt-mixtral",
+    "danish-foundation-models/munin-7b-v0.1dev0",
+    "mhenrichsen/danskgpt-chat-v2.1",
+    "syvai/danskgpt-chat-llama3-70b",
+]
+
+
+def generate_task_link(id: int, label: str) -> str:
+    """Generate a link to a EuroEval task.
+
+    Args:
+        id:
+            A unique task ID.
+        label:
+            The task ID, in kebab-case.
+
+    Returns:
+        The anchor tag of the task, linking to the EuroEval task description.
+    """
+    styling = (
+        "style='"
+        "font-size: 12px; "
+        "font-weight: normal; "
+        "color: Grey; "
+        "text-decoration: underline;"
+        "'"
+    )
+    return (
+        f"<a id={id} href='https://euroeval.com/tasks/{label}/' {styling}>"
+        f"{label.replace('-', ' ').capitalize()}"
+        "</a>"
+    )
+
+
+def generate_anchor_tag(model_id: str) -> str:
+    """Generate an anchor tag for a model.
+
+    Args:
+        model_id:
+            The model ID.
+
+    Returns:
+        The anchor tag for the model, or the model ID if the URL cannot be generated.
+    """
+    logging.getLogger("httpx").setLevel(logging.CRITICAL)
+    logging.getLogger("huggingface_hub").setLevel(logging.CRITICAL)
+
+    model_id_without_revision = model_id.split("@")[0]
+
+    # Skip models that are known to not have URLs
+    if model_id_without_revision in KNOWN_MODELS_WITHOUT_URLS:
+        return model_id
+
+    url = generate_ollama_url(model_id=model_id_without_revision)
+    if url is None:
+        url = generate_hf_hub_url(model_id=model_id_without_revision)
+    if url is None:
+        url = generate_openai_url(model_id=model_id_without_revision)
+    if url is None:
+        url = generate_anthropic_url(model_id=model_id_without_revision)
+    if url is None:
+        url = generate_google_url(model_id=model_id_without_revision)
+    if url is None:
+        url = generate_xai_url(model_id=model_id_without_revision)
+    if url is None:
+        logger.error(f"Could not find a URL for model {model_id_without_revision}.")
+
+    return model_id if url is None else f"<a href='{url}'>{model_id}</a>"
+
+
+def generate_hf_hub_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on the Hugging Face Hub.
+
+    Args:
+        model_id:
+            The Hugging Face model ID.
+
+    Returns:
+        The URL for the model on the Hugging Face Hub, or None if the model does not
+        exist on the Hugging Face Hub.
+    """
+    hf_api = HfApi()
+    try:
+        hf_api.model_info(repo_id=model_id)
+        return f"https://hf.co/{model_id}"
+    except (
+        GatedRepoError,
+        LocalTokenNotFoundError,
+        RepositoryNotFoundError,
+        HFValidationError,
+        RequestException,
+        OSError,
+    ):
+        return None
+
+
+def generate_openai_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on OpenAI.
+
+    Args:
+        model_id:
+            The OpenAI model ID.
+
+    Returns:
+        The URL for the model on OpenAI, or None if the model does not exist on OpenAI.
+    """
+    available_openai_models = [
+        model_info.id for model_info in openai.models.list().data
+    ]
+
+    if model_id == "gpt-4-1106-preview":
+        model_id_without_version_id = "gpt-4-turbo"
+    else:
+        model_id_without_version_id_parts: list[str] = []
+        for part in model_id.split("-"):
+            if re.match(r"^\d{2,}$", part):
+                break
+            model_id_without_version_id_parts.append(part)
+        model_id_without_version_id = "-".join(model_id_without_version_id_parts)
+
+    if (
+        model_id in available_openai_models
+        or model_id_without_version_id in available_openai_models
+    ):
+        return f"https://platform.openai.com/docs/models/{model_id_without_version_id}"
+    return None
+
+
+def generate_anthropic_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on Anthropic.
+
+    Args:
+        model_id:
+            The Anthropic model ID.
+
+    Returns:
+        The URL for the model on Anthropic, or None if the model does not exist on
+        Anthropic.
+    """
+    model_id = model_id.replace("anthropic/", "")
+    client = Anthropic()
+    available_anthropic_models = [
+        model_info.id for model_info in client.models.list().data
+    ]
+    if model_id in available_anthropic_models:
+        return "https://docs.anthropic.com/en/docs/about-claude"
+    return None
+
+
+def generate_ollama_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on Ollama.
+
+    Args:
+        model_id:
+            The Ollama model ID.
+
+    Returns:
+        The URL for the model on Ollama, or None if the model does not exist on Ollama.
+    """
+    if model_id.startswith("ollama/") or model_id.startswith("ollama_chat/"):
+        model_id_without_prefix = model_id.split("/")[1]
+        return f"https://ollama.com/library/{model_id_without_prefix}"
+    return None
+
+
+def generate_google_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on Google.
+
+    Args:
+        model_id:
+            The Google model ID.
+
+    Returns:
+        The URL for the model on Google, or None if the model does not exist on Google.
+    """
+    model_id = model_id.replace("gemini/", "")
+    client = GoogleClient(api_key=os.environ["GEMINI_API_KEY"])
+    available_google_models = [
+        model.name.split("/")[-1]
+        for model in client.models.list()
+        if model.name is not None
+    ]
+    if model_id in available_google_models:
+        return f"https://ai.google.dev/gemini-api/docs/models#{model_id}"
+    return None
+
+
+def generate_xai_url(model_id: str) -> str | None:
+    """Generate a model URL for a model hosted on xAI.
+
+    Args:
+        model_id:
+            The xAI model ID.
+
+    Returns:
+        The URL for the model on xAI, or None if the model does not exist on xAI.
+    """
+    model_id = model_id.replace("xai/", "")
+    client = openai.OpenAI(
+        api_key=os.environ["XAI_API_KEY"], base_url="https://api.x.ai/v1"
+    )
+    available_xai_models = [model.id for model in client.models.list()]
+    if model_id in available_xai_models:
+        return "https://docs.x.ai/docs/models"
+    return None
