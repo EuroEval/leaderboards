@@ -173,9 +173,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,3.84,134515008,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,4.23,470607872,64000,2048,✓,✗
 <a href='https://hf.co/alea-institute/kl3m-003-3.7b'>alea-institute/kl3m-003-3.7b</a>,🧠,4.23,3691382784,32768,4096,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.40,470607872,64000,2048,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.41,470607872,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.44,186112512,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.50,186112512,64000,2048,✓,✗
-<a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.72,379988992,50257,1024,✓,✗
+<a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.73,379988992,50257,1024,✓,✗
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,4.77,811778816,50257,1024,✓,✗
-<a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,4.80,137022720,50257,1024,✓,✗
+<a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,4.81,137022720,50257,1024,✓,✗
