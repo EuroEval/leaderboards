@@ -9,6 +9,6 @@ reading-comprehension:
 summarization:
   - cnn-dailymail
 knowledge:
-  - mmlu
+  - life-in-the-uk
 common-sense-reasoning:
   - hellaswag
