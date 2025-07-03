@@ -31,8 +31,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.66,12187325040,262144,,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-04-17'>gemini/gemini-2.5-flash-preview-04-17 (zero-shot, val)</a>",🤔,1.69,,256128,1048576,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-001'>gemini/gemini-2.0-flash-001 (zero-shot, val)</a>",📝,1.69,,256128,1048576,✓,✗
-<a href='https://hf.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF'>nvidia/Llama-3.1-Nemotron-70B-Instruct-HF</a>,📝,1.70,70553706496,128256,131072,✓,✗
 "<a href='https://docs.x.ai/docs/models'>xai/grok-2-1212 (zero-shot, val)</a>",📝,1.70,,,131072,✓,✗
+<a href='https://hf.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF'>nvidia/Llama-3.1-Nemotron-70B-Instruct-HF</a>,📝,1.71,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E-Instruct'>meta-llama/Llama-4-Scout-17B-16E-Instruct</a>,📝,1.73,108641793536,200000,,✓,✗
 <a href='https://hf.co/microsoft/phi-4'>microsoft/phi-4</a>,📝,1.74,14659507200,100352,16384,✓,✗
 <a href='https://hf.co/google/gemma-2-27b-it'>google/gemma-2-27b-it</a>,📝,1.74,27227128320,256000,8192,✓,✗

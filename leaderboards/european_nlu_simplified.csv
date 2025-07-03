@@ -133,7 +133,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.45,,128000,4096,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.48,395881664,50368,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B'>HuggingFaceTB/SmolLM2-1.7B</a>,🧠,3.51,1711376384,49152,8192,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.53,1656850432,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.52,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,3.54,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v1'>sentence-transformers/distiluse-base-multilingual-cased-v1</a>,🔍,3.62,134734080,119547,512,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.63,149655232,50368,8192,✓,✗
