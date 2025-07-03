@@ -67,7 +67,8 @@ def generate_leaderboard(
     ]
 
     # Load results and set them up for the leaderboard
-    results = load_processed_results(allowed_datasets=datasets)
+    results = load_processed_results()
+    results = [record for record in results if record["dataset"] in datasets]
     model_results: dict[str, dict[str, list[tuple[list[float], float, float]]]] = (
         group_results_by_model(results=results, task_config=task_config)
     )

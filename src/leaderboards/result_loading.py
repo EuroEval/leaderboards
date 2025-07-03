@@ -2,6 +2,7 @@
 
 import json
 import logging
+from functools import cache
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -43,12 +44,9 @@ def load_raw_results(records_path: Path) -> list[dict]:
     return records
 
 
-def load_processed_results(allowed_datasets: list[str]) -> list[dict]:
+@cache
+def load_processed_results() -> list[dict]:
     """Load processed results.
-
-    Args:
-        allowed_datasets:
-            The list of datasets to include in the leaderboard.
 
     Returns:
         The processed results.
@@ -75,8 +73,5 @@ def load_processed_results(allowed_datasets: list[str]) -> list[dict]:
                     results.append(json.loads(record))
                 except json.JSONDecodeError:
                     logger.error(f"Invalid JSON on line {line_idx:,}: {record}.")
-
-    # Only keep relevant results
-    results = [record for record in results if record["dataset"] in allowed_datasets]
 
     return results
