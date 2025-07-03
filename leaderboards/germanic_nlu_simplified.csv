@@ -91,7 +91,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/NorwAI/NorwAI-Mixtral-8x7B-instruct'>NorwAI/NorwAI-Mixtral-8x7B-instruct</a>,📝,2.41,46997647360,67993,32768,✓,✗
 <a href='https://hf.co/Nexusflow/Starling-LM-7B-beta'>Nexusflow/Starling-LM-7B-beta</a>,📝,2.41,7241748480,32002,4096,✗,✗
 <a href='https://ollama.com/library/gemma3:4b-it-q4_K_M'>ollama_chat/gemma3:4b-it-q4_K_M</a>,📝,2.43,4299915632,262144,128000,✓,✗
-<a href='https://ollama.com/library/hf.co'>ollama_chat/hf.co/google/gemma-3-4b-it-qat-q4_0-gguf</a>,📝,2.44,3880099328,,131072,✓,✗
+<a href='https://ollama.com/library/hf.co'>ollama_chat/hf.co/google/gemma-3-4b-it-qat-q4_0-gguf</a>,📝,2.43,3880099328,,131072,✓,✗
 <a href='https://hf.co/CohereForAI/c4ai-command-r7b-12-2024'>CohereForAI/c4ai-command-r7b-12-2024</a>,📝,2.45,8028033024,256000,4096,✗,✗
 <a href='https://hf.co/01-ai/Yi-1.5-9B'>01-ai/Yi-1.5-9B</a>,🧠,2.45,8829407232,64000,4096,✓,✗
 <a href='https://hf.co/mistralai/Ministral-8B-Instruct-2410'>mistralai/Ministral-8B-Instruct-2410</a>,📝,2.46,8019808256,131072,32768,✓,✗
@@ -112,7 +112,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.61,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-7b'>google/gemma-7b</a>,🧠,2.61,8537680896,256000,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.61,4300079472,262144,,✓,✗
-<a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.65,7241732096,32000,4096,✓,✗
+<a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.64,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.3'>mistralai/Mistral-7B-v0.3</a>,🧠,2.65,7248023552,32768,32768,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-base'>ibm-granite/granite-3.0-8b-base</a>,🧠,2.67,8170835968,49152,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.67,68976653312,32000,4096,✓,✗
@@ -202,7 +202,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-base'>ibm-granite/granite-3.0-1b-a400m-base</a>,🧠,3.82,1384956928,49152,4096,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-1B-Instruct'>tiiuae/Falcon3-1B-Instruct</a>,📝,3.87,1669408768,131072,8192,✓,✗
 <a href='https://hf.co/infly/OpenCoder-1.5B-Instruct'>infly/OpenCoder-1.5B-Instruct</a>,📝,3.87,1905650880,96640,4096,✗,✗
-<a href='https://hf.co/utter-project/EuroVLM-1.7B-Preview'>utter-project/EuroVLM-1.7B-Preview</a>,📝,3.89,2061162016,128000,,✓,✗
+<a href='https://hf.co/utter-project/EuroVLM-1.7B-Preview'>utter-project/EuroVLM-1.7B-Preview</a>,📝,3.88,2061162016,128000,,✓,✗
 <a href='https://hf.co/3ebdola/Dialectal-Arabic-XLM-R-Base'>3ebdola/Dialectal-Arabic-XLM-R-Base</a>,🔍,3.90,278045955,250002,512,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,3.93,470607872,64000,2048,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.95,3211926528,65536,4096,✓,✗
