@@ -77,6 +77,9 @@ def generate_leaderboard(
     )
     metadata_dict = extract_model_metadata(results=results)
 
+    # Only include dataset columns in monolingual leaderboards
+    include_dataset_columns = len(configs) == 1
+
     # Generate the leaderboard and store it to disk
     dfs = generate_dataframe(
         model_results=model_results,
@@ -85,6 +88,7 @@ def generate_leaderboard(
         categories=categories,
         task_config=task_config,
         leaderboard_configs=configs,
+        include_dataset_columns=include_dataset_columns,
     )
 
     for category, df in zip(categories, dfs):
@@ -310,6 +314,7 @@ def generate_dataframe(
     categories: list[Literal["all", "nlu"]],
     task_config: dict[str, dict[str, str]],
     leaderboard_configs: dict[str, dict[str, list[str]]],
+    include_dataset_columns: bool,
 ) -> list[pd.DataFrame]:
     """Generate DataFrames from the model results.
 
@@ -326,6 +331,8 @@ def generate_dataframe(
             The task configuration.
         leaderboard_configs:
             The leaderboard configurations.
+        include_dataset_columns:
+            Whether to include dataset columns in the DataFrame.
 
     Returns:
         The DataFrames.
@@ -441,14 +448,17 @@ def generate_dataframe(
         # Reorder columns
         cols = ["model", "generative_type"] + rank_cols
         cols += ["parameters", "vocabulary_size", "context", "commercial", "merge"]
-        cols += [
-            col
-            for col in df.columns
-            if col not in cols and not col.endswith("_version")
-        ]
-        cols += [
-            col for col in df.columns if col not in cols and col.endswith("_version")
-        ]
+        if include_dataset_columns:
+            cols += [
+                col
+                for col in df.columns
+                if col not in cols and not col.endswith("_version")
+            ]
+            cols += [
+                col
+                for col in df.columns
+                if col not in cols and col.endswith("_version")
+            ]
         df = df[cols]
 
         # Replace Boolean values by ✓ and ✗
