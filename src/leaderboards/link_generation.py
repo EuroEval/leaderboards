@@ -3,6 +3,7 @@
 import logging
 import os
 import re
+from functools import cache
 
 import openai
 from anthropic import Anthropic
@@ -16,6 +17,8 @@ from huggingface_hub.errors import (
 )
 from requests.exceptions import RequestException
 
+from .utils import log_once
+
 logger = logging.getLogger(__name__)
 
 
@@ -26,6 +29,9 @@ KNOWN_MODELS_WITHOUT_URLS = [
     "danish-foundation-models/munin-7b-v0.1dev0",
     "mhenrichsen/danskgpt-chat-v2.1",
     "syvai/danskgpt-chat-llama3-70b",
+    "syvai/llama3-da-base",
+    "xai/grok-3-beta",
+    "xai/grok-3-mini-beta",
 ]
 
 
@@ -56,7 +62,7 @@ def generate_task_link(id: int, label: str) -> str:
     )
 
 
-def generate_anchor_tag(model_id: str) -> str:
+def generate_anchor_tag(model_id: str) -> str | None:
     """Generate an anchor tag for a model.
 
     Args:
@@ -65,6 +71,7 @@ def generate_anchor_tag(model_id: str) -> str:
 
     Returns:
         The anchor tag for the model, or the model ID if the URL cannot be generated.
+        Can also return None if the model should be removed from the results.
     """
     logging.getLogger("httpx").setLevel(logging.CRITICAL)
     logging.getLogger("huggingface_hub").setLevel(logging.CRITICAL)
@@ -87,9 +94,35 @@ def generate_anchor_tag(model_id: str) -> str:
     if url is None:
         url = generate_xai_url(model_id=model_id_without_revision)
     if url is None:
-        logger.error(f"Could not find a URL for model {model_id_without_revision}.")
+        remove_model = ask_user_to_remove_model(model_id=model_id_without_revision)
+        if remove_model:
+            log_once(
+                f"Removing model {model_id_without_revision} from results.",
+                logging_level=logging.INFO,
+            )
+            return None
 
     return model_id if url is None else f"<a href='{url}'>{model_id}</a>"
+
+
+@cache
+def ask_user_to_remove_model(model_id: str) -> bool:
+    """Ask the user if they want to remove a model from the results.
+
+    Args:
+        model_id:
+            The model ID.
+
+    Returns:
+        True if the user wants to remove the model from the results, False otherwise.
+    """
+    return (
+        input(
+            f"Could not find a URL for model {model_id}. Do you want to remove it from "
+            "the results? (y/n): "
+        )
+        == "y"
+    )
 
 
 def generate_hf_hub_url(model_id: str) -> str | None:

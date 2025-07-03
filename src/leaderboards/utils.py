@@ -1,9 +1,13 @@
 """Utility functions for the project."""
 
+import logging
 import re
 import warnings
+from functools import cache
 
 from scipy import stats
+
+logger = logging.getLogger(__name__)
 
 
 def convert_to_float(value: str | float) -> float | str:
@@ -94,3 +98,32 @@ def get_record_hash(record: dict) -> str:
     few_shot = int(record.get("few_shot", True))
     generative = int(record.get("generative", False))
     return f"{model}{dataset}{validation_split}{generative * (few_shot + 1)}"
+
+
+@cache
+def log_once(message: str, logging_level: int) -> None:
+    """Log a message only once.
+
+    Args:
+        message:
+            The message to log.
+        logging_level:
+            The logging level to use for the message.
+
+    Raises:
+        ValueError:
+            If the logging level is invalid.
+    """
+    match logging_level:
+        case logging.DEBUG:
+            logger.debug(message)
+        case logging.INFO:
+            logger.info(message)
+        case logging.WARNING:
+            logger.warning(message)
+        case logging.ERROR:
+            logger.error(message)
+        case logging.CRITICAL:
+            logger.critical(message)
+        case _:
+            raise ValueError(f"Invalid logging level: {logging_level}")

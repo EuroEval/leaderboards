@@ -12,10 +12,9 @@ from huggingface_hub.errors import HFValidationError
 from huggingface_hub.hf_api import RepositoryNotFoundError
 from tqdm.auto import tqdm
 
-from leaderboards.cache import Cache
-from leaderboards.result_loading import load_raw_results
-
+from .cache import Cache
 from .link_generation import generate_anchor_tag
+from .result_loading import load_raw_results
 from .utils import extract_model_id_from_record, get_record_hash
 
 logger = logging.getLogger(__name__)
@@ -96,8 +95,9 @@ def process_results(
     ]
 
     records = [
-        fix_metadata(record=record, cache=cache)
+        fixed_record
         for record in tqdm(records, desc="Fixing metadata in records")
+        if (fixed_record := fix_metadata(record=record, cache=cache)) is not None
     ]
 
     # Remove invalid evaluation records
@@ -152,7 +152,7 @@ def add_missing_entries(record: dict, cache: Cache) -> dict:
     return record
 
 
-def fix_metadata(record: dict, cache: Cache) -> dict:
+def fix_metadata(record: dict, cache: Cache) -> dict | None:
     """Fixes metadata in a record.
 
     Args:
@@ -160,7 +160,7 @@ def fix_metadata(record: dict, cache: Cache) -> dict:
             A record from the JSONL file.
 
     Returns:
-        The record with fixed metadata.
+        The record with fixed metadata, or None if the record should be removed.
     """
     if record["task"] == "question-answering":
         record["task"] = "reading-comprehension"
@@ -171,6 +171,8 @@ def fix_metadata(record: dict, cache: Cache) -> dict:
         record["model"] = cache.anchor_tag[record["model"]]
     else:
         anchor_tag = generate_anchor_tag(model_id=record["model"])
+        if anchor_tag is None:
+            return None
         cache.anchor_tag[record["model"]] = anchor_tag
         record["model"] = anchor_tag
     return record
