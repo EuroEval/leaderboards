@@ -5,6 +5,7 @@ import logging
 import re
 import warnings
 from collections import defaultdict
+from copy import deepcopy
 from pathlib import Path
 
 from huggingface_hub import HfApi
@@ -171,6 +172,9 @@ def fix_metadata(record: dict, cache: Cache) -> dict | None:
     Returns:
         The record with fixed metadata, or None if the record should be removed.
     """
+    # Copy the record to avoid modifying the original
+    record = deepcopy(record)
+
     if record["task"] == "question-answering":
         record["task"] = "reading-comprehension"
     if "scandeval_version" in record:
@@ -257,7 +261,7 @@ def get_generative_type(record: dict, cache: Cache) -> str | None:
         elif user_input.lower() in {"3", "reasoning"}:
             cache.generative_type[model_id] = "reasoning"
         else:
-            print("Invalid input. Please try again.")
+            logger.error("Invalid input. Please try again.")
 
 
 def is_commercially_licensed(record: dict, cache: Cache) -> bool:
@@ -301,7 +305,6 @@ def is_commercially_licensed(record: dict, cache: Cache) -> bool:
             cache.commercially_licensed[model_id] = False
         else:
             logger.error("Invalid input. Please try again.")
-            continue
 
 
 def is_merge(record: dict, cache: Cache) -> bool:
