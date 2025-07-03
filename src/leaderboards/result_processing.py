@@ -84,26 +84,35 @@ def process_results(
     if num_duplicates:
         logger.info(f"Removed {num_duplicates:,} duplicates from {records_path}.")
 
+    # Add missing metadata to records. If the metadata cannot be fixed, the record
+    # will be replaced with None, which will be removed later.
+    fixed_records: list[dict | None] = [
+        fix_metadata(record=record, cache=cache)
+        for record in tqdm(records, desc="Fixing metadata in records")
+    ]
+
+    # Remove regular records which has been removed during processing
+    records = [
+        record
+        for record, fixed_record in zip(records, fixed_records)
+        if fixed_record is not None
+    ]
+
     # Overwrite original scores file with the de-duplicated records, to avoid bloat
     with records_path.open(mode="w") as f:
         for record in records:
             f.write(json.dumps(record) + "\n")
 
-    records = [
+    processed_records = [
         add_missing_entries(record=record, cache=cache)
-        for record in tqdm(records, desc="Adding missing entries")
-    ]
-
-    records = [
-        fixed_record
-        for record in tqdm(records, desc="Fixing metadata in records")
-        if (fixed_record := fix_metadata(record=record, cache=cache)) is not None
+        for record in tqdm(fixed_records, desc="Adding missing entries")
+        if record is not None
     ]
 
     # Remove invalid evaluation records
-    records = [
+    processed_records = [
         record
-        for record in records
+        for record in processed_records
         if record_is_valid(
             record=record,
             banned_versions=banned_versions,
@@ -111,7 +120,7 @@ def process_results(
             api_model_patterns=api_model_patterns,
         )
     ]
-    num_invalid_records = num_raw_records - num_duplicates - len(records)
+    num_invalid_records = num_raw_records - num_duplicates - len(processed_records)
     if num_invalid_records > 0:
         logger.info(
             f"Removed {num_invalid_records:,} invalid records from {records_path}."
@@ -119,7 +128,7 @@ def process_results(
 
     # Store processed records in separate file
     with records_path.with_suffix(".processed.jsonl").open(mode="w") as f:
-        for record in records:
+        for record in processed_records:
             f.write(json.dumps(record) + "\n")
 
 
@@ -190,6 +199,13 @@ def get_generative_type(record: dict, cache: Cache) -> str | None:
     Returns:
         The generative type of the model.
     """
+    # If model ID is anchor tag, extract the actual model ID
+    model_id = record["model"]
+    if record["model"].startswith("<a href="):
+        model_id_match = re.search(r">(.+?)<", record["model"])
+        if model_id_match:
+            model_id = model_id_match.group(1)
+
     # Remove revisions from model ID
     model_id = record["model"].split("@")[0]
 
@@ -256,8 +272,15 @@ def is_commercially_licensed(record: dict, cache: Cache) -> bool:
     Returns:
         Whether the model is commercially licensed.
     """
+    # If model ID is anchor tag, extract the actual model ID
+    model_id = record["model"]
+    if record["model"].startswith("<a href="):
+        model_id_match = re.search(r">(.+?)<", record["model"])
+        if model_id_match:
+            model_id = model_id_match.group(1)
+
     # Remove revisions from model ID
-    model_id = record["model"].split("@")[0]
+    model_id = model_id.split("@")[0]
 
     # Assume that non-generative models are always commercially licensed
     if not record.get("generative", True):
@@ -293,8 +316,15 @@ def is_merge(record: dict, cache: Cache) -> bool:
     Returns:
         Whether the model is a merged model.
     """
+    # If model ID is anchor tag, extract the actual model ID
+    model_id = record["model"]
+    if record["model"].startswith("<a href="):
+        model_id_match = re.search(r">(.+?)<", record["model"])
+        if model_id_match:
+            model_id = model_id_match.group(1)
+
     # Remove revisions from model ID
-    model_id = record["model"].split("@")[0]
+    model_id = model_id.split("@")[0]
 
     # Return cached value if available
     if model_id in cache.merge:
