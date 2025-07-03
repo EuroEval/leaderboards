@@ -71,8 +71,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,3.23,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B'>allenai/Llama-3.1-Tulu-3-8B</a>,📝,3.24,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,3.26,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,3.26,32234279936,100352,4096,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,3.26,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,3.27,32234279936,100352,4096,✗,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B'>meta-llama/Meta-Llama-3-8B</a>,🧠,3.28,8030261248,128256,8192,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3.1-8B'>allenai/Llama-3.1-Tulu-3.1-8B</a>,📝,3.29,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/norallm/normistral-11b-warm'>norallm/normistral-11b-warm</a>,🧠,3.31,11429893120,51200,1024000,✓,✗
@@ -137,7 +137,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/infly/OpenCoder-8B-Base'>infly/OpenCoder-8B-Base</a>,📝,4.02,7771263040,96640,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,4.03,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,4.04,8028033024,256000,8192,✗,✗
-<a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,4.05,13015866880,32000,4096,✓,✗
+<a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,4.04,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-base'>ibm-granite/granite-3.0-8b-base</a>,🧠,4.06,8170835968,49152,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-base-4k'>ibm-granite/granite-8b-code-base-4k</a>,🧠,4.08,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-7b-hf'>meta-llama/Llama-2-7b-hf</a>,📝,4.09,6738417664,32000,4096,✓,✗
