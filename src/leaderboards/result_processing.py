@@ -207,7 +207,7 @@ def get_generative_type(record: dict, cache: Cache) -> str | None:
             model_id = model_id_match.group(1)
 
     # Remove revisions from model ID
-    model_id = record["model"].split("@")[0]
+    model_id = model_id.split("@")[0]
 
     while True:
         if model_id in cache.generative_type:
