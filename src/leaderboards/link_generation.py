@@ -6,7 +6,6 @@ import re
 
 import openai
 from anthropic import Anthropic
-from dotenv import load_dotenv
 from google.genai import Client as GoogleClient
 from huggingface_hub import HfApi
 from huggingface_hub.errors import (
@@ -17,12 +16,6 @@ from huggingface_hub.errors import (
 )
 from requests.exceptions import RequestException
 
-load_dotenv()
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s ⋅ %(name)s ⋅ %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
 logger = logging.getLogger(__name__)
 
 

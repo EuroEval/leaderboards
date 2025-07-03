@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Literal
 
 import click
+from dotenv import load_dotenv
 
 from leaderboards.leaderboard_generation import generate_leaderboard
 from leaderboards.result_processing import process_results
@@ -14,7 +15,10 @@ from leaderboards.result_processing import process_results
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s ⋅ %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
 )
+
 warnings.simplefilter(action="ignore", category=RuntimeWarning)
+
+load_dotenv()
 
 
 # Constants for leaderboard generation
