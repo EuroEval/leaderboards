@@ -30,6 +30,7 @@ API_MODEL_PATTERNS: list[re.Pattern] = [
     re.compile(r"gemini/.*"),
     re.compile(r"gpt-4.*"),
     re.compile(r"(anthropic/)?claude.*"),
+    re.compile(r"(xai/)?grok.*"),
 ]
 
 
