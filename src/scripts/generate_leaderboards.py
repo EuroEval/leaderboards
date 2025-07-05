@@ -23,7 +23,9 @@ load_dotenv()
 
 # Constants for leaderboard generation
 BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
-BANNED_MODEL_PATTERNS: list[re.Pattern] = []
+BANNED_MODEL_PATTERNS: list[re.Pattern] = [
+    re.compile("^meta-llama/Llama-3.1-405B-Instruct$")  # Temporary ban
+]
 API_MODEL_PATTERNS: list[re.Pattern] = [
     re.compile(r"gemini/.*"),
     re.compile(r"gpt-4.*"),
