@@ -16,7 +16,7 @@ from tqdm.auto import tqdm
 from .cache import Cache
 from .link_generation import generate_anchor_tag
 from .result_loading import load_raw_results
-from .utils import extract_model_id_from_record, get_record_hash
+from .utils import extract_model_id_from_record, get_record_hash, log_once
 
 logger = logging.getLogger(__name__)
 
@@ -372,8 +372,19 @@ def record_is_valid(
     Returns:
         True if the record is valid, False otherwise.
     """
+    # Remove anchors from model ID, for logging purposes
+    inner_anchor_match = re.search(pattern=r">(.+?)<", string=record["model"])
+    inner_model_id = (
+        inner_anchor_match.group(1) if inner_anchor_match else record["model"]
+    )
+
     # Remove records with banned EuroEval versions
     if record.get("euroeval_version") in banned_versions:
+        log_once(
+            "Removed record with banned EuroEval version: "
+            f"{record['euroeval_version']}",
+            logging_level=logging.WARNING,
+        )
         return False
 
     # Remove banned models
@@ -381,6 +392,10 @@ def record_is_valid(
         re.search(pattern=pattern, string=record["model"])
         for pattern in banned_model_patterns
     ):
+        log_once(
+            f"Removed record with banned model: {inner_model_id!r}",
+            logging_level=logging.WARNING,
+        )
         return False
 
     # Do not allow few-shot evaluation for API models
@@ -389,6 +404,10 @@ def record_is_valid(
     if any(
         re.fullmatch(pattern=pattern, string=model_id) for pattern in api_model_patterns
     ) and record.get("few_shot", True):
+        log_once(
+            f"Removed record with API model in few-shot evaluation: {inner_model_id!r}",
+            logging_level=logging.WARNING,
+        )
         return False
 
     # Otherwise, the record is valid
