@@ -105,7 +105,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LumiOpen/Viking-33B'>LumiOpen/Viking-33B</a>,🧠,2.69,33119034368,131072,4096,✓,✗
 <a href='https://hf.co/lightonai/alfred-40b-1023'>lightonai/alfred-40b-1023</a>,📝,2.69,,65024,,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,2.69,8028033024,256000,8192,✗,✗
-<a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,2.72,3212749824,128256,131072,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,2.71,3212749824,128256,131072,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.74,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,🤔,2.75,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,2.75,7799574528,100096,4096,✓,✗
@@ -116,8 +116,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/microsoft/xlm-align-base'>microsoft/xlm-align-base</a>,🔍,2.83,277455362,250002,514,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.83,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.2'>mistralai/Mistral-7B-Instruct-v0.2</a>,📝,2.86,7241732096,32000,32768,✗,✗
+<a href='https://hf.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1'>sentence-transformers/paraphrase-xlm-r-multilingual-v1</a>,🔍,2.90,278044162,250002,512,✓,✗
 <a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,2.91,278044162,250002,512,✓,✗
-<a href='https://hf.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1'>sentence-transformers/paraphrase-xlm-r-multilingual-v1</a>,🔍,2.91,278044162,250002,512,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,2.91,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,2.93,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.94,108867577,84985,512,✓,✗
@@ -141,7 +141,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.43,93990500,65636,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B-Instruct'>HuggingFaceTB/SmolLM2-1.7B-Instruct</a>,📝,3.45,1711376384,49152,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.46,,128000,4096,✓,✗
-<a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.49,395881664,50368,8192,✓,✗
+<a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.48,395881664,50368,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B'>HuggingFaceTB/SmolLM2-1.7B</a>,🧠,3.52,1711376384,49152,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.54,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,3.55,14659507200,100352,32768,✓,✗
@@ -155,7 +155,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.08,361821120,49152,8192,✓,✗
 <a href='https://hf.co/dbmdz/bert-tiny-historic-multilingual-cased'>dbmdz/bert-tiny-historic-multilingual-cased</a>,🔍,4.16,4624642,32000,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.19,361821120,49152,8192,✓,✗
-<a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.25,1543714304,151936,4096,✓,✗
+<a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.24,1543714304,151936,4096,✓,✗
 fresh-xlm-roberta-base,🔍,4.28,278885778,250002,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.37,134515008,49152,8192,✓,✗
 fresh-electra-small,🔍,4.46,13738755,32000,128,✓,✗

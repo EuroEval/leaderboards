@@ -156,7 +156,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.66,999885952,262144,32768,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3b-code-base-2k'>ibm-granite/granite-3b-code-base-2k</a>,🧠,3.67,3482503680,49152,2048,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.68,1235814400,128256,131073,✓,✗
-<a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-instruct'>ibm-granite/granite-3.0-1b-a400m-instruct</a>,📝,3.69,1334628352,49155,4096,✓,✗
+<a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-instruct'>ibm-granite/granite-3.0-1b-a400m-instruct</a>,📝,3.70,1334628352,49155,4096,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,3.75,3836021760,200064,131072,✓,✗
 <a href='https://hf.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b</a>,🧠,3.79,68977172480,32032,8192,✗,✗
 <a href='https://hf.co/utter-project/EuroVLM-1.7B-Preview'>utter-project/EuroVLM-1.7B-Preview</a>,📝,3.83,2061162016,128000,,✓,✗
