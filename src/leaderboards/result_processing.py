@@ -389,7 +389,7 @@ def record_is_valid(
 
     # Remove banned models
     if any(
-        re.search(pattern=pattern, string=record["model"])
+        re.search(pattern=pattern, string=inner_model_id)
         for pattern in banned_model_patterns
     ):
         log_once(
@@ -399,10 +399,9 @@ def record_is_valid(
         return False
 
     # Do not allow few-shot evaluation for API models
-    model_id_match = re.search(r">(.+?)<", record["model"])
-    model_id = model_id_match.group(1) if model_id_match else record["model"]
     if any(
-        re.fullmatch(pattern=pattern, string=model_id) for pattern in api_model_patterns
+        re.fullmatch(pattern=pattern, string=inner_model_id)
+        for pattern in api_model_patterns
     ) and record.get("few_shot", True):
         log_once(
             f"Removed record with API model in few-shot evaluation: {inner_model_id!r}",
