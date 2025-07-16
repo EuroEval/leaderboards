@@ -14,7 +14,7 @@ download:
 	@scp -o ConnectTimeout=5 ucloud:/home/ucloud/euroeval_benchmark_results.jsonl ucloud_results.jsonl || true
 	@scp -o ConnectTimeout=5 ucloud:/home/ucloud/api/euroeval_benchmark_results.jsonl ucloud_api_results.jsonl || true
 	@scp -o ConnectTimeout=5 70b-ucloud:/home/ucloud/euroeval_benchmark_results.jsonl 70b_ucloud_results.jsonl || true
-	@scp -o ConnectTimeout=5 b200:/home/ucloud/euroeval_benchmark_results.jsonl b200_results.jsonl || true
+	@scp -o ConnectTimeout=5 b200:/work/euroeval_benchmark_results.jsonl b200_results.jsonl || true
 	@touch results/results.jsonl
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> results/results.jsonl; \
