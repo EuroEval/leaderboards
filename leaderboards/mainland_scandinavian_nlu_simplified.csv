@@ -1,6 +1,6 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219@thinking (zero-shot, val)</a>",🤔,1.32,,,200000,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.33,405868625920,128256,131072,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.32,405868625920,128256,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-405B'>meta-llama/Llama-3.1-405B</a>,🧠,1.36,405853388800,128256,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/o3'>o3-2025-04-16 (zero-shot, val)</a>",🤔,1.36,,,200000,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.39,70553706496,128256,131072,✓,✗
@@ -408,7 +408,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.43,7241732096,32000,8192,✓,�
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.89,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,3.89,3836021760,200064,131072,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-1B-Instruct'>tiiuae/Falcon3-1B-Instruct</a>,📝,3.91,1669408768,131072,8192,✓,✗
-<a href='https://hf.co/allenai/OLMo-1B'>allenai/OLMo-1B</a>,🧠,3.98,1176764416,50280,2051,✓,✗
+<a href='https://hf.co/allenai/OLMo-1B'>allenai/OLMo-1B</a>,🧠,3.97,1176764416,50280,2051,✓,✗
 <a href='https://hf.co/RabotaRu/HRBert-mini'>RabotaRu/HRBert-mini</a>,🔍,4.01,80109315,200001,512,✓,✗
 <a href='https://hf.co/NbAiLab/nb-gpt-j-6B-v2'>NbAiLab/nb-gpt-j-6B-v2</a>,🧠,4.12,6050882784,50400,1024,✗,✗
 fresh-xlm-roberta-base,🔍,4.14,278045955,250002,512,✓,✗
@@ -423,7 +423,7 @@ fresh-electra-small,🔍,4.27,13549571,30522,512,✓,✗
 <a href='https://hf.co/NbAiLab/nb-gpt-j-6B'>NbAiLab/nb-gpt-j-6B@sharded</a>,🧠,4.30,,50400,1024,✓,✗
 <a href='https://hf.co/NorwAI/NorwAI-Mistral-7B-pretrain'>NorwAI/NorwAI-Mistral-7B-pretrain</a>,🧠,4.33,7536586752,67993,4096,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.35,134515008,49152,8192,✓,✗
-<a href='https://hf.co/RJuro/kanelsnegl-v0.2'>RJuro/kanelsnegl-v0.2</a>,📝,4.37,7241732096,32000,512,✓,✗
+<a href='https://hf.co/RJuro/kanelsnegl-v0.2'>RJuro/kanelsnegl-v0.2</a>,📝,4.36,7241732096,32000,512,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.38,186112512,64000,2048,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.39,1543714304,151936,4096,✓,✗
 <a href='https://hf.co/RJuro/kanelsnegl-v0.1'>RJuro/kanelsnegl-v0.1</a>,📝,4.43,7241732096,32000,512,✓,✗
