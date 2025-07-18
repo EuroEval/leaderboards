@@ -304,7 +304,7 @@ skole-gpt-mixtral,🧠,1.96,,32000,32768,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,4.07,149655232,50368,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.12,361821120,49152,8192,✓,✗
 <a href='https://hf.co/state-spaces/mamba-2.8b-hf'>state-spaces/mamba-2.8b-hf</a>,🧠,4.13,2768345600,50280,32769,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.15,353424384,65536,2048,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.16,353424384,65536,2048,✓,✗
 <a href='https://hf.co/allenai/OLMo-1B'>allenai/OLMo-1B</a>,🧠,4.20,1176764416,50280,2051,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.20,361821120,49152,8192,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.31,353424384,65536,2048,✓,✗

@@ -265,8 +265,8 @@ skole-gpt-mixtral,🧠,2.03,,32000,32768,✓,✗
 <a href='https://hf.co/allenai/OLMo-1B'>allenai/OLMo-1B</a>,🧠,4.22,1176764416,50280,2051,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.25,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.27,134515008,49152,8192,✓,✗
-<a href='https://hf.co/RJuro/kanelsnegl-v0.1'>RJuro/kanelsnegl-v0.1</a>,📝,4.28,7241732096,32000,512,✓,✗
 <a href='https://hf.co/infly/OpenCoder-1.5B-Base'>infly/OpenCoder-1.5B-Base</a>,📝,4.29,1905650960,96640,4096,✓,✗
+<a href='https://hf.co/RJuro/kanelsnegl-v0.1'>RJuro/kanelsnegl-v0.1</a>,📝,4.29,7241732096,32000,512,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,4.47,470607872,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.52,470607872,64000,2048,✓,✗
 <a href='https://hf.co/NorwAI/NorwAI-Mistral-7B-pretrain'>NorwAI/NorwAI-Mistral-7B-pretrain</a>,🧠,4.59,7536586752,67993,4096,✓,✗
