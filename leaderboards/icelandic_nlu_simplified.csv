@@ -27,7 +27,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Meta-Llama-3-70B'>meta-llama/Meta-Llama-3-70B</a>,🧠,2.06,70553706496,128256,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,2.07,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,2.08,27432406640,262144,,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,2.08,405868625920,128256,131072,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,2.09,405868625920,128256,131072,✓,✗
 "<a href='https://docs.x.ai/docs/models'>xai/grok-2-1212 (zero-shot, val)</a>",📝,2.09,,,131072,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,2.09,24011361280,131072,,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite-preview-06-17'>gemini/gemini-2.5-flash-lite-preview-06-17@no-thinking (zero-shot, val)</a>",📝,2.13,,256128,1048576,✓,✗
