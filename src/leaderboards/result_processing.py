@@ -104,17 +104,12 @@ def process_results(
         for record in records:
             f.write(json.dumps(record) + "\n")
 
-    processed_records = [
-        add_missing_entries(record=record, cache=cache)
-        for record in tqdm(fixed_records, desc="Adding missing entries")
-        if record is not None
-    ]
-
     # Remove invalid evaluation records
     processed_records = [
         record
-        for record in processed_records
-        if record_is_valid(
+        for record in fixed_records
+        if record is not None
+        and record_is_valid(
             record=record,
             banned_versions=banned_versions,
             banned_model_patterns=banned_model_patterns,
@@ -126,6 +121,11 @@ def process_results(
         logger.info(
             f"Removed {num_invalid_records:,} invalid records from {records_path}."
         )
+
+    processed_records = [
+        add_missing_entries(record=record, cache=cache)
+        for record in tqdm(processed_records, desc="Adding missing entries")
+    ]
 
     # Store processed records in separate file
     with records_path.with_suffix(".processed.jsonl").open(mode="w") as f:
