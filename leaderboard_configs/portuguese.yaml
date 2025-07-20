@@ -5,7 +5,7 @@ named-entity-recognition:
 linguistic-acceptability:
   - scala-pt
 reading-comprehension:
-  - multiwikiqa-pt
+  - multi-wiki-qa-pt
 summarization:
   - publico
 knowledge:
