@@ -1,0 +1,2 @@
+model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
+<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.00,405868625920,128256,131072,✓,✗
