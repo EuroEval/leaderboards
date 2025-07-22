@@ -112,7 +112,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,2.34@@2.34,2.19@@2.19,2.51@@2.51,2.34@@2.34,278044162.0,250002.0,512.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.34@@2.34,2.30@@2.30,2.42@@2.42,2.31@@2.31,?,?,1047576.0,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.38@@2.38,2.10@@2.10,2.26@@2.26,2.78@@2.78,7241732096.0,32000.0,4096.0,✓,✗
-<a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.38@@2.38,2.13@@2.13,2.43@@2.43,2.57@@2.57,470927360.0,501153.0,512.0,✓,✗
+<a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.38@@2.38,2.13@@2.13,2.42@@2.42,2.57@@2.57,470927360.0,501153.0,512.0,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.39@@2.39,2.07@@2.07,2.32@@2.32,2.79@@2.79,561192082.0,250002.0,512.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.39@@2.39,2.26@@2.26,2.43@@2.43,2.49@@2.49,68976653312.0,32000.0,4096.0,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it (zero-shot)</a>,📝,2.40@@2.40,2.44@@2.44,2.36@@2.36,2.41@@2.41,27432406640.0,262144.0,?,✓,✗
@@ -189,7 +189,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/google/gemma-2b-it'>google/gemma-2b-it</a>,📝,3.50@@3.50,3.15@@3.15,3.73@@3.73,3.63@@3.63,2506172416.0,256000.0,8192.0,✗,✗
 <a href='https://hf.co/google/gemma-7b-it'>google/gemma-7b-it</a>,📝,3.51@@3.51,3.21@@3.21,3.53@@3.53,3.80@@3.80,8537680896.0,256000.0,8192.0,✗,✗
 <a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.51@@3.51,3.43@@3.43,3.50@@3.50,3.60@@3.60,1195468800.0,65536.0,2048.0,✓,✗
-<a href='https://hf.co/microsoft/phi-2'>microsoft/phi-2</a>,🧠,3.51@@3.51,3.54@@3.54,3.56@@3.56,3.43@@3.43,2779683840.0,51200.0,2048.0,✓,✗
+<a href='https://hf.co/microsoft/phi-2'>microsoft/phi-2</a>,🧠,3.51@@3.51,3.54@@3.54,3.55@@3.55,3.43@@3.43,2779683840.0,51200.0,2048.0,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.51@@3.51,3.33@@3.33,3.65@@3.65,3.56@@3.56,2611528704.0,128000.0,4096.0,✓,✗
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.53@@3.53,3.49@@3.49,3.41@@3.41,3.70@@3.70,93990500.0,65636.0,512.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-base'>ibm-granite/granite-3.0-1b-a400m-base</a>,🧠,3.54@@3.54,3.40@@3.40,3.76@@3.76,3.46@@3.46,1384956928.0,49152.0,4096.0,✓,✗
@@ -218,7 +218,7 @@ fresh-xlm-roberta-base,🔍,4.41@@4.41,4.34@@4.34,4.47@@4.47,4.43@@4.43,27888577
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.46@@4.46,4.32@@4.32,4.51@@4.51,4.55@@4.55,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.54@@4.54,4.61@@4.61,4.43@@4.43,4.58@@4.58,470607872.0,64000.0,2048.0,✓,✗
 fresh-electra-small,🔍,4.60@@4.60,4.47@@4.47,4.60@@4.60,4.74@@4.74,13738755.0,32000.0,128.0,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.64@@4.64,4.57@@4.57,4.60@@4.60,4.75@@4.75,186112512.0,64000.0,2048.0,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.64@@4.64,4.57@@4.57,4.59@@4.59,4.75@@4.75,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.75@@4.75,4.82@@4.82,4.64@@4.64,4.80@@4.80,379988992.0,50257.0,1024.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.76@@4.76,4.81@@4.81,4.66@@4.66,4.82@@4.82,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,4.77@@4.77,4.84@@4.84,4.61@@4.61,4.87@@4.87,811778816.0,50257.0,1024.0,✓,✗

@@ -183,8 +183,8 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a>,🤔,3.85@@3.85,3.66@@3.66,4.06@@4.06,3.81@@3.81,1777088000.0,151936.0,131072.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.87@@3.87,3.76@@3.76,4.06@@4.06,3.78@@3.78,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/croissantllm/CroissantLLMBase'>croissantllm/CroissantLLMBase</a>,🧠,3.90@@3.90,3.73@@3.73,4.10@@4.10,3.85@@3.85,?,32000.0,2048.0,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.90@@3.90,3.80@@3.80,3.96@@3.96,3.95@@3.95,353424384.0,65536.0,2048.0,✓,✗
 <a href='https://hf.co/croissantllm/CroissantLLMChat-v0.1'>croissantllm/CroissantLLMChat-v0.1</a>,📝,3.91@@3.91,3.80@@3.80,3.97@@3.97,3.96@@3.96,1345431552.0,32002.0,2048.0,✗,✗
-<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.91@@3.91,3.80@@3.80,3.96@@3.96,3.95@@3.95,353424384.0,65536.0,2048.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B'>Qwen/Qwen1.5-0.5B</a>,📝,3.95@@3.95,3.89@@3.89,4.17@@4.17,3.80@@3.80,619570176.0,151936.0,32768.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,3.98@@3.98,3.86@@3.86,4.18@@4.18,3.91@@3.91,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.00@@4.00,3.95@@3.95,4.03@@4.03,4.02@@4.02,353424384.0,65536.0,2048.0,✓,✗
