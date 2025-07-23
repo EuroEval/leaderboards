@@ -13,4 +13,4 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,2.19,12187325040,262144,,✓,✗
 "<a href='https://platform.openai.com/docs/models/o4-mini'>o4-mini-2025-04-16 (zero-shot, val)</a>",🤔,2.22,,,200000,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-sonnet-20241022 (zero-shot, val)</a>",📝,2.46,,,200000,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,5.06,394781696,50368,8192,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,5.10,394781696,50368,8192,✓,✗
