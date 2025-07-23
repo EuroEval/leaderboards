@@ -1,13 +1,14 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-<a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.15,32759790592,151665,131072,✓,✗
-<a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.20,32763876352,152064,32768,✓,✗
-<a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.23,24011361280,131072,,✓,✗
-<a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.36,14765947904,151665,131072,✓,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.19,32759790592,151665,131072,✓,✗
+<a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.23,32763876352,152064,32768,✓,✗
+<a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.26,24011361280,131072,,✓,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.35,14765947904,151665,131072,✓,✗
 <a href='https://hf.co/bullerwins/Magistral-Small-2506-fp8'>bullerwins/Magistral-Small-2506-fp8</a>,🧠,1.54,23575680000,131072,32768,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.63,405868625920,128256,131072,✓,✗
-<a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.76,24011361280,131072,,✓,✗
-<a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.77,27432406640,262144,,✓,✗
-<a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.83,27432406640,262144,,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B</a>,🤔,1.98,14768307200,151936,40960,✓,✗
-<a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,2.01,12187325040,262144,,✓,✗
-"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-sonnet-20241022 (zero-shot, val)</a>",📝,2.11,,,200000,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.59,405868625920,128256,131072,✓,✗
+<a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.75,27432406640,262144,,✓,✗
+<a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.80,27432406640,262144,,✓,✗
+<a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.82,24011361280,131072,,✓,✗
+"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219@thinking (zero-shot, val)</a>",🤔,1.96,,,200000,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B</a>,🤔,1.96,14768307200,151936,40960,✓,✗
+<a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.98,12187325040,262144,,✓,✗
+"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-sonnet-20241022 (zero-shot, val)</a>",📝,2.06,,,200000,✓,✗
