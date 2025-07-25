@@ -64,7 +64,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/01-ai/Yi-1.5-34B'>01-ai/Yi-1.5-34B</a>,🧠,2.26,34388917248,64000,4096,✓,✗
 <a href='https://hf.co/google/gemma-2-9b'>google/gemma-2-9b</a>,🧠,2.28,9241705984,256000,8192,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.30,8030326784,128264,131072,✓,✗
-<a href='https://hf.co/152334H/miqu-1-70b-sf'>152334H/miqu-1-70b-sf</a>,📝,2.33,68976648192,32000,32764,✓,✗
+<a href='https://hf.co/152334H/miqu-1-70b-sf'>152334H/miqu-1-70b-sf</a>,📝,2.34,68976648192,32000,32764,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,2.34,11168796672,32128,32768,✓,✓
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash-8b-001'>gemini/gemini-1.5-flash-8b-001 (zero-shot, val)</a>",📝,2.34,8000000000,256128,1048576,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-hf'>meta-llama/Llama-2-70b-hf</a>,🧠,2.35,68976653312,32000,4096,✓,✗
@@ -118,7 +118,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.88,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.88,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B'>HuggingFaceTB/SmolLM3-3B</a>,🤔,2.88,3075098624,128256,65536,✓,✗
-<a href='https://hf.co/google/gemma-2-2b-it'>google/gemma-2-2b-it</a>,📝,2.92,2614341888,256000,8192,✓,✗
+<a href='https://hf.co/google/gemma-2-2b-it'>google/gemma-2-2b-it</a>,📝,2.93,2614341888,256000,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,2.93,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,🤔,2.93,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.94,68976653312,32000,4096,✓,✗
