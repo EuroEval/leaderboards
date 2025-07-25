@@ -122,9 +122,8 @@ def generate_leaderboard(
 
         # Check if anything got updated
         new_records: list[str] = list()
-        not_comparison_columns = ["rank"] + list(configs.keys())
         comparison_columns = [
-            col for col in df.columns if col not in not_comparison_columns
+            col for col in df.columns if col != "rank" or not include_dataset_columns
         ]
         if leaderboard_path.exists():
             old_df = pd.read_csv(leaderboard_path, header=0, skiprows=1)
@@ -204,13 +203,17 @@ def generate_leaderboard(
                     f"Updated the {category!r} category of the {leaderboard_title} "
                     "leaderboard with no changes."
                 )
-            else:
+            elif include_dataset_columns:
                 logger.info(
                     f"Updated the following {len(new_records):,} models in the "
                     f"{category!r} category of the {leaderboard_title} leaderboard: "
                     f"{', '.join(new_records)}"
                 )
-                pass
+            else:
+                logger.info(
+                    f"Updated the {leaderboard_title} leaderboard with "
+                    f"{len(new_records):,} new or modified models."
+                )
         else:
             logger.info(
                 f"No updates to the {category!r} category of the {leaderboard_title} "
