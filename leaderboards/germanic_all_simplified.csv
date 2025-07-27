@@ -5,7 +5,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25'>gemini/gemini-2.5-pro-preview-03-25 (zero-shot, val)</a>",🤔,1.54,,256128,1048576,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-405B'>meta-llama/Llama-3.1-405B</a>,🧠,1.55,405853388800,128256,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.61,405868625920,128256,131072,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-04-17'>gemini/gemini-2.5-flash-preview-04-17 (zero-shot, val)</a>",🤔,1.62,,256128,1048576,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-04-17'>gemini/gemini-2.5-flash-preview-04-17 (zero-shot, val)</a>",🤔,1.63,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.64,,,1047576,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.68,70553706496,128256,131072,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219@no-thinking (zero-shot, val)</a>",📝,1.71,,,200000,✓,✗
@@ -15,16 +15,16 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.74,32759790592,151665,131072,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-sonnet-20241022 (zero-shot, val)</a>",📝,1.75,,,200000,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.76,70553706496,128256,131072,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.1-70B-Instruct'>meta-llama/Llama-3.1-70B-Instruct</a>,📝,1.76,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B'>Qwen/Qwen3-235B-A22B</a>,🤔,1.76,235093634560,151936,40960,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.1-70B-Instruct'>meta-llama/Llama-3.1-70B-Instruct</a>,📝,1.76,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.77,27432406640,262144,,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.78,70553706496,128256,131072,✓,✗
+<a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.79,72706203648,152064,32768,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.79,27432406640,262144,,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-70B'>meta-llama/Meta-Llama-3-70B</a>,🧠,1.79,70553706496,128256,8192,✓,✗
-<a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.79,72706203648,152064,32768,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite-preview-06-17'>gemini/gemini-2.5-flash-lite-preview-06-17@thinking (zero-shot, val)</a>",🤔,1.80,,256128,1048576,✓,✗
-<a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-SFT'>LumiOpen/Llama-Poro-2-70B-SFT</a>,📝,1.81,70553706496,128256,8192,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite@thinking (zero-shot, val)</a>",🤔,1.81,,256128,1048576,✓,✗
+<a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-SFT'>LumiOpen/Llama-Poro-2-70B-SFT</a>,📝,1.82,70553706496,128256,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E-Instruct'>meta-llama/Llama-4-Scout-17B-16E-Instruct</a>,📝,1.84,108641793536,200000,,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.85,24011361280,131072,,✓,✗
 <a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.86,32763876352,152064,32768,✓,✗
@@ -72,8 +72,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/152334H/miqu-1-70b-sf'>152334H/miqu-1-70b-sf</a>,📝,2.34,68976648192,32000,32764,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-hf'>meta-llama/Llama-2-70b-hf</a>,🧠,2.35,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-v0.1'>mistralai/Mixtral-8x7B-v0.1</a>,🧠,2.36,46702792704,32000,32768,✓,✗
-<a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.37,10731524096,32000,4096,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-DPO'>allenai/Llama-3.1-Tulu-3-8B-DPO</a>,📝,2.38,8030326784,128264,131072,✓,✗
+<a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.38,10731524096,32000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.38,,128000,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.39,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B'>allenai/Llama-3.1-Tulu-3-8B</a>,📝,2.40,8030326784,128264,131072,✓,✗
@@ -88,7 +88,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/nvidia/mistral-nemo-minitron-8b-base'>nvidia/mistral-nemo-minitron-8b-base</a>,🧠,2.43,8414105600,131072,8192,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B'>deepseek-ai/DeepSeek-R1-Distill-Llama-70B</a>,🤔,2.44,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-35B'>CohereForAI/aya-23-35B</a>,📝,2.45,34980831232,256000,8192,✗,✗
-<a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,2.45,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,2.46,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-14B-Chat'>Qwen/Qwen1.5-14B-Chat</a>,📝,2.47,14167290880,152064,32768,✗,✗
 <a href='https://hf.co/NorwAI/NorwAI-Mixtral-8x7B-instruct'>NorwAI/NorwAI-Mixtral-8x7B-instruct</a>,📝,2.48,46997647360,67993,32768,✓,✗
 <a href='https://hf.co/ai21labs/Jamba-v0.1'>ai21labs/Jamba-v0.1</a>,🧠,2.50,51570323328,65536,262144,✓,✗
@@ -137,7 +137,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.2'>mistralai/Mistral-7B-Instruct-v0.2</a>,📝,3.01,7241732096,32000,32768,✗,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-7B'>allenai/OLMo-2-1124-7B</a>,🧠,3.03,7298617344,100352,4096,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.03,7241732096,32000,4096,✓,✗
-<a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,3.03,11102822400,65024,8192,✓,✗
+<a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,3.04,11102822400,65024,8192,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-33B'>LumiOpen/Viking-33B</a>,🧠,3.04,33119034368,131072,4096,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-14B</a>,🤔,3.07,14770033664,152064,131072,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-base-4k'>ibm-granite/granite-8b-code-base-4k</a>,🧠,3.07,8054910976,49152,4096,✓,✗
@@ -154,7 +154,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-2-2b'>google/gemma-2-2b</a>,🧠,3.28,2614341888,256000,8192,✓,✗
 <a href='https://hf.co/common-pile/comma-v0.1-2t'>common-pile/comma-v0.1-2t</a>,🧠,3.32,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-research-v0.4'>openGPT-X/Teuken-7B-instruct-research-v0.4</a>,📝,3.35,7452725248,250680,4096,✗,✗
-<a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B'>deepseek-ai/DeepSeek-R1-Distill-Llama-8B</a>,🤔,3.35,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B'>deepseek-ai/DeepSeek-R1-Distill-Llama-8B</a>,🤔,3.36,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.39,999885952,262144,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.40,1235814400,128256,131073,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,3.41,14030361600,131072,4096,✓,✗
