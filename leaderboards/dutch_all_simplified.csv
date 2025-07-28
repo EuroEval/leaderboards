@@ -129,8 +129,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.45,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/nvidia/mistral-nemo-minitron-8b-instruct'>nvidia/mistral-nemo-minitron-8b-instruct</a>,📝,2.46,8414105600,131072,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,🤔,2.46,2031739904,151936,40960,✓,✗
+<a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,2.47,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B'>allenai/OLMo-2-1124-13B</a>,🧠,2.47,13716198400,100352,4096,✓,✗
-<a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,2.48,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/NorwAI/NorwAI-Mixtral-8x7B-instruct'>NorwAI/NorwAI-Mixtral-8x7B-instruct</a>,📝,2.48,46997647360,67993,32768,✓,✗
 <a href='https://hf.co/ChocoLlama/Llama-3-ChocoLlama-8B-base'>ChocoLlama/Llama-3-ChocoLlama-8B-base</a>,🧠,2.48,,128256,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-base'>ibm-granite/granite-3.0-2b-base</a>,🧠,2.48,2533525504,49152,4352,✓,✗
@@ -255,7 +255,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.02,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.06,361821120,49152,8192,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.07,353424384,65536,2048,✓,✗
-<a href='https://hf.co/infly/OpenCoder-1.5B-Base'>infly/OpenCoder-1.5B-Base</a>,📝,4.14,1905650960,96640,4096,✓,✗
+<a href='https://hf.co/infly/OpenCoder-1.5B-Base'>infly/OpenCoder-1.5B-Base</a>,📝,4.13,1905650960,96640,4096,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,4.21,470607872,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.24,470607872,64000,2048,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning-plus'>microsoft/Phi-4-reasoning-plus</a>,🤔,4.25,14659507200,100352,32768,✓,✗
