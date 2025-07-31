@@ -33,7 +33,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro-002'>gemini/gemini-1.5-pro-002 (zero-shot, val)</a>",📝,1.66@@1.66,1.54@@1.54,1.76@@1.76,1.67@@1.67,?,256128.0,2097152.0,✓,✗
 <a href='https://hf.co/bullerwins/Magistral-Small-2506-fp8'>bullerwins/Magistral-Small-2506-fp8</a>,🧠,1.69@@1.69,1.59@@1.59,1.90@@1.90,1.58@@1.58,23575680000.0,131072.0,32768.0,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.70@@1.70,1.52@@1.52,1.93@@1.93,1.64@@1.64,12187325040.0,262144.0,?,✓,✗
-<a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.71@@1.71,1.58@@1.58,1.98@@1.98,1.57@@1.57,32763876352.0,152064.0,32768.0,✓,✗
+<a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.71@@1.71,1.59@@1.59,1.98@@1.98,1.57@@1.57,32763876352.0,152064.0,32768.0,✓,✗
 <a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-Instruct'>LumiOpen/Llama-Poro-2-70B-Instruct</a>,📝,1.71@@1.71,1.58@@1.58,1.91@@1.91,1.65@@1.65,70553706496.0,128256.0,8192.0,✓,✗
 <a href='https://hf.co/ThatsGroes/gemma-2-27b-it-FP8-Dynamic'>ThatsGroes/gemma-2-27b-it-FP8-Dynamic</a>,📝,1.72@@1.72,1.54@@1.54,1.90@@1.90,1.72@@1.72,28410968576.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/google/gemma-2-27b-it'>google/gemma-2-27b-it</a>,📝,1.72@@1.72,1.54@@1.54,1.91@@1.91,1.70@@1.70,27227128320.0,256000.0,8192.0,✓,✗
@@ -74,7 +74,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/NorwAI/NorwAI-Mixtral-8x7B'>NorwAI/NorwAI-Mixtral-8x7B</a>,🧠,2.10@@2.10,2.02@@2.02,2.14@@2.14,2.13@@2.13,46997647360.0,67993.0,32768.0,✓,✗
 <a href='https://hf.co/timpal0l/sol'>timpal0l/sol</a>,📝,2.11@@2.11,2.09@@2.09,2.30@@2.30,1.95@@1.95,10731540480.0,32002.0,4096.0,✗,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-hf'>meta-llama/Llama-2-70b-hf</a>,🧠,2.11@@2.11,1.87@@1.87,2.45@@2.45,2.00@@2.00,68976653312.0,32000.0,4096.0,✓,✗
-<a href='https://hf.co/NorwAI/NorwAI-Mixtral-8x7B-instruct'>NorwAI/NorwAI-Mixtral-8x7B-instruct</a>,📝,2.12@@2.12,2.13@@2.13,2.11@@2.11,2.13@@2.13,46997647360.0,67993.0,32768.0,✓,✗
+<a href='https://hf.co/NorwAI/NorwAI-Mixtral-8x7B-instruct'>NorwAI/NorwAI-Mixtral-8x7B-instruct</a>,📝,2.13@@2.13,2.13@@2.13,2.11@@2.11,2.13@@2.13,46997647360.0,67993.0,32768.0,✓,✗
 <a href='https://hf.co/CohereForAI/c4ai-command-r-08-2024'>CohereForAI/c4ai-command-r-08-2024</a>,📝,2.14@@2.14,1.98@@1.98,2.40@@2.40,2.04@@2.04,32296476672.0,256000.0,131072.0,✗,✗
 <a href='https://hf.co/152334H/miqu-1-70b-sf'>152334H/miqu-1-70b-sf</a>,📝,2.15@@2.15,1.97@@1.97,2.47@@2.47,2.00@@2.00,68976648192.0,32000.0,32764.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-0325-32B'>allenai/OLMo-2-0325-32B</a>,🧠,2.17@@2.17,2.19@@2.19,2.13@@2.13,2.20@@2.20,32234279936.0,100352.0,4096.0,✓,✗
@@ -98,9 +98,9 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.33@@2.33,2.21@@2.21,2.57@@2.57,2.21@@2.21,8030261248.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/ai21labs/Jamba-v0.1'>ai21labs/Jamba-v0.1</a>,🧠,2.33@@2.33,2.24@@2.24,2.52@@2.52,2.22@@2.22,51570323328.0,65536.0,262144.0,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.34@@2.34,2.21@@2.21,2.52@@2.52,2.29@@2.29,9152319488.0,128000.0,4096.0,✓,✗
-<a href='https://hf.co/CohereForAI/aya-23-35B'>CohereForAI/aya-23-35B</a>,📝,2.34@@2.34,2.26@@2.26,2.50@@2.50,2.27@@2.27,34980831232.0,256000.0,8192.0,✗,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3.1-8B'>allenai/Llama-3.1-Tulu-3.1-8B</a>,📝,2.35@@2.35,2.26@@2.26,2.55@@2.55,2.25@@2.25,8030326784.0,128264.0,131072.0,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B-Instruct'>meta-llama/Meta-Llama-3-8B-Instruct</a>,📝,2.35@@2.35,2.22@@2.22,2.55@@2.55,2.28@@2.28,8030261248.0,128256.0,8192.0,✓,✗
+<a href='https://hf.co/CohereForAI/aya-23-35B'>CohereForAI/aya-23-35B</a>,📝,2.35@@2.35,2.26@@2.26,2.50@@2.50,2.27@@2.27,34980831232.0,256000.0,8192.0,✗,✗
 <a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,2.36@@2.36,2.21@@2.21,2.59@@2.59,2.27@@2.27,8030261248.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/Nexusflow/Starling-LM-7B-beta'>Nexusflow/Starling-LM-7B-beta</a>,📝,2.36@@2.36,2.32@@2.32,2.52@@2.52,2.24@@2.24,7241748480.0,32002.0,4096.0,✗,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B'>meta-llama/Meta-Llama-3-8B</a>,🧠,2.40@@2.40,2.28@@2.28,2.65@@2.65,2.27@@2.27,8030261248.0,128256.0,8192.0,✓,✗
@@ -124,7 +124,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/timpal0l/Llama-3-8B-flashback-v1'>timpal0l/Llama-3-8B-flashback-v1</a>,🧠,2.55@@2.55,2.54@@2.54,2.78@@2.78,2.34@@2.34,8030261248.0,128256.0,8192.0,✓,✗
 <a href='https://hf.co/Mabeck/Heidrun-Mistral-7B-chat'>Mabeck/Heidrun-Mistral-7B-chat</a>,📝,2.55@@2.55,2.59@@2.59,2.68@@2.68,2.38@@2.38,7241732096.0,32000.0,32768.0,✗,✗
 <a href='https://hf.co/ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit'>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit</a>,📝,2.57@@2.57,2.40@@2.40,2.82@@2.82,2.49@@2.49,7241748480.0,32002.0,32768.0,✗,✗
-<a href='https://hf.co/ibm-granite/granite-3.0-8b-instruct'>ibm-granite/granite-3.0-8b-instruct</a>,📝,2.59@@2.59,2.44@@2.44,2.90@@2.90,2.42@@2.42,8170848256.0,49155.0,4096.0,✓,✗
+<a href='https://hf.co/ibm-granite/granite-3.0-8b-instruct'>ibm-granite/granite-3.0-8b-instruct</a>,📝,2.59@@2.59,2.45@@2.45,2.90@@2.90,2.42@@2.42,8170848256.0,49155.0,4096.0,✓,✗
 <a href='https://hf.co/alpindale/Mistral-7B-v0.2-hf'>alpindale/Mistral-7B-v0.2-hf</a>,🧠,2.60@@2.60,2.50@@2.50,2.88@@2.88,2.42@@2.42,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/mhenrichsen/hestenettetLM'>mhenrichsen/hestenettetLM</a>,🧠,2.61@@2.61,2.57@@2.57,2.83@@2.83,2.44@@2.44,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/Mabeck/Heidrun-Mistral-7B-base'>Mabeck/Heidrun-Mistral-7B-base</a>,🧠,2.64@@2.64,2.53@@2.53,2.92@@2.92,2.47@@2.47,7241732096.0,32000.0,32768.0,✓,✗
@@ -144,7 +144,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/neph1/bellman-7b-mistral-instruct-v0.2'>neph1/bellman-7b-mistral-instruct-v0.2</a>,📝,2.74@@2.74,2.56@@2.56,2.99@@2.99,2.66@@2.66,7241732096.0,32000.0,32768.0,✗,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.76@@2.76,2.74@@2.74,2.95@@2.95,2.58@@2.58,33715603456.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.76@@2.76,2.62@@2.62,3.00@@3.00,2.67@@2.67,68976653312.0,32000.0,4096.0,✓,✗
-<a href='https://hf.co/allenai/OLMo-2-1124-7B-Instruct'>allenai/OLMo-2-1124-7B-Instruct</a>,📝,2.78@@2.78,2.64@@2.64,3.01@@3.01,2.68@@2.68,7298617344.0,100352.0,4096.0,✓,✗
+<a href='https://hf.co/allenai/OLMo-2-1124-7B-Instruct'>allenai/OLMo-2-1124-7B-Instruct</a>,📝,2.78@@2.78,2.65@@2.65,3.01@@3.01,2.68@@2.68,7298617344.0,100352.0,4096.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.80@@2.80,2.72@@2.72,3.06@@3.06,2.63@@2.63,33715603456.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/bineric/NorskGPT-Llama-13B-v0.1'>bineric/NorskGPT-Llama-13B-v0.1</a>,📝,2.80@@2.80,2.75@@2.75,2.97@@2.97,2.68@@2.68,13015864320.0,32000.0,4096.0,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B'>meta-llama/Llama-3.2-3B</a>,🧠,2.82@@2.82,2.78@@2.78,3.09@@3.09,2.59@@2.59,3212749824.0,128256.0,131073.0,✓,✗
@@ -214,7 +214,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/LumiOpen/Viking-7B'>LumiOpen/Viking-7B</a>,🧠,3.34@@3.34,3.24@@3.24,3.63@@3.63,3.16@@3.16,7550013440.0,131072.0,4096.0,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a>,🤔,3.34@@3.34,3.40@@3.40,3.51@@3.51,3.12@@3.12,7615616512.0,152064.0,131072.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-7b-instruct'>ibm-granite/granite-7b-instruct</a>,📝,3.35@@3.35,3.29@@3.29,3.60@@3.60,3.18@@3.18,6738481152.0,32008.0,4096.0,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.36@@3.36,3.32@@3.32,3.64@@3.64,3.14@@3.14,1656850432.0,128000.0,4096.0,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.37@@3.37,3.32@@3.32,3.64@@3.64,3.14@@3.14,1656850432.0,128000.0,4096.0,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.39@@3.39,3.36@@3.36,3.67@@3.67,3.14@@3.14,?,128000.0,4096.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-3b-a800m-base'>ibm-granite/granite-3.0-3b-a800m-base</a>,🧠,3.39@@3.39,3.43@@3.43,3.53@@3.53,3.20@@3.20,3374286336.0,49152.0,4096.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.41@@3.41,3.32@@3.32,3.60@@3.60,3.32@@3.32,7111057408.0,64000.0,2048.0,✓,✗
@@ -246,7 +246,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/ibm-granite/granite-3b-code-instruct-2k'>ibm-granite/granite-3b-code-instruct-2k</a>,📝,3.76@@3.76,3.40@@3.40,3.95@@3.95,3.93@@3.93,3482503680.0,49152.0,2048.0,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.76@@3.76,3.47@@3.47,3.97@@3.97,3.83@@3.83,1195468800.0,65536.0,2048.0,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.76@@3.76,3.76@@3.76,3.95@@3.95,3.56@@3.56,3211926528.0,65536.0,4096.0,✓,✗
-<a href='https://hf.co/infly/OpenCoder-1.5B-Instruct'>infly/OpenCoder-1.5B-Instruct</a>,📝,3.80@@3.80,3.80@@3.80,3.98@@3.98,3.63@@3.63,1905650880.0,96640.0,4096.0,✗,✗
+<a href='https://hf.co/infly/OpenCoder-1.5B-Instruct'>infly/OpenCoder-1.5B-Instruct</a>,📝,3.80@@3.80,3.81@@3.81,3.98@@3.98,3.63@@3.63,1905650880.0,96640.0,4096.0,✗,✗
 <a href='https://hf.co/RuterNorway/Llama-2-7b-chat-norwegian'>RuterNorway/Llama-2-7b-chat-norwegian</a>,📝,3.83@@3.83,3.95@@3.95,3.91@@3.91,3.63@@3.63,?,32000.0,4096.0,✗,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B'>Qwen/Qwen1.5-0.5B</a>,📝,3.85@@3.85,3.83@@3.83,4.06@@4.06,3.67@@3.67,619570176.0,151936.0,32768.0,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Nano'>PleIAs/Pleias-Nano</a>,🧠,3.91@@3.91,3.52@@3.52,4.09@@4.09,4.12@@4.12,1195468800.0,65536.0,2048.0,✓,✗
@@ -256,7 +256,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.08@@4.08,3.95@@3.95,4.24@@4.24,4.04@@4.04,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B-Chat'>Qwen/Qwen1.5-0.5B-Chat</a>,📝,4.08@@4.08,3.75@@3.75,4.80@@4.80,3.69@@3.69,619570176.0,151936.0,32768.0,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.09@@4.09,4.05@@4.05,4.16@@4.16,4.07@@4.07,134515008.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.15@@4.15,4.21@@4.21,4.16@@4.16,4.07@@4.07,1543714304.0,151936.0,4096.0,✓,✗
+<a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.15@@4.15,4.22@@4.22,4.16@@4.16,4.07@@4.07,1543714304.0,151936.0,4096.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.16@@4.16,4.04@@4.04,4.27@@4.27,4.17@@4.17,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/NorwAI/NorwAI-Mistral-7B-pretrain'>NorwAI/NorwAI-Mistral-7B-pretrain</a>,🧠,4.16@@4.16,4.06@@4.06,4.27@@4.27,4.16@@4.16,7536586752.0,67993.0,4096.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.17@@4.17,4.03@@4.03,4.23@@4.23,4.24@@4.24,361821120.0,49152.0,8192.0,✓,✗
@@ -267,7 +267,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/infly/OpenCoder-1.5B-Base'>infly/OpenCoder-1.5B-Base</a>,📝,4.37@@4.37,4.34@@4.34,4.42@@4.42,4.33@@4.33,1905650960.0,96640.0,4096.0,✓,✗
 <a href='https://hf.co/NorGLM/NorGPT-369M'>NorGLM/NorGPT-369M</a>,🧠,4.46@@4.46,4.34@@4.34,4.48@@4.48,4.56@@4.56,?,64000.0,1024.0,✓,✗
 <a href='https://hf.co/ssmits/Falcon2-5.5B-multilingual'>ssmits/Falcon2-5.5B-multilingual</a>,🧠,4.65@@4.65,4.66@@4.66,4.69@@4.69,4.60@@4.60,5465415680.0,65024.0,8192.0,✓,✓
-<a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.99@@4.99,4.93@@4.93,5.08@@5.08,4.96@@4.96,379988992.0,50257.0,1024.0,✓,✗
+<a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.99@@4.99,4.94@@4.94,5.08@@5.08,4.96@@4.96,379988992.0,50257.0,1024.0,✓,✗
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,5.01@@5.01,4.96@@4.96,5.10@@5.10,4.99@@4.99,811778816.0,50257.0,1024.0,✓,✗
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,5.05@@5.05,5.00@@5.00,5.12@@5.12,5.02@@5.02,137022720.0,50257.0,1024.0,✓,✗
 mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,1.90@@1.90,-@@100,2.31@@2.31,?,32002.0,32768.0,✓,✗
@@ -328,8 +328,8 @@ skole-gpt-mixtral,🧠,-@@100,2.04@@2.04,-@@100,2.14@@2.14,?,32000.0,32768.0,✓
 <a href='https://hf.co/timpal0l/BeagleCatMunin2'>timpal0l/BeagleCatMunin2 (val)</a>,🧠,-@@100,2.21@@2.21,-@@100,2.25@@2.25,7241732096.0,32000.0,32768.0,✗,✓
 <a href='https://hf.co/tiiuae/Falcon3-7B-Instruct'>tiiuae/Falcon3-7B-Instruct</a>,📝,-@@100,2.50@@2.50,-@@100,2.46@@2.46,7455550464.0,131072.0,32768.0,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-7B-Base'>tiiuae/Falcon3-7B-Base</a>,🧠,-@@100,2.73@@2.73,-@@100,2.74@@2.74,7455550464.0,131072.0,32768.0,✓,✗
-<a href='https://hf.co/tiiuae/Falcon3-3B-Instruct'>tiiuae/Falcon3-3B-Instruct</a>,📝,-@@100,3.13@@3.13,-@@100,2.99@@2.99,3227655168.0,131072.0,32768.0,✓,✗
-<a href='https://hf.co/tiiuae/Falcon3-3B-Base'>tiiuae/Falcon3-3B-Base</a>,🧠,-@@100,3.32@@3.32,-@@100,3.22@@3.22,3227655168.0,131072.0,32768.0,✓,✗
+<a href='https://hf.co/tiiuae/Falcon3-3B-Instruct'>tiiuae/Falcon3-3B-Instruct</a>,📝,-@@100,3.14@@3.14,-@@100,2.99@@2.99,3227655168.0,131072.0,32768.0,✓,✗
+<a href='https://hf.co/tiiuae/Falcon3-3B-Base'>tiiuae/Falcon3-3B-Base</a>,🧠,-@@100,3.33@@3.33,-@@100,3.22@@3.22,3227655168.0,131072.0,32768.0,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-1B-Instruct'>tiiuae/Falcon3-1B-Instruct</a>,📝,-@@100,3.73@@3.73,-@@100,3.73@@3.73,1669408768.0,131072.0,8192.0,✓,✗
 <a href='https://hf.co/timpal0l/BeagleCatMunin'>timpal0l/BeagleCatMunin</a>,🧠,-@@100,-@@100,-@@100,-@@100,7241732096.0,32000.0,4096.0,✗,✓
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased'>sentence-transformers/distiluse-base-multilingual-cased</a>,🔍,-@@100,-@@100,-@@100,-@@100,134734080.0,119547.0,512.0,✓,✗
@@ -371,7 +371,7 @@ skole-gpt-mixtral,🧠,-@@100,2.04@@2.04,-@@100,2.14@@2.14,?,32000.0,32768.0,✓
 <a href='https://hf.co/patrickvonplaten/norwegian-roberta-base'>patrickvonplaten/norwegian-roberta-base</a>,🔍,-@@100,-@@100,-@@100,-@@100,124647939.0,50265.0,512.0,✓,✗
 <a href='https://ollama.com/library/phi4:14b-q4_K_M'>ollama_chat/phi4:14b-q4_K_M (val)</a>,📝,-@@100,1.69@@1.69,-@@100,1.78@@1.78,14700000000.0,100352.0,16384.0,✓,✗
 <a href='https://ollama.com/library/magistral:24b-small-2506-fp16'>ollama_chat/magistral:24b-small-2506-fp16</a>,🤔,-@@100,-@@100,-@@100,-@@100,23572403200.0,?,40000.0,✓,✗
-<a href='https://ollama.com/library/hf.co'>ollama_chat/hf.co/google/gemma-3-4b-it-qat-q4_0-gguf</a>,📝,-@@100,2.26@@2.26,-@@100,2.50@@2.50,3880099328.0,?,131072.0,✓,✗
+<a href='https://ollama.com/library/hf.co'>ollama_chat/hf.co/google/gemma-3-4b-it-qat-q4_0-gguf</a>,📝,-@@100,2.27@@2.27,-@@100,2.50@@2.50,3880099328.0,?,131072.0,✓,✗
 <a href='https://ollama.com/library/gemma3:4b-it-q8_0'>ollama_chat/gemma3:4b-it-q8_0</a>,📝,-@@100,-@@100,-@@100,-@@100,4299915632.0,?,131072.0,✓,✗
 <a href='https://ollama.com/library/gemma3:27b-it-q4_K_M'>ollama_chat/gemma3:27b-it-q4_K_M (val)</a>,📝,-@@100,1.55@@1.55,-@@100,1.60@@1.60,27400000000.0,262144.0,128000.0,✓,✗
 <a href='https://hf.co/merge-crew/da-sv-dare-ties-density-0.6'>merge-crew/da-sv-dare-ties-density-0.6 (val)</a>,🧠,-@@100,2.51@@2.51,-@@100,2.39@@2.39,7241732096.0,32000.0,32768.0,✓,✓
@@ -383,7 +383,7 @@ skole-gpt-mixtral,🧠,-@@100,2.04@@2.04,-@@100,2.14@@2.14,?,32000.0,32768.0,✓
 <a href='https://hf.co/TurkuNLP/finnish-modernbert-base'>TurkuNLP/finnish-modernbert-base</a>,🔍,-@@100,-@@100,-@@100,-@@100,143404800.0,42240.0,16000.0,✓,✗
 <a href='https://hf.co/TurkuNLP/bert-base-finnish-cased-v1'>TurkuNLP/bert-base-finnish-cased-v1</a>,🔍,-@@100,-@@100,-@@100,-@@100,124524291.0,50105.0,512.0,✓,✗
 <a href='https://hf.co/Geotrend/bert-base-en-da-cased'>Geotrend/bert-base-en-da-cased</a>,🔍,-@@100,-@@100,-@@100,-@@100,111181059.0,32731.0,512.0,✓,✗
-<a href='https://hf.co/THUDM/GLM-4.1V-9B-Thinking'>THUDM/GLM-4.1V-9B-Thinking</a>,🤔,-@@100,-@@100,-@@100,-@@100,10292777472.0,151552.0,65536.0,✓,✗
+<a href='https://hf.co/THUDM/GLM-4.1V-9B-Thinking'>THUDM/GLM-4.1V-9B-Thinking</a>,🤔,-@@100,3.20@@3.20,-@@100,-@@100,10292777472.0,151552.0,65536.0,✓,✗
 <a href='https://hf.co/Sigurdur/qa-icebreaker'>Sigurdur/qa-icebreaker</a>,🧠,-@@100,-@@100,-@@100,-@@100,110418432.0,32000.0,1024.0,✗,✗
 <a href='https://hf.co/Sigurdur/icebreaker'>Sigurdur/icebreaker</a>,🧠,-@@100,4.77@@4.77,-@@100,4.66@@4.66,110418432.0,32000.0,1024.0,✗,✗
 <a href='https://hf.co/Geotrend/bert-base-en-fr-de-no-da-cased'>Geotrend/bert-base-en-fr-de-no-da-cased</a>,🔍,-@@100,-@@100,-@@100,-@@100,118076931.0,41710.0,512.0,✓,✗
