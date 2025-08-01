@@ -8,7 +8,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.49@@1.49,1.50@@1.50,1.50@@1.50,1.47@@1.47,32763876352.0,152064.0,32768.0,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.52@@1.52,1.57@@1.57,1.55@@1.55,1.44@@1.44,14765947904.0,151665.0,131072.0,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-70B'>meta-llama/Meta-Llama-3-70B</a>,🧠,1.54@@1.54,1.56@@1.56,1.53@@1.53,1.53@@1.53,70553706496.0,128256.0,8192.0,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.56@@1.56,1.44@@1.44,1.64@@1.64,1.59@@1.59,?,256128.0,1048576.0,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.56@@1.56,1.44@@1.44,1.64@@1.64,1.60@@1.60,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B'>Qwen/Qwen3-235B-A22B</a>,🤔,1.56@@1.56,1.56@@1.56,1.62@@1.62,1.51@@1.51,235093634560.0,151936.0,40960.0,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219@thinking (zero-shot, val)</a>",🤔,1.56@@1.56,1.55@@1.55,1.57@@1.57,1.55@@1.55,?,?,200000.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.56@@1.56,1.51@@1.51,1.68@@1.68,1.49@@1.49,72706203648.0,152064.0,32768.0,✓,✗
@@ -194,7 +194,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,3.82@@3.82,3.59@@3.59,4.15@@4.15,3.71@@3.71,1543714304.0,151936.0,4096.0,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a>,🤔,3.86@@3.86,3.67@@3.67,4.08@@4.08,3.82@@3.82,1777088000.0,151936.0,131072.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.88@@3.88,3.77@@3.77,4.07@@4.07,3.79@@3.79,361821120.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/croissantllm/CroissantLLMBase'>croissantllm/CroissantLLMBase</a>,🧠,3.91@@3.91,3.74@@3.74,4.12@@4.12,3.86@@3.86,?,32000.0,2048.0,✓,✗
+<a href='https://hf.co/croissantllm/CroissantLLMBase'>croissantllm/CroissantLLMBase</a>,🧠,3.91@@3.91,3.74@@3.74,4.12@@4.12,3.87@@3.87,?,32000.0,2048.0,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.91@@3.91,3.81@@3.81,3.96@@3.96,3.97@@3.97,353424384.0,65536.0,2048.0,✓,✗
 <a href='https://hf.co/croissantllm/CroissantLLMChat-v0.1'>croissantllm/CroissantLLMChat-v0.1</a>,📝,3.93@@3.93,3.81@@3.81,4.00@@4.00,3.97@@3.97,1345431552.0,32002.0,2048.0,✗,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B'>Qwen/Qwen1.5-0.5B</a>,📝,3.97@@3.97,3.90@@3.90,4.19@@4.19,3.81@@3.81,619570176.0,151936.0,32768.0,✓,✗
@@ -203,7 +203,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.12@@4.12,4.02@@4.02,4.28@@4.28,4.06@@4.06,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,4.32@@4.32,4.19@@4.19,4.33@@4.33,4.46@@4.46,470607872.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.35@@4.35,4.24@@4.24,4.23@@4.23,4.59@@4.59,470607872.0,64000.0,2048.0,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.41@@4.41,4.22@@4.22,4.32@@4.32,4.68@@4.68,186112512.0,64000.0,2048.0,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.41@@4.41,4.22@@4.22,4.32@@4.32,4.69@@4.69,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.51@@4.51,4.35@@4.35,4.44@@4.44,4.73@@4.73,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/alea-institute/kl3m-003-3.7b'>alea-institute/kl3m-003-3.7b</a>,🧠,4.67@@4.67,4.62@@4.62,4.95@@4.95,4.44@@4.44,3691382784.0,32768.0,4096.0,✓,✗
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.93@@4.93,5.22@@5.22,4.60@@4.60,4.97@@4.97,379988992.0,50257.0,1024.0,✓,✗
