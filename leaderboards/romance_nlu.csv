@@ -22,7 +22,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/mistralai/Mistral-Small-24B-Instruct-2501'>mistralai/Mistral-Small-24B-Instruct-2501</a>,📝,1.73@@1.73,1.72@@1.72,1.69@@1.69,1.77@@1.77,23572403200.0,131072.0,32768.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B'>Qwen/Qwen3-235B-A22B</a>,🤔,1.74@@1.74,1.77@@1.77,1.71@@1.71,1.72@@1.72,235093634560.0,151936.0,40960.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/o3'>o3-2025-04-16 (zero-shot, val)</a>",🤔,1.76@@1.76,1.73@@1.73,1.84@@1.84,1.69@@1.69,?,?,200000.0,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.76@@1.76,1.75@@1.75,1.72@@1.72,1.81@@1.81,?,?,?,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.76@@1.76,1.75@@1.75,1.72@@1.72,1.81@@1.81,?,100256.0,272000.0,✓,✗
 <a href='https://hf.co/CohereForAI/c4ai-command-r-08-2024'>CohereForAI/c4ai-command-r-08-2024</a>,📝,1.77@@1.77,1.66@@1.66,1.78@@1.78,1.86@@1.86,32296476672.0,256000.0,131072.0,✗,✗
 <a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-Instruct'>LumiOpen/Llama-Poro-2-70B-Instruct</a>,📝,1.78@@1.78,1.79@@1.79,1.62@@1.62,1.94@@1.94,70553706496.0,128256.0,8192.0,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.78@@1.78,1.76@@1.76,1.71@@1.71,1.86@@1.86,12187325040.0,262144.0,?,✓,✗
@@ -43,7 +43,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,1.88@@1.88,1.84@@1.84,1.77@@1.77,2.04@@2.04,8030326784.0,128264.0,131072.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4o'>gpt-4o-2024-05-13 (zero-shot, val)</a>",📝,1.90@@1.90,1.63@@1.63,2.11@@2.11,1.97@@1.97,?,200019.0,128000.0,✓,✗
 "xai/grok-3-beta (zero-shot, val)</a>",📝,1.92@@1.92,1.73@@1.73,2.00@@2.00,2.04@@2.04,?,?,131072.0,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.92@@1.92,1.94@@1.94,1.74@@1.74,2.07@@2.07,?,?,?,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.92@@1.92,1.94@@1.94,1.74@@1.74,2.07@@2.07,?,100256.0,272000.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25'>gemini/gemini-2.5-pro-preview-03-25 (zero-shot, val)</a>",🤔,1.94@@1.94,1.83@@1.83,2.02@@2.02,1.97@@1.97,?,256128.0,1048576.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash@no-thinking (zero-shot, val)</a>",📝,1.94@@1.94,1.77@@1.77,1.96@@1.96,2.09@@2.09,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,1.94@@1.94,1.75@@1.75,2.00@@2.00,2.06@@2.06,11168796672.0,32128.0,32768.0,✓,✓
@@ -51,7 +51,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-04-17'>gemini/gemini-2.5-flash-preview-04-17 (zero-shot, val)</a>",🤔,1.95@@1.95,1.68@@1.68,1.92@@1.92,2.26@@2.26,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B</a>,🤔,1.95@@1.95,2.15@@2.15,1.84@@1.84,1.85@@1.85,8190735360.0,151936.0,40960.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-001'>gemini/gemini-2.0-flash-001 (zero-shot, val)</a>",📝,1.95@@1.95,1.82@@1.82,1.93@@1.93,2.11@@2.11,?,256128.0,1048576.0,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.95@@1.95,1.88@@1.88,1.93@@1.93,2.03@@2.03,?,?,?,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.95@@1.95,1.88@@1.88,1.93@@1.93,2.03@@2.03,?,100256.0,272000.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.96@@1.96,1.79@@1.79,2.10@@2.10,2.01@@2.01,?,?,1047576.0,✓,✗
 <a href='https://hf.co/microsoft/phi-4'>microsoft/phi-4</a>,📝,1.96@@1.96,2.10@@2.10,1.75@@1.75,2.03@@2.03,14659507200.0,100352.0,16384.0,✓,✗
 <a href='https://hf.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF'>nvidia/Llama-3.1-Nemotron-70B-Instruct-HF</a>,📝,1.96@@1.96,1.87@@1.87,2.09@@2.09,1.92@@1.92,70553706496.0,128256.0,131072.0,✓,✗

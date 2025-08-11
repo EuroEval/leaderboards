@@ -7,7 +7,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 <a href='https://hf.co/meta-llama/Llama-3.1-405B-Instruct-FP8'>meta-llama/Llama-3.1-405B-Instruct-FP8</a>,📝,1.48@@1.48,1.45@@1.45,1.60@@1.60,1.41@@1.41,405868625920.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/NovaSky-AI/Sky-T1-32B-Preview'>NovaSky-AI/Sky-T1-32B-Preview</a>,📝,1.50@@1.50,1.51@@1.51,1.52@@1.52,1.47@@1.47,32763876352.0,152064.0,32768.0,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.53@@1.53,1.57@@1.57,1.57@@1.57,1.44@@1.44,14765947904.0,151665.0,131072.0,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.54@@1.54,1.52@@1.52,1.59@@1.59,1.51@@1.51,?,?,?,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.54@@1.54,1.52@@1.52,1.59@@1.59,1.51@@1.51,?,100256.0,272000.0,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-70B'>meta-llama/Meta-Llama-3-70B</a>,🧠,1.55@@1.55,1.56@@1.56,1.55@@1.55,1.53@@1.53,70553706496.0,128256.0,8192.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.56@@1.56,1.51@@1.51,1.70@@1.70,1.49@@1.49,72706203648.0,152064.0,32768.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B'>Qwen/Qwen3-235B-A22B</a>,🤔,1.57@@1.57,1.57@@1.57,1.64@@1.64,1.51@@1.51,235093634560.0,151936.0,40960.0,✓,✗
@@ -37,7 +37,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 "<a href='https://platform.openai.com/docs/models/o4-mini'>o4-mini-2025-04-16 (zero-shot, val)</a>",🤔,1.69@@1.69,1.61@@1.61,1.74@@1.74,1.73@@1.73,?,?,200000.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25'>gemini/gemini-2.5-pro-preview-03-25 (zero-shot, val)</a>",🤔,1.70@@1.70,1.61@@1.61,1.84@@1.84,1.66@@1.66,?,256128.0,1048576.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.71@@1.71,1.59@@1.59,1.85@@1.85,1.68@@1.68,?,?,1047576.0,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.72@@1.72,1.70@@1.70,1.73@@1.73,1.72@@1.72,?,?,?,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.72@@1.72,1.70@@1.70,1.73@@1.73,1.72@@1.72,?,100256.0,272000.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite@thinking (zero-shot, val)</a>",🤔,1.72@@1.72,1.66@@1.66,1.84@@1.84,1.64@@1.64,?,256128.0,1048576.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite-preview-06-17'>gemini/gemini-2.5-flash-lite-preview-06-17@thinking (zero-shot, val)</a>",🤔,1.72@@1.72,1.66@@1.66,1.85@@1.85,1.64@@1.64,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.73@@1.73,1.71@@1.71,1.79@@1.79,1.70@@1.70,27432406640.0,262144.0,?,✓,✗
@@ -50,7 +50,7 @@ model,generative_type,rank,french,italian,spanish,parameters,vocabulary_size,con
 "<a href='https://docs.x.ai/docs/models'>xai/grok-2-1212 (zero-shot, val)</a>",📝,1.80@@1.80,1.81@@1.81,1.93@@1.93,1.65@@1.65,?,?,131072.0,✓,✗
 <a href='https://hf.co/microsoft/phi-4'>microsoft/phi-4</a>,📝,1.81@@1.81,1.87@@1.87,1.77@@1.77,1.78@@1.78,14659507200.0,100352.0,16384.0,✓,✗
 <a href='https://hf.co/google/gemma-2-27b-it'>google/gemma-2-27b-it</a>,📝,1.83@@1.83,1.85@@1.85,1.82@@1.82,1.81@@1.81,27227128320.0,256000.0,8192.0,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.83@@1.83,1.76@@1.76,1.92@@1.92,1.83@@1.83,?,?,?,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.83@@1.83,1.76@@1.76,1.92@@1.92,1.83@@1.83,?,100256.0,272000.0,✓,✗
 "xai/grok-3-mini-beta@high (zero-shot, val)</a>",🤔,1.83@@1.83,1.74@@1.74,1.90@@1.90,1.85@@1.85,?,?,131072.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,1.84@@1.84,1.72@@1.72,2.01@@2.01,1.81@@1.81,?,?,1047576.0,✓,✗
 <a href='https://hf.co/ThatsGroes/gemma-2-27b-it-FP8-Dynamic'>ThatsGroes/gemma-2-27b-it-FP8-Dynamic</a>,📝,1.84@@1.84,1.84@@1.84,1.85@@1.85,1.84@@1.84,28410968576.0,256000.0,8192.0,✓,✗
