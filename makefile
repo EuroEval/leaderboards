@@ -11,26 +11,11 @@ pull:
 	@git pull
 
 download:
-	@scp -o ConnectTimeout=5 annika-ucloud:/home/ucloud/dan/euroeval_benchmark_results.jsonl annika_ucloud_results.jsonl || true
-	@scp -o ConnectTimeout=5 70b-ucloud:/home/ucloud/euroeval_benchmark_results.jsonl 70b_ucloud_results.jsonl || true
-	@scp -o ConnectTimeout=5 70b-ucloud:/home/ucloud/eval2/euroeval_benchmark_results.jsonl 70b_ucloud_2_results.jsonl || true
-	@scp -o ConnectTimeout=5 pt-ucloud:/home/ucloud/euroeval_benchmark_results.jsonl pt_ucloud_results.jsonl || true
+	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/euroeval_benchmark_results.jsonl lancelot_results.jsonl || true
 	@touch results/results.jsonl
-	@if [ -f annika_ucloud_results.jsonl ]; then \
-		cat annika_ucloud_results.jsonl >> results/results.jsonl; \
-		rm annika_ucloud_results.jsonl; \
-	fi
-	@if [ -f 70b_ucloud_results.jsonl ]; then \
-		cat 70b_ucloud_results.jsonl >> results/results.jsonl; \
-		rm 70b_ucloud_results.jsonl; \
-	fi
-	@if [ -f 70b_ucloud_2_results.jsonl ]; then \
-		cat 70b_ucloud_2_results.jsonl >> results/results.jsonl; \
-		rm 70b_ucloud_2_results.jsonl; \
-	fi
-	@if [ -f pt_ucloud_results.jsonl ]; then \
-		cat pt_ucloud_results.jsonl >> results/results.jsonl; \
-		rm pt_ucloud_results.jsonl; \
+	@if [ -f lancelot_results.jsonl ]; then \
+		cat lancelot_results.jsonl >> results/results.jsonl; \
+		rm lancelot_results.jsonl; \
 	fi
 
 generate_leaderboards:
