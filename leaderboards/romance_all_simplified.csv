@@ -100,7 +100,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.37,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.41,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,🤔,2.42,2031739904,151936,40960,✓,✗
-<a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,2.48,11102822400,65024,8192,✓,✗
+<a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,2.49,11102822400,65024,8192,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.3'>mistralai/Mistral-7B-v0.3</a>,🧠,2.50,7248023552,32768,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.50,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.50,7241732096,32000,32768,✓,✗
