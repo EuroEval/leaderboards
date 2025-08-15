@@ -267,9 +267,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/distilbert/distilroberta-base'>distilbert/distilroberta-base</a>,🔍,3.60,82760793,50265,512,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.63,395881664,50368,8192,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,3.65,3836021760,200064,131072,✓,✗
-<a href='https://hf.co/HPLT/hplt2c_por_checkpoints'>HPLT/hplt2c_por_checkpoints</a>,🧠,3.66,,262272,2048,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.66,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/intfloat/e5-base-v2'>intfloat/e5-base-v2</a>,🔍,3.66,109482752,30522,512,✓,✗
+<a href='https://hf.co/HPLT/hplt2c_por_checkpoints'>HPLT/hplt2c_por_checkpoints</a>,🧠,3.67,,262272,2048,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B-Chat'>Qwen/Qwen1.5-0.5B-Chat</a>,📝,3.67,619570176,151936,32768,✗,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,3.68,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.73,93990500,65636,512,✓,✗

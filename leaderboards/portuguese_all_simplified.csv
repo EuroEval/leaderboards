@@ -59,7 +59,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite-preview-06-17'>gemini/gemini-2.5-flash-lite-preview-06-17@thinking (zero-shot, val)</a>",🤔,1.84,,256128,1048576,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite@thinking (zero-shot, val)</a>",🤔,1.84,,256128,1048576,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-14B-Chat'>Qwen/Qwen1.5-14B-Chat</a>,📝,1.85,14167290880,152064,32768,✗,✗
-<a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,1.86,11168796672,32128,32768,✓,✓
+<a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,1.87,11168796672,32128,32768,✓,✓
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-001'>gemini/gemini-2.0-flash-001 (zero-shot, val)</a>",📝,1.87,,256128,1048576,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,🤔,1.89,4022468096,151936,40960,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07@high (zero-shot, val)</a>",🤔,1.89,,100256,272000,✓,✗
@@ -188,8 +188,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen1.5-1.8B-Chat'>Qwen/Qwen1.5-1.8B-Chat</a>,📝,3.09,1836828672,151936,32768,✗,✗
 <a href='https://hf.co/OpenLLM-France/Lucie-7B'>OpenLLM-France/Lucie-7B</a>,📝,3.09,6706960384,65024,32000,✓,✗
 <a href='https://hf.co/MaLA-LM/emma-500-llama2-7b'>MaLA-LM/emma-500-llama2-7b</a>,🧠,3.12,6738415616,32000,4096,✓,✗
-<a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.17,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/four-two-labs/lynx-micro'>four-two-labs/lynx-micro</a>,📝,3.17,2506172416,256000,8192,✗,✗
+<a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.18,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.18,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B'>HuggingFaceTB/SmolLM2-1.7B</a>,🧠,3.19,1711376384,49152,8192,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,3.20,14030361600,131072,4096,✓,✗
