@@ -128,7 +128,7 @@ model,generative_type,rank,french,italian,portuguese,spanish,parameters,vocabula
 <a href='https://hf.co/mistralai/Mistral-7B-v0.3'>mistralai/Mistral-7B-v0.3</a>,🧠,2.41@@2.41,2.13@@2.13,2.43@@2.43,2.28@@2.28,2.80@@2.80,7248023552.0,32768.0,32768.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.43@@2.43,2.40@@2.40,2.42@@2.42,2.30@@2.30,2.61@@2.61,33715603456.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,2.43@@2.43,2.26@@2.26,2.65@@2.65,2.10@@2.10,2.72@@2.72,11102822400.0,65024.0,8192.0,✓,✗
-<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.44@@2.44,2.49@@2.49,2.47@@2.47,2.31@@2.31,2.50@@2.50,3606752256.0,128256.0,131072.0,✓,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.44@@2.44,2.49@@2.49,2.47@@2.47,2.30@@2.30,2.50@@2.50,3606752256.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-base'>ibm-granite/granite-20b-code-base</a>,🧠,2.47@@2.47,2.23@@2.23,2.50@@2.50,2.44@@2.44,2.70@@2.70,20066993152.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.48@@2.48,2.28@@2.28,2.47@@2.47,2.46@@2.46,2.73@@2.73,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.1'>mistralai/Mistral-7B-Instruct-v0.1</a>,📝,2.49@@2.49,2.44@@2.44,2.48@@2.48,2.47@@2.47,2.57@@2.57,7241732096.0,32000.0,32768.0,✓,✗
