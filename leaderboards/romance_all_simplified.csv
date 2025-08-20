@@ -184,8 +184,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B'>Qwen/Qwen1.5-0.5B</a>,📝,3.93,619570176,151936,32768,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.96,353424384,65536,2048,✓,✗
 <a href='https://hf.co/HPLT/hplt2c_por_checkpoints'>HPLT/hplt2c_por_checkpoints</a>,🧠,3.98,,262272,2048,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,3.99,353424384,65536,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,3.99,134515008,49152,8192,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.00,353424384,65536,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.09,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HPLT/hplt2c_ita_checkpoints'>HPLT/hplt2c_ita_checkpoints</a>,🧠,4.16,,262272,2048,✓,✗
 <a href='https://hf.co/HPLT/hplt2c_fra_checkpoints'>HPLT/hplt2c_fra_checkpoints</a>,🧠,4.19,,262272,2048,✓,✗
