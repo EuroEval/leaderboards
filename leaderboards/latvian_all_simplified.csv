@@ -1,0 +1,3 @@
+model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
+<a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.00,24011361280,131072,,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,3.04,134515008,49152,,✓,✗
