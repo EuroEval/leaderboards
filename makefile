@@ -11,16 +11,16 @@ pull:
 	@git pull
 
 download:
-	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/euroeval_benchmark_results.jsonl lancelot_results.jsonl || true
-	@scp -o ConnectTimeout=5 ucloud:/work/euroeval_benchmark_results.jsonl ucloud_results.jsonl || true
 	@touch results/results.jsonl
-	@if [ -f lancelot_results.jsonl ]; then \
-		cat lancelot_results.jsonl >> results/results.jsonl; \
-		rm lancelot_results.jsonl; \
-	fi
+	@scp -o ConnectTimeout=5 ucloud:/work/euroeval_benchmark_results.jsonl ucloud_results.jsonl || true
 	@if [ -f ucloud_results.jsonl ]; then \
 		cat ucloud_results.jsonl >> results/results.jsonl; \
 		rm ucloud_results.jsonl; \
+	fi
+	@scp -o ConnectTimeout=5 lv-et-evals:/work/euroeval_benchmark_results.jsonl lv_et_evals_results.jsonl || true
+	@if [ -f lv_et_evals_results.jsonl ]; then \
+		cat lv_et_evals_results.jsonl >> results/results.jsonl; \
+		rm lv_et_evals_results.jsonl; \
 	fi
 
 generate_leaderboards:
