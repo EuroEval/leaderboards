@@ -33,6 +33,8 @@ def compute_ranks(
         for language, config in configs.items()
     }
 
+    # Compute ranks for each dataset.
+    # model_id -> dataset -> dataset_rank
     model_dataset_ranks: dict[str, dict[str, float]] = defaultdict(dict)
     for _, datasets in all_datasets.items():
         for dataset in datasets:
@@ -71,6 +73,8 @@ def compute_ranks(
                     previous_scores = raw_scores
                 model_dataset_ranks[model_id][dataset] = rank_score
 
+    # Aggregate dataset ranks into task ranks.
+    # model_id -> language -> task -> task_rank
     model_task_ranks: dict[str, dict[str, dict[str, float]]] = defaultdict(
         lambda: defaultdict(dict)
     )
@@ -88,6 +92,9 @@ def compute_ranks(
     categories = {
         task_config[task]["category"] for config in configs.values() for task in config
     } | {"all"}
+
+    # Aggregate task ranks into language ranks.
+    # model_id -> category -> language/overall -> language_rank
     model_task_category_ranks: dict[str, dict[str, dict[str, float]]] = defaultdict(
         dict
     )
