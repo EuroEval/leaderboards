@@ -15,9 +15,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash@thinking (zero-shot, val)</a>",🤔,1.66,,256128,1048576,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.66,24011361280,131072,,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.67,,,1047576,✓,✗
-"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219@no-thinking (zero-shot, val)</a>",📝,1.68,,,200000,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-70B'>meta-llama/Meta-Llama-3-70B</a>,🧠,1.68,70553706496,128256,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.69,70553706496,128256,131072,✓,✗
+"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219@no-thinking (zero-shot, val)</a>",📝,1.69,,,200000,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B-Instruct'>meta-llama/Llama-3.1-70B-Instruct</a>,📝,1.71,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-SFT'>LumiOpen/Llama-Poro-2-70B-SFT</a>,📝,1.71,70553706496,128256,8192,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash@no-thinking (zero-shot, val)</a>",📝,1.71,,256128,1048576,✓,✗
@@ -79,9 +79,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.23,,128000,4096,✓,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-v0.1'>mistralai/Mixtral-8x7B-v0.1</a>,🧠,2.25,46702792704,32000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,🤔,2.26,4022468096,151936,40960,✓,✗
-<a href='https://hf.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B'>deepseek-ai/DeepSeek-R1-0528-Qwen3-8B</a>,🤔,2.26,8190735360,151936,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.27,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.27,32234279936,100352,4096,✗,✗
+<a href='https://hf.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B'>deepseek-ai/DeepSeek-R1-0528-Qwen3-8B</a>,🤔,2.27,8190735360,151936,131072,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-35B'>CohereForAI/aya-23-35B</a>,📝,2.28,34980831232,256000,8192,✗,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-Instruct-v0.1'>mistralai/Mixtral-8x7B-Instruct-v0.1</a>,📝,2.28,46702792704,32000,32768,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash-8b-001'>gemini/gemini-1.5-flash-8b-001 (zero-shot, val)</a>",📝,2.29,,256128,1048576,✓,✗
