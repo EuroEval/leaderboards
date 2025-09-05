@@ -229,10 +229,10 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.40,7241732096,32000,8192,✓,�
 <a href='https://hf.co/mhenrichsen/hestenettetLM'>mhenrichsen/hestenettetLM</a>,🧠,2.46,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/merge-crew/da-sv-dare-ties-density-0.6'>merge-crew/da-sv-dare-ties-density-0.6 (val)</a>,🧠,2.46,7241732096,32000,32768,✓,✓
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.47,33715603456,49152,8192,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07@minimal (zero-shot, val)</a>",🤔,2.47,,100256,272000,✓,✗
 <a href='https://hf.co/jhu-clsp/bernice'>jhu-clsp/bernice</a>,🔍,2.47,277749507,250000,128,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-base'>ibm-granite/granite-3.0-8b-base</a>,🧠,2.48,8170835968,49152,4096,✓,✗
 <a href='https://hf.co/KennethEnevoldsen/munin_mistral-7b'>KennethEnevoldsen/munin_mistral-7b (val)</a>,🧠,2.48,7241732096,32000,32768,✗,✓
-"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07@minimal (zero-shot, val)</a>",🤔,2.48,,100256,272000,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,2.48,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/bineric/NorskGPT-Llama3-8b'>bineric/NorskGPT-Llama3-8b</a>,📝,2.49,8030261248,128256,8192,✗,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,2.49,8028033024,256000,8192,✗,✗
@@ -244,8 +244,8 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.40,7241732096,32000,8192,✓,�
 <a href='https://hf.co/neph1/bellman-7b-mistral-instruct-v0.2'>neph1/bellman-7b-mistral-instruct-v0.2</a>,📝,2.52,7241732096,32000,32768,✗,✗
 <a href='https://hf.co/distilbert/distilbert-base-multilingual-cased'>distilbert/distilbert-base-multilingual-cased</a>,🔍,2.52,135326979,119547,512,✓,✗
 <a href='https://hf.co/RuterNorway/Llama-2-13b-chat-norwegian'>RuterNorway/Llama-2-13b-chat-norwegian</a>,📝,2.53,13015866880,32000,4096,✗,✗
-<a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,2.53,278045955,250002,512,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.3'>mistralai/Mistral-7B-v0.3</a>,🧠,2.53,7248023552,32768,32768,✓,✗
+<a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,2.54,278045955,250002,512,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.54,108783363,84985,512,✓,✗
 <a href='https://hf.co/google/gemma-2-2b-it'>google/gemma-2-2b-it</a>,📝,2.55,2614341888,256000,8192,✓,✗
 <a href='https://hf.co/clips/mfaq'>clips/mfaq</a>,🔍,2.55,278048259,250005,128,✓,✗

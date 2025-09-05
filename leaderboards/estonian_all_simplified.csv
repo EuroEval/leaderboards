@@ -1,1 +1,4 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
+<a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.64,30532122624,151936,262144,✓,✗
+<a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,1.71,70599864480,131072,65536,✗,✗
+<a href='https://hf.co/TildeAI/TildeOpen-30b'>TildeAI/TildeOpen-30b</a>,🧠,3.28,30677882880,131072,65536,✓,✗

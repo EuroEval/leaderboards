@@ -156,9 +156,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,2.91,278044162,250002,512,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.93,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-14B</a>,🤔,2.95,14770033664,152064,131072,✓,✗
-<a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.96,108867577,84985,512,✓,✗
+<a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.97,108867577,84985,512,✓,✗
 <a href='https://hf.co/common-pile/comma-v0.1-2t'>common-pile/comma-v0.1-2t</a>,🧠,3.00,7002656768,64256,16384,✓,✗
-<a href='https://hf.co/Qwen/Qwen2.5-Math-7B'>Qwen/Qwen2.5-Math-7B</a>,📝,3.04,7615616512,152064,4096,✓,✗
+<a href='https://hf.co/Qwen/Qwen2.5-Math-7B'>Qwen/Qwen2.5-Math-7B</a>,📝,3.05,7615616512,152064,4096,✓,✗
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-research-v0.4'>openGPT-X/Teuken-7B-instruct-research-v0.4</a>,📝,3.13,7452725248,250680,4096,✗,✗
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,3.14,14030361600,131072,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.15,999885952,262144,32768,✓,✗
@@ -184,7 +184,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,3.55,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v1'>sentence-transformers/distiluse-base-multilingual-cased-v1</a>,🔍,3.62,134734080,119547,512,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.62,742489344,65536,128000,✗,✗
-<a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.65,149655232,50368,8192,✓,✗
+<a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.66,149655232,50368,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.67,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b</a>,🧠,3.77,68977172480,32032,8192,✗,✗
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,3.86,3836021760,200064,131072,✓,✗
