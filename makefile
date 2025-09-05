@@ -11,20 +11,20 @@ pull:
 	@git pull
 
 download:
-	@touch results/results.jsonl
+	@touch new_results.jsonl
 	@scp -o ConnectTimeout=5 ucloud:/work/euroeval_benchmark_results.jsonl ucloud_results.jsonl || true
 	@if [ -f ucloud_results.jsonl ]; then \
-		cat ucloud_results.jsonl >> results/results.jsonl; \
+		cat ucloud_results.jsonl >> new_results.jsonl; \
 		rm ucloud_results.jsonl; \
 	fi
 	@scp -o ConnectTimeout=5 lv-et-evals:/work/euroeval_benchmark_results.jsonl lv_et_evals_results.jsonl || true
 	@if [ -f lv_et_evals_results.jsonl ]; then \
-		cat lv_et_evals_results.jsonl >> results/results.jsonl; \
+		cat lv_et_evals_results.jsonl >> new_results.jsonl; \
 		rm lv_et_evals_results.jsonl; \
 	fi
 	@scp -o ConnectTimeout=5 apertus:/work/euroeval_benchmark_results.jsonl apertus_results.jsonl || true
 	@if [ -f apertus_results.jsonl ]; then \
-		cat apertus_results.jsonl >> results/results.jsonl; \
+		cat apertus_results.jsonl >> new_results.jsonl; \
 		rm apertus_results.jsonl; \
 	fi
 
@@ -41,9 +41,7 @@ publish:
 	@for leaderboard in leaderboards/*.json; do \
 		git add $${leaderboard}; \
 	done
-	@for results in results/*.jsonl; do \
-		git add $${results}; \
-	done
+	@git add results.tar.gz
 	@git commit -m "feat: Update leaderboards" || true
 	@git push
 	@echo "Published leaderboards!"

@@ -60,16 +60,11 @@ def main(categories: tuple[Literal["all", "nlu"]], force: bool) -> None:
             Whether to force the generation of the leaderboard, even if no updates are
             found.
     """
-    # Process the results
-    records_path = Path("results", "results.jsonl")
     process_results(
-        records_path=records_path,
         banned_versions=BANNED_VERSIONS,
         banned_model_patterns=BANNED_MODEL_PATTERNS,
         api_model_patterns=API_MODEL_PATTERNS,
     )
-
-    # Generate the leaderboards
     all_leaderboard_configs = Path("leaderboard_configs").glob("*.yaml")
     for config_path in all_leaderboard_configs:
         generate_leaderboard(

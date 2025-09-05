@@ -3,6 +3,7 @@
 import json
 import logging
 import re
+import tarfile
 import typing as t
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -33,7 +34,7 @@ class Cache:
     anchor_tag: dict[str, str] = field(default_factory=dict)
 
     @classmethod
-    def from_processed_records(cls, processed_records_path: Path) -> "Cache":
+    def from_processed_records(cls, compressed_results_path: Path) -> "Cache":
         """Create a cache from processed records.
 
         Args:
@@ -44,30 +45,38 @@ class Cache:
             A Cache instance populated with model metadata.
 
         Raises:
+            FileNotFoundError:
+                If the processed records file is not found.
             ValueError:
                 If the processed records file contains invalid JSON.
         """
-        # If the processed records file does not exist, return empty cache
-        if not processed_records_path.exists():
-            logger.warning(
-                f"Processed records file {processed_records_path} does not exist. "
-                "Using an empty cache."
+        if not compressed_results_path.exists():
+            raise FileNotFoundError(
+                f"Results file {compressed_results_path} not found."
             )
-            return cls()
+
+        # Unpack the tar.gz file in memory and read the JSONL file
+        with tarfile.open(compressed_results_path, "r:gz") as tar:
+            results_file = tar.extractfile(member="results/results.processed.jsonl")
+            if results_file is None:
+                logger.warning(
+                    "Processed results file does not exist. Using an empty cache."
+                )
+                return cls()
+            result_lines = results_file.read().decode(encoding="utf-8").splitlines()
 
         # Load the processed records
         old_records: list[dict[str, t.Any]] = list()
-        with processed_records_path.open() as f:
-            for line_idx, line in enumerate(f):
+        for line_idx, line in enumerate(result_lines):
+            if not line.strip():
+                continue
+            for line in line.replace("}{", "}\n{").split("\n"):
                 if not line.strip():
                     continue
-                for line in line.replace("}{", "}\n{").split("\n"):
-                    if not line.strip():
-                        continue
-                    try:
-                        old_records.append(json.loads(line))
-                    except json.JSONDecodeError:
-                        raise ValueError(f"Invalid JSON on line {line_idx:,}: {line}.")
+                try:
+                    old_records.append(json.loads(line))
+                except json.JSONDecodeError:
+                    raise ValueError(f"Invalid JSON on line {line_idx:,}: {line}.")
 
         # Populate a cache from the old records
         cache = cls()

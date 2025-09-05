@@ -35,6 +35,7 @@ KNOWN_MODELS_WITHOUT_URLS = [
 ]
 
 
+@cache
 def generate_task_link(id: int, label: str) -> str:
     """Generate a link to a EuroEval task.
 
@@ -62,6 +63,7 @@ def generate_task_link(id: int, label: str) -> str:
     )
 
 
+@cache
 def generate_anchor_tag(model_id: str) -> str | None:
     """Generate an anchor tag for a model.
 
@@ -120,15 +122,18 @@ def ask_user_to_remove_model(model_id: str) -> bool:
     Returns:
         True if the user wants to remove the model from the results, False otherwise.
     """
-    return (
-        input(
+    while True:
+        user_input = input(
             f"Could not find a URL for model {model_id}. Do you want to remove it from "
             "the results? (y/n): "
         )
-        == "y"
-    )
+        if user_input not in ["y", "n"]:
+            print("Invalid input. Please enter 'y' or 'n'.")
+            continue
+        return user_input == "y"
 
 
+@cache
 def generate_hf_hub_url(model_id: str) -> str | None:
     """Generate a model URL for a model hosted on the Hugging Face Hub.
 
@@ -155,6 +160,7 @@ def generate_hf_hub_url(model_id: str) -> str | None:
         return None
 
 
+@cache
 def generate_openai_url(model_id: str) -> str | None:
     """Generate a model URL for a model hosted on OpenAI.
 
@@ -187,6 +193,7 @@ def generate_openai_url(model_id: str) -> str | None:
     return None
 
 
+@cache
 def generate_anthropic_url(model_id: str) -> str | None:
     """Generate a model URL for a model hosted on Anthropic.
 
@@ -208,6 +215,7 @@ def generate_anthropic_url(model_id: str) -> str | None:
     return None
 
 
+@cache
 def generate_ollama_url(model_id: str) -> str | None:
     """Generate a model URL for a model hosted on Ollama.
 
@@ -224,6 +232,7 @@ def generate_ollama_url(model_id: str) -> str | None:
     return None
 
 
+@cache
 def generate_google_url(model_id: str) -> str | None:
     """Generate a model URL for a model hosted on Google.
 
@@ -246,6 +255,7 @@ def generate_google_url(model_id: str) -> str | None:
     return None
 
 
+@cache
 def generate_xai_url(model_id: str) -> str | None:
     """Generate a model URL for a model hosted on xAI.
 

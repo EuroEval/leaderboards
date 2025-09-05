@@ -16,3 +16,6 @@ launch.json
 
 # Ipynb checkpoints
 **/.ipynb_checkpoints
+
+# Raw data
+**/*.jsonl

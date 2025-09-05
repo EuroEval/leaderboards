@@ -1,8 +1,10 @@
 """Process EuroEval records from a JSONL file."""
 
+import io
 import json
 import logging
 import re
+import tarfile
 import warnings
 from collections import defaultdict
 from copy import deepcopy
@@ -22,7 +24,6 @@ logger = logging.getLogger(__name__)
 
 
 def process_results(
-    records_path: Path,
     banned_versions: list[str],
     banned_model_patterns: list[re.Pattern],
     api_model_patterns: list[re.Pattern],
@@ -30,8 +31,6 @@ def process_results(
     """Process EuroEval records from a JSONL file.
 
     Args:
-        records_path:
-            The path to the JSONL file containing the EuroEval records.
         banned_versions:
             A list of banned EuroEval versions to filter out.
         banned_model_patterns:
@@ -39,12 +38,13 @@ def process_results(
         api_model_patterns:
             A list of regex patterns for API inference models.
     """
+    results_path = Path("results.tar.gz")
+
     # Build the cache from the processed records file
-    processed_records_path = records_path.with_suffix(".processed.jsonl")
-    cache = Cache.from_processed_records(processed_records_path=processed_records_path)
+    cache = Cache.from_processed_records(compressed_results_path=results_path)
 
     # Load all the raw records
-    records = load_raw_results(records_path=records_path)
+    records = load_raw_results()
     num_raw_records = len(records)
 
     # Remove duplicates from the raw records
@@ -83,7 +83,7 @@ def process_results(
     records = new_records
     num_duplicates = num_raw_records - len(records)
     if num_duplicates:
-        logger.info(f"Removed {num_duplicates:,} duplicates from {records_path}.")
+        logger.info(f"Removed {num_duplicates:,} duplicates.")
 
     # Add missing metadata to records. If the metadata cannot be fixed, the record
     # will be replaced with None, which will be removed later.
@@ -99,11 +99,6 @@ def process_results(
         if fixed_record is not None
     ]
 
-    # Overwrite original scores file with the de-duplicated records, to avoid bloat
-    with records_path.open(mode="w") as f:
-        for record in records:
-            f.write(json.dumps(record) + "\n")
-
     # Remove invalid evaluation records
     processed_records = [
         record
@@ -118,19 +113,32 @@ def process_results(
     ]
     num_invalid_records = num_raw_records - num_duplicates - len(processed_records)
     if num_invalid_records > 0:
-        logger.info(
-            f"Removed {num_invalid_records:,} invalid records from {records_path}."
-        )
+        logger.info(f"Removed {num_invalid_records:,} invalid records.")
 
     processed_records = [
         add_missing_entries(record=record, cache=cache)
         for record in tqdm(processed_records, desc="Adding missing entries")
     ]
 
-    # Store processed records in separate file
-    with records_path.with_suffix(".processed.jsonl").open(mode="w") as f:
-        for record in processed_records:
-            f.write(json.dumps(record) + "\n")
+    # Store records in the tar.gz archive
+    with tarfile.open(results_path, "w:gz") as tar:
+        # Raw records
+        raw_content_bytes = "\n".join(json.dumps(record) for record in records).encode(
+            encoding="utf-8"
+        )
+        raw_tarinfo = tarfile.TarInfo(name="results/results.jsonl")
+        raw_tarinfo.size = len(raw_content_bytes)
+        raw_fileobj = io.BytesIO(raw_content_bytes)
+        tar.addfile(tarinfo=raw_tarinfo, fileobj=raw_fileobj)
+
+        # Processed records
+        processed_content_bytes = "\n".join(
+            json.dumps(record) for record in processed_records
+        ).encode(encoding="utf-8")
+        processed_tarinfo = tarfile.TarInfo(name="results/results.processed.jsonl")
+        processed_tarinfo.size = len(processed_content_bytes)
+        processed_fileobj = io.BytesIO(processed_content_bytes)
+        tar.addfile(tarinfo=processed_tarinfo, fileobj=processed_fileobj)
 
 
 def add_missing_entries(record: dict, cache: Cache) -> dict:
