@@ -82,28 +82,28 @@ def generate_anchor_tag(model_id: str) -> str | None:
     if re.match(r"^<a href='.*'>.*</a>$", model_id):
         return model_id
 
-    model_id_without_revision = model_id.split("@")[0]
+    model_id_without_extras = model_id.split("@")[0].split("#")[0]
 
     # Skip models that are known to not have URLs
-    if model_id_without_revision in KNOWN_MODELS_WITHOUT_URLS:
+    if model_id_without_extras in KNOWN_MODELS_WITHOUT_URLS:
         return model_id
 
-    url = generate_ollama_url(model_id=model_id_without_revision)
+    url = generate_ollama_url(model_id=model_id_without_extras)
     if url is None:
-        url = generate_hf_hub_url(model_id=model_id_without_revision)
+        url = generate_hf_hub_url(model_id=model_id_without_extras)
     if url is None:
-        url = generate_openai_url(model_id=model_id_without_revision)
+        url = generate_openai_url(model_id=model_id_without_extras)
     if url is None:
-        url = generate_anthropic_url(model_id=model_id_without_revision)
+        url = generate_anthropic_url(model_id=model_id_without_extras)
     if url is None:
-        url = generate_google_url(model_id=model_id_without_revision)
+        url = generate_google_url(model_id=model_id_without_extras)
     if url is None:
-        url = generate_xai_url(model_id=model_id_without_revision)
+        url = generate_xai_url(model_id=model_id_without_extras)
     if url is None:
-        remove_model = ask_user_to_remove_model(model_id=model_id_without_revision)
+        remove_model = ask_user_to_remove_model(model_id=model_id_without_extras)
         if remove_model:
             log_once(
-                f"Removing model {model_id_without_revision} from results.",
+                f"Removing model {model_id_without_extras} from results.",
                 logging_level=logging.INFO,
             )
             return None
