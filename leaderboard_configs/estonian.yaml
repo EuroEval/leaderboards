@@ -9,6 +9,6 @@ reading-comprehension:
 summarization:
   - err-news
 knowledge:
-  - exam-et
+  - trivia-et
 common-sense-reasoning:
   - winogrande-et
