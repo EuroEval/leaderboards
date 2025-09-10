@@ -22,11 +22,6 @@ download:
 		cat lv_et_evals_results.jsonl >> new_results.jsonl; \
 		rm lv_et_evals_results.jsonl; \
 	fi
-	@scp -o ConnectTimeout=5 apertus:/work/euroeval_benchmark_results.jsonl apertus_results.jsonl || true
-	@if [ -f apertus_results.jsonl ]; then \
-		cat apertus_results.jsonl >> new_results.jsonl; \
-		rm apertus_results.jsonl; \
-	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
