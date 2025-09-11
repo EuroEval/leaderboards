@@ -1,7 +1,7 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.30,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.32,,100256,272000,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash (zero-shot, val)</a>",🤔,1.60,,256128,1048576,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.60,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.62,,,1047576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.76,,100256,272000,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-7-sonnet-20250219 (zero-shot, val)</a>",🤔,1.76,,,200000,✓,✗
@@ -22,7 +22,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,2.28,32759790592,151665,131072,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,2.32,24011361280,131072,,✓,✗
 <a href='https://hf.co/tartuNLP/llama-estllm-protype-0825'>tartuNLP/llama-estllm-protype-0825</a>,📝,2.34,8030261248,128256,131072,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite (zero-shot, val)</a>",🤔,2.35,,256128,1048576,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",🤔,2.35,,256128,1048576,✓,✗
 <a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-base'>LumiOpen/Llama-Poro-2-70B-base</a>,🧠,2.36,70553706496,128256,,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.50,9152319488,128000,4096,✗,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.53,,,200000,✓,✗

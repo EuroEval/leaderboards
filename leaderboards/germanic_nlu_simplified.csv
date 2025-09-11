@@ -109,9 +109,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/swiss-ai/Apertus-8B-Instruct-2509'>swiss-ai/Apertus-8B-Instruct-2509</a>,📝,2.28,8053338176,131072,65536,✗,✗
 <a href='https://hf.co/google/gemma-3n-E4B'>google/gemma-3n-E4B</a>,🧠,2.29,7849978192,262400,,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.29,22637328384,128000,4096,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.29,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3.1-8B'>allenai/Llama-3.1-Tulu-3.1-8B</a>,📝,2.29,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/152334H/miqu-1-70b-sf'>152334H/miqu-1-70b-sf</a>,📝,2.30,68976648192,32000,32764,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.30,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.31,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-Instruct-v0.1'>mistralai/Mixtral-8x7B-Instruct-v0.1</a>,📝,2.32,46702792704,32000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-14B-Chat'>Qwen/Qwen1.5-14B-Chat</a>,📝,2.34,14167290880,152064,32768,✗,✗
@@ -135,8 +135,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-32B</a>,🤔,2.45,32763876352,152064,131072,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-7B-Instruct'>tiiuae/Falcon3-7B-Instruct</a>,📝,2.46,7455550464,131072,32768,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.48,32234279936,100352,4096,✗,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.51,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/CohereForAI/aya-expanse-8b'>CohereForAI/aya-expanse-8b</a>,📝,2.51,8028033024,256000,8192,✗,✗
-<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.52,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.52,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-instruct'>ibm-granite/granite-3.0-8b-instruct</a>,📝,2.52,8170848256,49155,4096,✓,✗
 <a href='https://hf.co/norallm/normistral-11b-warm'>norallm/normistral-11b-warm</a>,🧠,2.52,11429893120,51200,1024000,✓,✗
