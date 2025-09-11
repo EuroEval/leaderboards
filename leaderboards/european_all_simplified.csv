@@ -82,7 +82,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.25,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,🤔,2.26,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B'>deepseek-ai/DeepSeek-R1-0528-Qwen3-8B</a>,🤔,2.27,8190735360,151936,131072,✓,✗
-<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.27,32234279936,100352,4096,✗,✗
+<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.28,32234279936,100352,4096,✗,✗
 <a href='https://hf.co/CohereForAI/aya-23-35B'>CohereForAI/aya-23-35B</a>,📝,2.28,34980831232,256000,8192,✗,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-Instruct-v0.1'>mistralai/Mixtral-8x7B-Instruct-v0.1</a>,📝,2.28,46702792704,32000,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.28,22637328384,128000,4096,✓,✗

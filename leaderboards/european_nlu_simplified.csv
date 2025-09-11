@@ -78,9 +78,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite-preview-06-17'>gemini/gemini-2.5-flash-lite-preview-06-17#no-thinking (zero-shot, val)</a>",📝,2.10,,256128,1048576,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.11,561192082,250002,512,✓,✗
 <a href='https://hf.co/microsoft/phi-4'>microsoft/phi-4</a>,📝,2.11,14659507200,100352,16384,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.11,,128000,4096,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.12,470927360,501153,512,✓,✗
 <a href='https://hf.co/google/gemma-2-27b'>google/gemma-2-27b</a>,🧠,2.12,27227128320,256000,8192,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.12,,128000,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-hf'>meta-llama/Llama-2-70b-hf</a>,🧠,2.12,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.13,574594434,250300,512,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B'>deepseek-ai/DeepSeek-R1-Distill-Llama-70B</a>,🤔,2.15,70553706496,128256,131072,✓,✗
