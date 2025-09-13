@@ -69,7 +69,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.95,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.99,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/Finnish-NLP/roberta-large-finnish'>Finnish-NLP/roberta-large-finnish</a>,🔍,2.99,355361794,50265,514,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.01,3075098624,128256,65536,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.00,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,🤔,3.02,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/Finnish-NLP/roberta-large-finnish-v2'>Finnish-NLP/roberta-large-finnish-v2</a>,🔍,3.07,355361794,50265,514,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.14,999885952,262144,32768,✓,✗
