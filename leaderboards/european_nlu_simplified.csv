@@ -90,4 +90,4 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 fresh-xlm-roberta-base,🔍,4.30,278885778,250002,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.36,134515008,49152,8192,✓,✗
 fresh-electra-small,🔍,4.47,13738755,32000,128,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.48,134515008,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.49,134515008,49152,8192,✓,✗
