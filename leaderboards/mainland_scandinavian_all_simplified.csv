@@ -180,7 +180,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.86,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-instruct'>ibm-granite/granite-3.0-2b-instruct</a>,📝,2.86,2634201088,49155,4097,✓,✗
 <a href='https://hf.co/microsoft/Phi-3-mini-4k-instruct'>microsoft/Phi-3-mini-4k-instruct</a>,📝,2.87,3821079552,32064,4096,✓,✗
-<a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,2.87,11102822400,65024,8192,✓,✗
+<a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,2.88,11102822400,65024,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-4B-Chat'>Qwen/Qwen1.5-4B-Chat</a>,📝,2.89,3950369280,151936,32768,✗,✗
 <a href='https://hf.co/meta-llama/Llama-2-7b-hf'>meta-llama/Llama-2-7b-hf</a>,📝,2.89,6738417664,32000,4096,✓,✗
 <a href='https://hf.co/emillykkejensen/Phi-3-mini-4k-instruct-dansk'>emillykkejensen/Phi-3-mini-4k-instruct-dansk</a>,📝,2.89,3821079552,32064,4096,✗,✗
@@ -201,7 +201,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/infly/OpenCoder-8B-Instruct'>infly/OpenCoder-8B-Instruct</a>,📝,3.01,7771262976,96640,8192,✓,✗
 <a href='https://hf.co/google/gemma-2-2b'>google/gemma-2-2b</a>,🧠,3.03,2614341888,256000,8192,✓,✗
 <a href='https://hf.co/microsoft/Phi-3-mini-128k-instruct'>microsoft/Phi-3-mini-128k-instruct</a>,📝,3.03,3821079552,32064,131072,✓,✗
-<a href='https://hf.co/NorwAI/NorwAI-Llama2-7B'>NorwAI/NorwAI-Llama2-7B</a>,🧠,3.03,7033270272,67993,4096,✓,✗
+<a href='https://hf.co/NorwAI/NorwAI-Llama2-7B'>NorwAI/NorwAI-Llama2-7B</a>,🧠,3.04,7033270272,67993,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-base'>ibm-granite/granite-3.0-2b-base</a>,🧠,3.04,2533525504,49152,4097,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,3.06,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b'>AI-Sweden-Models/gpt-sw3-20b</a>,🧠,3.07,20918423552,64000,2048,✓,✗
