@@ -43,7 +43,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.85,14765947904,151665,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.86,12187325040,262144,,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07#high (zero-shot, val)</a>",🤔,1.86,,100256,272000,✓,✗
-<a href='https://hf.co/meta-llama/Meta-Llama-3-70B-Instruct'>meta-llama/Meta-Llama-3-70B-Instruct</a>,📝,1.86,70553706496,128256,8192,✓,✗
+<a href='https://hf.co/meta-llama/Meta-Llama-3-70B-Instruct'>meta-llama/Meta-Llama-3-70B-Instruct</a>,📝,1.87,70553706496,128256,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B'>Qwen/Qwen3-30B-A3B</a>,🤔,1.87,30532122624,151936,40960,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.89,,100256,272000,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B</a>,🤔,1.90,32762123264,151936,40960,✓,✗
@@ -61,9 +61,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF'>nvidia/Llama-3.1-Nemotron-70B-Instruct-HF</a>,📝,1.96,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,1.96,559890946,250002,512,✓,✗
 "<a href='https://platform.openai.com/docs/models/o3-mini'>o3-mini-2025-01-31 (zero-shot, val)</a>",🤔,1.97,,,200000,✓,✗
-<a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,1.97,575923843,250300,512,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,1.97,,,1047576,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,1.98,470927360,501153,512,✓,✗
+<a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,1.98,575923843,250300,512,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-lite-001'>gemini/gemini-2.0-flash-lite-001 (zero-shot, val)</a>",📝,1.99,,256128,1048576,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.00,561192082,250002,512,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-24B-Instruct-2501'>mistralai/Mistral-Small-24B-Instruct-2501</a>,📝,2.01,23572403200,131072,32768,✓,✗
@@ -281,8 +281,8 @@ fresh-xlm-roberta-base,🔍,4.26,278045955,250002,512,✓,✗
 <a href='https://hf.co/infly/OpenCoder-1.5B-Base'>infly/OpenCoder-1.5B-Base</a>,📝,4.44,1905650960,96640,4096,✓,✗
 fresh-electra-small,🔍,4.45,13549571,30522,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.50,134515008,49152,8192,✓,✗
-<a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,4.51,811778816,50257,1024,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.52,186112512,64000,2048,✓,✗
+<a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,4.52,811778816,50257,1024,✓,✗
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.60,379988992,50257,1024,✓,✗
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,4.68,137022720,50257,1024,✓,✗
 <a href='https://hf.co/ssmits/Falcon2-5.5B-multilingual'>ssmits/Falcon2-5.5B-multilingual</a>,🧠,4.88,5465415680,65024,8192,✓,✓

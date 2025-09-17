@@ -47,7 +47,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,2.34,278044162,250002,512,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.37,,,1047576,✓,✗
 <a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.41,278810882,251000,512,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.41,9152319488,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.42,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.47,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/mistralai/Voxtral-Mini-3B-2507'>mistralai/Voxtral-Mini-3B-2507</a>,📝,2.47,4676271104,131072,,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.50,140642306,256000,8192,✓,✗
@@ -69,7 +69,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.16,999885952,262144,32768,✓,✗
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,3.24,117654272,250037,512,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.25,1235814400,128256,131072,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.36,999885952,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.37,999885952,262144,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.40,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.41,751632384,151936,40960,✓,✗
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.47,93990500,65636,512,✓,✗
@@ -81,12 +81,12 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.68,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.73,1791080448,120818,262144,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.92,2611528704,128000,4096,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,3.93,354483968,65536,128000,✗,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.05,361821120,49152,8192,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,3.94,354483968,65536,128000,✗,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.06,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.17,361821120,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.25,268098176,262144,32768,✓,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.27,268098176,262144,32768,✓,✗
-fresh-xlm-roberta-base,🔍,4.30,278885778,250002,512,✓,✗
+fresh-xlm-roberta-base,🔍,4.31,278885778,250002,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.36,134515008,49152,8192,✓,✗
 fresh-electra-small,🔍,4.47,13738755,32000,128,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.48,134515008,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.49,134515008,49152,8192,✓,✗
