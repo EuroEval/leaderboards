@@ -1,0 +1,3 @@
+model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
+<a href='https://hf.co/TildeAI/TildeOpen-30b'>TildeAI/TildeOpen-30b#slow-tokenizer</a>,🧠,2.04,30677882880,131072,65536,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,2.76,751632384,151936,40960,✓,✗
