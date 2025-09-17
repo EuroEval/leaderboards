@@ -13,7 +13,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,1.92,7849978192,262400,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.94,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B</a>,🤔,2.07,14768307200,151936,40960,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.07,22637328384,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.08,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,2.15,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.15,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-Instruct-2509'>swiss-ai/Apertus-8B-Instruct-2509</a>,📝,2.17,8053338176,131072,65536,✗,✗
@@ -29,9 +29,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.45,,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.45,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.47,470927360,501153,512,✓,✗
-<a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.50,8053338176,131072,65536,✓,✗
+<a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.51,8053338176,131072,65536,✓,✗
 <a href='https://hf.co/TildeAI/TildeOpen-30b'>TildeAI/TildeOpen-30b#slow-tokenizer</a>,🧠,2.51,30677882880,131072,65536,✓,✗
-<a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.52,4300079472,262144,,✓,✗
+<a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.53,4300079472,262144,,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.54,561192082,250002,512,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.63,307531778,256000,8192,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.73,559890946,250002,512,✓,✗
@@ -45,9 +45,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,3.01,278044162,250002,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.21,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,3.23,2023868416,64000,4096,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.24,999885952,262144,32768,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.27,3075098624,128256,65536,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B</a>,🤔,3.45,751632384,151936,40960,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.25,999885952,262144,32768,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.28,3075098624,128256,65536,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B</a>,🤔,3.46,751632384,151936,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.50,751632384,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.54,999885952,262144,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.67,2611528704,128000,4096,✓,✗
