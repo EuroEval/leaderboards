@@ -22,6 +22,11 @@ download:
 		cat lv_et_evals_results.jsonl >> new_results.jsonl; \
 		rm lv_et_evals_results.jsonl; \
 	fi
+	@scp -o ConnectTimeout=5 large:/work/euroeval_benchmark_results.jsonl large_results.jsonl || true
+	@if [ -f large_results.jsonl ]; then \
+		cat large_results.jsonl >> new_results.jsonl; \
+		rm large_results.jsonl; \
+	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
