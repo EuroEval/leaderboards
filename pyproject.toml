@@ -28,8 +28,8 @@ Issues = "https://github.com/EuroEval/EuroEval/issues"
 [project.license]
 file = "LICENSE"
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "pre-commit>=3.8.0",
     "ruff>=0.7.1",
     "mypy>=1.15.0",
