@@ -63,7 +63,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,1.86,8190735360,151936,40960,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro-002'>gemini/gemini-1.5-pro-002 (zero-shot, val)</a>",📝,1.87,,256128,2097152,✓,✗
 <a href='https://hf.co/RekaAI/reka-flash-3'>RekaAI/reka-flash-3</a>,🤔,1.88,20905482240,100352,32768,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-4o-mini'>gpt-4o-mini-2024-07-18 (zero-shot, val)</a>",📝,1.91,,200019,128000,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-4o-mini'>gpt-4o-mini-2024-07-18 (zero-shot, val)</a>",📝,1.90,,200019,128000,✓,✗
 "<a href='https://platform.openai.com/docs/models/o3-mini'>o3-mini-2025-01-31 (zero-shot, val)</a>",🤔,1.92,,,200000,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07#minimal (zero-shot, val)</a>",🤔,1.92,,100256,272000,✓,✗
 <a href='https://hf.co/152334H/miqu-1-70b-sf'>152334H/miqu-1-70b-sf</a>,📝,1.92,68976648192,32000,32764,✓,✗
@@ -120,7 +120,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.32,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,2.32,8030261248,128256,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07#minimal (zero-shot, val)</a>",🤔,2.34,,100256,272000,✓,✗
-<a href='https://hf.co/ibm-granite/granite-3.0-8b-instruct'>ibm-granite/granite-3.0-8b-instruct</a>,📝,2.35,8170848256,49155,4096,✓,✗
+<a href='https://hf.co/ibm-granite/granite-3.0-8b-instruct'>ibm-granite/granite-3.0-8b-instruct</a>,📝,2.34,8170848256,49155,4096,✓,✗
 <a href='https://hf.co/kurakurai/Luth-1.7B-Instruct'>kurakurai/Luth-1.7B-Instruct</a>,📝,2.35,1720574976,151936,40960,✗,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.36,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B'>meta-llama/Meta-Llama-3-8B</a>,🧠,2.36,8030261248,128256,8192,✓,✗
@@ -143,10 +143,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.60,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.60,4300079472,262144,,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.60,33715603456,49152,8192,✓,✗
+<a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,2.61,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.1'>mistralai/Mistral-7B-Instruct-v0.1</a>,📝,2.62,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.62,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.62,7241732096,32000,32768,✓,✗
-<a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,2.62,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.64,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/neuralmagic/Sparse-Llama-3.1-8B-2of4'>neuralmagic/Sparse-Llama-3.1-8B-2of4</a>,🧠,2.65,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.2'>mistralai/Mistral-7B-Instruct-v0.2</a>,📝,2.66,7241732096,32000,32768,✗,✗
