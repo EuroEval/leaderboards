@@ -99,7 +99,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/AI-Sweden-Models/roberta-large-1160k'>AI-Sweden-Models/roberta-large-1160k</a>,🔍,2.24,355412057,50265,512,✓,✗
 <a href='https://hf.co/microsoft/phi-4'>microsoft/phi-4</a>,📝,2.24,14659507200,100352,16384,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,2.24,11168796672,32128,32768,✓,✓
-<a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.25,307531778,256000,8192,✓,✗
+<a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.25,307532547,256000,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.25,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B-Instruct'>meta-llama/Meta-Llama-3-8B-Instruct</a>,📝,2.25,8030261248,128256,8192,✓,✗
 <a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,2.25,8030261248,128256,131072,✓,✗
@@ -136,7 +136,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Ministral-8B-Instruct-2410'>mistralai/Ministral-8B-Instruct-2410</a>,📝,2.43,8019808256,131072,32768,✓,✗
 <a href='https://hf.co/ZurichNLP/unsup-simcse-xlm-roberta-base'>ZurichNLP/unsup-simcse-xlm-roberta-base</a>,🔍,2.44,278045955,250002,512,✓,✗
 <a href='https://hf.co/CohereForAI/c4ai-command-r-v01'>CohereForAI/c4ai-command-r-v01</a>,📝,2.44,34980831232,256000,8192,✗,✗
-<a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.45,278810882,251000,512,✓,✗
+<a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.45,278811651,251000,512,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B-Instruct'>allenai/OLMo-2-1124-13B-Instruct</a>,📝,2.45,13716198400,100352,4096,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-32B</a>,🤔,2.45,32763876352,152064,131072,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-7B-Instruct'>tiiuae/Falcon3-7B-Instruct</a>,📝,2.46,7455550464,131072,32768,✓,✗
@@ -154,14 +154,14 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.57,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.58,4300079472,262144,,✓,✗
 <a href='https://hf.co/google/gemma-7b'>google/gemma-7b</a>,🧠,2.59,8537680896,256000,8192,✓,✗
+<a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.59,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/mistralai/Mistral-7B-v0.3'>mistralai/Mistral-7B-v0.3</a>,🧠,2.60,7248023552,32768,32768,✓,✗
-<a href='https://hf.co/mistralai/Mistral-7B-v0.1'>mistralai/Mistral-7B-v0.1</a>,🧠,2.60,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-base'>ibm-granite/granite-3.0-8b-base</a>,🧠,2.61,8170835968,49152,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.62,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B'>allenai/OLMo-2-1124-13B</a>,🧠,2.65,13716198400,100352,4096,✓,✗
 <a href='https://hf.co/cardiffnlp/twitter-xlm-roberta-base'>cardiffnlp/twitter-xlm-roberta-base</a>,🔍,2.65,278045955,250002,512,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.66,33715603456,49152,8192,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,2.66,394781696,50368,8192,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,2.66,395881664,50368,8192,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-7B-Base'>tiiuae/Falcon3-7B-Base</a>,🧠,2.67,7455550464,131072,32768,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,2.67,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/LumiOpen/Viking-33B'>LumiOpen/Viking-33B</a>,🧠,2.67,33119034368,131072,4096,✓,✗

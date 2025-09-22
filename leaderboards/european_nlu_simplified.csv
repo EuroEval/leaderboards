@@ -37,7 +37,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.18,,128000,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.19,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.21,22637328384,128000,4096,✓,✗
-<a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.21,575922690,250300,512,✓,✗
+<a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.21,574594434,250300,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,📝,2.21,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.22,307531778,256000,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.25,4022468096,151936,262144,✓,✗
@@ -50,13 +50,13 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,2.37,278044162,250002,512,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.38,,,1047576,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.41,32234279936,100352,4096,✗,✗
-<a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.42,278810882,251000,512,✓,✗
+<a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.42,278220290,251000,512,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.45,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.47,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/mistralai/Voxtral-Mini-3B-2507'>mistralai/Voxtral-Mini-3B-2507</a>,📝,2.50,4676271104,131072,,✓,✗
+"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.51,,,200000,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.51,140642306,256000,8192,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.52,3606752256,128256,131072,✓,✗
-"<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.52,,,200000,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-2509'>swiss-ai/Apertus-70B-2509</a>,🧠,2.60,70599864480,131072,65536,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.60,4300079472,262144,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.66,2031739904,151936,40960,✓,✗
