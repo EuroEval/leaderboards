@@ -55,9 +55,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B'>Qwen/Qwen3-30B-A3B</a>,🤔,1.74,30532122624,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.74,12187325040,262144,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.75,30532122624,151936,262144,✓,✗
+<a href='https://hf.co/Qwen/QwQ-32B'>Qwen/QwQ-32B</a>,🤔,1.78,32763876352,152064,40960,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4-turbo'>gpt-4-1106-preview (zero-shot, val)</a>",📝,1.78,,100256,8191,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B</a>,🤔,1.78,14768307200,151936,40960,✓,✗
-<a href='https://hf.co/Qwen/QwQ-32B'>Qwen/QwQ-32B</a>,🤔,1.79,32763876352,152064,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.79,14768307200,151936,40960,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-lite-001'>gemini/gemini-2.0-flash-lite-001 (zero-shot, val)</a>",📝,1.82,,256128,1048576,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,1.84,,256128,1048576,✓,✗
@@ -193,9 +193,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/01-ai/Yi-1.5-6B'>01-ai/Yi-1.5-6B</a>,🧠,2.89,6061035520,64000,4097,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-7B'>allenai/OLMo-2-1124-7B</a>,🧠,2.91,7298617344,100352,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-base'>ibm-granite/granite-20b-code-base</a>,🧠,2.91,20066993152,49152,8192,✓,✗
+<a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,2.91,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.91,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-base-4k'>ibm-granite/granite-8b-code-base-4k</a>,🧠,2.92,8054910976,49152,4096,✓,✗
-<a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,2.92,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/norallm/normistral-7b-warm-instruct'>norallm/normistral-7b-warm-instruct</a>,📝,2.93,,32768,2048,✓,✗
 <a href='https://hf.co/tollefj/nordavind-7b-instruct-warm'>tollefj/nordavind-7b-instruct-warm</a>,📝,2.93,7248023552,32768,2048,✗,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-14B</a>,🤔,2.95,14770033664,152064,131072,✓,✗
@@ -206,9 +206,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-2-7b-chat-hf'>meta-llama/Llama-2-7b-chat-hf</a>,📝,2.98,6738417664,32000,4096,✓,✗
 <a href='https://hf.co/infly/OpenCoder-8B-Instruct'>infly/OpenCoder-8B-Instruct</a>,📝,3.02,7771262976,96640,8192,✓,✗
 <a href='https://hf.co/microsoft/Phi-3-mini-128k-instruct'>microsoft/Phi-3-mini-128k-instruct</a>,📝,3.03,3821079552,32064,131072,✓,✗
+<a href='https://hf.co/NorwAI/NorwAI-Llama2-7B'>NorwAI/NorwAI-Llama2-7B</a>,🧠,3.03,7033270272,67993,4096,✓,✗
 <a href='https://hf.co/google/gemma-2-2b'>google/gemma-2-2b</a>,🧠,3.03,2614341888,256000,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-base'>ibm-granite/granite-3.0-2b-base</a>,🧠,3.03,2533525504,49152,4097,✓,✗
-<a href='https://hf.co/NorwAI/NorwAI-Llama2-7B'>NorwAI/NorwAI-Llama2-7B</a>,🧠,3.04,7033270272,67993,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,3.06,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-33B'>LumiOpen/Viking-33B1000B</a>,🧠,3.07,33119034368,131072,4099,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b'>AI-Sweden-Models/gpt-sw3-20b</a>,🧠,3.07,20918423552,64000,2048,✓,✗
@@ -274,7 +274,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.69,742489344,65536,128000,✗,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.69,3211926528,65536,4096,✓,✗
 <a href='https://hf.co/mhenrichsen/danskgpt-tiny'>mhenrichsen/danskgpt-tiny</a>,🧠,3.70,1100048384,32000,2048,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.73,1195468800,65536,2048,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.72,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3b-code-instruct-2k'>ibm-granite/granite-3b-code-instruct-2k</a>,📝,3.73,3482503680,49152,2048,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.75,1791080448,120818,262144,✓,✗
 <a href='https://hf.co/infly/OpenCoder-1.5B-Instruct'>infly/OpenCoder-1.5B-Instruct</a>,📝,3.76,1905650880,96640,4096,✗,✗
