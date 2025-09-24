@@ -261,8 +261,8 @@ skole-gpt-mixtral,🧠,2.02,,32000,32768,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-2b-instruct'>BSC-LT/salamandra-2b-instruct</a>,📝,3.35,2253490176,256000,8192,✓,✗
 <a href='https://hf.co/google/gemma-2b'>google/gemma-2b</a>,🧠,3.36,2506172416,256000,8192,✓,✗
 <a href='https://hf.co/MaLA-LM/emma-500-llama2-7b'>MaLA-LM/emma-500-llama2-7b</a>,🧠,3.39,6738415616,32000,4096,✓,✗
+<a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.39,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/seedboxai/KafkaLM-70B-German-V0.1'>seedboxai/KafkaLM-70B-German-V0.1 (val)</a>,🧠,3.40,68976648192,32000,4096,✓,✗
-<a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.40,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.41,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4'>openGPT-X/Teuken-7B-instruct-commercial-v0.4</a>,📝,3.41,7452725248,250680,4096,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,3.43,3836021760,200064,131072,✓,✗

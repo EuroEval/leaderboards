@@ -24,8 +24,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-Instruct'>LumiOpen/Llama-Poro-2-70B-Instruct</a>,📝,1.65,70553706496,128256,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.66,12187325040,262144,,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v2-preview-llama-70B'>deepcogito/cogito-v2-preview-llama-70B</a>,📝,1.66,70553706496,128256,131072,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07#high (zero-shot, val)</a>",🤔,1.66,,100256,272000,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.66,,100256,272000,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07#high (zero-shot, val)</a>",🤔,1.67,,100256,272000,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.69,72706203648,152064,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B'>Qwen/Qwen3-235B-A22B</a>,🤔,1.69,235093634560,151936,40960,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.69,70553706496,128256,131072,✓,✗
@@ -68,8 +68,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.93,,,1047576,✓,✗
 "xai/grok-3-beta (zero-shot, val)</a>",📝,1.94,,,131072,✓,✗
 <a href='https://hf.co/ThatsGroes/gemma-2-27b-it-FP8-Dynamic'>ThatsGroes/gemma-2-27b-it-FP8-Dynamic</a>,📝,1.94,28410968576,256000,8192,✓,✗
-<a href='https://hf.co/mistralai/Mixtral-8x7B-v0.1'>mistralai/Mixtral-8x7B-v0.1</a>,🧠,1.96,46702792704,32000,32768,✓,✗
 "<a href='https://platform.openai.com/docs/models/o4-mini'>o4-mini-2025-04-16 (zero-shot, val)</a>",🤔,1.96,,,200000,✓,✗
+<a href='https://hf.co/mistralai/Mixtral-8x7B-v0.1'>mistralai/Mixtral-8x7B-v0.1</a>,🧠,1.97,46702792704,32000,32768,✓,✗
 <a href='https://hf.co/RekaAI/reka-flash-3'>RekaAI/reka-flash-3</a>,🤔,1.97,20905482240,100352,32768,✓,✗
 <a href='https://hf.co/Qwen/QwQ-32B'>Qwen/QwQ-32B</a>,🤔,1.98,32763876352,152064,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B</a>,🤔,1.98,8190735360,151936,40960,✓,✗
@@ -228,7 +228,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,3.77,3836021760,200064,131072,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v1'>sentence-transformers/distiluse-base-multilingual-cased-v1</a>,🔍,3.79,134734080,119547,512,✓,✗
 <a href='https://hf.co/Finnish-NLP/llama-7b-finnish'>Finnish-NLP/llama-7b-finnish</a>,🧠,3.82,7002656768,64256,2048,✓,✗
-<a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,3.83,2023868416,64000,4096,✓,✗
+<a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,3.84,2023868416,64000,4096,✓,✗
 <a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.91,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/HPLT/hplt2c_fin_checkpoints'>HPLT/hplt2c_fin_checkpoints</a>,🧠,3.95,,262272,2048,✓,✗
 fresh-xlm-roberta-base,🔍,4.15,278885778,250002,512,✓,✗

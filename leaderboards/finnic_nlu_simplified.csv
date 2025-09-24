@@ -3,7 +3,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.50,,256128,1048576,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.60,27432406640,262144,,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.61,,256128,1048576,✓,✗
-<a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.66,24011361280,131072,,✓,✗
+<a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.67,24011361280,131072,,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.69,27432406640,262144,,✓,✗
 <a href='https://hf.co/LumiOpen/Llama-Poro-2-70B-SFT'>LumiOpen/Llama-Poro-2-70B-SFT</a>,📝,1.72,70553706496,128256,8192,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.73,70553706496,128256,131072,✓,✗
@@ -51,8 +51,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,📝,2.31,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.34,470927360,501153,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Thinking-2507'>Qwen/Qwen3-4B-Thinking-2507</a>,🤔,2.34,4022468096,151936,262144,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.36,,,1047576,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.37,9152319488,128000,4096,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.37,,,1047576,✓,✗
 <a href='https://hf.co/TurkuNLP/bert-large-finnish-cased-v1'>TurkuNLP/bert-large-finnish-cased-v1</a>,🔍,2.39,354147330,50105,512,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#thinking</a>,🤔,2.39,110468824832,151552,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.39,9152319488,128000,4096,✗,✗

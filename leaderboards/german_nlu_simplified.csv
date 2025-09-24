@@ -85,9 +85,9 @@ skole-gpt-mixtral,🧠,1.95,,32000,32768,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,2.00,,256128,1048576,✓,✗
 <a href='https://hf.co/cstr/Spaetzle-v8-7b'>cstr/Spaetzle-v8-7b (val)</a>,📝,2.00,7241732096,32000,32768,✗,✓
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,2.00,,100256,272000,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro-002'>gemini/gemini-1.5-pro-002 (zero-shot, val)</a>",📝,2.01,,256128,2097152,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-14B-Chat'>Qwen/Qwen1.5-14B-Chat</a>,📝,2.01,14167290880,152064,32768,✗,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07#high (zero-shot, val)</a>",🤔,2.02,,100256,272000,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro-002'>gemini/gemini-1.5-pro-002 (zero-shot, val)</a>",📝,2.02,,256128,2097152,✓,✗
 <a href='https://ollama.com/library/gemma3:27b-it-q4_K_M'>ollama_chat/gemma3:27b-it-q4_K_M (val)</a>,📝,2.02,27400000000,262144,128000,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25'>gemini/gemini-2.5-pro-preview-03-25 (zero-shot, val)</a>",🤔,2.02,,256128,1048576,✓,✗
 <a href='https://hf.co/mlabonne/NeuralBeagle14-7B'>mlabonne/NeuralBeagle14-7B (val)</a>,📝,2.03,7241732096,32000,8192,✗,✓
