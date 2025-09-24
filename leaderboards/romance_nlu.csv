@@ -191,7 +191,7 @@ model,generative_type,rank,french,italian,portuguese,spanish,parameters,vocabula
 <a href='https://hf.co/ibm-granite/granite-3b-code-base-2k'>ibm-granite/granite-3b-code-base-2k</a>,🧠,3.01@@3.01,3.33@@3.33,3.07@@3.07,2.70@@2.70,2.95@@2.95,3482503680.0,49152.0,2048.0,✓,✗
 <a href='https://hf.co/microsoft/xlm-align-base'>microsoft/xlm-align-base</a>,🔍,3.03@@3.03,2.69@@2.69,2.84@@2.84,3.19@@3.19,3.39@@3.39,278045186.0,250002.0,514.0,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,3.04@@3.04,2.78@@2.78,3.13@@3.13,3.09@@3.09,3.17@@3.17,8053338176.0,131072.0,65536.0,✓,✗
-<a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,3.04@@3.04,2.74@@2.74,3.41@@3.41,2.76@@2.76,3.25@@3.25,7799574528.0,100096.0,4096.0,✓,✗
+<a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,3.04@@3.04,2.74@@2.74,3.42@@3.42,2.76@@2.76,3.25@@3.25,7799574528.0,100096.0,4096.0,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.05@@3.05,2.85@@2.85,3.18@@3.18,2.86@@2.86,3.31@@3.31,2424375168.0,99000.0,28723.0,✗,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B'>deepseek-ai/DeepSeek-R1-Distill-Llama-8B</a>,🤔,3.05@@3.05,2.92@@2.92,3.31@@3.31,2.96@@2.96,3.01@@3.01,8030261248.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.05@@3.05,3.09@@3.09,3.19@@3.19,2.82@@2.82,3.11@@3.11,999885952.0,262144.0,32768.0,✓,✗
@@ -200,7 +200,7 @@ model,generative_type,rank,french,italian,portuguese,spanish,parameters,vocabula
 <a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,3.12@@3.12,3.21@@3.21,3.10@@3.10,3.02@@3.02,3.16@@3.16,278044162.0,250002.0,512.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3b-code-instruct-2k'>ibm-granite/granite-3b-code-instruct-2k</a>,📝,3.13@@3.13,3.54@@3.54,2.92@@2.92,2.78@@2.78,3.27@@3.27,3482503680.0,49152.0,2048.0,✓,✗
 <a href='https://hf.co/Twitter/twhin-bert-base'>Twitter/twhin-bert-base</a>,🔍,3.13@@3.13,3.12@@3.12,3.10@@3.10,3.16@@3.16,3.16@@3.16,279080594.0,250002.0,512.0,✓,✗
-<a href='https://hf.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1'>sentence-transformers/paraphrase-xlm-r-multilingual-v1</a>,🔍,3.13@@3.13,3.19@@3.19,3.17@@3.17,3.00@@3.00,3.15@@3.15,278044162.0,250002.0,512.0,✓,✗
+<a href='https://hf.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1'>sentence-transformers/paraphrase-xlm-r-multilingual-v1</a>,🔍,3.13@@3.13,3.19@@3.19,3.18@@3.18,3.00@@3.00,3.15@@3.15,278044162.0,250002.0,512.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B</a>,🤔,3.13@@3.13,3.03@@3.03,3.44@@3.44,2.94@@2.94,3.10@@3.10,751632384.0,151936.0,40960.0,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.16@@3.16,2.97@@2.97,3.46@@3.46,2.99@@2.99,3.23@@3.23,742489344.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/cardiffnlp/twitter-xlm-roberta-base'>cardiffnlp/twitter-xlm-roberta-base</a>,🔍,3.18@@3.18,3.18@@3.18,3.14@@3.14,3.09@@3.09,3.30@@3.30,278045186.0,250002.0,514.0,✓,✗
@@ -220,7 +220,7 @@ model,generative_type,rank,french,italian,portuguese,spanish,parameters,vocabula
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B'>HuggingFaceTB/SmolLM2-1.7B</a>,🧠,3.35@@3.35,3.03@@3.03,3.74@@3.74,3.11@@3.11,3.50@@3.50,1711376384.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,3.37@@3.37,2.70@@2.70,3.65@@3.65,3.46@@3.46,3.68@@3.68,2023868416.0,64000.0,4096.0,✓,✗
 <a href='https://hf.co/nickprock/multi-sentence-BERTino'>nickprock/multi-sentence-BERTino</a>,🔍,3.40@@3.40,3.50@@3.50,2.73@@2.73,3.76@@3.76,3.61@@3.61,67576320.0,32102.0,512.0,✓,✗
-<a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.41@@3.41,3.45@@3.45,3.55@@3.55,3.26@@3.26,3.40@@3.40,1791080448.0,120818.0,262144.0,✓,✗
+<a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.42@@3.42,3.45@@3.45,3.57@@3.57,3.26@@3.26,3.40@@3.40,1791080448.0,120818.0,262144.0,✓,✗
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,3.43@@3.43,3.41@@3.41,3.45@@3.45,3.45@@3.45,3.40@@3.40,117654272.0,250037.0,512.0,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,3.45@@3.45,3.41@@3.41,3.64@@3.64,3.32@@3.32,3.45@@3.45,354483968.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/microsoft/phi-2'>microsoft/phi-2</a>,🧠,3.46@@3.46,3.56@@3.56,3.64@@3.64,3.19@@3.19,3.46@@3.46,2779683840.0,51200.0,2048.0,✓,✗
