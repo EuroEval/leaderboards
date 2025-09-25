@@ -424,7 +424,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,2.18,,32002,32768,✓,✗
 <a href='https://hf.co/timpal0l/Mistral-7B-v0.1-flashback-v2'>timpal0l/Mistral-7B-v0.1-flashback-v2</a>,📝,3.16,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v2'>sentence-transformers/distiluse-base-multilingual-cased-v2</a>,🔍,3.16,134734080,119547,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B-Instruct'>HuggingFaceTB/SmolLM2-1.7B-Instruct</a>,📝,3.20,1711376384,49152,8192,✓,✗
-<a href='https://hf.co/Qwen/Qwen1.5-1.8B-Chat'>Qwen/Qwen1.5-1.8B-Chat</a>,📝,3.22,1836828672,151936,32768,✗,✗
+<a href='https://hf.co/Qwen/Qwen1.5-1.8B-Chat'>Qwen/Qwen1.5-1.8B-Chat</a>,📝,3.21,1836828672,151936,32768,✗,✗
 <a href='https://hf.co/Maltehb/aelaectra-danish-electra-small-cased'>Maltehb/aelaectra-danish-electra-small-cased</a>,🔍,3.22,13738755,32000,128,✓,✗
 <a href='https://hf.co/mideind/IceBERT-igc'>mideind/IceBERT-igc</a>,🔍,3.24,124494162,50000,514,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-1.8B'>Qwen/Qwen1.5-1.8B</a>,📝,3.27,1836828672,151936,32768,✓,✗
@@ -449,13 +449,13 @@ mhenrichsen/danskgpt-chat-v2.1,📝,2.18,,32002,32768,✓,✗
 <a href='https://hf.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b</a>,🧠,3.51,68977172480,32032,8192,✗,✗
 <a href='https://hf.co/3ebdola/Dialectal-Arabic-XLM-R-Base'>3ebdola/Dialectal-Arabic-XLM-R-Base</a>,🔍,3.52,278045955,250002,512,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,3.52,1170340608,65536,128000,✗,✗
-<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.55,2611528704,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.54,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/marksverdhei/modern-norbert3-large'>marksverdhei/modern-norbert3-large</a>,🔍,3.57,354290512,50000,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B-Chat'>Qwen/Qwen1.5-0.5B-Chat</a>,📝,3.61,619570176,151936,32768,✗,✗
 <a href='https://hf.co/danish-foundation-models/encoder-small-v1'>danish-foundation-models/encoder-small-v1</a>,🔍,3.62,22007401,96105,128,✓,✗
-<a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.63,1791080448,120818,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B'>Qwen/Qwen1.5-0.5B</a>,📝,3.63,619570176,151936,32768,✓,✗
 <a href='https://hf.co/mhenrichsen/danskgpt-tiny'>mhenrichsen/danskgpt-tiny</a>,🧠,3.64,1100048384,32000,2048,✓,✗
+<a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.65,1791080448,120818,262144,✓,✗
 <a href='https://hf.co/dbmdz/bert-tiny-historic-multilingual-cased'>dbmdz/bert-tiny-historic-multilingual-cased</a>,🔍,3.65,4575491,32000,512,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.69,742489344,65536,128000,✗,✗
 <a href='https://hf.co/allenai/OLMo-1B'>allenai/OLMo-1B</a>,🧠,3.69,1176764416,50280,2051,✓,✗
