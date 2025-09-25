@@ -431,7 +431,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.52,7241732096,32000,8192,✓,�
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.38,7111057408,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-1.3b-instruct'>AI-Sweden-Models/gpt-sw3-1.3b-instruct</a>,📝,3.38,1444532224,64000,2048,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-instruct'>ibm-granite/granite-3.0-1b-a400m-instruct</a>,📝,3.38,1334628352,49155,4096,✓,✗
-<a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct</a>,🤔,3.39,7504568320,128167,32768,✓,✗
+<a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct</a>,🤔,3.40,7504568320,128167,32768,✓,✗
 <a href='https://hf.co/mideind/IceBERT-large'>mideind/IceBERT-large</a>,🔍,3.41,406390946,50000,514,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a>,🤔,3.41,7615616512,152064,131072,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B-Instruct'>HuggingFaceTB/SmolLM2-1.7B-Instruct</a>,📝,3.42,1711376384,49152,8192,✓,✗

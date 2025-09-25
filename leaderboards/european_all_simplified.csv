@@ -26,7 +26,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.93,14768307200,151936,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B</a>,🤔,1.97,14768307200,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.04,12187325040,262144,,✓,✗
-<a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#thinking</a>,🤔,2.11,110468824832,151552,131072,✓,✗
+<a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#thinking</a>,🤔,2.10,110468824832,151552,131072,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.13,,256128,1048576,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#no-thinking</a>,📝,2.14,110468824832,151552,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.15,8190735360,151936,40960,✓,✗
@@ -50,7 +50,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.61,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.67,4300079472,262144,,✓,✗
 <a href='https://hf.co/TildeAI/TildeOpen-30b'>TildeAI/TildeOpen-30b#slow-tokenizer</a>,🧠,2.72,30677882880,131072,65536,✓,✗
-<a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.75,8053338176,131072,65536,✓,✗
+<a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.74,8053338176,131072,65536,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.75,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,📝,2.77,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.79,2031739904,151936,40960,✓,✗
