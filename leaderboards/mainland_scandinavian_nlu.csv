@@ -465,7 +465,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.41@@2.41,2.52@@2.52,2.58@@2.58
 <a href='https://hf.co/RabotaRu/HRBert-mini'>RabotaRu/HRBert-mini</a>,🔍,3.97@@3.97,4.07@@4.07,4.11@@4.11,3.74@@3.74,80109315.0,200001.0,512.0,✓,✗
 <a href='https://hf.co/NbAiLab/nb-gpt-j-6B-v2'>NbAiLab/nb-gpt-j-6B-v2</a>,🧠,4.05@@4.05,4.04@@4.04,4.09@@4.09,4.03@@4.03,6050882784.0,50400.0,1024.0,✗,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.10@@4.10,4.06@@4.06,4.24@@4.24,4.00@@4.00,353424384.0,65536.0,2048.0,✓,✗
-fresh-xlm-roberta-base,🔍,4.11@@4.11,4.20@@4.20,4.19@@4.19,3.93@@3.93,278045955.0,250002.0,512.0,✓,✗
+fresh-xlm-roberta-base,🔍,4.11@@4.11,4.20@@4.20,4.20@@4.20,3.93@@3.93,278045955.0,250002.0,512.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.11@@4.11,4.10@@4.10,4.23@@4.23,3.99@@3.99,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.13@@4.13,4.19@@4.19,4.13@@4.13,4.08@@4.08,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a>,🤔,4.14@@4.14,4.06@@4.06,4.36@@4.36,4.00@@4.00,1777088000.0,151936.0,131072.0,✓,✗
