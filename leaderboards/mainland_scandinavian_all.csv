@@ -341,7 +341,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,1.90@@1.90,-@@100,2.31@@2.31,?,32002.
 <a href='https://hf.co/microsoft/infoxlm-large'>microsoft/infoxlm-large</a>,🔍,-@@100,-@@100,-@@100,-@@100,559893507.0,250002.0,512.0,✓,✗
 <a href='https://ollama.com/library/phi4:14b-q4_K_M'>ollama_chat/phi4:14b-q4_K_M (val)</a>,📝,-@@100,1.71@@1.71,-@@100,1.80@@1.80,14700000000.0,100352.0,16384.0,✓,✗
 <a href='https://hf.co/mideind/IceBERT-ic3'>mideind/IceBERT-ic3</a>,🔍,-@@100,-@@100,-@@100,-@@100,162944162.0,50000.0,514.0,✓,✗
-<a href='https://hf.co/tencent/Hunyuan-4B-Instruct'>tencent/Hunyuan-4B-Instruct</a>,🤔,-@@100,-@@100,-@@100,-@@100,4221757440.0,120818.0,262144.0,✓,✗
+<a href='https://hf.co/tencent/Hunyuan-4B-Instruct'>tencent/Hunyuan-4B-Instruct</a>,🤔,-@@100,3.26@@3.26,-@@100,-@@100,4221757440.0,120818.0,262144.0,✓,✗
 syvai/llama3-da-base,🧠,-@@100,2.30@@2.30,-@@100,-@@100,8030261248.0,128256.0,8192.0,✓,✗
 syvai/danskgpt-chat-llama3-70b (val)</a>,📝,-@@100,1.37@@1.37,-@@100,-@@100,70553706496.0,128258.0,8221.0,✓,✗
 <a href='https://hf.co/01-ai/Yi-34B-Chat'>01-ai/Yi-34B-Chat</a>,📝,-@@100,-@@100,-@@100,-@@100,34388917248.0,64000.0,4096.0,✓,✗
