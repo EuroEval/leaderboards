@@ -194,7 +194,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,2.20@@2.20,2.00@@2.00,2.42@@2.42,2.17@@2.17,
 <a href='https://hf.co/merge-crew/da-sv-slerp'>merge-crew/da-sv-slerp (val)</a>,🧠,2.32@@2.32,2.09@@2.09,2.83@@2.83,2.05@@2.05,7241732096.0,32000.0,32768.0,✓,✓
 <a href='https://hf.co/merge-crew/da-sv-task-arithmetic'>merge-crew/da-sv-task-arithmetic (val)</a>,🧠,2.32@@2.32,2.08@@2.08,2.84@@2.84,2.05@@2.05,7241732096.0,32000.0,32768.0,✓,✓
 <a href='https://hf.co/timpal0l/njord-alpha'>timpal0l/njord-alpha</a>,🧠,2.32@@2.32,2.44@@2.44,2.49@@2.49,2.02@@2.02,7241732096.0,32000.0,32768.0,✓,✗
-<a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.32@@2.32,2.52@@2.52,2.35@@2.35,2.10@@2.10,140642691.0,256000.0,8192.0,✓,✗
+<a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.32@@2.32,2.51@@2.51,2.35@@2.35,2.10@@2.10,140642691.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/KB/bert-base-swedish-cased'>KB/bert-base-swedish-cased</a>,🔍,2.32@@2.32,2.62@@2.62,2.59@@2.59,1.75@@1.75,124693251.0,50325.0,512.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B-Instruct'>allenai/OLMo-2-1124-13B-Instruct</a>,📝,2.33@@2.33,2.30@@2.30,2.49@@2.49,2.21@@2.21,13716198400.0,100352.0,4096.0,✓,✗
 <a href='https://hf.co/birgermoell/Flashback-Bellman'>birgermoell/Flashback-Bellman (val)</a>,🧠,2.33@@2.33,2.11@@2.11,2.78@@2.78,2.09@@2.09,7241732096.0,32000.0,32768.0,✗,✓
@@ -337,7 +337,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.41@@2.41,2.52@@2.52,2.57@@2.57
 <a href='https://hf.co/THUDM/GLM-4.1V-9B-Thinking'>THUDM/GLM-4.1V-9B-Thinking</a>,🤔,2.82@@2.82,3.01@@3.01,2.40@@2.40,3.05@@3.05,10292777472.0,151552.0,65536.0,✓,✗
 <a href='https://hf.co/sarnikowski/convbert-small-da-cased'>sarnikowski/convbert-small-da-cased</a>,🔍,2.83@@2.83,2.50@@2.50,2.98@@2.98,2.99@@2.99,13014875.0,28995.0,512.0,✓,✗
 <a href='https://hf.co/norallm/normistral-7b-warm'>norallm/normistral-7b-warm</a>,🧠,2.83@@2.83,2.83@@2.83,3.15@@3.15,2.52@@2.52,7248023552.0,32768.0,2048.0,✓,✗
-<a href='https://hf.co/meta-llama/Llama-2-7b-chat-hf'>meta-llama/Llama-2-7b-chat-hf</a>,📝,2.84@@2.84,2.76@@2.76,3.16@@3.16,2.61@@2.61,6738417664.0,32000.0,4096.0,✓,✗
+<a href='https://hf.co/meta-llama/Llama-2-7b-chat-hf'>meta-llama/Llama-2-7b-chat-hf</a>,📝,2.84@@2.84,2.75@@2.75,3.16@@3.16,2.61@@2.61,6738417664.0,32000.0,4096.0,✓,✗
 <a href='https://hf.co/merge-crew/da-sv-dare-ties-density-0.3'>merge-crew/da-sv-dare-ties-density-0.3 (val)</a>,🧠,2.84@@2.84,2.77@@2.77,3.18@@3.18,2.58@@2.58,7241732096.0,32000.0,32768.0,✓,✓
 <a href='https://hf.co/MaLA-LM/emma-500-llama2-7b'>MaLA-LM/emma-500-llama2-7b</a>,🧠,2.85@@2.85,2.99@@2.99,3.08@@3.08,2.47@@2.47,6738415616.0,32000.0,4096.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-1.7-7B-hf'>allenai/OLMo-1.7-7B-hf</a>,🧠,2.85@@2.85,3.02@@3.02,3.03@@3.03,2.49@@2.49,6888095744.0,50304.0,4096.0,✓,✗
@@ -386,7 +386,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.41@@2.41,2.52@@2.52,2.57@@2.57
 <a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.16@@3.16,3.10@@3.10,3.45@@3.45,2.91@@2.91,7002656768.0,64256.0,16384.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-7b-base'>ibm-granite/granite-7b-base</a>,🧠,3.16@@3.16,3.17@@3.17,3.60@@3.60,2.71@@2.71,6738415616.0,32000.0,2048.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-7b-instruct'>ibm-granite/granite-7b-instruct</a>,📝,3.18@@3.18,3.20@@3.20,3.42@@3.42,2.92@@2.92,6738481152.0,32008.0,4096.0,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.19@@3.19,3.18@@3.18,3.56@@3.56,2.81@@2.81,1235814400.0,128256.0,131073.0,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.18@@3.18,3.18@@3.18,3.56@@3.56,2.81@@2.81,1235814400.0,128256.0,131073.0,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B'>deepseek-ai/DeepSeek-R1-Distill-Llama-8B</a>,🤔,3.19@@3.19,3.04@@3.04,3.45@@3.45,3.08@@3.08,8030261248.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.20@@3.20,3.26@@3.26,3.47@@3.47,2.87@@2.87,999885952.0,262144.0,32768.0,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.22@@3.22,3.24@@3.24,3.54@@3.54,2.87@@2.87,?,128000.0,4096.0,✓,✗

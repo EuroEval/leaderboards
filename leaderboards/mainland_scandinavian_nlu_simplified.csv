@@ -385,7 +385,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.41,7241732096,32000,8192,✓,�
 <a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.16,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/ibm-granite/granite-7b-base'>ibm-granite/granite-7b-base</a>,🧠,3.16,6738415616,32000,2048,✓,✗
 <a href='https://hf.co/ibm-granite/granite-7b-instruct'>ibm-granite/granite-7b-instruct</a>,📝,3.18,6738481152,32008,4096,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.19,1235814400,128256,131073,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.18,1235814400,128256,131073,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B'>deepseek-ai/DeepSeek-R1-Distill-Llama-8B</a>,🤔,3.19,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.20,999885952,262144,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.22,,128000,4096,✓,✗

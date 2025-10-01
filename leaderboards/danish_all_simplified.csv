@@ -265,10 +265,10 @@ syvai/llama3-da-base,🧠,2.30,8030261248,128256,8192,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B'>allenai/OLMo-2-1124-13B</a>,🧠,2.86,13716198400,100352,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-13b-chat-hf'>meta-llama/Llama-2-13b-chat-hf</a>,📝,2.87,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-7B'>allenai/OLMo-2-1124-7B</a>,🧠,2.88,7298617344,100352,4096,✓,✗
+<a href='https://hf.co/Qwen/Qwen1.5-4B'>Qwen/Qwen1.5-4B</a>,📝,2.88,3950369280,151936,32768,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-base-4k'>ibm-granite/granite-8b-code-base-4k</a>,🧠,2.88,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,2.88,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-7b-hf'>meta-llama/Llama-2-7b-hf</a>,📝,2.88,6738417664,32000,4096,✓,✗
-<a href='https://hf.co/Qwen/Qwen1.5-4B'>Qwen/Qwen1.5-4B</a>,📝,2.89,3950369280,151936,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.90,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/meta-llama/Llama-2-7b-chat-hf'>meta-llama/Llama-2-7b-chat-hf</a>,📝,2.93,6738417664,32000,4096,✓,✗
 <a href='https://hf.co/tiiuae/falcon-11B'>tiiuae/falcon-11B</a>,📝,2.94,11102822400,65024,8192,✓,✗
@@ -318,7 +318,7 @@ syvai/llama3-da-base,🧠,2.30,8030261248,128256,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-7b-instruct'>ibm-granite/granite-7b-instruct</a>,📝,3.27,6738481152,32008,4096,✓,✗
 <a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.28,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-3B-Base'>tiiuae/Falcon3-3B-Base</a>,🧠,3.29,3227655168,131072,32768,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.30,7111057408,64000,2048,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.29,7111057408,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-1.3b-instruct'>AI-Sweden-Models/gpt-sw3-1.3b-instruct</a>,📝,3.30,1444532224,64000,2048,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.32,,128000,4096,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.32,2424375168,99000,28723,✗,✗
