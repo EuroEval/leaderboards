@@ -22,15 +22,15 @@ download:
 		cat ucloud_api_results.jsonl >> new_results.jsonl; \
 		rm ucloud_api_results.jsonl; \
 	fi
-	@scp -o ConnectTimeout=5 lv-et-evals:/work/euroeval_benchmark_results.jsonl lv_et_evals_results.jsonl || true
-	@if [ -f lv_et_evals_results.jsonl ]; then \
-		cat lv_et_evals_results.jsonl >> new_results.jsonl; \
-		rm lv_et_evals_results.jsonl; \
-	fi
 	@scp -o ConnectTimeout=5 large:/work/euroeval_benchmark_results.jsonl large_results.jsonl || true
 	@if [ -f large_results.jsonl ]; then \
 		cat large_results.jsonl >> new_results.jsonl; \
 		rm large_results.jsonl; \
+	fi
+	@scp -o ConnectTimeout=5 czech:/work/euroeval_benchmark_results.jsonl czech_results.jsonl || true
+	@if [ -f czech_results.jsonl ]; then \
+		cat czech_results.jsonl >> new_results.jsonl; \
+		rm czech_results.jsonl; \
 	fi
 
 generate_leaderboards:
