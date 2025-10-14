@@ -32,6 +32,12 @@ KNOWN_MODELS_WITHOUT_URLS = [
     "syvai/llama3-da-base",
     "xai/grok-3-beta",
     "xai/grok-3-mini-beta",
+    "danish-foundation-models/munin-7b-core-pt",
+    "danish-foundation-models/munin-7b-core-pt-2",
+    "danish-foundation-models/munin-7b-core-pt-3",
+    "danish-foundation-models/munin-7b-core-it",
+    "danish-foundation-models/munin-7b-open-pt",
+    "danish-foundation-models/munin-7b-open-it",
 ]
 
 
