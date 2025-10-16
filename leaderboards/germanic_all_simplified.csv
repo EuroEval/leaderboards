@@ -83,10 +83,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/CohereForAI/aya-expanse-32b'>CohereForAI/aya-expanse-32b</a>,📝,2.15,32296476672,256000,8192,✗,✗
 <a href='https://hf.co/google/gemma-2-9b-it'>google/gemma-2-9b-it</a>,📝,2.15,9241705984,256000,8192,✓,✗
 <a href='https://hf.co/microsoft/phi-4'>microsoft/phi-4</a>,📝,2.18,14659507200,100352,16384,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B</a>,🤔,2.19,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Nemo-Instruct-2407'>mistralai/Mistral-Nemo-Instruct-2407</a>,📝,2.19,12247782400,131072,131072,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.19,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-2-27b'>google/gemma-2-27b</a>,🧠,2.19,27227128320,256000,8192,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B</a>,🤔,2.20,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#no-thinking</a>,📝,2.20,110468824832,151552,131072,✓,✗
 <a href='https://hf.co/CohereForAI/c4ai-command-r-08-2024'>CohereForAI/c4ai-command-r-08-2024</a>,📝,2.21,32296476672,256000,131072,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.22,8190735360,151936,40960,✓,✗
@@ -104,13 +104,13 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-DPO'>allenai/Llama-3.1-Tulu-3-8B-DPO</a>,📝,2.36,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.37,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.37,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.38,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B'>deepseek-ai/DeepSeek-R1-0528-Qwen3-8B</a>,🤔,2.38,8190735360,151936,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.38,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B'>allenai/Llama-3.1-Tulu-3-8B</a>,📝,2.38,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,📝,2.38,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B'>google/gemma-3n-E4B</a>,🧠,2.38,7849978192,262400,,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B-Instruct'>meta-llama/Meta-Llama-3-8B-Instruct</a>,📝,2.39,8030261248,128256,8192,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.39,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.39,32234279936,100352,4096,✗,✗
 <a href='https://hf.co/nvidia/mistral-nemo-minitron-8b-base'>nvidia/mistral-nemo-minitron-8b-base</a>,🧠,2.40,8414105600,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-Instruct-v0.1'>mistralai/Mixtral-8x7B-Instruct-v0.1</a>,📝,2.40,46702792704,32000,32768,✓,✗
@@ -179,8 +179,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LumiOpen/Viking-33B'>LumiOpen/Viking-33B</a>,🧠,2.99,33119034368,131072,4096,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.00,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-base-4k'>ibm-granite/granite-8b-code-base-4k</a>,🧠,3.02,8054910976,49152,4096,✓,✗
-<a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,3.03,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-14B</a>,🤔,3.03,14770033664,152064,131072,✓,✗
+<a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,3.04,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.05,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,3.07,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/infly/OpenCoder-8B-Instruct'>infly/OpenCoder-8B-Instruct</a>,📝,3.08,7771262976,96640,8192,✓,✗
@@ -207,7 +207,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a>,🤔,3.44,7615616512,152064,131072,✓,✗
 <a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.47,7002656768,64256,16384,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-2b-instruct'>BSC-LT/salamandra-2b-instruct</a>,📝,3.48,2253490176,256000,8192,✓,✗
-<a href='https://hf.co/infly/OpenCoder-8B-Base'>infly/OpenCoder-8B-Base</a>,📝,3.48,7771263040,96640,8192,✓,✗
+<a href='https://hf.co/infly/OpenCoder-8B-Base'>infly/OpenCoder-8B-Base</a>,📝,3.49,7771263040,96640,8192,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,3.50,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B-Instruct'>HuggingFaceTB/SmolLM2-1.7B-Instruct</a>,📝,3.50,1711376384,49152,8192,✓,✗
 <a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,3.52,2023868416,64000,4096,✓,✗
