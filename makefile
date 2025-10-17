@@ -27,10 +27,10 @@ download:
 		cat large_results.jsonl >> new_results.jsonl; \
 		rm large_results.jsonl; \
 	fi
-	@scp -o ConnectTimeout=5 czech:/work/euroeval_benchmark_results.jsonl czech_results.jsonl || true
-	@if [ -f czech_results.jsonl ]; then \
-		cat czech_results.jsonl >> new_results.jsonl; \
-		rm czech_results.jsonl; \
+	@scp -o ConnectTimeout=5 multiwikiqa-da:/work/euroeval_benchmark_results.jsonl multiwikiqa_da_results.jsonl || true
+	@if [ -f multiwikiqa_da_results.jsonl ]; then \
+		cat multiwikiqa_da_results.jsonl >> new_results.jsonl; \
+		rm multiwikiqa_da_results.jsonl; \
 	fi
 
 generate_leaderboards:
