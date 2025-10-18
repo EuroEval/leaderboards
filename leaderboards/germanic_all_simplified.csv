@@ -163,7 +163,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.85,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-2-2b-it'>google/gemma-2-2b-it</a>,📝,2.88,2614341888,256000,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,2.89,13015866880,32000,4096,✓,✗
-<a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.89,68976653312,32000,4096,✓,✗
+<a href='https://hf.co/meta-llama/Llama-2-70b-chat-hf'>meta-llama/Llama-2-70b-chat-hf</a>,📝,2.90,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.92,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.92,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/neuralmagic/Sparse-Llama-3.1-8B-2of4'>neuralmagic/Sparse-Llama-3.1-8B-2of4</a>,🧠,2.93,8030261248,128256,131072,✓,✗
@@ -183,7 +183,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,3.04,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.05,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,3.07,7799574528,100096,4096,✓,✗
-<a href='https://hf.co/infly/OpenCoder-8B-Instruct'>infly/OpenCoder-8B-Instruct</a>,📝,3.08,7771262976,96640,8192,✓,✗
+<a href='https://hf.co/infly/OpenCoder-8B-Instruct'>infly/OpenCoder-8B-Instruct</a>,📝,3.09,7771262976,96640,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-13b-chat-hf'>meta-llama/Llama-2-13b-chat-hf</a>,📝,3.14,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,3.16,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,3.17,7241748480,32002,4096,✗,✗
@@ -226,12 +226,12 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b</a>,🧠,3.72,68977172480,32032,8192,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M-base'>facebook/MobileLLM-R1-950M-base</a>,🧠,3.75,949685760,128256,4096,✗,✗
 <a href='https://hf.co/utter-project/EuroVLM-1.7B-Preview'>utter-project/EuroVLM-1.7B-Preview</a>,📝,3.75,2061162016,128000,,✓,✗
-<a href='https://hf.co/timpal0l/Mistral-7B-v0.1-flashback-v2'>timpal0l/Mistral-7B-v0.1-flashback-v2</a>,📝,3.76,7241732096,32000,4096,✓,✗
+<a href='https://hf.co/timpal0l/Mistral-7B-v0.1-flashback-v2'>timpal0l/Mistral-7B-v0.1-flashback-v2</a>,📝,3.77,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.77,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-base'>ibm-granite/granite-3.0-1b-a400m-base</a>,🧠,3.78,1384956928,49152,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3b-code-instruct-2k'>ibm-granite/granite-3b-code-instruct-2k</a>,📝,3.80,3482503680,49152,2048,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.80,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/infly/OpenCoder-1.5B-Instruct'>infly/OpenCoder-1.5B-Instruct</a>,📝,3.81,1905650880,96640,4096,✗,✗
+<a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.81,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,3.83,1791080448,120818,262144,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.84,3211926528,65536,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.85,2611528704,128000,4096,✓,✗
