@@ -32,6 +32,11 @@ download:
 		cat multiwikiqa_da_results.jsonl >> new_results.jsonl; \
 		rm multiwikiqa_da_results.jsonl; \
 	fi
+	@scp -o ConnectTimeout=5 lrytas:/work/euroeval_benchmark_results.jsonl lrytas_results.jsonl || true
+	@if [ -f lrytas_results.jsonl ]; then \
+		cat lrytas_results.jsonl >> new_results.jsonl; \
+		rm lrytas_results.jsonl; \
+	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
