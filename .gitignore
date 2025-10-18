@@ -19,3 +19,4 @@ launch.json
 
 # Raw data
 **/*.jsonl
+**/*.mp4
