@@ -34,7 +34,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.29,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.32,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.33,4022468096,151936,262144,✓,✗
-<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.37,32234279936,100352,4096,✗,✗
+<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.36,32234279936,100352,4096,✗,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.37,,,200000,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-Instruct-2509'>swiss-ai/Apertus-8B-Instruct-2509</a>,📝,2.38,8053338176,131072,65536,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.38,8030261248,128256,131072,✓,✗
@@ -73,7 +73,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/facebook/MobileLLM-R1-950M-base'>facebook/MobileLLM-R1-950M-base</a>,🧠,3.71,949685760,128256,4096,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,3.82,354483968,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,3.95,268098176,262144,32768,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,3.98,361821120,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,3.97,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.02,361821120,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.07,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.12,134515008,49152,8192,✓,✗

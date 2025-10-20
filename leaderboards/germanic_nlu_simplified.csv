@@ -56,10 +56,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.89,12187325040,262144,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B</a>,🤔,1.89,32762123264,151936,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B</a>,🤔,1.91,14768307200,151936,40960,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro-002'>gemini/gemini-1.5-pro-002 (zero-shot, val)</a>",📝,1.91,,256128,2097152,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B'>Qwen/Qwen3-30B-A3B#no-thinking</a>,📝,1.91,30532122624,151936,40960,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.92,30532122624,151936,262144,✓,✗
 "xai/grok-3-mini-beta#high (zero-shot, val)</a>",🤔,1.92,,,131072,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-pro-002'>gemini/gemini-1.5-pro-002 (zero-shot, val)</a>",📝,1.92,,256128,2097152,✓,✗
 <a href='https://hf.co/RekaAI/reka-flash-3'>RekaAI/reka-flash-3</a>,🤔,1.93,20905482240,100352,32768,✓,✗
 <a href='https://hf.co/google/gemma-2-27b-it'>google/gemma-2-27b-it</a>,📝,1.93,27227128320,256000,8192,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-001'>gemini/gemini-2.0-flash-001 (zero-shot, val)</a>",📝,1.94,,256128,1048576,✓,✗
@@ -310,5 +310,5 @@ fresh-electra-small,🔍,4.40,13549571,30522,512,✓,✗
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,4.54,379988992,50257,1024,✓,✗
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,4.62,137022720,50257,1024,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M'>facebook/MobileLLM-R1-360M</a>,📝,4.76,359431168,128256,32768,✗,✗
-<a href='https://hf.co/facebook/MobileLLM-R1-140M'>facebook/MobileLLM-R1-140M</a>,🤔,4.79,140248512,128256,32768,✗,✗
+<a href='https://hf.co/facebook/MobileLLM-R1-140M'>facebook/MobileLLM-R1-140M</a>,🤔,4.80,140248512,128256,32768,✗,✗
 <a href='https://hf.co/ssmits/Falcon2-5.5B-multilingual'>ssmits/Falcon2-5.5B-multilingual</a>,🧠,4.82,5465415680,65024,8192,✓,✓
