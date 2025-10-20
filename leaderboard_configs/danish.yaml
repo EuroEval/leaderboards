@@ -5,7 +5,7 @@ named-entity-recognition:
 linguistic-acceptability:
   - scala-da
 reading-comprehension:
-  - scandiqa-da
+  - multi-wiki-qa-da
 summarization:
   - nordjylland-news
 knowledge:

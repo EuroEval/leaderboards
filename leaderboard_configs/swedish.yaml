@@ -5,7 +5,7 @@ named-entity-recognition:
 linguistic-acceptability:
   - scala-sv
 reading-comprehension:
-  - scandiqa-sv
+  - multi-wiki-qa-sv
 summarization:
   - swedn
 knowledge:
