@@ -72,7 +72,7 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.16@@4.16,4.07@@4.07,4.25@@4.25,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.17@@4.17,4.05@@4.05,4.29@@4.29,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.26@@4.26,4.06@@4.06,4.47@@4.47,134515008.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.31@@4.31,4.09@@4.09,4.54@@4.54,134515008.0,49152.0,8192.0,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.32@@4.32,4.09@@4.09,4.54@@4.54,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/kurakurai/Luth-1.7B-Instruct'>kurakurai/Luth-1.7B-Instruct</a>,📝,-@@100,-@@100,-@@100,1720574976.0,151936.0,40960.0,✗,✗
 <a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,-@@100,-@@100,-@@100,395881664.0,50368.0,8192.0,✓,✗
 <a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,-@@100,-@@100,-@@100,278225673.0,251000.0,512.0,✓,✗
@@ -112,7 +112,7 @@ fresh-xlm-roberta-base,🔍,-@@100,-@@100,-@@100,278885778.0,250002.0,512.0,✓,
 <a href='https://hf.co/TildeAI/TildeOpen-30b'>TildeAI/TildeOpen-30b#slow-tokenizer</a>,🧠,-@@100,2.74@@2.74,-@@100,30677882880.0,131072.0,65536.0,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,-@@100,-@@100,-@@100,574602505.0,250300.0,512.0,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,-@@100,4.03@@4.03,-@@100,268098176.0,262144.0,32768.0,✓,✗
-<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,-@@100,4.00@@4.00,-@@100,268098176.0,262144.0,32768.0,✓,✗
+<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,-@@100,4.01@@4.01,-@@100,268098176.0,262144.0,32768.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,-@@100,-@@100,-@@100,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#no-thinking</a>,📝,-@@100,2.07@@2.07,-@@100,110468824832.0,151552.0,131072.0,✓,✗
 fresh-electra-small,🔍,-@@100,-@@100,-@@100,13738755.0,32000.0,128.0,✓,✗

@@ -49,7 +49,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.47,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,2.48,27432406640,262144,,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-2509'>swiss-ai/Apertus-70B-2509</a>,🧠,2.48,70599864480,131072,65536,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,📝,2.51,4022468096,151936,40960,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,📝,2.50,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.57,4300079472,262144,,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.58,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.60,8030261248,128256,131072,✓,✗

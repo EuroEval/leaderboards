@@ -84,7 +84,7 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.37@@3.37,3.10@@3.10,3.64@@3.64,1543714304.0,151936.0,32768.0,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.37@@3.37,3.52@@3.52,3.21@@3.21,395881664.0,50368.0,8192.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,3.38@@3.38,3.47@@3.47,3.30@@3.30,395881664.0,50368.0,8192.0,✓,✗
-<a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.38@@3.38,3.53@@3.53,3.24@@3.24,149655232.0,50368.0,8192.0,✓,✗
+<a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.39@@3.39,3.53@@3.53,3.24@@3.24,149655232.0,50368.0,8192.0,✓,✗
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.40@@3.40,3.62@@3.62,3.19@@3.19,93990500.0,65636.0,512.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.47@@3.47,3.18@@3.18,3.76@@3.76,3075098624.0,128256.0,65536.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.53@@3.53,3.38@@3.38,3.68@@3.68,7241732096.0,32000.0,32768.0,✓,✗
@@ -103,21 +103,21 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 fresh-xlm-roberta-base,🔍,3.97@@3.97,4.22@@4.22,3.71@@3.71,278885778.0,250002.0,512.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,4.02@@4.02,3.96@@3.96,4.08@@4.08,1235814400.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,4.02@@4.02,3.98@@3.98,4.06@@4.06,1791080448.0,120818.0,262144.0,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,4.05@@4.05,3.82@@3.82,4.28@@4.28,1235814400.0,128256.0,131072.0,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,4.05@@4.05,3.83@@3.83,4.28@@4.28,1235814400.0,128256.0,131072.0,✓,✗
 fresh-electra-small,🔍,4.07@@4.07,4.20@@4.20,3.93@@3.93,13738755.0,32000.0,128.0,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M-base'>facebook/MobileLLM-R1-950M-base</a>,🧠,4.09@@4.09,3.88@@3.88,4.29@@4.29,949685760.0,128256.0,4096.0,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.19@@4.19,4.00@@4.00,4.38@@4.38,1170340608.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.22@@4.22,4.07@@4.07,4.37@@4.37,742489344.0,65536.0,128000.0,✗,✗
-<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.23@@4.23,4.05@@4.05,4.42@@4.42,268098176.0,262144.0,32768.0,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.25@@4.25,4.09@@4.09,4.41@@4.41,354483968.0,65536.0,128000.0,✗,✗
+<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.24@@4.24,4.05@@4.05,4.42@@4.42,268098176.0,262144.0,32768.0,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.25@@4.25,4.10@@4.10,4.41@@4.41,354483968.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.25@@4.25,4.10@@4.10,4.40@@4.40,268098176.0,262144.0,32768.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.26@@4.26,4.13@@4.13,4.40@@4.40,361821120.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.26@@4.26,4.14@@4.14,4.38@@4.38,361821120.0,49152.0,8192.0,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.26@@4.26,4.15@@4.15,4.38@@4.38,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.27@@4.27,4.16@@4.16,4.38@@4.38,134515008.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.30@@4.30,4.20@@4.20,4.41@@4.41,140248512.0,128256.0,4096.0,✗,✗
+<a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.31@@4.31,4.20@@4.20,4.41@@4.41,140248512.0,128256.0,4096.0,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.36@@4.36,4.23@@4.23,4.50@@4.50,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/Shekswess/trlm-135m'>Shekswess/trlm-135m</a>,📝,4.36@@4.36,4.30@@4.30,4.43@@4.43,134516160.0,49154.0,8192.0,✓,✗
-<a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.36@@4.36,4.21@@4.21,4.51@@4.51,359431168.0,128256.0,4096.0,✗,✗
+<a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.36@@4.36,4.22@@4.22,4.51@@4.51,359431168.0,128256.0,4096.0,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M'>facebook/MobileLLM-R1-950M</a>,📝,4.45@@4.45,4.28@@4.28,4.61@@4.61,949685760.0,128256.0,32768.0,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M'>facebook/MobileLLM-R1-360M</a>,📝,4.53@@4.53,4.31@@4.31,4.75@@4.75,359431168.0,128256.0,32768.0,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-140M'>facebook/MobileLLM-R1-140M</a>,🤔,4.55@@4.55,4.36@@4.36,4.74@@4.74,140248512.0,128256.0,32768.0,✗,✗
@@ -126,5 +126,5 @@ fresh-electra-small,🔍,4.07@@4.07,4.20@@4.20,3.93@@3.93,13738755.0,32000.0,128
 <a href='https://hf.co/AiLab-IMCS-UL/lvbert'>AiLab-IMCS-UL/lvbert</a>,🔍,-@@100,2.44@@2.44,-@@100,110620928.0,32004.0,512.0,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,-@@100,2.35@@2.35,-@@100,307531778.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#no-thinking</a>,📝,-@@100,2.17@@2.17,-@@100,110468824832.0,151552.0,131072.0,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,-@@100,-@@100,-@@100,?,256128.0,1048576.0,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,-@@100,1.76@@1.76,-@@100,?,256128.0,1048576.0,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-20250514#no-thinking (zero-shot, val)</a>",📝,-@@100,1.97@@1.97,-@@100,?,?,?,✓,✗

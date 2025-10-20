@@ -83,7 +83,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.37,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.37,395881664,50368,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,3.38,395881664,50368,8192,✓,✗
-<a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.38,149655232,50368,8192,✓,✗
+<a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.39,149655232,50368,8192,✓,✗
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.40,93990500,65636,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.47,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.53,7241732096,32000,32768,✓,✗
@@ -107,13 +107,13 @@ fresh-electra-small,🔍,4.07,13738755,32000,128,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M-base'>facebook/MobileLLM-R1-950M-base</a>,🧠,4.09,949685760,128256,4096,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.19,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.22,742489344,65536,128000,✗,✗
-<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.23,268098176,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.24,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.25,354483968,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.25,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.26,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.26,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.27,134515008,49152,8192,✓,✗
-<a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.30,140248512,128256,4096,✗,✗
+<a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.31,140248512,128256,4096,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.36,134515008,49152,8192,✓,✗
 <a href='https://hf.co/Shekswess/trlm-135m'>Shekswess/trlm-135m</a>,📝,4.36,134516160,49154,8192,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.36,359431168,128256,4096,✗,✗
