@@ -29,9 +29,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.06,7849978192,262400,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.07,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.07,70599864480,131072,65536,✗,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.10,,256128,1048576,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.10,559890946,250002,512,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.11,561192082,250002,512,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.11,,256128,1048576,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.12,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.13,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.14,470927360,501153,512,✓,✗

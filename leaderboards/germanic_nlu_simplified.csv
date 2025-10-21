@@ -14,9 +14,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.70,24011361280,131072,,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.70,27432406640,262144,,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,1.72,,256128,1048576,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.74,,100256,272000,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.75,24011361280,131072,,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.75,72706203648,152064,32768,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.75,,100256,272000,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.75,,256128,1048576,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.76,27432406640,262144,,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.77,70553706496,128256,131072,✓,✗
@@ -26,10 +26,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.87,14768307200,151936,40960,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,1.87,,100256,272000,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-haiku-4-5-20251001 (zero-shot, val)</a>",🤔,1.88,,,200000,✓,✗
-<a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.90,12187325040,262144,,✓,✗
+<a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.89,12187325040,262144,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.92,30532122624,151936,262144,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,1.95,,,1047576,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,1.99,,256128,1048576,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,1.98,,256128,1048576,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.00,575923843,250300,512,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.01,470927360,501153,512,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.01,559890946,250002,512,✓,✗
@@ -59,8 +59,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.49,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.50,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.52,9152319488,128000,4096,✗,✗
-<a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.55,140642691,256000,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.56,4300079472,262144,,✓,✗
+<a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.56,140642691,256000,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,2.65,395881664,50368,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,2.66,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.70,2031739904,151936,40960,✓,✗
