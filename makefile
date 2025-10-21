@@ -27,6 +27,11 @@ download:
 		cat large_results.jsonl >> new_results.jsonl; \
 		rm large_results.jsonl; \
 	fi
+	@scp -o ConnectTimeout=5 slovak:/work/euroeval_benchmark_results.jsonl slovak_results.jsonl || true
+	@if [ -f slovak_results.jsonl ]; then \
+		cat slovak_results.jsonl >> new_results.jsonl; \
+		rm slovak_results.jsonl; \
+	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
