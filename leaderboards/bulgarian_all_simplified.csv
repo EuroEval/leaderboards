@@ -1,2 +1,2 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-<a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,1.00,8888227328,131072,131072,✓,✗
+<a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,1.67,8888227328,131072,131072,✓,✗
