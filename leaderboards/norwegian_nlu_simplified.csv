@@ -137,7 +137,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B</a>,🤔,2.14,4022468096,151936,40960,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.14,,,200000,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-24B-Instruct-2501'>mistralai/Mistral-Small-24B-Instruct-2501</a>,📝,2.16,23572403200,131072,32768,✓,✗
-<a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.18,278810882,251000,512,✓,✗
+<a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.19,278810882,251000,512,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.20,4300079472,262144,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Thinking-2507'>Qwen/Qwen3-4B-Thinking-2507</a>,🤔,2.20,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.20,4022468096,151936,262144,✓,✗
@@ -212,16 +212,16 @@ mhenrichsen/danskgpt-chat-v2.1,📝,2.40,,32002,32768,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07#minimal (zero-shot, val)</a>",🤔,2.55,,100256,272000,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.56,108782594,84985,512,✓,✗
 <a href='https://hf.co/01-ai/Yi-1.5-9B'>01-ai/Yi-1.5-9B</a>,🧠,2.56,8829407232,64000,4096,✓,✗
-<a href='https://hf.co/KB/bert-base-swedish-cased'>KB/bert-base-swedish-cased</a>,🔍,2.56,124692482,50325,512,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-en-no-cased'>Geotrend/distilbert-base-en-no-cased</a>,🔍,2.56,68912642,33071,512,✓,✗
-danish-foundation-models/munin-7b-v0.1dev0,🧠,2.56,7241732096,32000,8192,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-32B</a>,🤔,2.56,32763876352,152064,131072,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-en-fr-de-no-da-cased'>Geotrend/distilbert-base-en-fr-de-no-da-cased</a>,🔍,2.57,75547394,41710,512,✓,✗
+<a href='https://hf.co/KB/bert-base-swedish-cased'>KB/bert-base-swedish-cased</a>,🔍,2.57,124692482,50325,512,✓,✗
+danish-foundation-models/munin-7b-v0.1dev0,🧠,2.57,7241732096,32000,8192,✓,✗
 <a href='https://hf.co/RJuro/munin-neuralbeagle-7b'>RJuro/munin-neuralbeagle-7b (val)</a>,🧠,2.57,7241732096,32000,4096,✗,✓
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.58,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/senseable/WestLake-7B-v2'>senseable/WestLake-7B-v2</a>,🧠,2.58,7241732096,32000,4096,✗,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,2.58,7799574528,100096,4096,✓,✗
-<a href='https://hf.co/ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit'>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit</a>,📝,2.58,7241748480,32002,32768,✗,✗
+<a href='https://hf.co/ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit'>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit</a>,📝,2.59,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/AI-Nordics/bert-large-swedish-cased'>AI-Nordics/bert-large-swedish-cased</a>,🔍,2.60,335217666,30592,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-14B-Chat'>Qwen/Qwen1.5-14B-Chat</a>,📝,2.60,14167290880,152064,32768,✗,✗
 <a href='https://hf.co/Twitter/twhin-bert-base'>Twitter/twhin-bert-base</a>,🔍,2.60,278830082,250002,512,✓,✗
