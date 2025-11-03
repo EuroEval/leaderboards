@@ -177,12 +177,12 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,2.83,999885952,262144,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.86,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,2.87,14030361600,131072,4096,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.87,3075098624,128256,65536,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.89,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-7B'>LumiOpen/Viking-7B</a>,🧠,2.95,7550013440,131072,4096,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,2.95,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4'>openGPT-X/Teuken-7B-instruct-commercial-v0.4</a>,📝,2.98,7452725248,250680,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,2.98,751632384,151936,40960,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,2.99,1656850432,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,2.98,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.02,,128000,4096,✓,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,3.03,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/mistralai/Mistral-7B-Instruct-v0.2'>mistralai/Mistral-7B-Instruct-v0.2</a>,📝,3.08,7241732096,32000,32768,✗,✗
@@ -215,7 +215,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Finnish-NLP/llama-7b-finnish'>Finnish-NLP/llama-7b-finnish</a>,🧠,3.96,7002656768,64256,2048,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2#no-thinking</a>,📝,3.97,8888227328,131072,131072,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,4.07,1791080448,120818,262144,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.11,742489344,65536,128000,✗,✗
+<a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.12,742489344,65536,128000,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.12,361821120,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.14,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.19,354483968,65536,128000,✗,✗
@@ -226,7 +226,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.28,134515008,49152,8192,✓,✗
 <a href='https://hf.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b</a>,🧠,4.38,68977172480,32032,8192,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.41,359431168,128256,4096,✗,✗
-<a href='https://hf.co/facebook/MobileLLM-R1-360M'>facebook/MobileLLM-R1-360M</a>,📝,4.58,359431168,128256,32768,✗,✗
+<a href='https://hf.co/facebook/MobileLLM-R1-360M'>facebook/MobileLLM-R1-360M</a>,📝,4.59,359431168,128256,32768,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.64,140248512,128256,4096,✗,✗
 <a href='https://hf.co/Shekswess/trlm-135m'>Shekswess/trlm-135m</a>,📝,4.64,134516160,49154,8192,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M'>facebook/MobileLLM-R1-950M</a>,📝,4.70,949685760,128256,32768,✗,✗
