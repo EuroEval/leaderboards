@@ -50,7 +50,7 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.80@@2.80,2.64@@2.64,2.96@@2.96,7768117248.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.87@@2.87,2.76@@2.76,2.99@@2.99,4300079472.0,262144.0,8192.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.87@@2.87,2.67@@2.67,3.06@@3.06,8030261248.0,128256.0,131072.0,✓,✗
-<a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.95@@2.95,3.00@@3.00,2.91@@2.91,10731524096.0,32000.0,4096.0,✓,✗
+<a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.96@@2.96,3.00@@3.00,2.91@@2.91,10731524096.0,32000.0,4096.0,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,3.04@@3.04,2.84@@2.84,3.24@@3.24,8888227328.0,131072.0,131072.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,3.05@@3.05,2.88@@2.88,3.21@@3.21,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,3.06@@3.06,2.96@@2.96,3.16@@3.16,3606752256.0,128256.0,131072.0,✓,✗
@@ -63,8 +63,8 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.55@@3.55,3.39@@3.39,3.71@@3.71,999885952.0,262144.0,32768.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.58@@3.58,3.53@@3.53,3.64@@3.64,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.71@@3.71,3.52@@3.52,3.90@@3.90,7799574528.0,100096.0,4096.0,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.75@@3.75,3.63@@3.63,3.88@@3.88,751632384.0,151936.0,40960.0,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.76@@3.76,3.56@@3.56,3.97@@3.97,999885952.0,262144.0,32768.0,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.76@@3.76,3.63@@3.63,3.88@@3.88,751632384.0,151936.0,40960.0,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.78@@3.78,3.57@@3.57,3.99@@3.99,2569272320.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.78@@3.78,3.82@@3.82,3.73@@3.73,2611528704.0,128000.0,4096.0,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.84@@3.84,3.75@@3.75,3.93@@3.93,2611528704.0,128000.0,4096.0,✓,✗
