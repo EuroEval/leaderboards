@@ -7,25 +7,25 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.37,,,1047576,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8'>Qwen/Qwen3-235B-A22B-Instruct-2507-FP8</a>,📝,1.37,235107904512,151936,262144,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.37,,256128,1048576,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.38,,256128,1048576,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.38,24011361280,131072,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.38,,256128,1048576,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.41,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.43,32759790592,151665,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.44,27432406640,262144,,✓,✗
 <a href='https://hf.co/mistralai/Voxtral-Small-24B-2507'>mistralai/Voxtral-Small-24B-2507</a>,📝,1.44,24261800960,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.45,24011361280,131072,,✓,✗
-<a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E-Instruct'>meta-llama/Llama-4-Scout-17B-16E-Instruct</a>,📝,1.48,108641793536,200000,,✓,✗
+<a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.48,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Magistral-Small-2509'>mistralai/Magistral-Small-2509</a>,📝,1.48,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,1.48,72706203648,152064,32768,✓,✗
-<a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.48,24011361280,131072,8192,✓,✗
+<a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E-Instruct'>meta-llama/Llama-4-Scout-17B-16E-Instruct</a>,📝,1.48,108641793536,200000,,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.49,27432406640,262144,8192,✓,✗
-<a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.50,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B-Thinking-2507-FP8'>Qwen/Qwen3-235B-A22B-Thinking-2507-FP8</a>,🤔,1.50,235107904512,151936,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B#no-thinking</a>,📝,1.50,32762123264,151936,40960,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.50,70553706496,128256,131072,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,1.52,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-haiku-4-5-20251001 (zero-shot, val)</a>",🤔,1.54,,,,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.54,,256128,1048576,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.54,12187325040,262144,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.54,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.55,,100256,272000,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,1.59,,,1047576,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.62,14765947904,151665,131072,✓,✗
@@ -37,7 +37,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,1.74,7849978192,262400,,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,1.74,70599864480,131072,65536,✗,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,1.79,,256128,1048576,✓,✗
-<a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#thinking</a>,🤔,1.81,110468824832,151552,131072,✓,✗
+<a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#thinking</a>,🤔,1.80,110468824832,151552,131072,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#no-thinking</a>,📝,1.82,110468824832,151552,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,1.85,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Thinking-2507'>Qwen/Qwen3-4B-Thinking-2507</a>,🤔,1.85,4022468096,151936,262144,✓,✗
@@ -49,10 +49,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,1.93,32234279936,100352,4096,✗,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,1.98,,,1047576,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.02,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E'>meta-llama/Llama-4-Scout-17B-16E</a>,📝,2.03,108641793536,200000,,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.03,8030326784,128264,131072,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.04,4022468096,151936,40960,✓,✗
+<a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E'>meta-llama/Llama-4-Scout-17B-16E</a>,📝,2.03,108641793536,200000,,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,2.04,8888227328,131072,131072,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.04,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.10,10731524096,32000,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.13,4300079472,262144,,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.20,9152319488,128000,4096,✓,✗
@@ -84,10 +84,10 @@ danish-foundation-models/munin-7b-core-pt-3,🧠,2.97,7002656768,64256,16384,✗
 danish-foundation-models/munin-7b-core-pt-2,🧠,3.02,7002656768,64256,16384,✗,✗
 danish-foundation-models/munin-7b-core-pt,🧠,3.14,7002656768,64256,16384,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.15,1235814400,128256,131073,✓,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.24,7111057408,64000,2048,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.24,2424375168,99000,28723,✗,✗
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-40b'>AI-Sweden-Models/gpt-sw3-40b</a>,🧠,3.25,39926513664,64000,2048,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.24,7111057408,64000,2048,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.25,751632384,151936,40960,✓,✗
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-40b'>AI-Sweden-Models/gpt-sw3-40b</a>,🧠,3.25,39926513664,64000,2048,✓,✗
 danish-foundation-models/munin-7b-open-pt,🧠,3.28,7002656768,64256,16384,✗,✗
 danish-foundation-models/munin-7b-open-it,📝,3.29,7002656768,64256,16384,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.34,1235814400,128256,131072,✓,✗
