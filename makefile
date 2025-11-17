@@ -17,26 +17,6 @@ download:
 		cat ucloud_results.jsonl >> new_results.jsonl; \
 		rm ucloud_results.jsonl; \
 	fi
-	@scp -o ConnectTimeout=5 ucloud:/work/api/euroeval_benchmark_results.jsonl ucloud_api_results.jsonl || true
-	@if [ -f ucloud_api_results.jsonl ]; then \
-		cat ucloud_api_results.jsonl >> new_results.jsonl; \
-		rm ucloud_api_results.jsonl; \
-	fi
-	@scp -o ConnectTimeout=5 large:/work/euroeval_benchmark_results.jsonl large_results.jsonl || true
-	@if [ -f large_results.jsonl ]; then \
-		cat large_results.jsonl >> new_results.jsonl; \
-		rm large_results.jsonl; \
-	fi
-	@scp -o ConnectTimeout=5 bosnian:/work/euroeval_benchmark_results.jsonl bosnian_results.jsonl || true
-	@if [ -f bosnian_results.jsonl ]; then \
-		cat bosnian_results.jsonl >> new_results.jsonl; \
-		rm bosnian_results.jsonl; \
-	fi
-	@scp -o ConnectTimeout=5 slovene:/work/euroeval_benchmark_results.jsonl slovene_results.jsonl || true
-	@if [ -f slovene_results.jsonl ]; then \
-		cat slovene_results.jsonl >> new_results.jsonl; \
-		rm slovene_results.jsonl; \
-	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
