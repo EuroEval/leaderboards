@@ -91,8 +91,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.10,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,2.10,8888227328,131072,131072,✓,✗
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.10,10731524096,32000,4096,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,2.10,,256128,1048576,✓,✗
 <a href='https://hf.co/google/gemma-2-27b'>google/gemma-2-27b</a>,🧠,2.10,27227128320,256000,8192,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,2.11,,256128,1048576,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.12,4022468096,151936,40960,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-1.5-flash-002'>gemini/gemini-1.5-flash-002 (zero-shot, val)</a>",📝,2.12,,256128,1048576,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B'>deepseek-ai/DeepSeek-R1-0528-Qwen3-8B</a>,🤔,2.12,8190735360,151936,131072,✓,✗
@@ -107,9 +107,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-2-70b-hf'>meta-llama/Llama-2-70b-hf</a>,🧠,2.21,68976653312,32000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.21,,128000,4096,✓,✗
 <a href='https://hf.co/ai21labs/Jamba-v0.1'>ai21labs/Jamba-v0.1</a>,🧠,2.23,51570323328,65536,262144,✓,✗
+<a href='https://hf.co/CohereForAI/aya-expanse-8b'>CohereForAI/aya-expanse-8b</a>,📝,2.24,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/mistralai/Mixtral-8x7B-v0.1'>mistralai/Mixtral-8x7B-v0.1</a>,🧠,2.24,46702792704,32000,32768,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-32B</a>,🤔,2.24,32763876352,152064,131072,✓,✗
-<a href='https://hf.co/CohereForAI/aya-expanse-8b'>CohereForAI/aya-expanse-8b</a>,📝,2.25,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3.1-8B'>allenai/Llama-3.1-Tulu-3.1-8B</a>,📝,2.25,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-DPO'>allenai/Llama-3.1-Tulu-3-8B-DPO</a>,📝,2.26,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B'>allenai/Llama-3.1-Tulu-3-8B</a>,📝,2.27,8030326784,128264,131072,✓,✗
@@ -169,7 +169,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/OLMo-2-1124-7B'>allenai/OLMo-2-1124-7B</a>,🧠,2.80,7298617344,100352,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-base'>ibm-granite/granite-20b-code-base</a>,🧠,2.82,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.82,7241748480,32002,32768,✗,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.86,7768117248,256000,8192,✓,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.85,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,2.88,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.90,8053338176,131072,65536,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-base-4k'>ibm-granite/granite-8b-code-base-4k</a>,🧠,2.91,8054910976,49152,4096,✓,✗
@@ -218,8 +218,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2#no-thinking</a>,📝,3.71,8888227328,131072,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B-Chat'>Qwen/Qwen1.5-0.5B-Chat</a>,📝,3.74,619570176,151936,32768,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,3.75,361821120,49152,8192,✓,✗
+<a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a>,🤔,3.89,1777088000,151936,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,3.90,1543714304,151936,4096,✓,✗
-<a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a>,🤔,3.90,1777088000,151936,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,3.90,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.95,361821120,49152,8192,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.00,359431168,128256,4096,✗,✗
