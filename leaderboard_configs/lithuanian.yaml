@@ -1,5 +1,5 @@
 sentiment-classification:
-  - lithuanian-emotions
+  - atsiliepimai
 named-entity-recognition:
   - wikiann-lt
 linguistic-acceptability:
