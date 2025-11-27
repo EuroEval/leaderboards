@@ -33,7 +33,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-haiku-4-5-20251001 (zero-shot, val)</a>",🤔,1.74@@1.74,1.55@@1.55,2.02@@2.02,1.65@@1.65,?,?,200000.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.78@@1.78,1.66@@1.66,2.01@@2.01,1.67@@1.67,30532122624.0,151936.0,262144.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.79@@1.79,1.65@@1.65,2.01@@2.01,1.71@@1.71,14768307200.0,151936.0,40960.0,✓,✗
-<a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.79@@1.79,1.74@@1.74,1.81@@1.81,1.81@@1.81,12187325040.0,262144.0,8192.0,✓,✗
+<a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.79@@1.79,1.74@@1.74,1.82@@1.82,1.81@@1.81,12187325040.0,262144.0,8192.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-Next-80B-A3B-Thinking'>Qwen/Qwen3-Next-80B-A3B-Thinking</a>,🤔,1.79@@1.79,1.71@@1.71,2.04@@2.04,1.61@@1.61,81324862720.0,151936.0,262144.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,1.82@@1.82,1.79@@1.79,1.95@@1.95,1.73@@1.73,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,1.86@@1.86,1.83@@1.83,2.07@@2.07,1.70@@1.70,21511953984.0,201088.0,131072.0,✓,✗
@@ -94,7 +94,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.05@@4.05,4.03@@4.03,4.09@@4.09,4.03@@4.03,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.05@@4.05,3.99@@3.99,4.07@@4.07,4.09@@4.09,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.07@@4.07,3.93@@3.93,4.15@@4.15,4.13@@4.13,361821120.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.11@@4.11,3.99@@3.99,4.11@@4.11,4.21@@4.21,361821120.0,49152.0,8192.0,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.11@@4.11,3.99@@3.99,4.12@@4.12,4.21@@4.21,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.14@@4.14,4.08@@4.08,4.21@@4.21,4.14@@4.14,186112512.0,64000.0,2048.0,✓,✗
 <a href='https://hf.co/ltg/norbert'>ltg/norbert</a>,🔍,-@@100,-@@100,-@@100,-@@100,111952540.0,32922.0,512.0,✓,✗
 <a href='https://hf.co/ltg/bnc-bert-span-document'>ltg/bnc-bert-span-document</a>,🔍,-@@100,-@@100,-@@100,-@@100,79739906.0,16385.0,512.0,✓,✗
