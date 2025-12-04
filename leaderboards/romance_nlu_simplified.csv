@@ -219,10 +219,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B</a>,🤔,3.55,751632384,151936,40960,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.56,742489344,65536,128000,✗,✗
 <a href='https://hf.co/cardiffnlp/twitter-xlm-roberta-base'>cardiffnlp/twitter-xlm-roberta-base</a>,🔍,3.57,278045186,250002,514,✓,✗
-<a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a>,🤔,3.61,7615616512,152064,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.61,751632384,151936,40960,✓,✗
 <a href='https://hf.co/OpenLLM-France/Lucie-7B'>OpenLLM-France/Lucie-7B</a>,📝,3.61,6706960384,65024,32000,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,3.61,108867577,84985,512,✓,✗
+<a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a>,🤔,3.62,7615616512,152064,131072,✓,✗
 <a href='https://hf.co/sentence-transformers/quora-distilbert-multilingual'>sentence-transformers/quora-distilbert-multilingual</a>,🔍,3.64,134734080,119547,512,✓,✗
 <a href='https://hf.co/sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking'>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</a>,🔍,3.64,134734080,119547,512,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.65,999885952,262144,32768,✓,✗

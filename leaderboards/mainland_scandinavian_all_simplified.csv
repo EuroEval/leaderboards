@@ -7,7 +7,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8'>Qwen/Qwen3-235B-A22B-Instruct-2507-FP8</a>,📝,1.50,235107904512,151936,262144,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.50,70553706496,128256,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.51,,,1047576,✓,✗
-<a href='https://hf.co/deepcogito/cogito-v2-preview-llama-70B'>deepcogito/cogito-v2-preview-llama-70B</a>,📝,1.51,70553706496,128256,131072,✓,✗
+<a href='https://hf.co/deepcogito/cogito-v2-preview-llama-70B'>deepcogito/cogito-v2-preview-llama-70B</a>,📝,1.52,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.53,24011361280,131072,,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.54,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.57,,100256,272000,✓,✗
@@ -44,11 +44,11 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.05,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.08,22637328384,128000,4096,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.13,,,200000,✓,✗
-<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.14,32234279936,100352,4096,✗,✗
+<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.15,32234279936,100352,4096,✗,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,2.16,8888227328,131072,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.17,4022468096,151936,40960,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.19,,,1047576,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.19,8030326784,128264,131072,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.20,,,1047576,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.24,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.25,10731524096,32000,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.27,4300079472,262144,,✓,✗
@@ -92,8 +92,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,3.89,186112512,64000,2048,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,3.94,354483968,65536,128000,✗,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,3.96,470607872,64000,2048,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.06,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.06,134515008,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.07,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.09,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.12,361821120,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.16,186112512,64000,2048,✓,✗
