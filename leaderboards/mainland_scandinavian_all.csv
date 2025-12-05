@@ -68,7 +68,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.81@@2.81,2.68@@2.68,2.92@@2.92,2.83@@2.83,7768117248.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,2.81@@2.81,2.72@@2.72,2.96@@2.96,2.76@@2.76,7799574528.0,100096.0,4096.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.84@@2.84,2.75@@2.75,3.02@@3.02,2.75@@2.75,1543714304.0,151936.0,32768.0,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.86@@2.86,2.79@@2.79,2.99@@2.99,2.80@@2.80,7298011136.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.86@@2.86,2.79@@2.79,2.99@@2.99,2.80@@2.80,7298011136.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.88@@2.88,2.72@@2.72,3.17@@3.17,2.75@@2.75,7241732096.0,32000.0,4096.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.91@@2.91,2.83@@2.83,3.11@@3.11,2.80@@2.80,3075098624.0,128256.0,65536.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.91@@2.91,2.73@@2.73,3.26@@3.26,2.73@@2.73,7241748480.0,32002.0,4096.0,✗,✗
@@ -636,7 +636,7 @@ fresh-xlm-roberta-base,🔍,-@@100,-@@100,-@@100,-@@100,278045955.0,250002.0,512
 <a href='https://hf.co/allenai/OLMo-2-1124-7B'>allenai/OLMo-2-1124-7B</a>,🧠,-@@100,-@@100,3.09@@3.09,-@@100,7298617344.0,100352.0,4096.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-7B-Twin-2T'>allenai/OLMo-7B-Twin-2T</a>,🧠,-@@100,-@@100,-@@100,-@@100,6888095744.0,50280.0,2051.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-7B'>allenai/OLMo-7B</a>,🧠,-@@100,-@@100,-@@100,-@@100,6888095744.0,50280.0,2051.0,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,-@@100,2.89@@2.89,-@@100,-@@100,7298011136.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,-@@100,2.89@@2.89,-@@100,-@@100,7298011136.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/alpindale/Mistral-7B-v0.2-hf'>alpindale/Mistral-7B-v0.2-hf</a>,🧠,-@@100,-@@100,2.82@@2.82,-@@100,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,-@@100,-@@100,-@@100,-@@100,149655232.0,50368.0,8192.0,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,-@@100,-@@100,-@@100,-@@100,395881664.0,50368.0,8192.0,✓,✗

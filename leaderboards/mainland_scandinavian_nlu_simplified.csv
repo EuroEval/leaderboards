@@ -83,7 +83,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.62,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/danish-foundation-models/munin-7b-alpha'>danish-foundation-models/munin-7b-alpha</a>,🧠,2.64,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,2.66,3212749824,128256,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.66,7298011136,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.66,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/vesteinn/DanskBERT'>vesteinn/DanskBERT</a>,🔍,2.67,124548012,50005,514,✓,✗
 <a href='https://hf.co/jonfd/electra-small-nordic'>jonfd/electra-small-nordic</a>,🔍,2.71,21944195,96105,128,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.72,108783363,84985,512,✓,✗

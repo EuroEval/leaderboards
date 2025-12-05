@@ -220,7 +220,7 @@ skole-gpt-mixtral,🧠,1.96,,32000,32768,✓,✗
 <a href='https://hf.co/VAGOsolutions/SauerkrautLM-Gemma-7b'>VAGOsolutions/SauerkrautLM-Gemma-7b</a>,🧠,2.46,8537680896,256000,8192,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.46,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B'>HuggingFaceTB/SmolLM3-3B</a>,🤔,2.48,3075098624,128256,65536,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.50,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.50,528384,100278,65536,✗,✗
 <a href='https://hf.co/mgoin/Nemotron-4-340B-Instruct-hf-FP8'>mgoin/Nemotron-4-340B-Instruct-hf-FP8</a>,📝,2.50,341029195776,256000,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-instruct'>ibm-granite/granite-3.0-2b-instruct</a>,📝,2.51,2634201088,49155,4097,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,📝,2.51,2031739904,151936,40960,✓,✗

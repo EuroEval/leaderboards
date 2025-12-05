@@ -226,7 +226,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,3.73,20066993152,49152,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-8b-code-instruct-4k'>ibm-granite/granite-8b-code-instruct-4k</a>,📝,3.73,8054910976,49152,4096,✓,✗
 <a href='https://hf.co/bineric/NorskGPT-Llama-7B-v0.1'>bineric/NorskGPT-Llama-7B-v0.1</a>,📝,3.74,6738415616,32000,4096,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.75,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.75,528384,100278,65536,✗,✗
 <a href='https://hf.co/NbAiLab/nb-roberta-base-scandinavian'>NbAiLab/nb-roberta-base-scandinavian</a>,🔍,3.76,124697947,50265,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.76,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/Geotrend/bert-base-da-cased'>Geotrend/bert-base-da-cased</a>,🔍,3.79,103822082,23150,512,✓,✗

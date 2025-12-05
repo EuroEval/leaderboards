@@ -117,7 +117,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,3.10,,256128,1048576,✓,✗
 <a href='https://hf.co/CYFRAGOVPL/Llama-PLLuM-8B-base-250801'>CYFRAGOVPL/Llama-PLLuM-8B-base-250801</a>,🧠,3.11,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/speakleash/Bielik-7B-v0.1'>speakleash/Bielik-7B-v0.1</a>,🧠,3.11,7241732096,32000,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.11,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.11,528384,100278,65536,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.16,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.23,999885952,262144,32768,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct</a>,🤔,3.29,7504568320,128167,32768,✓,✗

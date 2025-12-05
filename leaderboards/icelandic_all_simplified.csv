@@ -205,7 +205,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.90,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/microsoft/Phi-3-mini-4k-instruct'>microsoft/Phi-3-mini-4k-instruct</a>,📝,3.91,3821079552,32064,4096,✓,✗
 <a href='https://hf.co/ibm-granite/granite-20b-code-instruct'>ibm-granite/granite-20b-code-instruct</a>,📝,3.91,20066993152,49152,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.92,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.92,528384,100278,65536,✗,✗
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,3.93,8028033024,256000,8192,✗,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-base'>ibm-granite/granite-3.0-8b-base</a>,🧠,3.94,8170835968,49152,4096,✓,✗
 <a href='https://hf.co/HPLT/gpt-7b-nordic-prerelease'>HPLT/gpt-7b-nordic-prerelease</a>,🧠,3.94,7550013440,131072,4096,✓,✗

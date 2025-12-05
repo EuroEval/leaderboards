@@ -84,7 +84,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.62@@2.62,2.63@@2.63,2.74@@2.74,2.48@@2.48,7768117248.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/danish-foundation-models/munin-7b-alpha'>danish-foundation-models/munin-7b-alpha</a>,🧠,2.64@@2.64,2.48@@2.48,3.09@@3.09,2.35@@2.35,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,2.66@@2.66,2.56@@2.56,2.91@@2.91,2.51@@2.51,3212749824.0,128256.0,131072.0,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.66@@2.66,2.58@@2.58,2.82@@2.82,2.56@@2.56,7298011136.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.66@@2.66,2.58@@2.58,2.82@@2.82,2.56@@2.56,7298011136.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/vesteinn/DanskBERT'>vesteinn/DanskBERT</a>,🔍,2.67@@2.67,2.25@@2.25,2.92@@2.92,2.82@@2.82,124548012.0,50005.0,514.0,✓,✗
 <a href='https://hf.co/jonfd/electra-small-nordic'>jonfd/electra-small-nordic</a>,🔍,2.71@@2.71,2.42@@2.42,3.53@@3.53,2.17@@2.17,21944195.0,96105.0,128.0,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.72@@2.72,2.88@@2.88,2.63@@2.63,2.66@@2.66,108783363.0,84985.0,512.0,✓,✗
@@ -630,7 +630,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,-@@100,-@@100,2.63@@2.63,-@@100,
 <a href='https://hf.co/allenai/OLMo-2-1124-7B'>allenai/OLMo-2-1124-7B</a>,🧠,-@@100,-@@100,3.09@@3.09,-@@100,7298617344.0,100352.0,4096.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-7B-Twin-2T'>allenai/OLMo-7B-Twin-2T</a>,🧠,-@@100,-@@100,4.10@@4.10,-@@100,6888095744.0,50280.0,2051.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-7B'>allenai/OLMo-7B</a>,🧠,-@@100,-@@100,3.90@@3.90,-@@100,6888095744.0,50280.0,2051.0,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,-@@100,2.77@@2.77,-@@100,-@@100,7298011136.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,-@@100,2.77@@2.77,-@@100,-@@100,7298011136.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/alpindale/Mistral-7B-v0.2-hf'>alpindale/Mistral-7B-v0.2-hf</a>,🧠,-@@100,-@@100,2.69@@2.69,-@@100,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B'>allenai/OLMo-2-1124-13B</a>,🧠,-@@100,-@@100,2.73@@2.73,-@@100,13716198400.0,100352.0,4096.0,✓,✗
 <a href='https://hf.co/asafaya/bert-base-arabic'>asafaya/bert-base-arabic</a>,🔍,-@@100,-@@100,-@@100,-@@100,110619651.0,32000.0,512.0,✓,✗

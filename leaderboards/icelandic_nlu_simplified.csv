@@ -297,7 +297,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b'>AI-Sweden-Models/gpt-sw3-20b</a>,🧠,3.74,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/TurkuNLP/finnish-modernbert-large-seq-len-1024-117300-annealed'>TurkuNLP/finnish-modernbert-large-seq-len-1024-117300-annealed</a>,🔍,3.74,401260864,55616,1024,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v2'>sentence-transformers/distiluse-base-multilingual-cased-v2</a>,🔍,3.74,134734080,119547,512,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.75,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.75,528384,100278,65536,✗,✗
 <a href='https://hf.co/microsoft/Phi-3-mini-128k-instruct'>microsoft/Phi-3-mini-128k-instruct</a>,📝,3.75,3821079552,32064,130819,✓,✗
 <a href='https://hf.co/neuralmagic/Sparse-Llama-3.1-8B-2of4'>neuralmagic/Sparse-Llama-3.1-8B-2of4</a>,🧠,3.75,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased'>sentence-transformers/distiluse-base-multilingual-cased</a>,🔍,3.76,134734080,119547,512,✓,✗

@@ -124,7 +124,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.85,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/CYFRAGOVPL/Llama-PLLuM-8B-base-250801'>CYFRAGOVPL/Llama-PLLuM-8B-base-250801</a>,🧠,2.92,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/speakleash/Bielik-7B-v0.1'>speakleash/Bielik-7B-v0.1</a>,🧠,2.98,7241732096,32000,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99,528384,100278,65536,✗,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.99,8053338176,131072,65536,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.01,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/speakleash/Bielik-1.5B-v3'>speakleash/Bielik-1.5B-v3</a>,📝,3.09,1596507648,32000,8192,✓,✗

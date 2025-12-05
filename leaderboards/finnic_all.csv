@@ -88,7 +88,7 @@ model,generative_type,rank,estonian,finnish,parameters,vocabulary_size,context,c
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.01@@3.01,3.33@@3.33,2.69@@2.69,7768117248.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/mistralai/Voxtral-Mini-3B-2507'>mistralai/Voxtral-Mini-3B-2507</a>,📝,3.02@@3.02,3.54@@3.54,2.51@@2.51,4676271104.0,131072.0,?,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,3.10@@3.10,3.39@@3.39,2.81@@2.81,7241748480.0,32002.0,32768.0,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.12@@3.12,3.40@@3.40,2.84@@2.84,528384.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.12@@3.12,3.40@@3.40,2.84@@2.84,528384.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.15@@3.15,3.50@@3.50,2.80@@2.80,7799574528.0,100096.0,4096.0,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.16@@3.16,3.36@@3.36,2.96@@2.96,1543714304.0,151936.0,32768.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.17@@3.17,3.55@@3.55,2.78@@2.78,7241732096.0,32000.0,32768.0,✓,✗

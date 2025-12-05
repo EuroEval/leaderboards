@@ -141,7 +141,7 @@ model,generative_type,rank,french,italian,portuguese,spanish,parameters,vocabula
 <a href='https://hf.co/tiiuae/Falcon3-7B-Base'>tiiuae/Falcon3-7B-Base</a>,🧠,2.73@@2.73,2.08@@2.08,3.14@@3.14,3.15@@3.15,2.57@@2.57,7455550464.0,131072.0,32768.0,✓,✗
 <a href='https://hf.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview'>NousResearch/DeepHermes-3-Llama-3-8B-Preview</a>,📝,2.73@@2.73,2.13@@2.13,2.94@@2.94,3.11@@3.11,2.73@@2.73,8030261248.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/meta-llama/Meta-Llama-3-8B'>meta-llama/Meta-Llama-3-8B</a>,🧠,2.73@@2.73,2.15@@2.15,3.02@@3.02,2.95@@2.95,2.80@@2.80,8030261248.0,128256.0,8192.0,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.75@@2.75,2.26@@2.26,3.05@@3.05,2.86@@2.86,2.81@@2.81,528384.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.75@@2.75,2.26@@2.26,3.05@@3.05,2.86@@2.86,2.81@@2.81,528384.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.76@@2.76,2.11@@2.11,2.92@@2.92,3.24@@3.24,2.75@@2.75,140642306.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-instruct'>ibm-granite/granite-3.0-8b-instruct</a>,📝,2.76@@2.76,2.34@@2.34,2.97@@2.97,3.15@@3.15,2.59@@2.59,8170848256.0,49155.0,4096.0,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,2.78@@2.78,2.18@@2.18,2.95@@2.95,2.97@@2.97,3.00@@3.00,7298011136.0,100278.0,65536.0,✓,✗

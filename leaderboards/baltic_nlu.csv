@@ -65,7 +65,7 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.77@@2.77,2.65@@2.65,2.89@@2.89,140645001.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,2.81@@2.81,2.71@@2.71,2.90@@2.90,278044162.0,250002.0,512.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.99@@2.99,3.00@@3.00,2.99@@2.99,7241748480.0,32002.0,32768.0,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99@@2.99,3.19@@3.19,2.78@@2.78,528384.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99@@2.99,3.19@@3.19,2.78@@2.78,528384.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,3.02@@3.02,3.09@@3.09,2.94@@2.94,7298011136.0,100278.0,65536.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,3.04@@3.04,2.99@@2.99,3.09@@3.09,3212749824.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.08@@3.08,2.94@@2.94,3.22@@3.22,7768117248.0,256000.0,8192.0,✓,✗

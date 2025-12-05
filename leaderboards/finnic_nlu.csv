@@ -99,7 +99,7 @@ model,generative_type,rank,estonian,finnish,parameters,vocabulary_size,context,c
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.87@@2.87,3.14@@3.14,2.59@@2.59,7768117248.0,256000.0,8192.0,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.91@@2.91,3.11@@3.11,2.71@@2.71,7241748480.0,32002.0,32768.0,✗,✗
 <a href='https://hf.co/TurkuNLP/finnish-modernbert-large'>TurkuNLP/finnish-modernbert-large</a>,🔍,2.96@@2.96,3.83@@3.83,2.10@@2.10,401260864.0,55616.0,16000.0,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99@@2.99,3.19@@3.19,2.80@@2.80,528384.0,100278.0,65536.0,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99@@2.99,3.19@@3.19,2.80@@2.80,528384.0,100278.0,65536.0,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.01@@3.01,3.39@@3.39,2.64@@2.64,7241732096.0,32000.0,32768.0,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.03@@3.03,3.33@@3.33,2.73@@2.73,7799574528.0,100096.0,4096.0,✓,✗
 <a href='https://hf.co/Finnish-NLP/roberta-large-finnish'>Finnish-NLP/roberta-large-finnish</a>,🔍,3.04@@3.04,3.69@@3.69,2.39@@2.39,354313218.0,50265.0,514.0,✓,✗

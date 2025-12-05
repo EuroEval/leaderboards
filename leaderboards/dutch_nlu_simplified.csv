@@ -224,7 +224,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/DTAI-KULeuven/robbertje-1-gb-merged'>DTAI-KULeuven/robbertje-1-gb-merged</a>,🔍,2.39,73646594,40000,512,✓,✗
 <a href='https://hf.co/BramVanroy/GEITje-7B-ultra'>BramVanroy/GEITje-7B-ultra</a>,🧠,2.39,7241732096,32000,8192,✗,✗
 <a href='https://hf.co/microsoft/xlm-align-base'>microsoft/xlm-align-base</a>,🔍,2.40,277455362,250002,514,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.41,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.41,528384,100278,65536,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B'>meta-llama/Llama-3.2-3B</a>,🧠,2.42,3212749824,128256,131328,✓,✗
 <a href='https://hf.co/BramVanroy/GEITje-7B-ultra-sft'>BramVanroy/GEITje-7B-ultra-sft</a>,📝,2.43,7241732096,32000,8192,✗,✗
 <a href='https://hf.co/01-ai/Yi-1.5-6B'>01-ai/Yi-1.5-6B</a>,🧠,2.43,6061035520,64000,4352,✓,✗
@@ -243,7 +243,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/jhu-clsp/bernice'>jhu-clsp/bernice</a>,🔍,2.55,278839328,250000,130,✓,✗
 <a href='https://hf.co/Twitter/twhin-bert-base'>Twitter/twhin-bert-base</a>,🔍,2.55,279080594,250002,512,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-14B</a>,🤔,2.55,14770033664,152064,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.57,7298011136,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.57,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/sentence-transformers/paraphrase-xlm-r-multilingual-v1'>sentence-transformers/paraphrase-xlm-r-multilingual-v1</a>,🔍,2.58,278044162,250002,512,✓,✗
 <a href='https://hf.co/ChocoLlama/ChocoLlama-2-7B-base'>ChocoLlama/ChocoLlama-2-7B-base</a>,🧠,2.59,6738415616,32000,4096,✓,✗
 <a href='https://hf.co/cardiffnlp/twitter-xlm-roberta-base'>cardiffnlp/twitter-xlm-roberta-base</a>,🔍,2.60,277455362,250002,514,✓,✗

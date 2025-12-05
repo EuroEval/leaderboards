@@ -165,7 +165,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-7b'>google/gemma-7b</a>,🧠,2.72,8537680896,256000,8192,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-7B-Instruct'>allenai/OLMo-2-1124-7B-Instruct</a>,📝,2.73,7298617344,100352,4096,✓,✗
 <a href='https://hf.co/google/gemma-2-2b-it'>google/gemma-2-2b-it</a>,📝,2.74,2614341888,256000,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.75,7298011136,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.75,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.75,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/ibm-granite/granite-34b-code-base'>ibm-granite/granite-34b-code-base</a>,🧠,2.78,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,2.79,7298011136,100278,65536,✓,✗

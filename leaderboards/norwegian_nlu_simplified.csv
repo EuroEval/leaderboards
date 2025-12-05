@@ -276,7 +276,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.63,7241732096,32000,8192,✓,�
 <a href='https://hf.co/ibm-granite/granite-34b-code-instruct'>ibm-granite/granite-34b-code-instruct</a>,📝,2.81,33715603456,49152,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-instruct'>ibm-granite/granite-3.0-2b-instruct</a>,📝,2.82,2634201088,49155,4097,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-8b-base'>ibm-granite/granite-3.0-8b-base</a>,🧠,2.82,8170835968,49152,4096,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.82,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.82,528384,100278,65536,✗,✗
 <a href='https://hf.co/meta-llama/Llama-2-13b-hf'>meta-llama/Llama-2-13b-hf</a>,🧠,2.82,13015866880,32000,4096,✓,✗
 <a href='https://hf.co/birgermoell/Flashback-Bellman'>birgermoell/Flashback-Bellman (val)</a>,🧠,2.82,7241732096,32000,4096,✗,✓
 <a href='https://hf.co/birgermoell/Rapid-Cycling'>birgermoell/Rapid-Cycling (val)</a>,🧠,2.82,7241732096,32000,4096,✗,✓

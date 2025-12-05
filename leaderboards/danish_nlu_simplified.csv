@@ -91,7 +91,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.56,7241748480,32002,4096,✗,✗
 "<a href='https://hf.co/danish-foundation-models/Meta-Llama-3.1-8B-laerebogen'>danish-foundation-models/Meta-Llama-3.1-8B-laerebogen (zero-shot, val)</a>",📝,2.57,8030261248,128256,131072,✗,✗
 "<a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct (zero-shot, val)</a>",📝,2.57,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.58,528384,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.58,528384,100278,65536,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.61,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.61,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/sarnikowski/electra-small-discriminator-da-256-cased'>sarnikowski/electra-small-discriminator-da-256-cased</a>,🔍,2.61,13353858,28995,512,✓,✗
@@ -102,7 +102,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.69,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/emillykkejensen/Llama-3-8B-instruct-dansk'>emillykkejensen/Llama-3-8B-instruct-dansk</a>,📝,2.74,8030261248,128256,4096,✗,✗
 "<a href='https://hf.co/alexandrainst/Meta-Llama-3.1-8B-laerebogen-and-dialog-k2-da'>alexandrainst/Meta-Llama-3.1-8B-laerebogen-and-dialog-k2-da (zero-shot, val)</a>",📝,2.76,8030261248,128256,131072,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.77,7298011136,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.77,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.79,2569272320,65536,128000,✗,✗
 "<a href='https://hf.co/alexandrainst/Meta-Llama-3.1-8B-dialog-k2-da'>alexandrainst/Meta-Llama-3.1-8B-dialog-k2-da (zero-shot, val)</a>",📝,2.79,8030261248,128256,131072,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.80,3075098624,128256,65536,✓,✗
