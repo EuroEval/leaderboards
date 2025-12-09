@@ -11,4 +11,4 @@ summarization:
 knowledge:
   - mmlu-ca
 common-sense-reasoning:
-  - hellaswag-ca
+  - winogrande-ca
