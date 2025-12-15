@@ -22,11 +22,6 @@ download:
 		cat eval_backlog_results.jsonl >> new_results.jsonl; \
 		rm eval_backlog_results.jsonl; \
 	fi
-	@scp -o ConnectTimeout=5 ucloud:/work/api/euroeval_benchmark_results.jsonl ucloud_api_results.jsonl || true
-	@if [ -f ucloud_api_results.jsonl ]; then \
-		cat ucloud_api_results.jsonl >> new_results.jsonl; \
-		rm ucloud_api_results.jsonl; \
-	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
