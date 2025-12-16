@@ -22,6 +22,11 @@ download:
 		cat eval_backlog_results.jsonl >> new_results.jsonl; \
 		rm eval_backlog_results.jsonl; \
 	fi
+	@scp -o ConnectTimeout=5 reevaluations:/work/euroeval_benchmark_results.jsonl reevaluations_results.jsonl || true
+	@if [ -f reevaluations_results.jsonl ]; then \
+		cat reevaluations_results.jsonl >> new_results.jsonl; \
+		rm reevaluations_results.jsonl; \
+	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
