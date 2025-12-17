@@ -20,7 +20,7 @@ model,generative_type,rank,danish,norwegian,swedish,parameters,vocabulary_size,c
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.59@@1.59,1.46@@1.46,1.79@@1.79,1.53@@1.53,24011361280.0,131072.0,?,✓,✗
 <a href='https://hf.co/mistralai/Voxtral-Small-24B-2507'>mistralai/Voxtral-Small-24B-2507</a>,📝,1.60@@1.60,1.46@@1.46,1.83@@1.83,1.53@@1.53,24261800960.0,131072.0,8192.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,1.61@@1.61,1.53@@1.53,1.67@@1.67,1.61@@1.61,?,256128.0,1048576.0,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.61@@1.61,1.57@@1.57,1.65@@1.65,1.62@@1.62,?,256128.0,1048576.0,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.62@@1.62,1.57@@1.57,1.65@@1.65,1.62@@1.62,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.62@@1.62,1.43@@1.43,1.95@@1.95,1.47@@1.47,70553706496.0,128256.0,131072.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-4-Scout-17B-16E-Instruct'>meta-llama/Llama-4-Scout-17B-16E-Instruct</a>,📝,1.63@@1.63,1.50@@1.50,1.80@@1.80,1.58@@1.58,108641793536.0,200000.0,?,✓,✗
 <a href='https://hf.co/mistralai/Magistral-Small-2509'>mistralai/Magistral-Small-2509</a>,📝,1.63@@1.63,1.49@@1.49,1.82@@1.82,1.57@@1.57,24011361280.0,131072.0,8192.0,✓,✗
@@ -256,7 +256,7 @@ syvai/llama3-da-base,🧠,-@@100,-@@100,-@@100,-@@100,8030261248.0,128256.0,8192
 <a href='https://hf.co/tollefj/nordavind-7b-instruct-warm'>tollefj/nordavind-7b-instruct-warm</a>,📝,-@@100,-@@100,3.12@@3.12,-@@100,7248023552.0,32768.0,2048.0,✗,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,-@@100,-@@100,3.57@@3.57,-@@100,1656850432.0,128000.0,4096.0,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,-@@100,-@@100,3.61@@3.61,-@@100,?,128000.0,4096.0,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,-@@100,-@@100,-@@100,-@@100,22637328384.0,128000.0,32768.0,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,-@@100,1.85@@1.85,-@@100,-@@100,22637328384.0,128000.0,32768.0,✓,✗
 <a href='https://hf.co/utter-project/EuroVLM-1.7B-Preview'>utter-project/EuroVLM-1.7B-Preview</a>,📝,-@@100,-@@100,3.70@@3.70,-@@100,2061162016.0,128000.0,?,✓,✗
 <a href='https://hf.co/vesteinn/DanskBERT'>vesteinn/DanskBERT</a>,🔍,-@@100,-@@100,-@@100,-@@100,124548012.0,50005.0,514.0,✓,✗
 <a href='https://hf.co/vesteinn/FoBERT'>vesteinn/FoBERT</a>,🔍,-@@100,-@@100,-@@100,-@@100,124498007.0,50005.0,514.0,✓,✗
