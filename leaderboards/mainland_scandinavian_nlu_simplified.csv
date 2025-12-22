@@ -44,7 +44,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/NbAiLab/nb-sbert-base'>NbAiLab/nb-sbert-base</a>,🔍,1.89,177855747,119547,512,✓,✗
 <a href='https://hf.co/vesteinn/ScandiBERT-no-faroese'>vesteinn/ScandiBERT-no-faroese</a>,🔍,1.89,124498007,50005,514,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,1.90,8190735360,151936,40960,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,1.90,,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,1.91,,128000,4096,✓,✗
 <a href='https://hf.co/danish-foundation-models/encoder-large-v1'>danish-foundation-models/encoder-large-v1</a>,🔍,1.92,355139920,50000,512,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,1.93,561192082,250002,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-Next-80B-A3B-Thinking'>Qwen/Qwen3-Next-80B-A3B-Thinking</a>,🤔,1.93,81324862720,151936,262144,✓,✗
@@ -140,8 +140,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.04,186112512,64000,2048,✓,✗
 fresh-xlm-roberta-base,🔍,4.04,278045955,250002,512,✓,✗
 fresh-electra-small,🔍,4.10,13549571,30522,512,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.11,354483968,65536,128000,✗,✗
-<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.12,353424384,65536,2048,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.12,354483968,65536,128000,✗,✗
+<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.13,353424384,65536,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.22,470607872,64000,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.23,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.24,361821120,49152,8192,✓,✗
