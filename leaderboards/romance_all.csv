@@ -95,7 +95,7 @@ model,generative_type,rank,catalan,french,italian,portuguese,romanian,spanish,pa
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,3.98@@3.98,3.86@@3.86,3.83@@3.83,4.19@@4.19,4.05@@4.05,4.13@@4.13,3.82@@3.82,?,103424.0,131072.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.01@@4.01,4.14@@4.14,3.63@@3.63,4.06@@4.06,4.04@@4.04,4.42@@4.42,3.79@@3.79,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.17@@4.17,4.13@@4.13,3.94@@3.94,4.17@@4.17,4.37@@4.37,4.34@@4.34,4.07@@4.07,353424384.0,65536.0,2048.0,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.25@@4.25,4.50@@4.50,3.81@@3.81,4.28@@4.28,4.32@@4.32,4.67@@4.67,3.91@@3.91,361821120.0,49152.0,8192.0,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.25@@4.25,4.50@@4.50,3.82@@3.82,4.28@@4.28,4.32@@4.32,4.67@@4.67,3.91@@3.91,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.29@@4.29,4.34@@4.34,3.99@@3.99,4.40@@4.40,4.42@@4.42,4.54@@4.54,4.05@@4.05,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.36@@4.36,4.37@@4.37,4.03@@4.03,4.48@@4.48,4.46@@4.46,4.64@@4.64,4.19@@4.19,134515008.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B-Instruct'>meta-llama/Llama-3.1-70B-Instruct</a>,📝,-@@100,-@@100,1.63@@1.63,2.09@@2.09,2.17@@2.17,-@@100,1.76@@1.76,70553706496.0,128256.0,131072.0,✓,✗
