@@ -1,6 +1,6 @@
 <span style='font-size: 12px; font-weight: normal; opacity: 0.6;'>Task Type</span>,<span style='visibility: hidden;'>dummy</span>,,,,,,,,,,,,,,
 model,generative_type,rank,danish,dutch,english,faroese,german,icelandic,norwegian,swedish,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.30@@1.30,1.23@@1.23,1.35@@1.35,1.31@@1.31,1.33@@1.33,1.45@@1.45,1.25@@1.25,1.23@@1.23,1.25@@1.25,?,?,?,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.30@@1.30,1.23@@1.23,1.35@@1.35,1.31@@1.31,1.33@@1.33,1.45@@1.45,1.25@@1.25,1.23@@1.23,1.25@@1.25,?,256128.0,1048576.0,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.44@@1.44,1.21@@1.21,1.30@@1.30,1.35@@1.35,1.69@@1.69,1.60@@1.60,1.67@@1.67,1.44@@1.44,1.25@@1.25,?,?,?,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.46@@1.46,1.27@@1.27,1.48@@1.48,1.46@@1.46,1.74@@1.74,1.69@@1.69,1.35@@1.35,1.35@@1.35,1.35@@1.35,?,100256.0,272000.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.53@@1.53,1.39@@1.39,1.51@@1.51,1.50@@1.50,1.73@@1.73,1.73@@1.73,1.58@@1.58,1.42@@1.42,1.41@@1.41,?,256128.0,1048576.0,✓,✗

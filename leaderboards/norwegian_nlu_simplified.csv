@@ -1,5 +1,5 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.26,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.26,,256128,1048576,✓,✗
 <a href='https://hf.co/ltg/norbert3-large'>ltg/norbert3-large</a>,🔍,1.26,354406402,50000,512,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-405B'>meta-llama/Llama-3.1-405B</a>,🧠,1.36,405853388800,128256,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07#high (zero-shot, val)</a>",🤔,1.38,,100256,272000,✓,✗

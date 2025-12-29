@@ -1,6 +1,6 @@
 <span style='font-size: 12px; font-weight: normal; opacity: 0.6;'>Task Type</span>,<span style='visibility: hidden;'>dummy</span>,,,,,,,,
 model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.35@@1.35,1.32@@1.32,1.39@@1.39,?,?,?,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.35@@1.35,1.32@@1.32,1.39@@1.39,?,256128.0,1048576.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.43@@1.43,1.24@@1.24,1.63@@1.63,?,100256.0,272000.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.56@@1.56,1.38@@1.38,1.74@@1.74,?,256128.0,1048576.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5.2'>gpt-5.2-2025-12-11 (zero-shot, val)</a>",🤔,1.62@@1.62,1.47@@1.47,1.76@@1.76,?,?,?,✓,✗

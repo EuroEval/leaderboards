@@ -1,5 +1,5 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.27,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.27,,256128,1048576,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.54,32759790592,151665,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-Next-80B-A3B-Instruct'>Qwen/Qwen3-Next-80B-A3B-Instruct</a>,📝,1.59,81324862720,151936,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8'>Qwen/Qwen3-235B-A22B-Instruct-2507-FP8</a>,📝,1.60,235107904512,151936,262144,✓,✗

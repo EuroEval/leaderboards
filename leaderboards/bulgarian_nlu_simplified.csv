@@ -1,6 +1,6 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.21,,256128,1048576,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.24,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.24,,256128,1048576,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.26,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5.2'>gpt-5.2-2025-12-11 (zero-shot, val)</a>",🤔,1.32,,,,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.33,,,200000,✓,✗

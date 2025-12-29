@@ -1,5 +1,5 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.37,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.37,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.60,,,,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.63,,100256,272000,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.70,70553706496,128256,131072,✓,✗

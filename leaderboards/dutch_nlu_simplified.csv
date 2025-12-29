@@ -1,7 +1,7 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-3.1-405B'>meta-llama/Llama-3.1-405B</a>,🧠,1.16,405853388800,128256,131072,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.20,,,,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.24,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.24,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,1.35,,,,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.36,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.37,32759790592,151665,131072,✓,✗

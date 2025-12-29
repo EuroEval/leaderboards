@@ -1,7 +1,7 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.50,27432406640,262144,8192,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.52,,256128,1048576,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.53,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.53,,256128,1048576,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.54,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.54,,,,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.57,24011361280,131072,8192,✓,✗

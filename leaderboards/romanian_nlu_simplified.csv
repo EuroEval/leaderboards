@@ -1,5 +1,5 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.81,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.81,,256128,1048576,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B#no-thinking</a>,📝,1.83,32762123264,151936,40960,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,1.86,,256128,1048576,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.87,24011361280,131072,8192,✓,✗

@@ -1,5 +1,5 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.44,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.44,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5.2'>gpt-5.2-2025-12-11 (zero-shot, val)</a>",🤔,1.57,,,,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-235B-A22B-Thinking-2507-FP8'>Qwen/Qwen3-235B-A22B-Thinking-2507-FP8</a>,🤔,1.63,235107904512,151936,262144,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.63,24011361280,131072,8192,✓,✗

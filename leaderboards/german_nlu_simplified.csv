@@ -3,7 +3,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.34,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,1.41,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,1.42,575922690,250300,512,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.47,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.47,,256128,1048576,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.52,24011361280,131072,,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-large-instruct'>intfloat/multilingual-e5-large-instruct</a>,🔍,1.53,559890432,250002,514,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.55,32759790592,151665,131072,✓,✗

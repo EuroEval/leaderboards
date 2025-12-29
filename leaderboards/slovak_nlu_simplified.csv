@@ -1,7 +1,7 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.42,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Voxtral-Small-24B-2507'>mistralai/Voxtral-Small-24B-2507</a>,📝,1.42,24261800960,131072,8192,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.43,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.43,,256128,1048576,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.44,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Magistral-Small-2509'>mistralai/Magistral-Small-2509</a>,📝,1.45,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.45,32759790592,151665,131072,✓,✗

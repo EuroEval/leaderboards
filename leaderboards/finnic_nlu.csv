@@ -1,6 +1,6 @@
 <span style='font-size: 12px; font-weight: normal; opacity: 0.6;'>Task Type</span>,<span style='visibility: hidden;'>dummy</span>,,,,,,,,
 model,generative_type,rank,estonian,finnish,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.41@@1.41,1.31@@1.31,1.52@@1.52,?,?,?,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.41@@1.41,1.31@@1.31,1.52@@1.52,?,256128.0,1048576.0,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.48@@1.48,1.45@@1.45,1.52@@1.52,?,100256.0,272000.0,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.54@@1.54,1.40@@1.40,1.69@@1.69,?,256128.0,1048576.0,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.64@@1.64,1.75@@1.75,1.52@@1.52,70553706496.0,128256.0,131072.0,✓,✗

@@ -1,6 +1,6 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/microsoft/deberta-v3-large'>microsoft/deberta-v3-large</a>,🔍,1.28,435064835,128100,512,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.31,,,,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.31,,256128,1048576,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-70B'>meta-llama/Llama-3.1-70B</a>,🧠,1.36,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-405B'>meta-llama/Llama-3.1-405B</a>,🧠,1.38,405853388800,128256,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5.2'>gpt-5.2-2025-12-11 (zero-shot, val)</a>",🤔,1.41,,,,✓,✗
