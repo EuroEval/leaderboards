@@ -11,4 +11,4 @@ summarization:
 knowledge:
   - global-mmlu-lite-sq
 common-sense-reasoning:
-  - winogrande-bg
+  - winogrande-sq
