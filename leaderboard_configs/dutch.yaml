@@ -4,6 +4,8 @@ named-entity-recognition:
   - conll-nl
 linguistic-acceptability:
   - scala-nl
+simplification:
+  - duidelijke-taal
 reading-comprehension:
   - squad-nl
 summarization:
