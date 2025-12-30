@@ -32,3 +32,8 @@ summarization:
   category: nlg
   primary_metric: bertscore
   secondary_metric: rouge_l
+
+simplification:
+  category: nlg
+  primary_metric: meteor
+  secondary_metric: sari
