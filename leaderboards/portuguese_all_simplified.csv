@@ -260,9 +260,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4'>openGPT-X/Teuken-7B-instruct-commercial-v0.4</a>,📝,3.45,7452725248,250680,4096,✓,✗
 <a href='https://hf.co/MaLA-LM/emma-500-llama2-7b'>MaLA-LM/emma-500-llama2-7b</a>,🧠,3.47,6738415616,32000,4096,✓,✗
 <a href='https://hf.co/OpenLLM-France/Lucie-7B'>OpenLLM-France/Lucie-7B</a>,📝,3.47,6706960384,65024,32000,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.47,999885952,262144,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen1.5-1.8B-Chat'>Qwen/Qwen1.5-1.8B-Chat</a>,📝,3.49,1836828672,151936,32768,✗,✗
 <a href='https://hf.co/common-pile/comma-v0.1-1t'>common-pile/comma-v0.1-1t</a>,🧠,3.52,7002656768,64256,16384,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.52,999885952,262144,32768,✓,✗
 <a href='https://hf.co/four-two-labs/lynx-micro'>four-two-labs/lynx-micro</a>,📝,3.53,2506172416,256000,8192,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B'>HuggingFaceTB/SmolLM2-1.7B</a>,🧠,3.54,1711376384,49152,8192,✓,✗
 <a href='https://hf.co/stabilityai/stablelm-2-1_6b'>stabilityai/stablelm-2-1_6b</a>,🧠,3.55,1644515328,100352,4096,✓,✗
