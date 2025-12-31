@@ -86,7 +86,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.09,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.21,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,3.25,117654272,250037,512,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.43,999885952,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.40,999885952,262144,32768,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.47,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,3.52,108867577,84985,512,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.52,7799574528,100096,4096,✓,✗
@@ -104,13 +104,13 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.79,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.84,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.86,3211926528,65536,4096,✓,✗
-<a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.86,2424375168,99000,28723,✗,✗
+<a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.87,2424375168,99000,28723,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,4.03,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,4.07,,103424,131072,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.11,353424384,65536,2048,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.12,1170340608,65536,128000,✗,✗
-<a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.15,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.15,742489344,65536,128000,✗,✗
+<a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.16,268098176,262144,32768,✓,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.17,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.24,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.28,361821120,49152,8192,✓,✗

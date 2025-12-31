@@ -251,7 +251,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,2.82,2023868416,64000,4096,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b-instruct'>AI-Sweden-Models/gpt-sw3-20b-instruct</a>,📝,2.83,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-instruct'>ibm-granite/granite-3.0-1b-a400m-instruct</a>,📝,2.84,1334628352,49155,4096,✓,✗
-<a href='https://hf.co/google/gemma-7b-it'>google/gemma-7b-it</a>,📝,2.87,8537680896,256000,8192,✗,✗
+<a href='https://hf.co/google/gemma-7b-it'>google/gemma-7b-it</a>,📝,2.88,8537680896,256000,8192,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M-base'>facebook/MobileLLM-R1-950M-base</a>,🧠,2.89,949685760,128256,4096,✗,✗
 <a href='https://ollama.com/library/gemma3:1b'>ollama_chat/gemma3:1b</a>,📝,2.89,1000000000,262144,32768,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_1t-tokens_llama'>TrustLLMeu/baseline-7-8b_1t-tokens_llama</a>,🧠,2.92,7799574528,100096,4096,✓,✗
@@ -275,8 +275,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen1.5-0.5B'>Qwen/Qwen1.5-0.5B</a>,📝,3.18,619570176,151936,32768,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b'>AI-Sweden-Models/gpt-sw3-20b</a>,🧠,3.19,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B'>utter-project/EuroLLM-1.7B</a>,🧠,3.22,,128000,4096,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.24,999885952,262144,32768,✓,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a>,🤔,3.24,1777088000,151936,131072,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.25,999885952,262144,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.26,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.26,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.28,2611528704,128000,4096,✓,✗

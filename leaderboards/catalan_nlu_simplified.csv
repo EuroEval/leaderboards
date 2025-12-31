@@ -42,8 +42,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.18,470927360,501153,512,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.18,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.19,32233522176,100278,65536,✗,✗
+<a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.19,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#low</a>,🤔,2.19,21511953984,201088,131072,✓,✗
-<a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.20,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.20,40433885184,256000,32768,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,2.21,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-micro'>ibm-granite/granite-4.0-h-micro</a>,📝,2.21,3191396096,100352,131072,✓,✗
@@ -106,7 +106,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/EuroBERT/EuroBERT-210m'>EuroBERT/EuroBERT-210m</a>,🔍,3.48,310266624,128256,8192,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.54,149655232,50368,8192,✓,✗
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.59,93990500,65636,512,✓,✗
-<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.60,2611528704,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.61,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.67,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.69,742489344,65536,128000,✗,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.80,2611528704,128000,4096,✓,✗

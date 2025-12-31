@@ -37,7 +37,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.18,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,2.19,30532122624,151936,262144,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.22,21511953984,201088,131072,✓,✗
-<a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.22,40433885184,256000,32768,✓,✗
+<a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.23,40433885184,256000,32768,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.26,7849978192,262400,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,2.28,32207337984,100352,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.31,22637328384,128000,4096,✓,✗
@@ -78,7 +78,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.35,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.39,999885952,262144,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.40,7298011136,100278,65536,✗,✗
-<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.44,999885952,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.48,999885952,262144,32768,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,3.52,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.53,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,3.54,7298011136,100278,65536,✓,✗
