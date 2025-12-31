@@ -35,8 +35,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-haiku-4-5-20251001 (zero-shot, val)</a>",🤔,1.94,,,200000,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.97,30532122624,151936,262144,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,1.98,32207337984,100352,131072,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,2.00,,,1047576,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.00,12187325040,262144,8192,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,2.01,,,1047576,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.04,,256128,1048576,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.05,575923843,250300,512,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.05,21511953984,201088,131072,✓,✗
@@ -115,8 +115,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.85,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.89,3211926528,65536,4096,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.03,742489344,65536,128000,✗,✗
-<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,4.04,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.04,268098176,262144,32768,✓,✗
+<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,4.05,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,4.08,470607872,64000,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.15,361821120,49152,8192,✓,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,4.16,,103424,131072,✓,✗
