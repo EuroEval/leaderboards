@@ -41,7 +41,7 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.19@@2.19,2.27@@2.27,2.12@@2.12,4022468096.0,151936.0,40960.0,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.19@@2.19,2.23@@2.23,2.16@@2.16,7849978192.0,262400.0,8192.0,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#low</a>,🤔,2.21@@2.21,2.20@@2.20,2.22@@2.22,21511953984.0,201088.0,131072.0,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.23@@2.23,2.20@@2.20,2.26@@2.26,22637328384.0,128000.0,32768.0,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.23@@2.23,2.19@@2.19,2.26@@2.26,22637328384.0,128000.0,32768.0,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.26@@2.26,2.44@@2.44,2.09@@2.09,22637328384.0,128000.0,4096.0,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.27@@2.27,2.13@@2.13,2.40@@2.40,11168796672.0,32128.0,32768.0,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.27@@2.27,2.38@@2.38,2.15@@2.15,8030326784.0,128264.0,131072.0,✓,✗
@@ -118,10 +118,10 @@ model,generative_type,rank,latvian,lithuanian,parameters,vocabulary_size,context
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.18@@4.18,4.13@@4.13,4.22@@4.22,1170340608.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.19@@4.19,4.16@@4.16,4.21@@4.21,268098176.0,262144.0,32768.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.24@@4.24,4.23@@4.23,4.26@@4.26,361821120.0,49152.0,8192.0,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.26@@4.26,4.25@@4.25,4.27@@4.27,361821120.0,49152.0,8192.0,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.27@@4.27,4.26@@4.26,4.27@@4.27,361821120.0,49152.0,8192.0,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.32@@4.32,4.30@@4.30,4.34@@4.34,134515008.0,49152.0,8192.0,✓,✗
 fresh-xlm-roberta-base,🔍,4.33@@4.33,4.37@@4.37,4.30@@4.30,278885778.0,250002.0,512.0,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.33@@4.33,4.31@@4.31,4.35@@4.35,134515008.0,49152.0,8192.0,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.33@@4.33,4.30@@4.30,4.35@@4.35,134515008.0,49152.0,8192.0,✓,✗
 fresh-electra-small,🔍,4.34@@4.34,4.33@@4.33,4.35@@4.35,13738755.0,32000.0,128.0,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.34@@4.34,4.34@@4.34,4.34@@4.34,354483968.0,65536.0,128000.0,✗,✗
 <a href='https://hf.co/kurakurai/Luth-1.7B-Instruct'>kurakurai/Luth-1.7B-Instruct</a>,📝,-@@100,-@@100,-@@100,1720574976.0,151936.0,40960.0,✗,✗

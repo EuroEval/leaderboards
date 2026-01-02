@@ -47,8 +47,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.14,70599864480,131072,65536,✗,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.19,,256128,1048576,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.19,8190735360,151936,40960,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.19,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#low</a>,🤔,2.20,21511953984,201088,131072,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.20,22637328384,128000,32768,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.21,,,200000,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.21,470927360,501153,512,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.23,7849978192,262400,8192,✓,✗
@@ -149,9 +149,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.16,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.16,742489344,65536,128000,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.23,361821120,49152,8192,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.25,361821120,49152,,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.26,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.30,134515008,49152,8192,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.31,134515008,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.30,134515008,49152,8192,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.32,359431168,128256,4096,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.32,140248512,128256,4096,✗,✗
 fresh-electra-small,🔍,4.33,13738755,32000,128,✓,✗

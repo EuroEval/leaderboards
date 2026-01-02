@@ -117,7 +117,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.18,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.19,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.24,361821120,49152,8192,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.26,361821120,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.27,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.32,134515008,49152,8192,✓,✗
 fresh-xlm-roberta-base,🔍,4.33,278885778,250002,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.33,134515008,49152,8192,✓,✗

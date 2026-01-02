@@ -36,7 +36,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.12,70599864480,131072,65536,✗,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.15,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.16,12187325040,262144,8192,✓,✗
-<a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,2.20,32207337984,100352,131072,✓,✗
+<a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,2.19,32207337984,100352,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.22,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.22,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.24,7849978192,262400,8192,✓,✗
@@ -100,7 +100,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.06,742489344,65536,128000,✗,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.10,353424384,65536,2048,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.11,268098176,262144,32768,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.15,361821120,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.14,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.15,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.25,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.27,134515008,49152,8192,✓,✗
