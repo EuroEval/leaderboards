@@ -1,0 +1,22 @@
+# MacOS
+**/.DS_Store
+
+# Python
+**/__pycache__
+**/*.pyc
+
+# Temporary files
+**/*tmp*
+
+# VSCode
+launch.json
+
+# Environment variables
+.env
+
+# Ipynb checkpoints
+**/.ipynb_checkpoints
+
+# Raw data
+**/*.jsonl
+**/*.mp4
