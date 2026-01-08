@@ -419,10 +419,10 @@ def generate_dataframe(
             model_values = (
                 dict(model=model_id, rank=rank)
                 | default_orthogonal_values
+                | default_dataset_values
                 | orthogonal_task_scores
                 | metadata
                 | language_ranks
-                | default_dataset_values
                 | total_results
             )
             for key, value in model_values.items():
