@@ -158,13 +158,13 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Estonian,Finnish
 fresh-xlm-roberta-base,🔍,4.24@@4.24,278885778.0,250002.0,512.0,✓,✗,4.45@@4.45,4.03@@4.03
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.28@@4.28,268098176.0,262144.0,32768.0,✓,✗,4.27@@4.27,4.28@@4.28
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,4.29@@4.29,?,103424.0,131072.0,✓,✗,4.18@@4.18,4.41@@4.41
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,4.32@@4.32,1170340608.0,65536.0,128000.0,✓,✗,4.26@@4.26,4.37@@4.37
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,4.32@@4.32,1170340608.0,65536.0,128000.0,✗,✗,4.26@@4.26,4.37@@4.37
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.33@@4.33,1170340608.0,65536.0,128000.0,✗,✗,4.16@@4.16,4.50@@4.50
 fresh-electra-small,🔍,4.38@@4.38,13738755.0,32000.0,128.0,✓,✗,4.50@@4.50,4.26@@4.26
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.38@@4.38,361821120.0,49152.0,8192.0,✓,✗,4.26@@4.26,4.50@@4.50
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.39@@4.39,361821120.0,49152.0,8192.0,✓,✗,4.26@@4.26,4.51@@4.51
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.40@@4.40,742489344.0,65536.0,128000.0,✗,✗,4.30@@4.30,4.51@@4.51
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.40@@4.40,1170340608.0,65536.0,128000.0,✓,✗,4.31@@4.31,4.49@@4.49
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.40@@4.40,1170340608.0,65536.0,128000.0,✗,✗,4.31@@4.31,4.49@@4.49
 <a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.43@@4.43,359431168.0,128256.0,4096.0,✗,✗,4.27@@4.27,4.58@@4.58
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.43@@4.43,134515008.0,49152.0,8192.0,✓,✗,4.28@@4.28,4.59@@4.59
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.47@@4.47,134515008.0,49152.0,8192.0,✓,✗,4.33@@4.33,4.61@@4.61
@@ -239,7 +239,7 @@ fresh-electra-small,🔍,4.38@@4.38,13738755.0,32000.0,128.0,✓,✗,4.50@@4.50,
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07#high (zero-shot, val)</a>",🤔,-@@100,?,100256.0,272000.0,✓,✗,-@@100,1.78@@1.78
 <a href='https://hf.co/CohereForAI/c4ai-command-r-v01'>CohereForAI/c4ai-command-r-v01</a>,📝,-@@100,34980831232.0,256000.0,8192.0,✗,✗,-@@100,2.64@@2.64
 "<a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small (zero-shot, val)</a>",📝,-@@100,32207337984.0,100352.0,131072.0,✓,✗,-@@100,-@@100
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct (zero-shot)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✓,✗,-@@100,-@@100
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct (zero-shot)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✗,✗,-@@100,-@@100
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,-@@100,14659507200.0,100352.0,32768.0,✓,✗,-@@100,3.57@@3.57
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct (val)</a>,📝,-@@100,1235814400.0,128256.0,131072.0,✓,✗,-@@100,-@@100
 <a href='https://hf.co/tencent/Hunyuan-4B-Instruct'>tencent/Hunyuan-4B-Instruct</a>,🤔,-@@100,4221757440.0,120818.0,262144.0,✓,✗,3.84@@3.84,-@@100
@@ -408,11 +408,11 @@ fresh-electra-small,🔍,4.38@@4.38,13738755.0,32000.0,128.0,✓,✗,4.50@@4.50,
 <a href='https://hf.co/LumiOpen/Poro-34B-chat'>LumiOpen/Poro-34B-chat</a>,📝,-@@100,34216949760.0,128000.0,?,✓,✗,-@@100,2.55@@2.55
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M (val)</a>,📝,-@@100,742489344.0,65536.0,128000.0,✗,✗,-@@100,-@@100
 "<a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M (zero-shot, val)</a>",📝,-@@100,742489344.0,65536.0,128000.0,✗,✗,-@@100,-@@100
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base (zero-shot)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✓,✗,-@@100,-@@100
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base (val)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✓,✗,-@@100,-@@100
-"<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base (zero-shot, val)</a>",📝,-@@100,1170340608.0,65536.0,128000.0,✓,✗,-@@100,-@@100
-"<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct (zero-shot, val)</a>",📝,-@@100,1170340608.0,65536.0,128000.0,✓,✗,-@@100,-@@100
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct (val)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✓,✗,-@@100,-@@100
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base (zero-shot)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✗,✗,-@@100,-@@100
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base (val)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✗,✗,-@@100,-@@100
+"<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base (zero-shot, val)</a>",📝,-@@100,1170340608.0,65536.0,128000.0,✗,✗,-@@100,-@@100
+"<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct (zero-shot, val)</a>",📝,-@@100,1170340608.0,65536.0,128000.0,✗,✗,-@@100,-@@100
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct (val)</a>,📝,-@@100,1170340608.0,65536.0,128000.0,✗,✗,-@@100,-@@100
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,-@@100,14030361600.0,131072.0,4096.0,✓,✗,-@@100,2.83@@2.83
 "<a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct (zero-shot, val)</a>",📝,-@@100,1543714304.0,151936.0,32768.0,✓,✗,-@@100,-@@100
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M (zero-shot)</a>,📝,-@@100,742489344.0,65536.0,128000.0,✗,✗,-@@100,-@@100

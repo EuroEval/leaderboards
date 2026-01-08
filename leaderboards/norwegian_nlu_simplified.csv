@@ -508,12 +508,12 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.63,7241732096,32000,8192,✓,�
 <a href='https://hf.co/PleIAs/Pleias-Nano'>PleIAs/Pleias-Nano</a>,🧠,4.03,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,4.07,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,4.07,,103424,131072,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.09,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.09,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.09,742489344,65536,128000,✗,✗
 <a href='https://hf.co/allenai/OLMo-7B-Twin-2T'>allenai/OLMo-7B-Twin-2T</a>,🧠,4.10,6888095744,50280,2051,✓,✗
 <a href='https://hf.co/NbAiLab/nb-gpt-j-6B-v2'>NbAiLab/nb-gpt-j-6B-v2</a>,🧠,4.10,6050882784,50400,1024,✗,✗
 <a href='https://hf.co/RabotaRu/HRBert-mini'>RabotaRu/HRBert-mini</a>,🔍,4.11,80108930,200001,512,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,4.12,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,4.12,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m-instruct'>AI-Sweden-Models/gpt-sw3-126m-instruct</a>,📝,4.13,186112512,64000,2048,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.13,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/allenai/OLMo-1B'>allenai/OLMo-1B</a>,🧠,4.15,1176764416,50280,2051,✓,✗

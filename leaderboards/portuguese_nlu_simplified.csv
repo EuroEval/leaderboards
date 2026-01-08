@@ -285,7 +285,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/01-ai/Yi-6B-Chat'>01-ai/Yi-6B-Chat</a>,📝,3.63,6061035520,64000,4096,✗,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.64,999885952,262144,32768,✓,✗
 <a href='https://hf.co/sentence-transformers/stsb-xlm-r-multilingual'>sentence-transformers/stsb-xlm-r-multilingual</a>,🔍,3.64,278044162,250002,512,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.64,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.64,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/four-two-labs/lynx-micro'>four-two-labs/lynx-micro</a>,📝,3.65,2506172416,256000,8192,✗,✗
 <a href='https://hf.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B'>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a>,🤔,3.66,7615616512,152064,131072,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,3.67,14030361600,131072,4096,✓,✗
@@ -310,7 +310,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Geotrend/bert-base-en-no-cased'>Geotrend/bert-base-en-no-cased</a>,🔍,3.80,111441410,33071,512,✓,✗
 <a href='https://hf.co/pere/roberta-base-exp-8'>pere/roberta-base-exp-8</a>,🔍,3.80,278045186,250002,514,✓,✗
 <a href='https://hf.co/microsoft/phi-2'>microsoft/phi-2</a>,🧠,3.80,2779683840,51200,2048,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.83,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.83,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/Geotrend/bert-base-en-fr-de-no-da-cased'>Geotrend/bert-base-en-fr-de-no-da-cased</a>,🔍,3.84,118118382,41710,512,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.84,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4'>openGPT-X/Teuken-7B-instruct-commercial-v0.4</a>,📝,3.85,7452725248,250680,4096,✓,✗

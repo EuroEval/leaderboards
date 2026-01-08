@@ -96,7 +96,7 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Latvian,Lithuania
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.85@@3.85,3211926528.0,65536.0,4096.0,✓,✗,3.85@@3.85,3.85@@3.85
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,3.89@@3.89,?,103424.0,131072.0,✓,✗,3.95@@3.95,3.83@@3.83
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.89@@3.89,1235814400.0,128256.0,131072.0,✓,✗,3.91@@3.91,3.86@@3.86
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.97@@3.97,1170340608.0,65536.0,128000.0,✓,✗,4.09@@4.09,3.84@@3.84
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.97@@3.97,1170340608.0,65536.0,128000.0,✗,✗,4.09@@4.09,3.84@@3.84
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,3.98@@3.98,268098176.0,262144.0,32768.0,✓,✗,4.04@@4.04,3.92@@3.92
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,3.99@@3.99,742489344.0,65536.0,128000.0,✗,✗,4.01@@4.01,3.96@@3.96
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,3.99@@3.99,1170340608.0,65536.0,128000.0,✗,✗,4.01@@4.01,3.97@@3.97
@@ -104,7 +104,7 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Latvian,Lithuania
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.02@@4.02,353424384.0,65536.0,2048.0,✓,✗,4.02@@4.02,4.03@@4.03
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.03@@4.03,268098176.0,262144.0,32768.0,✓,✗,4.00@@4.00,4.07@@4.07
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.08@@4.08,361821120.0,49152.0,8192.0,✓,✗,4.05@@4.05,4.10@@4.10
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.08@@4.08,1170340608.0,65536.0,128000.0,✓,✗,4.05@@4.05,4.12@@4.12
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.08@@4.08,1170340608.0,65536.0,128000.0,✗,✗,4.05@@4.05,4.12@@4.12
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.10@@4.10,361821120.0,49152.0,8192.0,✓,✗,4.08@@4.08,4.12@@4.12
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.15@@4.15,134515008.0,49152.0,8192.0,✓,✗,4.07@@4.07,4.23@@4.23
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.18@@4.18,134515008.0,49152.0,8192.0,✓,✗,4.14@@4.14,4.22@@4.22

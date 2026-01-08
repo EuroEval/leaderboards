@@ -403,7 +403,7 @@ fresh-xlm-roberta-base,🔍,4.44,278045186,250002,512,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-2b'>BSC-LT/salamandra-2b</a>,🧠,4.58,2253490176,256000,8192,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning-plus'>microsoft/Phi-4-reasoning-plus</a>,🤔,4.60,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.61,361821120,49152,8192,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.62,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.62,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/Qwen/Qwen2.5-Math-1.5B'>Qwen/Qwen2.5-Math-1.5B</a>,📝,4.62,1543714304,151936,4096,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-1B-Instruct'>tiiuae/Falcon3-1B-Instruct</a>,📝,4.63,1669408768,131072,8192,✓,✗
 <a href='https://hf.co/microsoft/Phi-4-mini-reasoning'>microsoft/Phi-4-mini-reasoning</a>,🤔,4.64,3836021760,200064,131072,✓,✗
@@ -418,7 +418,7 @@ fresh-xlm-roberta-base,🔍,4.44,278045186,250002,512,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,4.70,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Nano'>PleIAs/Pleias-Nano</a>,🧠,4.71,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.72,134515008,49152,8192,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,4.72,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,4.72,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,4.73,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.74,353424384,65536,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.76,134515008,49152,8192,✓,✗

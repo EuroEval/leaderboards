@@ -287,7 +287,7 @@ skole-gpt-mixtral,🧠,2.04,,32000,32768,✓,✗
 <a href='https://hf.co/THUDM/GLM-4.1V-9B-Thinking'>THUDM/GLM-4.1V-9B-Thinking</a>,🤔,3.26,10292777472,151552,65536,✓,✗
 <a href='https://hf.co/OpenLLM-France/Lucie-7B'>OpenLLM-France/Lucie-7B</a>,🧠,3.28,6706960384,65024,32000,✓,✗
 <a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct</a>,🤔,3.28,7504568320,128167,32768,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.29,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.29,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-2b-it'>google/gemma-2b-it</a>,📝,3.30,2506172416,256000,8192,✗,✗
 <a href='https://hf.co/VAGOsolutions/SauerkrautLM-Gemma-2b'>VAGOsolutions/SauerkrautLM-Gemma-2b</a>,🧠,3.30,2506172416,256000,8192,✗,✗
 <a href='https://ollama.com/library/gemma3:1b'>ollama_chat/gemma3:1b</a>,📝,3.31,1000000000,262144,32768,✓,✗
@@ -307,7 +307,7 @@ skole-gpt-mixtral,🧠,2.04,,32000,32768,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-1b-a400m-instruct'>ibm-granite/granite-3.0-1b-a400m-instruct</a>,📝,3.42,1334628352,49155,4096,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-1.7B-Instruct'>HuggingFaceTB/SmolLM2-1.7B-Instruct</a>,📝,3.42,1711376384,49152,8192,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-2b'>BSC-LT/salamandra-2b</a>,🧠,3.43,2253490176,256000,8192,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.44,1170340608,65536,128000,✓,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.44,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/DiscoResearch/DiscoLM-70b'>DiscoResearch/DiscoLM-70b</a>,🧠,3.44,68977172480,32032,8192,✗,✗
 <a href='https://hf.co/Qwen/Qwen1.5-1.8B'>Qwen/Qwen1.5-1.8B</a>,📝,3.46,1836828672,151936,32768,✓,✗
 <a href='https://hf.co/LumiOpen/Viking-13B'>LumiOpen/Viking-13B</a>,🧠,3.48,14030361600,131072,4099,✓,✗
