@@ -76,11 +76,3 @@ install-pre-commit:
 
 check:
 	@uv run pre-commit run --all-files
-
-clean-git-history:
-	@echo "Cleaning git history..."
-	@git reset $(git commit-tree "HEAD^{tree}" -m "feat: Starting afresh")
-	@echo "Running garbage collection..."
-	@git gc --aggressive --prune=now
-	@echo "Force pushing cleaned history to remote..."
-	@git push origin --force --all
