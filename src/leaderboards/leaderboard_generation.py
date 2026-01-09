@@ -105,7 +105,9 @@ def generate_leaderboard(
         # Check if anything got updated
         new_records: list[str] = list()
         comparison_columns = [
-            col for col in df.columns if col != "rank" or not include_dataset_columns
+            col
+            for col in df.columns
+            if col.lower() != "rank" or not include_dataset_columns
         ]
         if leaderboard_path.exists():
             old_df = pd.read_csv(leaderboard_path, header=0, skiprows=1)
@@ -162,7 +164,7 @@ def generate_leaderboard(
 
         if new_records or force:
             top_header, second_header = create_leaderboard_headers(
-                df=df, leaderboard_configs=configs
+                df=df, leaderboard_configs=configs, task_config=task_config
             )
 
             df.columns = top_header
@@ -204,7 +206,9 @@ def generate_leaderboard(
 
 
 def create_leaderboard_headers(
-    df: pd.DataFrame | pd.Series, leaderboard_configs: dict[str, dict[str, list[str]]]
+    df: pd.DataFrame | pd.Series,
+    leaderboard_configs: dict[str, dict[str, list[str]]],
+    task_config: dict[str, dict[str, str]],
 ) -> tuple[list[str], list[str]]:
     """Create the leaderboard headers.
 
@@ -216,18 +220,19 @@ def create_leaderboard_headers(
             The dataframe.
         leaderboard_configs:
             The leaderboard configurations.
+        task_config:
+            The task configuration.
 
     Returns:
         The first and second header.
     """
-    old_header = list(df.columns)
-
+    # Extract information from each dataset, and set up an anchor tag template which
+    # will replace the dataset column name with a link
     all_datasets = []
     dataset_to_language = {}
     dataset_to_task_info = {}
-
     for language, tasks in leaderboard_configs.items():
-        DATASET_LINK_TAG = (
+        dataset_link_tag = (
             f"<a href='https://euroeval.com/datasets/{language}#"
             + "{anchor}'>{dataset}</a>"
         )
@@ -236,21 +241,36 @@ def create_leaderboard_headers(
         all_datasets.extend(language_datasets)
 
         for dataset in language_datasets:
-            dataset_to_language[dataset] = (language, DATASET_LINK_TAG)
+            dataset_to_language[dataset] = (language, dataset_link_tag)
 
         for task, datasets in tasks.items():
             for dataset in datasets:
                 dataset_to_task_info[dataset] = (task, len(datasets))
 
+    # Get the set of orthogonal tasks
+    orthogonal_tasks = {
+        task
+        for task, task_config in task_config.items()
+        if task_config.get("orthogonal", False)
+    }
+
+    # Generate column headers
     top_header = []
     second_header = []
     processed_tasks_per_language: dict[str, set[str]] = {}
     seen_version_col = False
+    for id_, col in enumerate(df.columns):
+        # Case if the column is an orthogonal task
+        if (task := col.replace(" ", "-").lower()) in orthogonal_tasks:
+            top_header.append("")
+            second_header.append(
+                f'<a href="https://euroeval.com/tasks/{task}">{col}</a>'
+            )
 
-    for id, col in enumerate(old_header):
-        leaderboard_col = col.replace("_", "-")
-        if leaderboard_col in all_datasets:
-            language, DATASET_LINK_TAG = dataset_to_language[leaderboard_col]
+        # Replace dataset columns with task links in the first header, and dataset links
+        # in the second header
+        elif (leaderboard_col := col.replace("_", "-")) in all_datasets:
+            language, dataset_link_tag = dataset_to_language[leaderboard_col]
             task, num_datasets = dataset_to_task_info[leaderboard_col]
 
             if language not in processed_tasks_per_language:
@@ -259,19 +279,21 @@ def create_leaderboard_headers(
             if task in processed_tasks_per_language[language]:
                 top_header.append("")
                 second_header.append(
-                    DATASET_LINK_TAG.format(anchor=leaderboard_col, dataset=col)
+                    dataset_link_tag.format(anchor=leaderboard_col, dataset=col)
                 )
                 continue
 
-            task_link = generate_task_link(id, task)
+            task_link = generate_task_link(id_, task)
             if num_datasets > 1:
                 task_link = f"~~~{task_link}~~~"
 
             top_header.append(task_link)
             second_header.append(
-                DATASET_LINK_TAG.format(anchor=leaderboard_col, dataset=col)
+                dataset_link_tag.format(anchor=leaderboard_col, dataset=col)
             )
             processed_tasks_per_language[language].add(task)
+
+        # Special case if it's a dataset version column
         else:
             if "version" in col and not seen_version_col:
                 top_header.append("<span style='visibility: hidden;'>hidden</span>")
@@ -281,7 +303,8 @@ def create_leaderboard_headers(
 
             second_header.append(col)
 
-    # handle the first and second columns
+    # Add "Task Type" label to the top-left cell, and make cell (0, 1) invisible to
+    # ensure proper alignment
     top_header[0] = (
         "<span style='font-size: 12px; font-weight: normal; opacity: 0.6;'>"
         "Task Type"
@@ -551,17 +574,27 @@ def generate_dataframe(
         df_simplified = df_simplified.convert_dtypes()
 
         # Format headers for display
-        renaming_dict = {
-            "model": "Model",
-            "generative_type": "Type",
-            "rank": "Rank",
-            "parameters": "Parameters",
-            "vocabulary_size": "Vocabulary",
-            "context": "Context",
-            "commercial": "Commercial",
-            "merge": "Merge",
-            "european_values": "European Values",
-        } | {rank_col: rank_col.title() for rank_col in rank_cols[1:]}
+        renaming_dict = (
+            {
+                "model": "Model",
+                "generative_type": "Type",
+                "rank": "Rank",
+                "parameters": "Parameters",
+                "vocabulary_size": "Vocabulary",
+                "context": "Context",
+                "commercial": "Commercial",
+                "merge": "Merge",
+            }
+            | {rank_col: rank_col.title() for rank_col in rank_cols[1:]}
+            | {
+                orthogonal_task.replace("-", "_"): orthogonal_task.replace(
+                    "-", " "
+                ).title()
+                for orthogonal_task in category_to_orthogonal_datasets[
+                    category
+                ].values()
+            }
+        )
         df = df.rename(renaming_dict, axis="columns")
 
         assert isinstance(df, pd.DataFrame)
