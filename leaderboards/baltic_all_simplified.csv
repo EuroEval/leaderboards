@@ -46,9 +46,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.37,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.43,,128000,4096,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.46,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.47,40433885184,256000,32768,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.47,,256128,1048576,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-2512'>utter-project/EuroLLM-22B-2512</a>,🧠,2.48,22637328384,128000,32768,✓,✗
-<a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.48,40433885184,256000,32768,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.48,,,1047576,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.51,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.54,8030261248,128256,131072,✓,✗
@@ -66,7 +66,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,2.83,,256128,1048576,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-micro'>ibm-granite/granite-4.0-micro</a>,📝,2.86,3402836480,100352,131072,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-micro'>ibm-granite/granite-4.0-h-micro</a>,📝,2.88,3191396096,100352,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.89,32233522176,100278,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.88,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.89,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.90,10731524096,32000,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.91,2031739904,151936,40960,✓,✗
@@ -79,8 +79,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.24,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.25,528384,100278,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,3.25,7298011136,100278,65536,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.29,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.32,3075098624,128256,65536,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.34,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,3.37,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.49,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.56,999885952,262144,32768,✓,✗

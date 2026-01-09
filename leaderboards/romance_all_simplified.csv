@@ -83,7 +83,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,2.86,3212749824,128256,131072,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.87,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.87,7768117248,256000,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.93,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.95,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,2.97,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.11,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.23,2424375168,99000,28723,✗,✗

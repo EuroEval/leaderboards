@@ -30,9 +30,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Base-2503'>mistralai/Mistral-Small-3.1-24B-Base-2503</a>,🧠,2.39,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,2.52,72706203648,152064,32768,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,2.53,32759790592,151665,131072,✓,✗
-<a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.53,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.54,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Thinking-2507'>Qwen/Qwen3-4B-Thinking-2507</a>,🤔,2.54,4022468096,151936,262144,✓,✗
+<a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.54,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,2.58,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3.0-Instruct'>speakleash/Bielik-11B-v3.0-Instruct</a>,📝,2.58,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.60,7849978192,262400,8192,✓,✗
@@ -82,7 +82,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.34,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,3.36,7298011136,100278,65536,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.41,3075098624,128256,65536,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.44,528384,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.45,528384,100278,65536,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B'>HuggingFaceTB/SmolLM3-3B#no-thinking</a>,📝,3.45,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.46,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.47,7241732096,32000,32768,✓,✗

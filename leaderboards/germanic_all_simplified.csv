@@ -62,7 +62,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,2.78,7298011136,100278,65536,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,2.84,3212749824,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.88,2031739904,151936,40960,✓,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.89,7768117248,256000,8192,✓,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.90,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,2.98,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.98,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.98,528384,100278,65536,✗,✗
@@ -70,7 +70,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.04,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.11,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,3.11,7241748480,32002,4096,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.21,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.22,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.41,2424375168,99000,28723,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.55,751632384,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.59,999885952,262144,32768,✓,✗
@@ -92,6 +92,6 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.14,134515008,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.15,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.19,361821120,49152,8192,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.20,134515008,49152,8192,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.19,134515008,49152,8192,✓,✗
 <a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.49,320956992,65536,4096,✓,✗
 <a href='https://hf.co/PleIAs/Monad'>PleIAs/Monad</a>,🧠,4.66,56656128,8192,2048,✓,✗

@@ -58,8 +58,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.22,40433885184,256000,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-2512'>utter-project/EuroLLM-22B-2512</a>,🧠,2.22,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct'>allenai/Olmo-3.1-32B-Instruct</a>,📝,2.23,32233522176,100278,65536,✗,✗
-<a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.25,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.26,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.26,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/lapa-llm/lapa-v0.1.2-instruct'>lapa-llm/lapa-v0.1.2-instruct</a>,📝,2.27,12187325040,262144,8192,✗,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.29,,,1047576,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.32,,128000,4096,✓,✗

@@ -60,7 +60,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.98,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.06,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.09,7768117248,256000,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.15,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.17,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.19,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.45,751632384,151936,40960,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.46,2424375168,99000,28723,✗,✗
