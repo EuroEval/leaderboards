@@ -541,6 +541,17 @@ def generate_dataframe(
         for col in boolean_columns:
             df[col] = df[col].apply(lambda x: "✓" if x else "✗")
 
+        # Orthogonal values only makes sense for instruction-tuned and reasoning models,
+        # so we set the value to "N/A@@0" for other model types
+        for orthogonal_task in category_to_orthogonal_datasets[category].values():
+            col_name = orthogonal_task.replace("-", "_")
+            df[col_name] = df.apply(
+                lambda row: row[col_name]
+                if row.generative_type in ["instruction_tuned", "reasoning"]
+                else "N/A@@0",
+                axis=1,
+            )
+
         # Replace generative_type with emojis
         generative_type_emoji_mapping = {
             "base": "🧠",
