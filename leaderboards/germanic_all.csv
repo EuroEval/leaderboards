@@ -1,5 +1,5 @@
 <span style='font-size: 12px; font-weight: normal; opacity: 0.6;'>Task Type</span>,<span style='visibility: hidden;'>dummy</span>,,,,,,,,,,,,,,,
-Model,Type,Rank,<a href='https://euroeval.com/tasks/european-values>European Values</a>,Parameters,Vocabulary,Context,Commercial,Merge,Danish,Dutch,English,Faroese,German,Icelandic,Norwegian,Swedish
+Model,Type,Rank,"<a href=""https://euroeval.com/tasks/european-values"">European Values</a>",Parameters,Vocabulary,Context,Commercial,Merge,Danish,Dutch,English,Faroese,German,Icelandic,Norwegian,Swedish
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.32@@1.32,0.98,?,256128.0,1048576.0,✓,✗,1.23@@1.23,1.57@@1.57,1.30@@1.30,1.33@@1.33,1.44@@1.44,1.25@@1.25,1.24@@1.24,1.24@@1.24
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-flash-preview'>gemini/gemini-3-flash-preview#thinking (zero-shot, val)</a>",🤔,1.43@@1.43,83.45,?,256128.0,1048576.0,✓,✗,1.25@@1.25,1.54@@1.54,1.24@@1.24,1.44@@1.44,1.65@@1.65,1.50@@1.50,1.40@@1.40,1.38@@1.38
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.44@@1.44,?,?,?,?,✓,✗,1.22@@1.22,1.37@@1.37,1.35@@1.35,1.68@@1.68,1.58@@1.58,1.66@@1.66,1.44@@1.44,1.25@@1.25
