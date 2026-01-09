@@ -75,7 +75,7 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Danish,Norwegian,
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.21@@2.21,8030326784.0,128264.0,131072.0,✓,✗,2.21@@2.21,2.39@@2.39,2.02@@2.02
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.22@@2.22,?,?,200000.0,✓,✗,2.02@@2.02,2.20@@2.20,2.46@@2.46
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.23@@2.23,9152319488.0,128000.0,4096.0,✓,✗,2.18@@2.18,2.51@@2.51,2.00@@2.00
-<a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,2.24@@2.24,395881664.0,50368.0,8192.0,✓,✗,2.30@@2.30,2.16@@2.16,2.25@@2.25
+<a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,2.24@@2.24,395881664.0,50368.0,8192.0,✓,✗,2.30@@2.30,2.17@@2.17,2.25@@2.25
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.24@@2.24,10731524096.0,32000.0,4096.0,✓,✗,2.14@@2.14,2.56@@2.56,2.03@@2.03
 <a href='https://hf.co/norallm/normistral-11b-long'>norallm/normistral-11b-long</a>,🧠,2.25@@2.25,11429893120.0,51200.0,32768.0,✓,✗,2.25@@2.25,2.42@@2.42,2.08@@2.08
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.26@@2.26,?,?,1047576.0,✓,✗,2.01@@2.01,2.48@@2.48,2.28@@2.28
@@ -117,7 +117,7 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Danish,Norwegian,
 <a href='https://hf.co/NbAiLab/borealis-4b-instruct-preview'>NbAiLab/borealis-4b-instruct-preview</a>,📝,2.76@@2.76,4300079472.0,262144.0,8192.0,✓,✗,2.85@@2.85,2.65@@2.65,2.77@@2.77
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,2.76@@2.76,117654915.0,250037.0,512.0,✓,✗,2.81@@2.81,2.90@@2.90,2.58@@2.58
 <a href='https://hf.co/sarnikowski/convbert-medium-small-da-cased'>sarnikowski/convbert-medium-small-da-cased</a>,🔍,2.78@@2.78,24486471.0,28995.0,512.0,✓,✗,2.40@@2.40,2.88@@2.88,3.04@@3.04
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.79@@2.79,7298011136.0,100278.0,65536.0,✗,✗,2.81@@2.81,2.94@@2.94,2.61@@2.61
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.80@@2.80,7298011136.0,100278.0,65536.0,✗,✗,2.81@@2.81,3.00@@3.00,2.61@@2.61
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.88@@2.88,2569272320.0,65536.0,128000.0,✗,✗,2.78@@2.78,3.15@@3.15,2.71@@2.71
 <a href='https://hf.co/sarnikowski/electra-small-discriminator-da-256-cased'>sarnikowski/electra-small-discriminator-da-256-cased</a>,🔍,2.90@@2.90,13354115.0,28995.0,512.0,✓,✗,2.58@@2.58,3.05@@3.05,3.07@@3.07
 <a href='https://hf.co/sarnikowski/convbert-small-da-cased'>sarnikowski/convbert-small-da-cased</a>,🔍,2.93@@2.93,13014875.0,28995.0,512.0,✓,✗,2.64@@2.64,3.01@@3.01,3.14@@3.14

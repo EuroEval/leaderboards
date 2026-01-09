@@ -116,7 +116,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/NbAiLab/borealis-4b-instruct-preview'>NbAiLab/borealis-4b-instruct-preview</a>,📝,2.76,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,2.76,117654915,250037,512,✓,✗
 <a href='https://hf.co/sarnikowski/convbert-medium-small-da-cased'>sarnikowski/convbert-medium-small-da-cased</a>,🔍,2.78,24486471,28995,512,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.79,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.80,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.88,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/sarnikowski/electra-small-discriminator-da-256-cased'>sarnikowski/electra-small-discriminator-da-256-cased</a>,🔍,2.90,13354115,28995,512,✓,✗
 <a href='https://hf.co/sarnikowski/convbert-small-da-cased'>sarnikowski/convbert-small-da-cased</a>,🔍,2.93,13014875,28995,512,✓,✗

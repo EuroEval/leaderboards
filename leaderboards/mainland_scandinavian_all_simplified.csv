@@ -94,7 +94,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.92,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,2.92,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.98,2569272320,65536,128000,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.07,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.08,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.25,2424375168,99000,28723,✗,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-40b'>AI-Sweden-Models/gpt-sw3-40b</a>,🧠,3.30,39926513664,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct'>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct</a>,📝,3.34,7111057408,64000,2048,✓,✗
