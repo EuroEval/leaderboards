@@ -542,13 +542,13 @@ def generate_dataframe(
             df[col] = df[col].apply(lambda x: "✓" if x else "✗")
 
         # Orthogonal values only makes sense for instruction-tuned and reasoning models,
-        # so we set the value to "N/A@@0" for other model types
+        # so we set the value to "N/A" for other model types
         for orthogonal_task in category_to_orthogonal_datasets[category].values():
             col_name = orthogonal_task.replace("-", "_")
             df[col_name] = df.apply(
                 lambda row: row[col_name]
                 if row.generative_type in ["instruction_tuned", "reasoning"]
-                else "N/A@@0",
+                else "N/A",
                 axis=1,
             )
 
