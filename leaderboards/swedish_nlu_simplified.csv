@@ -110,10 +110,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-4.0-h-tiny'>ibm-granite/granite-4.0-h-tiny</a>,📝,2.59,6939037248,100352,131072,✓,✗
 <a href='https://hf.co/KennethEnevoldsen/dfm-sentence-encoder-small'>KennethEnevoldsen/dfm-sentence-encoder-small</a>,🔍,2.60,21944195,96105,128,✓,✗
 <a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.61,1543714304,151936,32768,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.61,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.65,108783363,84985,512,✓,✗
-<a href='https://hf.co/KennethEnevoldsen/dfm-sentence-encoder-medium'>KennethEnevoldsen/dfm-sentence-encoder-medium</a>,🔍,2.70,124448259,50005,514,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.67,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.71,2569272320,65536,128000,✗,✗
+<a href='https://hf.co/KennethEnevoldsen/dfm-sentence-encoder-medium'>KennethEnevoldsen/dfm-sentence-encoder-medium</a>,🔍,2.71,124448259,50005,514,✓,✗
 <a href='https://hf.co/NbAiLab/borealis-4b-instruct-preview'>NbAiLab/borealis-4b-instruct-preview</a>,📝,2.77,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/vesteinn/DanskBERT'>vesteinn/DanskBERT</a>,🔍,2.80,124548012,50005,514,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,2.89,999885952,262144,32768,✓,✗
@@ -143,7 +143,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.40,93990500,65636,512,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.43,1195468800,65536,2048,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.44,395881664,50368,8192,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.49,3211926528,65536,4096,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.50,3211926528,65536,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.56,268098176,262144,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.56,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.69,2611528704,128000,4096,✓,✗
