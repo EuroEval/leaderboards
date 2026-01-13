@@ -98,7 +98,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-4B-Instruct-2507'>Qwen/Qwen3-4B-Instruct-2507</a>,📝,2.75,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/timpal0l/dolphin-2.9-llama3-8b-flashback'>timpal0l/dolphin-2.9-llama3-8b-flashback</a>,🧠,2.76,8030261248,128256,8192,✗,✓
 "<a href='https://platform.openai.com/docs/models/gpt-4o'>gpt-4o-2024-05-13 (zero-shot, val)</a>",📝,2.76,,200019,128000,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.76,528384,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.77,7298011136,100278,65536,✗,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4o-mini'>gpt-4o-mini-2024-07-18 (zero-shot, val)</a>",📝,2.77,,200019,128000,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-DPO'>allenai/Llama-3.1-Tulu-3-8B-DPO</a>,📝,2.78,8030326784,128264,131072,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-03-25'>gemini/gemini-2.5-pro-preview-03-25 (zero-shot, val)</a>",🤔,2.79,,256128,1048576,✓,✗
@@ -251,10 +251,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07#minimal (zero-shot, val)</a>",🤔,3.36,,100256,272000,✓,✗
 <a href='https://hf.co/tiiuae/Falcon3-3B-Base'>tiiuae/Falcon3-3B-Base</a>,🧠,3.36,3227655168,131072,32768,✓,✗
 <a href='https://hf.co/allenai/OLMo-2-1124-13B'>allenai/OLMo-2-1124-13B</a>,🧠,3.36,13716198400,100352,4096,✓,✗
-<a href='https://hf.co/ibm-granite/granite-3.0-2b-base'>ibm-granite/granite-3.0-2b-base</a>,🧠,3.36,2533525504,49152,4096,✓,✗
 <a href='https://hf.co/TildeAI/TildeOpen-30b'>TildeAI/TildeOpen-30b#slow-tokenizer</a>,🧠,3.36,30677882880,131072,65536,✓,✗
 <a href='https://hf.co/stabilityai/stablelm-3b-4e1t'>stabilityai/stablelm-3b-4e1t</a>,🧠,3.37,2795443200,50304,4096,✓,✗
 <a href='https://hf.co/MaLA-LM/emma-500-llama2-7b'>MaLA-LM/emma-500-llama2-7b</a>,🧠,3.37,6738415616,32000,4096,✓,✗
+<a href='https://hf.co/ibm-granite/granite-3.0-2b-base'>ibm-granite/granite-3.0-2b-base</a>,🧠,3.37,2533525504,49152,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-2-7b-chat-hf'>meta-llama/Llama-2-7b-chat-hf</a>,📝,3.38,6738417664,32000,4096,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,3.38,561192082,250002,512,✓,✗
 <a href='https://hf.co/neuralmagic/Sparse-Llama-3.1-8B-2of4'>neuralmagic/Sparse-Llama-3.1-8B-2of4</a>,🧠,3.39,8030261248,128256,131072,✓,✗
@@ -312,9 +312,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Geotrend/bert-base-en-no-cased'>Geotrend/bert-base-en-no-cased</a>,🔍,3.81,111441410,33071,512,✓,✗
 <a href='https://hf.co/microsoft/phi-2'>microsoft/phi-2</a>,🧠,3.81,2779683840,51200,2048,✓,✗
 <a href='https://hf.co/pere/roberta-base-exp-8'>pere/roberta-base-exp-8</a>,🔍,3.81,278045186,250002,514,✓,✗
-<a href='https://hf.co/Geotrend/bert-base-en-fr-de-no-da-cased'>Geotrend/bert-base-en-fr-de-no-da-cased</a>,🔍,3.84,118118382,41710,512,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.84,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.84,1170340608,65536,128000,✗,✗
+<a href='https://hf.co/Geotrend/bert-base-en-fr-de-no-da-cased'>Geotrend/bert-base-en-fr-de-no-da-cased</a>,🔍,3.85,118118382,41710,512,✓,✗
 <a href='https://hf.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4'>openGPT-X/Teuken-7B-instruct-commercial-v0.4</a>,📝,3.86,7452725248,250680,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-1.7B-Instruct'>utter-project/EuroLLM-1.7B-Instruct</a>,📝,3.88,1656850432,128000,4096,✓,✗
 <a href='https://hf.co/microsoft/xlm-align-base'>microsoft/xlm-align-base</a>,🔍,3.88,278045186,250002,514,✓,✗

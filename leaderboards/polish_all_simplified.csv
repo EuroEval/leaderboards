@@ -134,8 +134,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.06,3075098624,128256,65536,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,3.07,,256128,1048576,✓,✗
 <a href='https://hf.co/speakleash/Bielik-7B-v0.1'>speakleash/Bielik-7B-v0.1</a>,🧠,3.08,7241732096,32000,8192,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.08,528384,100278,65536,✗,✗
 <a href='https://hf.co/CYFRAGOVPL/Llama-PLLuM-8B-base-250801'>CYFRAGOVPL/Llama-PLLuM-8B-base-250801</a>,🧠,3.08,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.10,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B-Base'>arcee-ai/AFM-4.5B-Base</a>,🧠,3.12,4619184640,128004,65536,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.14,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/mistralai/Voxtral-Mini-3B-2507'>mistralai/Voxtral-Mini-3B-2507</a>,📝,3.15,4676271104,131072,8192,✓,✗
@@ -143,11 +143,11 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct</a>,🤔,3.25,7504568320,128167,32768,✓,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B'>arcee-ai/AFM-4.5B</a>,📝,3.27,4619189760,128005,65536,✓,✗
 <a href='https://hf.co/CYFRAGOVPL/PLLuM-12B-base-250801'>CYFRAGOVPL/PLLuM-12B-base-250801</a>,🧠,3.29,12247782400,131072,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.31,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.31,7799574528,100096,4096,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.32,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B</a>,🤔,3.36,751632384,151936,40960,✓,✗
 <a href='https://hf.co/kyutai/helium-1-2b'>kyutai/helium-1-2b</a>,🧠,3.37,2023868416,64000,4096,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.42,999885952,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.43,999885952,262144,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.44,751632384,151936,40960,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.50,2424375168,99000,28723,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.50,1235814400,128256,131072,✓,✗
