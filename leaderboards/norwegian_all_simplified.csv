@@ -162,6 +162,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#high</a>,🤔,2.61,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-micro'>ibm-granite/granite-4.0-micro</a>,📝,2.61,3402836480,100352,131072,✓,✗
 <a href='https://hf.co/mistralai/Ministral-8B-Instruct-2410'>mistralai/Ministral-8B-Instruct-2410</a>,📝,2.61,8019808256,131072,32768,✓,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.62,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/norallm/normistral-11b-thinking'>norallm/normistral-11b-thinking</a>,🤔,2.63,11429893120,51200,1024000,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.63,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-21B-A3B-PT'>baidu/ERNIE-4.5-21B-A3B-PT</a>,📝,2.64,21948655808,103424,131072,✓,✗
@@ -178,7 +179,6 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.69,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/CohereForAI/c4ai-command-r-v01'>CohereForAI/c4ai-command-r-v01</a>,📝,2.70,34980831232,256000,8192,✗,✗
 <a href='https://hf.co/bineric/NorskGPT-Llama-7B-v0.1'>bineric/NorskGPT-Llama-7B-v0.1</a>,📝,2.70,6738415616,32000,4096,✗,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,2.71,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.72,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-tiny'>ibm-granite/granite-4.0-h-tiny</a>,📝,2.73,6939037248,100352,131072,✓,✗
 <a href='https://hf.co/CohereForAI/aya-expanse-8b'>CohereForAI/aya-expanse-8b</a>,📝,2.74,8028033024,256000,8192,✗,✗
@@ -351,8 +351,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/NbAiLab/nb-gpt-j-6B-v2'>NbAiLab/nb-gpt-j-6B-v2</a>,🧠,4.16,6050882784,50400,1024,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.17,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.17,361821120,49152,8192,✓,✗
+<a href='https://hf.co/HPLT/hplt2c_dan_checkpoints'>HPLT/hplt2c_dan_checkpoints</a>,🧠,4.19,,262272,2048,✓,✗
 <a href='https://hf.co/NorwAI/NorwAI-Mistral-7B-pretrain'>NorwAI/NorwAI-Mistral-7B-pretrain</a>,🧠,4.19,7536586752,67993,4096,✓,✗
-<a href='https://hf.co/HPLT/hplt2c_dan_checkpoints'>HPLT/hplt2c_dan_checkpoints</a>,🧠,4.20,,262272,2048,✓,✗
 <a href='https://hf.co/HPLT/hplt2c_isl_checkpoints'>HPLT/hplt2c_isl_checkpoints</a>,🧠,4.23,,262272,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.23,186112512,64000,2048,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-Pico'>PleIAs/Pleias-Pico</a>,🧠,4.27,353424384,65536,2048,✓,✗
