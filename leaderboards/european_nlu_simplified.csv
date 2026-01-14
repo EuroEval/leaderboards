@@ -82,8 +82,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.99,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.00,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B-Base'>arcee-ai/AFM-4.5B-Base</a>,🧠,3.00,4619184640,128004,65536,✓,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.17,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.18,2569272320,65536,128000,✗,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.19,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,3.20,108867577,84985,512,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,3.22,395881664,50368,8192,✓,✗
 <a href='https://hf.co/EuroBERT/EuroBERT-610m'>EuroBERT/EuroBERT-610m</a>,🔍,3.22,755625600,128256,8192,✓,✗

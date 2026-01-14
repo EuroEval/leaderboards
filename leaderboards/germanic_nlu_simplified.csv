@@ -39,9 +39,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.00,12187325040,262144,8192,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.04,,256128,1048576,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.05,21511953984,201088,131072,✓,✗
-<a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.05,559890946,250002,512,✓,✗
 <a href='https://hf.co/setu4993/LaBSE'>setu4993/LaBSE</a>,🔍,2.05,470927360,501153,512,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.05,575923843,250300,512,✓,✗
+<a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.06,559890946,250002,512,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.07,7849978192,262400,,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.09,70599864480,131072,65536,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-Next-80B-A3B-Thinking'>Qwen/Qwen3-Next-80B-A3B-Thinking</a>,🤔,2.11,81324862720,151936,262144,✓,✗
@@ -106,8 +106,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,3.17,117654915,250037,512,✓,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B'>arcee-ai/AFM-4.5B</a>,📝,3.18,4619189760,128005,65536,✓,✗
 <a href='https://hf.co/EuroBERT/EuroBERT-610m'>EuroBERT/EuroBERT-610m</a>,🔍,3.27,755625600,128256,8192,✓,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.31,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.36,2424375168,99000,28723,✗,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.39,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/EuroBERT/EuroBERT-210m'>EuroBERT/EuroBERT-210m</a>,🔍,3.43,310266624,128256,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.44,999885952,262144,32768,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b'>AI-Sweden-Models/gpt-sw3-20b</a>,🧠,3.47,20918423552,64000,2048,✓,✗
@@ -137,7 +137,7 @@ fresh-xlm-roberta-base,🔍,4.21,278045955,250002,512,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m-instruct'>AI-Sweden-Models/gpt-sw3-356m-instruct</a>,📝,4.32,470607872,64000,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.32,134515008,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.34,268098176,262144,32768,✓,✗
-fresh-electra-small,🔍,4.39,13549571,30522,512,✓,✗
+fresh-electra-small,🔍,4.38,13549571,30522,512,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.39,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.43,134515008,49152,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.53,186112512,64000,2048,✓,✗

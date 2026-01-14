@@ -111,10 +111,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,3.73,268098176,262144,32768,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.78,353424384,65536,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,3.81,361821120,49152,8192,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.96,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,3.96,134515008,49152,8192,✓,✗
-<a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.96,268098176,262144,32768,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.97,361821120,49152,8192,✓,✗
+<a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.97,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.01,134515008,49152,8192,✓,✗
 <a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.52,320956992,65536,4096,✓,✗
 <a href='https://hf.co/PleIAs/Monad'>PleIAs/Monad</a>,🧠,4.64,56656128,8192,2048,✓,✗
-<a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#thinking</a>,🤔,5.41,320956992,65536,4096,✓,✗
+<a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#thinking</a>,🤔,5.42,320956992,65536,4096,✓,✗

@@ -63,8 +63,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.09,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.10,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B-Base'>arcee-ai/AFM-4.5B-Base</a>,🧠,3.13,4619184640,128004,65536,✓,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.19,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.19,7799574528,100096,4096,✓,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.20,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.21,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B'>arcee-ai/AFM-4.5B</a>,📝,3.27,4619189760,128005,65536,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.46,751632384,151936,40960,✓,✗
