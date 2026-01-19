@@ -69,7 +69,6 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.43,307531778,256000,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.48,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.49,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.50,4300079472,262144,,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-SFT'>allenai/Olmo-3.1-32B-Instruct-SFT</a>,📝,2.53,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.54,559890946,250002,512,✓,✗
 <a href='https://hf.co/AiLab-IMCS-UL/lvbert'>AiLab-IMCS-UL/lvbert</a>,🔍,2.55,110620928,32004,512,✓,✗
@@ -88,9 +87,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,2.71,278044162,250002,512,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-2509'>swiss-ai/Apertus-70B-2509</a>,🧠,2.71,70599864480,131072,65536,✓,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-21B-A3B-PT'>baidu/ERNIE-4.5-21B-A3B-PT</a>,📝,2.74,21948655808,103424,131072,✓,✗
+<a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.78,4300079472,262144,8192,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,📝,2.80,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.80,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/mistralai/Voxtral-Mini-3B-2507'>mistralai/Voxtral-Mini-3B-2507</a>,📝,2.80,4676271104,131072,,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,📝,2.80,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2'>nvidia/NVIDIA-Nemotron-Nano-9B-v2</a>,🤔,2.81,8888227328,131072,131072,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.82,575922690,250300,512,✓,✗
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.84,10731524096,32000,4096,✓,✗
@@ -162,7 +162,7 @@ fresh-electra-small,🔍,4.26,13738755,32000,128,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-360M-base'>facebook/MobileLLM-R1-360M-base</a>,🧠,4.27,359431168,128256,4096,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.29,354483968,65536,128000,✗,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-140M-base'>facebook/MobileLLM-R1-140M-base</a>,🧠,4.29,140248512,128256,4096,✗,✗
-fresh-xlm-roberta-base,🔍,4.29,278885778,250002,512,✓,✗
+fresh-xlm-roberta-base,🔍,4.30,278885778,250002,512,✓,✗
 <a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.39,320956992,65536,4096,✓,✗
 <a href='https://hf.co/facebook/MobileLLM-R1-950M'>facebook/MobileLLM-R1-950M</a>,📝,4.39,949685760,128256,32768,✗,✗
 <a href='https://hf.co/Shekswess/trlm-135m'>Shekswess/trlm-135m</a>,📝,4.40,134516160,49154,8192,✓,✗
