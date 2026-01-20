@@ -37,14 +37,14 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.08,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.10,4022468096,151936,40960,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-mini'>gpt-4.1-mini-2025-04-14 (zero-shot, val)</a>",📝,2.13,,,1047576,✓,✗
-<a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.14,7849978192,262400,8192,✓,✗
-<a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.16,21511953984,201088,131072,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,2.16,,,,✓,✗
+<a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.16,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,2.17,,128000,4096,✓,✗
-<a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.20,8053338176,131072,65536,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.21,9152319488,128000,4096,✗,✗
+<a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.17,7849978192,262400,8192,✓,✗
+<a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.19,8053338176,131072,65536,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.20,9152319488,128000,4096,✗,✗
+<a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,2.20,32207337984,100352,131072,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#low</a>,🤔,2.21,21511953984,201088,131072,✓,✗
-<a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,2.21,32207337984,100352,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.23,8030261248,128256,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,2.23,,100256,272000,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.24,22637328384,128000,32768,✓,✗
@@ -58,7 +58,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-2512'>utter-project/EuroLLM-22B-2512</a>,🧠,2.39,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-SFT'>allenai/Olmo-3.1-32B-Instruct-SFT</a>,📝,2.39,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#high</a>,🤔,2.41,21511953984,201088,131072,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.43,,,1047576,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.41,,,1047576,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.43,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-21B-A3B-PT'>baidu/ERNIE-4.5-21B-A3B-PT</a>,📝,2.46,21948655808,103424,131072,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,2.48,,256128,1048576,✓,✗
@@ -66,7 +66,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-4.0-h-micro'>ibm-granite/granite-4.0-h-micro</a>,📝,2.50,3191396096,100352,131072,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16#no-thinking</a>,📝,2.51,31577937344,131072,262144,✓,✗
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.53,561192082,250002,512,✓,✗
-<a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.58,4300079472,262144,8192,✓,✗
+<a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.56,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-micro'>ibm-granite/granite-4.0-micro</a>,📝,2.58,3402836480,100352,131072,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.58,307537161,256000,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.61,9152319488,128000,4096,✓,✗

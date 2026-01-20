@@ -1,6 +1,6 @@
 model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.36,,256128,1048576,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.48,,256128,1048576,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-pro-preview'>gemini/gemini-3-pro-preview (zero-shot, val)</a>",🤔,1.35,,256128,1048576,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,1.47,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#thinking (zero-shot, val)</a>",🤔,1.48,,,200000,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3-flash-preview'>gemini/gemini-3-flash-preview#thinking (zero-shot, val)</a>",🤔,1.51,,256128,1048576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,1.53,,100256,272000,✓,✗
@@ -22,8 +22,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.87,70553706496,128256,131072,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,1.87,,,200000,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.88,70553706496,128256,131072,✓,✗
-<a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B#no-thinking</a>,📝,1.89,32762123264,151936,40960,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,1.93,,256128,1048576,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B#no-thinking</a>,📝,1.90,32762123264,151936,40960,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#no-thinking (zero-shot, val)</a>",📝,1.94,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-haiku-4-5-20251001 (zero-shot, val)</a>",🤔,1.96,,,200000,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.97,14768307200,151936,40960,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.98,12187325040,262144,8192,✓,✗
@@ -58,7 +58,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.61,,,1047576,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.63,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.65,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-SFT'>allenai/Olmo-3.1-32B-Instruct-SFT</a>,📝,2.65,32233522176,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-SFT'>allenai/Olmo-3.1-32B-Instruct-SFT</a>,📝,2.66,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.69,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.71,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct'>allenai/Olmo-3.1-32B-Instruct</a>,📝,2.71,32233522176,100278,65536,✗,✗
