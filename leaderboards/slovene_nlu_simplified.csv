@@ -36,7 +36,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.14,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#low</a>,🤔,2.15,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.19,4022468096,151936,40960,✓,✗
-<a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,2.20,72706203648,152064,32768,✓,✗
+<a href='https://hf.co/Qwen/Qwen2.5-72B-Instruct'>Qwen/Qwen2.5-72B-Instruct</a>,📝,2.19,72706203648,152064,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,2.21,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0'>INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0</a>,📝,2.21,12187325040,262144,8192,✗,✗
 <a href='https://hf.co/deepcogito/cogito-v2-preview-llama-70B'>deepcogito/cogito-v2-preview-llama-70B</a>,📝,2.24,70553706496,128256,131072,✓,✗
