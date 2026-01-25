@@ -233,9 +233,9 @@ skole-gpt-mixtral,🧠,1.95,,32000,32768,✓,✗
 <a href='https://hf.co/seedboxai/KafkaLM-13B-German-V0.1-DPO'>seedboxai/KafkaLM-13B-German-V0.1-DPO</a>,📝,2.42,13015864320,32000,8192,✗,✗
 <a href='https://hf.co/cardiffnlp/twitter-xlm-roberta-base'>cardiffnlp/twitter-xlm-roberta-base</a>,🔍,2.43,278045186,250002,512,✓,✗
 <a href='https://hf.co/RuterNorway/Llama-2-13b-chat-norwegian'>RuterNorway/Llama-2-13b-chat-norwegian</a>,📝,2.43,,32000,4096,✗,✗
-<a href='https://hf.co/VAGOsolutions/SauerkrautLM-Gemma-7b'>VAGOsolutions/SauerkrautLM-Gemma-7b</a>,🧠,2.43,8537680896,256000,8192,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.44,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/Twitter/twhin-bert-base'>Twitter/twhin-bert-base</a>,🔍,2.44,279080594,250002,512,✓,✗
+<a href='https://hf.co/VAGOsolutions/SauerkrautLM-Gemma-7b'>VAGOsolutions/SauerkrautLM-Gemma-7b</a>,🧠,2.44,8537680896,256000,8192,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B'>HuggingFaceTB/SmolLM3-3B</a>,🤔,2.47,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,📝,2.48,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/ibm-granite/granite-3.0-2b-instruct'>ibm-granite/granite-3.0-2b-instruct</a>,📝,2.49,2634201088,49155,4097,✓,✗
