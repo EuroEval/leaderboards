@@ -97,7 +97,7 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Latvian,Lithuania
 <a href='https://hf.co/arcee-ai/Trinity-Nano-Preview'>arcee-ai/Trinity-Nano-Preview</a>,📝,3.36@@3.36,6120003328.0,200192.0,131072.0,✓,✗,3.30@@3.30,3.42@@3.42
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.38@@3.38,999885952.0,262144.0,32768.0,✓,✗,3.48@@3.48,3.28@@3.28
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.40@@3.40,7768117248.0,256000.0,8192.0,✓,✗,3.33@@3.33,3.46@@3.46
-<a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.40@@3.40,7241732096.0,32000.0,32768.0,✓,✗,3.39@@3.39,3.41@@3.41
+<a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.40@@3.40,7241732096.0,32000.0,32768.0,✓,✗,3.39@@3.39,3.42@@3.42
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.41@@3.41,7768117248.0,256000.0,8192.0,✓,✗,3.41@@3.41,3.40@@3.40
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,3.49@@3.49,108867577.0,84985.0,512.0,✓,✗,3.45@@3.45,3.53@@3.53
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.50@@3.50,999885952.0,262144.0,32768.0,✓,✗,3.55@@3.55,3.45@@3.45
