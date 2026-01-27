@@ -22,6 +22,11 @@ download:
 		cat ucloud2_results.jsonl >> new_results.jsonl; \
 		rm ucloud2_results.jsonl; \
 	fi
+	@scp -o ConnectTimeout=5 ucloud3:/work/euroeval_benchmark_results.jsonl ucloud3_results.jsonl || true
+	@if [ -f ucloud3_results.jsonl ]; then \
+		cat ucloud3_results.jsonl >> new_results.jsonl; \
+		rm ucloud3_results.jsonl; \
+	fi
 
 generate_leaderboards:
 	@uv run src/scripts/generate_leaderboards.py
