@@ -498,7 +498,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,?,32002.0,32768.0,✓,✗,-@@100,2.50
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,-@@100,811778816.0,50257.0,1024.0,✓,✗,-@@100,4.45@@4.45,-@@100
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,-@@100,379988992.0,50257.0,1024.0,✓,✗,-@@100,4.46@@4.46,-@@100
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,-@@100,137022720.0,50257.0,1024.0,✓,✗,-@@100,4.51@@4.51,-@@100
-<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,-@@100,?,?,?,✓,✗,1.80@@1.80,-@@100,-@@100
+<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,-@@100,120000000.0,201088.0,131072.0,✓,✗,1.80@@1.80,-@@100,-@@100
 <a href='https://ollama.com/library/gemma3:4b-it-q4_K_M'>ollama_chat/gemma3:4b-it-q4_K_M</a>,📝,-@@100,?,?,?,✓,✗,-@@100,2.33@@2.33,-@@100
 <a href='https://hf.co/nvidia/mistral-nemo-minitron-8b-instruct'>nvidia/mistral-nemo-minitron-8b-instruct</a>,📝,-@@100,8414105600.0,131072.0,8192.0,✓,✗,-@@100,2.91@@2.91,-@@100
 <a href='https://hf.co/nvidia/mistral-nemo-minitron-8b-base'>nvidia/mistral-nemo-minitron-8b-base</a>,🧠,-@@100,8414105600.0,131072.0,8192.0,✓,✗,-@@100,2.17@@2.17,-@@100

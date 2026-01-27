@@ -18,7 +18,7 @@ Model,Type,Rank,Parameters,Vocabulary,Context,Commercial,Merge,Latvian,Lithuania
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.79@@1.79,70553706496.0,128256.0,131072.0,✓,✗,1.75@@1.75,1.83@@1.83
 <a href='https://hf.co/deepcogito/cogito-v2-preview-llama-70B'>deepcogito/cogito-v2-preview-llama-70B</a>,📝,1.79@@1.79,70553706496.0,128256.0,131072.0,✓,✗,1.72@@1.72,1.86@@1.86
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,1.79@@1.79,?,?,?,✓,✗,1.66@@1.66,1.92@@1.92
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.81@@1.81,?,256128.0,1048576.0,✓,✗,1.69@@1.69,1.93@@1.93
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.81@@1.81,?,256128.0,1048576.0,✓,✗,1.69@@1.69,1.94@@1.94
 <a href='https://hf.co/mistralai/Voxtral-Small-24B-2507'>mistralai/Voxtral-Small-24B-2507</a>,📝,1.83@@1.83,24261800960.0,131072.0,8192.0,✓,✗,1.83@@1.83,1.83@@1.83
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.83@@1.83,70553706496.0,128256.0,131072.0,✓,✗,1.81@@1.81,1.85@@1.85
 <a href='https://hf.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506'>mistralai/Mistral-Small-3.2-24B-Instruct-2506</a>,📝,1.83@@1.83,24011361280.0,131072.0,8192.0,✓,✗,1.81@@1.81,1.85@@1.85
