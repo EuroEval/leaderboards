@@ -47,7 +47,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,1.74,12187325040,262144,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Thinking-2507'>Qwen/Qwen3-4B-Thinking-2507</a>,🤔,1.76,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/danish-foundation-models/encoder-large-v1'>danish-foundation-models/encoder-large-v1</a>,🔍,1.76,355139920,50000,512,✓,✗
-<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,1.80,120000000,201088,131072,✓,✗
+<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,1.80,120000000000,201088,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,1.82,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,1.82,32207337984,100352,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,1.83,22637328384,128000,4096,✓,✗

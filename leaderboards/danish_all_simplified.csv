@@ -45,7 +45,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://www.ordbogen.ai/docs/models/odin-medium'>ordbogen/odin-medium (zero-shot, val)</a>",🤔,1.77,,,131072,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-2509'>swiss-ai/Apertus-70B-2509</a>,🧠,1.78,70599864480,131072,65536,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it (zero-shot)</a>,📝,1.81,27432406640,262144,8192,✓,✗
-<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,1.81,120000000,201088,131072,✓,✗
+<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,1.81,120000000000,201088,131072,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,1.82,,256128,1048576,✓,✗
 <a href='https://hf.co/zai-org/GLM-4.5-Air'>zai-org/GLM-4.5-Air#thinking</a>,🤔,1.82,110468824832,151552,131072,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,1.83,21511953984,201088,131072,✓,✗

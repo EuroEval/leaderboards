@@ -378,7 +378,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,?,?,32002.0,32768.0,✓,✗,-@@100,-@
 <a href='https://hf.co/openai-community/gpt2-large'>openai-community/gpt2-large</a>,🧠,-@@100,N/A,811778816.0,50257.0,1024.0,✓,✗,-@@100,4.94@@4.94,-@@100
 <a href='https://hf.co/openai-community/gpt2-medium'>openai-community/gpt2-medium</a>,🧠,-@@100,N/A,379988992.0,50257.0,1024.0,✓,✗,-@@100,4.93@@4.93,-@@100
 <a href='https://hf.co/openai-community/gpt2'>openai-community/gpt2</a>,🧠,-@@100,N/A,137022720.0,50257.0,1024.0,✓,✗,-@@100,4.97@@4.97,-@@100
-<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,-@@100,?,120000000.0,201088.0,131072.0,✓,✗,1.81@@1.81,-@@100,-@@100
+<a href='https://hf.co/openai/gpt-oss-120b'>openai/gpt-oss-120b (val)</a>,🤔,-@@100,?,120000000000.0,201088.0,131072.0,✓,✗,1.81@@1.81,-@@100,-@@100
 <a href='https://hf.co/mistralai/Mistral-Small-24B-Instruct-2501'>mistralai/Mistral-Small-24B-Instruct-2501</a>,📝,-@@100,?,23572403200.0,131072.0,32768.0,✓,✗,-@@100,2.19@@2.19,-@@100
 "<a href='https://platform.openai.com/docs/models/o4-mini'>o4-mini-2025-04-16 (zero-shot, val)</a>",🤔,-@@100,?,?,?,200000.0,✓,✗,-@@100,1.70@@1.70,-@@100
 "<a href='https://platform.openai.com/docs/models/o3'>o3-2025-04-16 (zero-shot, val)</a>",🤔,-@@100,?,?,?,200000.0,✓,✗,-@@100,1.41@@1.41,-@@100
