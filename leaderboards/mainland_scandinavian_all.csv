@@ -105,7 +105,7 @@ Model,Type,Rank,"<a href=""https://euroeval.com/tasks/european-values"">European
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.25@@3.25,6.42,2424375168.0,99000.0,28723.0,✗,✗,3.24@@3.24,3.42@@3.42,3.08@@3.08
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-40b'>AI-Sweden-Models/gpt-sw3-40b</a>,🧠,3.31@@3.31,N/A,39926513664.0,64000.0,2048.0,✓,✗,3.26@@3.26,3.54@@3.54,3.12@@3.12
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.34@@3.34,7.06,999885952.0,262144.0,32768.0,✓,✗,3.28@@3.28,3.53@@3.53,3.22@@3.22
-<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct'>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct</a>,📝,3.34@@3.34,13.73,7111057408.0,64000.0,2048.0,✓,✗,3.54@@3.54,3.25@@3.25,3.24@@3.24
+<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct'>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct</a>,📝,3.34@@3.34,13.73,7111057408.0,64000.0,2048.0,✓,✗,3.53@@3.53,3.25@@3.25,3.24@@3.24
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.36@@3.36,N/A,7768117248.0,256000.0,8192.0,✓,✗,3.25@@3.25,3.28@@3.28,3.55@@3.55
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.36@@3.36,N/A,7111057408.0,64000.0,2048.0,✓,✗,3.25@@3.25,3.53@@3.53,3.29@@3.29
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.38@@3.38,3.7,751632384.0,151936.0,40960.0,✓,✗,3.40@@3.40,3.58@@3.58,3.17@@3.17
@@ -137,7 +137,7 @@ Model,Type,Rank,"<a href=""https://euroeval.com/tasks/european-values"">European
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.04@@4.04,N/A,134515008.0,49152.0,8192.0,✓,✗,3.98@@3.98,4.08@@4.08,4.07@@4.07
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.05@@4.05,N/A,361821120.0,49152.0,8192.0,✓,✗,3.94@@3.94,4.17@@4.17,4.05@@4.05
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct</a>,📝,4.07@@4.07,14.41,107908288.0,65536.0,262144.0,✓,✗,4.06@@4.06,4.19@@4.19,3.96@@3.96
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.08@@4.08,12.39,361821120.0,49152.0,8192.0,✓,✗,4.06@@4.06,4.17@@4.17,4.03@@4.03
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.08@@4.08,12.39,361821120.0,49152.0,8192.0,✓,✗,4.05@@4.05,4.17@@4.17,4.03@@4.03
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-126m'>AI-Sweden-Models/gpt-sw3-126m</a>,🧠,4.15@@4.15,N/A,186112512.0,64000.0,2048.0,✓,✗,4.07@@4.07,4.22@@4.22,4.17@@4.17
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.16@@4.16,N/A,107908288.0,65536.0,262144.0,✓,✗,4.16@@4.16,4.33@@4.33,3.99@@3.99
 <a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.48@@4.48,5.32,320956992.0,65536.0,4096.0,✓,✗,4.42@@4.42,4.56@@4.56,4.45@@4.45
@@ -260,7 +260,7 @@ Model,Type,Rank,"<a href=""https://euroeval.com/tasks/european-values"">European
 <a href='https://hf.co/susnato/ernie-m-large_pytorch'>susnato/ernie-m-large_pytorch</a>,🔍,-@@100,N/A,559892483.0,250002.0,512.0,✓,✗,-@@100,-@@100,-@@100
 syvai/danskgpt-chat-llama3-70b (val)</a>,📝,-@@100,?,70553706496.0,128258.0,8192.0,✓,✗,-@@100,-@@100,-@@100
 syvai/llama3-da-base,🧠,-@@100,N/A,8030261248.0,128256.0,8192.0,✓,✗,-@@100,-@@100,-@@100
-<a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,-@@100,?,11168796672.0,32128.0,32768.0,✓,✓,-@@100,2.44@@2.44,-@@100
+<a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,-@@100,?,11168796672.0,32128.0,32768.0,✓,✓,1.88@@1.88,2.44@@2.44,-@@100
 <a href='https://hf.co/tencent/Hunyuan-1.8B-Instruct'>tencent/Hunyuan-1.8B-Instruct</a>,🤔,-@@100,?,1791080448.0,120818.0,262144.0,✓,✗,-@@100,3.79@@3.79,-@@100
 skole-gpt-mixtral,🧠,-@@100,N/A,?,32000.0,32768.0,✓,✗,-@@100,-@@100,-@@100
 <a href='https://hf.co/sentence-transformers/use-cmlm-multilingual'>sentence-transformers/use-cmlm-multilingual</a>,🔍,-@@100,N/A,472022179.0,501153.0,512.0,✓,✗,-@@100,-@@100,-@@100
