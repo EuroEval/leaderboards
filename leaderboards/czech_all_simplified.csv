@@ -47,7 +47,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,1.93,70599864480,131072,65536,✗,✗
 <a href='https://hf.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0'>INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0</a>,📝,1.94,12187325040,262144,8192,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,1.95,8190735360,151936,40960,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,1.96,,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Preview'>utter-project/EuroLLM-22B-Preview</a>,🧠,1.95,,128000,4096,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3.0-Instruct'>speakleash/Bielik-11B-v3.0-Instruct</a>,📝,1.97,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,1.97,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/BSC-LT/ALIA-40b'>BSC-LT/ALIA-40b</a>,🧠,2.01,40433885184,256000,32768,✓,✗

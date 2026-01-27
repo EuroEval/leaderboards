@@ -11,9 +11,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-32B'>Qwen/Qwen3-32B#no-thinking</a>,📝,1.94,32762123264,151936,40960,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.97,24011361280,131072,8192,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,2.00,32759790592,151665,131072,✓,✗
-<a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16#no-thinking</a>,📝,2.01,31577937344,131072,262144,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,2.01,,,200000,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,2.01,27432406640,262144,8192,✓,✗
+<a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16#no-thinking</a>,📝,2.02,31577937344,131072,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,2.02,14768307200,151936,40960,✓,✗
 <a href='https://hf.co/mii-llm/nesso-4B'>mii-llm/nesso-4B</a>,📝,2.04,4022468096,151936,262144,✗,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5'>gpt-5-2025-08-07 (zero-shot, val)</a>",🤔,2.05,,100256,272000,✓,✗
