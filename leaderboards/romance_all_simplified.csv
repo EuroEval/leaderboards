@@ -116,7 +116,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct</a>,📝,3.95,107908288,65536,262144,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.98,353424384,65536,2048,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.98,268098176,262144,32768,✓,✗
-<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.06,268098176,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.07,268098176,262144,32768,✓,✗
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.11,107908288,65536,262144,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.15,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.19,361821120,49152,8192,✓,✗
