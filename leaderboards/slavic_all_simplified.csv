@@ -94,10 +94,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.25,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TrustLLMeu/baseline-7-8b_2-3t-tokens_llama'>TrustLLMeu/baseline-7-8b_2-3t-tokens_llama</a>,🧠,3.29,7799574528,100096,4096,✓,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B'>arcee-ai/AFM-4.5B</a>,📝,3.29,4619189760,128005,65536,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.30,2569272320,65536,128000,✗,✗
+<a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,3.29,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.34,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.39,751632384,151936,40960,✓,✗
-<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.41,26123974400,200192,131072,✓,✗
+<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.40,26123974400,200192,131072,✓,✗
 <a href='https://hf.co/speakleash/Bielik-1.5B-v3.0-Instruct'>speakleash/Bielik-1.5B-v3.0-Instruct</a>,📝,3.48,1596507648,32000,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.48,999885952,262144,32768,✓,✗
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.50,2424375168,99000,28723,✗,✗
