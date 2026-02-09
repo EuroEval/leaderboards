@@ -103,6 +103,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.70,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,3.72,,103424,131072,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.75,1195468800,65536,2048,✓,✗
+<a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct</a>,🤔,3.77,7504568320,128167,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.77,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,3.80,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,3.84,268098176,262144,32768,✓,✗
@@ -111,8 +112,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,3.91,361821120,49152,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.95,268098176,262144,32768,✓,✗
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct</a>,📝,3.98,107908288,65536,262144,✓,✗
-<a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.01,107908288,65536,262144,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.02,134515008,49152,8192,✓,✗
+<a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.02,107908288,65536,262144,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.03,353424384,65536,2048,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.04,361821120,49152,8192,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Thinking'>LiquidAI/LFM2.5-1.2B-Thinking</a>,🤔,4.04,1170340608,65536,128000,✗,✗
@@ -123,4 +124,4 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/PleIAs/Monad'>PleIAs/Monad</a>,🧠,4.58,56656128,8192,2048,✓,✗
 <a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.59,320956992,65536,4096,✓,✗
 <a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6</a>,🤔,5.03,320956992,65536,4096,✓,✗
-<a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#thinking</a>,🤔,5.09,320956992,65536,4096,✓,✗
+<a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#thinking</a>,🤔,5.10,320956992,65536,4096,✓,✗

@@ -46,7 +46,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.29,70599864480,131072,65536,✗,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.32,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/mii-llm/nesso-4B'>mii-llm/nesso-4B</a>,📝,2.32,4022468096,151936,262144,✗,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.33,22637328384,128000,32768,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.34,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.36,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/lapa-llm/lapa-v0.1.2-instruct'>lapa-llm/lapa-v0.1.2-instruct</a>,📝,2.38,12187325040,262144,8192,✗,✗
 <a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.38,32234279936,100352,4096,✗,✗
@@ -113,8 +113,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.90,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.93,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.98,268098176,262144,32768,✓,✗
-<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.00,268098176,262144,32768,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.00,353424384,65536,2048,✓,✗
+<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.01,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.02,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.02,742489344,65536,128000,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Thinking'>LiquidAI/LFM2.5-1.2B-Thinking</a>,🤔,4.06,1170340608,65536,128000,✗,✗
