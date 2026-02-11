@@ -23,7 +23,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,1.72,,,200000,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.73,,100256,272000,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-14B'>deepcogito/cogito-v1-preview-qwen-14B</a>,📝,1.73,14765947904,151665,131072,✓,✗
-<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.75,70553706496,128256,131072,✓,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-70B'>deepcogito/cogito-v1-preview-llama-70B</a>,📝,1.76,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.76,30532122624,151936,262144,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-small'>ibm-granite/granite-4.0-h-small</a>,📝,1.76,32207337984,100352,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5.2'>gpt-5.2-2025-12-11 (zero-shot, val)</a>",🤔,1.78,,,,✓,✗
@@ -47,10 +47,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-27b-pt'>google/gemma-3-27b-pt</a>,🧠,1.98,27432406640,262144,8192,✓,✗
 <a href='https://hf.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0'>INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0</a>,📝,1.98,12187325040,262144,8192,✗,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16#no-thinking</a>,📝,1.99,31577937344,131072,262144,✓,✗
+<a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#high</a>,🤔,2.01,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.02,9152319488,128000,4096,✗,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.03,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3.0-Instruct'>speakleash/Bielik-11B-v3.0-Instruct</a>,📝,2.03,11168796672,32128,32768,✓,✗
-<a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#high</a>,🤔,2.03,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.03,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.04,12187325040,262144,8192,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,2.05,,,1047576,✓,✗
@@ -76,8 +76,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.33,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v2.6-Instruct'>speakleash/Bielik-11B-v2.6-Instruct</a>,📝,2.34,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.35,4300079472,262144,8192,✓,✗
-<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.39,8030261248,128256,131072,✓,✗
-<a href='https://hf.co/speakleash/Bielik-4.5B-v3.0-Instruct'>speakleash/Bielik-4.5B-v3.0-Instruct</a>,📝,2.39,4757260288,32000,32768,✓,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.40,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/speakleash/Bielik-4.5B-v3.0-Instruct'>speakleash/Bielik-4.5B-v3.0-Instruct</a>,📝,2.40,4757260288,32000,32768,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.40,8053338176,131072,65536,✓,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-tiny'>ibm-granite/granite-4.0-h-tiny</a>,📝,2.41,6939037248,100352,131072,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.43,307537161,256000,8192,✓,✗
@@ -125,12 +125,12 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.65,3211926528,65536,4096,✓,✗
 <a href='https://hf.co/EuroBERT/EuroBERT-610m'>EuroBERT/EuroBERT-610m</a>,🔍,3.68,755625600,128256,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.69,2611528704,128000,4096,✓,✗
-<a href='https://hf.co/lapa-llm/lapa-12b-pt'>lapa-llm/lapa-12b-pt</a>,📝,3.69,12187325040,262144,8192,✓,✗
+<a href='https://hf.co/lapa-llm/lapa-12b-pt'>lapa-llm/lapa-12b-pt</a>,📝,3.70,12187325040,262144,8192,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.74,149655232,50368,8192,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.76,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/baidu/ERNIE-4.5-0.3B-PT'>baidu/ERNIE-4.5-0.3B-PT</a>,📝,3.78,,103424,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.81,2611528704,128000,4096,✓,✗
-<a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.86,93990500,65636,512,✓,✗
+<a href='https://hf.co/EuropeanParliament/EUBERT'>EuropeanParliament/EUBERT</a>,🔍,3.87,93990500,65636,512,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.87,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.93,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,3.98,353424384,65536,2048,✓,✗
