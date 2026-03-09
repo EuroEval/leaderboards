@@ -84,13 +84,13 @@ def generate_anchor_tag(model_id: str) -> str | None:
     logging.getLogger("httpx").setLevel(logging.CRITICAL)
     logging.getLogger("huggingface_hub").setLevel(logging.CRITICAL)
 
-    # If the model already has a URL, return it as is
+    # Skip URL generation for already-annotated models
     if re.match(r"^<a href='.*'>.*</a>$", model_id):
         return model_id
 
     model_id_without_extras = model_id.split("@")[0].split("#")[0]
 
-    # Skip models that are known to not have URLs
+    # Skip URL generation for models without hosted pages
     if model_id_without_extras in KNOWN_MODELS_WITHOUT_URLS:
         return model_id
 

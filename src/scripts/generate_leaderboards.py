@@ -2,9 +2,9 @@
 
 import logging
 import re
+import typing as t
 import warnings
 from pathlib import Path
-from typing import Literal
 
 import click
 from dotenv import load_dotenv
@@ -50,7 +50,7 @@ API_MODEL_PATTERNS: list[re.Pattern] = [
     show_default=True,
     help="Force the generation of the leaderboard, even if no updates are found.",
 )
-def main(categories: tuple[Literal["all", "nlu"]], force: bool) -> None:
+def main(categories: tuple[t.Literal["all", "nlu"]], force: bool) -> None:
     """Generate all leaderboards.
 
     Args:

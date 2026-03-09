@@ -5,10 +5,10 @@ import json
 import logging
 import math
 import re
+import typing as t
 from collections import defaultdict
 from itertools import chain
 from pathlib import Path
-from typing import Literal
 
 import numpy as np
 import pandas as pd
@@ -24,7 +24,9 @@ logger = logging.getLogger(__name__)
 
 
 def generate_leaderboard(
-    leaderboard_config_path: Path, categories: list[Literal["all", "nlu"]], force: bool
+    leaderboard_config_path: Path,
+    categories: list[t.Literal["all", "nlu"]],
+    force: bool,
 ) -> None:
     """Generate leaderboard CSV files from the EuroEval results.
 
@@ -319,7 +321,7 @@ def generate_dataframe(
     model_results: dict[str, dict[str, list[tuple[list[float], float, float]]]],
     ranks: dict[str, dict[str, dict[str, float]]],
     metadata_dict: dict[str, dict],
-    categories: list[Literal["all", "nlu"]],
+    categories: list[t.Literal["all", "nlu"]],
     task_config: dict[str, dict[str, str]],
     leaderboard_configs: dict[str, dict[str, list[str]]],
     include_dataset_columns: bool,
