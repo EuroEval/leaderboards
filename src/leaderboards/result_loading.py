@@ -113,11 +113,13 @@ def load_raw_results() -> list[dict]:
     if new_results_path.exists():
         with new_results_path.open() as f:
             new_result_lines = f.read().splitlines()
+
         # Convert new results from new format to old format
         converted_new_records = [
-            convert_to_old_format(record=json.loads(line))
+            convert_to_old_format(record=json.loads(json_dict))
             for line in new_result_lines
-            if line.strip()
+            for json_dict in re.split(pattern=r"(?<=})(?={)", string=line)
+            if json_dict.strip()
         ]
         result_lines.extend(json.dumps(record) for record in converted_new_records)
         new_results_path.unlink()

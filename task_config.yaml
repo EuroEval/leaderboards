@@ -30,8 +30,8 @@ common-sense-reasoning:
 
 summarization:
   category: nlg
-  primary_metric: bertscore
-  secondary_metric: rouge_l
+  primary_metric: chr_f3pp
+  secondary_metric: chr_f4pp
 
 simplification:
   category: nlg

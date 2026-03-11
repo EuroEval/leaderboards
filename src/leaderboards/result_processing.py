@@ -468,8 +468,17 @@ def group_results_by_model(
                 ]
 
             # Get the aggregated scores for the dataset
-            total_score: float = record["results"]["total"][f"test_{metric}"]
-            std_err: float = record["results"]["total"][f"test_{metric}_se"]
+            try:
+                total_score: float = record["results"]["total"][f"test_{metric}"]
+                std_err: float = record["results"]["total"][f"test_{metric}_se"]
+            except KeyError:
+                log_once(
+                    f"Could not find {metric_type} metric for {dataset!r} in "
+                    f"{record['model']!r} (test_{metric}). Only found "
+                    f"{list(record['results']['total'].keys())}.",
+                    logging_level=logging.WARNING,
+                )
+                continue
 
             # Sometimes the raw scores are normalised to [0, 1], so we need to scale
             # them back to [0, 100]
