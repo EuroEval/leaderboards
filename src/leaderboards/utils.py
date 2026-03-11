@@ -100,7 +100,11 @@ def get_record_hash(record: dict) -> str:
     Returns:
         A hash value for the record.
     """
-    model = record["model"]
+    try:
+        model = record["model"]
+    except KeyError:
+        breakpoint()
+        return ""
     dataset = record["dataset"]
     validation_split = (
         int(record_validation_split)

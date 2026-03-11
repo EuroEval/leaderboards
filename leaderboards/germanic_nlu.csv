@@ -742,7 +742,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,?,32002.0,32768.0,✓,✗,-@@100,-@@1
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct (val)</a>,📝,-@@100,7768117248.0,256000.0,8192.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b-v2'>AI-Sweden-Models/gpt-sw3-6.7b-v2</a>,🧠,-@@100,7111057408.0,64000.0,2048.0,✓,✗,3.62@@3.62,-@@100,-@@100,-@@100,-@@100,-@@100,3.65@@3.65,3.29@@3.29
 "<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct (zero-shot, val)</a>",📝,-@@100,7768117248.0,256000.0,8192.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
-<a href='https://hf.co/BramVanroy/GEITje-7B-ultra'>BramVanroy/GEITje-7B-ultra</a>,🧠,-@@100,7241732096.0,32000.0,8192.0,✗,✗,-@@100,2.43@@2.43,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
+<a href='https://hf.co/BramVanroy/GEITje-7B-ultra'>BramVanroy/GEITje-7B-ultra</a>,🧠,-@@100,7241732096.0,32000.0,4096.0,✗,✗,-@@100,2.43@@2.43,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/BramVanroy/fietje-2b-chat'>BramVanroy/fietje-2b-chat</a>,📝,-@@100,2775059577.0,50297.0,2048.0,✗,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/BramVanroy/fietje-2b-instruct'>BramVanroy/fietje-2b-instruct</a>,📝,-@@100,2775059577.0,50297.0,2048.0,✗,✗,-@@100,2.89@@2.89,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/BramVanroy/fietje-2b'>BramVanroy/fietje-2b</a>,🧠,-@@100,2779683840.0,51200.0,2048.0,✓,✗,-@@100,2.87@@2.87,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
@@ -755,7 +755,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,?,32002.0,32768.0,✓,✗,-@@100,-@@1
 <a href='https://hf.co/CohereForAI/aya-23-35B'>CohereForAI/aya-23-35B</a>,📝,-@@100,34980831232.0,256000.0,8192.0,✗,✗,-@@100,1.81@@1.81,1.77@@1.77,3.37@@3.37,1.88@@1.88,3.25@@3.25,2.29@@2.29,-@@100
 <a href='https://hf.co/CohereForAI/aya-23-8B'>CohereForAI/aya-23-8B</a>,📝,-@@100,8028033024.0,256000.0,8192.0,✗,✗,-@@100,1.98@@1.98,2.19@@2.19,3.70@@3.70,2.54@@2.54,3.66@@3.66,2.75@@2.75,-@@100
 <a href='https://hf.co/CohereForAI/aya-expanse-32b'>CohereForAI/aya-expanse-32b</a>,📝,-@@100,32296476672.0,256000.0,8192.0,✗,✗,-@@100,1.74@@1.74,1.67@@1.67,2.97@@2.97,1.92@@1.92,2.85@@2.85,2.19@@2.19,-@@100
-<a href='https://hf.co/BramVanroy/GEITje-7B-ultra-sft'>BramVanroy/GEITje-7B-ultra-sft</a>,📝,-@@100,7241732096.0,32000.0,8192.0,✗,✗,-@@100,2.47@@2.47,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
+<a href='https://hf.co/BramVanroy/GEITje-7B-ultra-sft'>BramVanroy/GEITje-7B-ultra-sft</a>,📝,-@@100,7241732096.0,32000.0,4096.0,✗,✗,-@@100,2.47@@2.47,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/CohereForAI/aya-expanse-8b'>CohereForAI/aya-expanse-8b</a>,📝,-@@100,8028033024.0,256000.0,8192.0,✗,✗,-@@100,2.03@@2.03,1.97@@1.97,3.39@@3.39,2.16@@2.16,3.48@@3.48,2.70@@2.70,-@@100
 "<a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct'>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (zero-shot, val)</a>",📝,-@@100,7111057408.0,64000.0,2048.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct'>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (zero-shot)</a>,📝,-@@100,7111057408.0,64000.0,2048.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
@@ -911,7 +911,7 @@ mhenrichsen/danskgpt-chat-v2.1,📝,-@@100,?,32002.0,32768.0,✓,✗,-@@100,-@@1
 <a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base (zero-shot)</a>,📝,-@@100,26123974400.0,200192.0,131072.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base (val)</a>,📝,-@@100,26123974400.0,200192.0,131072.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 "<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base (zero-shot, val)</a>",📝,-@@100,26123974400.0,200192.0,131072.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
-<a href='https://hf.co/arcee-ai/Trinity-Mini'>arcee-ai/Trinity-Mini</a>,🤔,-@@100,26123974400.0,200192.0,131072.0,✓,✗,2.10@@2.10,2.24@@2.24,1.57@@1.57,-@@100,-@@100,-@@100,-@@100,-@@100
+<a href='https://hf.co/arcee-ai/Trinity-Mini'>arcee-ai/Trinity-Mini</a>,🤔,-@@100,?,200192.0,131072.0,✓,✗,2.10@@2.10,2.24@@2.24,1.57@@1.57,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/arcee-ai/Trinity-Nano-Base'>arcee-ai/Trinity-Nano-Base (zero-shot)</a>,📝,-@@100,6120003328.0,200192.0,131072.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/arcee-ai/Trinity-Nano-Base'>arcee-ai/Trinity-Nano-Base (val)</a>,📝,-@@100,6120003328.0,200192.0,131072.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 "<a href='https://hf.co/arcee-ai/Trinity-Nano-Base'>arcee-ai/Trinity-Nano-Base (zero-shot, val)</a>",📝,-@@100,6120003328.0,200192.0,131072.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
@@ -996,13 +996,13 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,-@@100,7241732096.0,32000.0,8192
 <a href='https://hf.co/RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b'>RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (val)</a>,📝,-@@100,7241748480.0,32002.0,32768.0,✗,✓,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,2.71@@2.71,-@@100
 <a href='https://hf.co/RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b'>RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b</a>,📝,-@@100,7241748480.0,32002.0,4096.0,✗,✓,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/RabotaRu/HRBert-mini'>RabotaRu/HRBert-mini</a>,🔍,-@@100,80109315.0,200001.0,512.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,4.11@@4.11,-@@100
-<a href='https://hf.co/ReBatch/Llama-3-8B-dutch'>ReBatch/Llama-3-8B-dutch</a>,🧠,-@@100,8030277632.0,128258.0,8445.0,✗,✗,-@@100,2.09@@2.09,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
+<a href='https://hf.co/ReBatch/Llama-3-8B-dutch'>ReBatch/Llama-3-8B-dutch</a>,🧠,-@@100,8030277632.0,128258.0,8192.0,✗,✗,-@@100,2.09@@2.09,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/ReBatch/Reynaerde-7B-Chat'>ReBatch/Reynaerde-7B-Chat</a>,📝,-@@100,7248023552.0,32768.0,32768.0,✗,✗,-@@100,2.86@@2.86,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 "<a href='https://hf.co/Qwen/Qwen3.5-2B-Base'>Qwen/Qwen3.5-2B-Base (zero-shot, val)</a>",📝,-@@100,2274067232.0,248044.0,8192.0,✓,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/ReBatch/Reynaerde-7B-Instruct'>ReBatch/Reynaerde-7B-Instruct</a>,📝,-@@100,7248023552.0,32768.0,32768.0,✗,✗,-@@100,2.84@@2.84,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/RekaAI/reka-flash-3'>RekaAI/reka-flash-3</a>,🤔,-@@100,20905482240.0,100352.0,32768.0,✓,✗,-@@100,1.59@@1.59,1.65@@1.65,2.82@@2.82,1.92@@1.92,2.56@@2.56,1.90@@1.90,-@@100
-<a href='https://hf.co/Rijgersberg/Mistral-7B-v0.1-chat-nl'>Rijgersberg/Mistral-7B-v0.1-chat-nl</a>,📝,-@@100,7241732096.0,32000.0,32768.0,✗,✗,-@@100,2.90@@2.90,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
-<a href='https://hf.co/RuterNorway/Llama-2-13b-chat-norwegian'>RuterNorway/Llama-2-13b-chat-norwegian</a>,📝,-@@100,?,32000.0,4096.0,✗,✗,-@@100,-@@100,2.15@@2.15,-@@100,2.43@@2.43,-@@100,2.89@@2.89,-@@100
+<a href='https://hf.co/Rijgersberg/Mistral-7B-v0.1-chat-nl'>Rijgersberg/Mistral-7B-v0.1-chat-nl</a>,📝,-@@100,7241732096.0,32000.0,4096.0,✗,✗,-@@100,2.90@@2.90,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
+<a href='https://hf.co/RuterNorway/Llama-2-13b-chat-norwegian'>RuterNorway/Llama-2-13b-chat-norwegian</a>,📝,-@@100,13015866880.0,32000.0,4096.0,✗,✗,-@@100,-@@100,2.15@@2.15,-@@100,2.43@@2.43,-@@100,2.89@@2.89,-@@100
 <a href='https://hf.co/RuterNorway/Llama-2-7b-chat-norwegian'>RuterNorway/Llama-2-7b-chat-norwegian</a>,📝,-@@100,?,32000.0,4096.0,✗,✗,-@@100,3.39@@3.39,3.87@@3.87,-@@100,3.44@@3.44,4.73@@4.73,3.80@@3.80,-@@100
 <a href='https://hf.co/Shekswess/trlm-135m'>Shekswess/trlm-135m</a>,📝,-@@100,134516160.0,49154.0,8192.0,✓,✗,-@@100,4.34@@4.34,4.63@@4.63,4.86@@4.86,4.68@@4.68,4.70@@4.70,4.50@@4.50,-@@100
 <a href='https://hf.co/Sigurdur/icebreaker'>Sigurdur/icebreaker</a>,🧠,-@@100,110418432.0,32000.0,1024.0,✗,✗,-@@100,-@@100,-@@100,-@@100,-@@100,4.90@@4.90,4.72@@4.72,-@@100
@@ -1083,7 +1083,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,-@@100,7241732096.0,32000.0,8192
 "<a href='https://hf.co/alexandrainst/Meta-Llama-3.1-8B-laerebogen-and-dialog-k2-da'>alexandrainst/Meta-Llama-3.1-8B-laerebogen-and-dialog-k2-da (zero-shot, val)</a>",📝,-@@100,8030261248.0,128256.0,131072.0,✗,✗,2.78@@2.78,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/TurkuNLP/finnish-modernbert-large'>TurkuNLP/finnish-modernbert-large</a>,🔍,-@@100,401260864.0,55616.0,16000.0,✓,✗,-@@100,-@@100,-@@100,4.07@@4.07,-@@100,3.69@@3.69,2.99@@2.99,-@@100
 <a href='https://hf.co/TurkuNLP/finnish-modernbert-tiny'>TurkuNLP/finnish-modernbert-tiny</a>,🔍,-@@100,51647616.0,27264.0,16000.0,✓,✗,-@@100,-@@100,-@@100,4.18@@4.18,-@@100,3.80@@3.80,3.74@@3.74,-@@100
-<a href='https://hf.co/Tweeties/tweety-7b-dutch-v24a'>Tweeties/tweety-7b-dutch-v24a</a>,📝,-@@100,7391293440.0,50257.0,1024.0,✓,✗,-@@100,3.77@@3.77,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
+<a href='https://hf.co/Tweeties/tweety-7b-dutch-v24a'>Tweeties/tweety-7b-dutch-v24a</a>,📝,-@@100,7391293440.0,50257.0,4096.0,✓,✗,-@@100,3.77@@3.77,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
 <a href='https://hf.co/Twitter/twhin-bert-base'>Twitter/twhin-bert-base</a>,🔍,-@@100,278830851.0,250002.0,512.0,✓,✗,-@@100,2.54@@2.54,2.46@@2.46,4.04@@4.04,2.43@@2.43,2.99@@2.99,2.65@@2.65,-@@100
 <a href='https://hf.co/Twitter/twhin-bert-large'>Twitter/twhin-bert-large</a>,🔍,-@@100,561463811.0,250002.0,512.0,✓,✗,-@@100,2.67@@2.67,2.27@@2.27,4.08@@4.08,2.54@@2.54,3.22@@3.22,2.97@@2.97,-@@100
 <a href='https://hf.co/Unbabel/Tower-Plus-2B'>Unbabel/Tower-Plus-2B</a>,📝,-@@100,2614341888.0,256000.0,8192.0,✗,✗,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100,-@@100
