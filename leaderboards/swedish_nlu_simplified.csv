@@ -152,7 +152,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-6.7b'>AI-Sweden-Models/gpt-sw3-6.7b</a>,🧠,3.11,7111057408,64000,2048,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-it'>google/gemma-3-1b-it</a>,📝,3.15,999885952,262144,32768,✓,✗
 <a href='https://hf.co/sarnikowski/convbert-small-da-cased'>sarnikowski/convbert-small-da-cased</a>,🔍,3.16,13014875,28995,512,✓,✗
-<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.22,26123974400,200192,131072,✓,✗
+<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.22,26123974400,200192,131072,✗,✗
 <a href='https://hf.co/Maltehb/danish-bert-botxo'>Maltehb/danish-bert-botxo</a>,🔍,3.22,110619651,32000,512,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b-instruct'>AI-Sweden-Models/gpt-sw3-20b-instruct</a>,📝,3.23,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/Maltehb/aelaectra-danish-electra-small-uncased'>Maltehb/aelaectra-danish-electra-small-uncased</a>,🔍,3.24,13738755,32000,128,✓,✗

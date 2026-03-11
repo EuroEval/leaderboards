@@ -322,7 +322,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/allenai/Olmo-3-7B-Think'>allenai/Olmo-3-7B-Think</a>,🤔,3.71,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/DDSC/roberta-base-danish'>DDSC/roberta-base-danish</a>,🔍,3.71,124697947,50265,514,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B</a>,📝,3.72,2031739904,151936,40960,✓,✗
-<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.73,26123974400,200192,131072,✓,✗
+<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.73,26123974400,200192,131072,✗,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v2'>sentence-transformers/distiluse-base-multilingual-cased-v2</a>,🔍,3.73,134734080,119547,512,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-global'>CohereLabs/tiny-aya-global (val)</a>,📝,3.74,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/TurkuNLP/finnish-modernbert-large-seq-len-1024-117300-annealed'>TurkuNLP/finnish-modernbert-large-seq-len-1024-117300-annealed</a>,🔍,3.74,401260864,55616,1024,✓,✗

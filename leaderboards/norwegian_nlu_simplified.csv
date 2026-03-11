@@ -454,7 +454,7 @@ danish-foundation-models/munin-7b-v0.1dev0,🧠,2.63,7241732096,32000,8192,✓,�
 <a href='https://hf.co/microsoft/Phi-4-reasoning'>microsoft/Phi-4-reasoning</a>,🤔,3.48,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/dbmdz/bert-mini-historic-multilingual-cased'>dbmdz/bert-mini-historic-multilingual-cased</a>,🔍,3.49,11549442,32000,512,✓,✗
 <a href='https://hf.co/microsoft/infoxlm-base'>microsoft/infoxlm-base</a>,🔍,3.49,278045186,250002,514,✓,✗
-<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.50,26123974400,200192,131072,✓,✗
+<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.50,26123974400,200192,131072,✗,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased-v2'>sentence-transformers/distiluse-base-multilingual-cased-v2</a>,🔍,3.50,134734080,119547,512,✓,✗
 <a href='https://hf.co/KBLab/roberta-base-swedish-cased'>KBLab/roberta-base-swedish-cased</a>,🔍,3.50,125979650,52000,514,✓,✗
 <a href='https://hf.co/sentence-transformers/distiluse-base-multilingual-cased'>sentence-transformers/distiluse-base-multilingual-cased</a>,🔍,3.50,134734080,119547,512,✓,✗

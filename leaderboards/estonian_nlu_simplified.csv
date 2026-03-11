@@ -115,7 +115,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-4.0-h-micro'>ibm-granite/granite-4.0-h-micro</a>,📝,2.76,3191396096,100352,131072,✓,✗
 <a href='https://hf.co/microsoft/mdeberta-v3-base'>microsoft/mdeberta-v3-base</a>,🔍,2.77,278220290,251000,512,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct</a>,📝,2.78,11168796672,32128,32768,✓,✓
-<a href='https://hf.co/arcee-ai/Trinity-Mini'>arcee-ai/Trinity-Mini</a>,🤔,2.79,,200192,131072,✓,✗
+<a href='https://hf.co/arcee-ai/Trinity-Mini'>arcee-ai/Trinity-Mini</a>,🤔,2.79,,200192,131072,✗,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-micro'>ibm-granite/granite-4.0-micro</a>,📝,2.82,3402836480,100352,131072,✓,✗
 <a href='https://hf.co/intfloat/multilingual-e5-base'>intfloat/multilingual-e5-base</a>,🔍,2.83,278044162,250002,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen3.5-2B'>Qwen/Qwen3.5-2B (val)</a>,📝,2.87,2274067232,248044,8192,✓,✗
@@ -147,7 +147,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.45,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B'>HuggingFaceTB/SmolLM3-3B#no-thinking</a>,📝,3.47,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/speakleash/Bielik-4.5B-v3.0-Instruct'>speakleash/Bielik-4.5B-v3.0-Instruct</a>,📝,3.47,4757260288,32000,32768,✓,✗
-<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.48,26123974400,200192,131072,✓,✗
+<a href='https://hf.co/arcee-ai/Trinity-Mini-Base'>arcee-ai/Trinity-Mini-Base</a>,📝,3.48,26123974400,200192,131072,✗,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.49,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/TurkuNLP/bert-large-finnish-cased-v1'>TurkuNLP/bert-large-finnish-cased-v1</a>,🔍,3.50,354147330,50105,512,✓,✗
 <a href='https://hf.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</a>,🔍,3.53,117654272,250037,512,✓,✗
