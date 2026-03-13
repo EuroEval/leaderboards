@@ -7,7 +7,6 @@ from functools import cache
 
 import openai
 from anthropic import Anthropic
-from google.genai import Client as GoogleClient
 from huggingface_hub import HfApi
 from huggingface_hub.errors import (
     GatedRepoError,
@@ -214,7 +213,7 @@ def generate_anthropic_url(model_id: str) -> str | None:
         Anthropic.
     """
     model_id = model_id.replace("anthropic/", "")
-    client = Anthropic()
+    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     available_anthropic_models = [
         model_info.id for model_info in client.models.list().data
     ]
@@ -234,10 +233,10 @@ def generate_ollama_url(model_id: str) -> str | None:
     Returns:
         The URL for the model on Ollama, or None if the model does not exist on Ollama.
     """
-    if model_id.startswith("ollama/") or model_id.startswith("ollama_chat/"):
-        model_id_without_prefix = model_id.split("/")[1]
-        return f"https://ollama.com/library/{model_id_without_prefix}"
-    return None
+    if not model_id.startswith("ollama/") and not model_id.startswith("ollama_chat/"):
+        return None
+    model_id = model_id.replace("ollama/", "").replace("ollama_chat/", "")
+    return f"https://ollama.com/library/{model_id}"
 
 
 @cache
@@ -251,16 +250,10 @@ def generate_google_url(model_id: str) -> str | None:
     Returns:
         The URL for the model on Google, or None if the model does not exist on Google.
     """
+    if not model_id.startswith("gemini/"):
+        return None
     model_id = model_id.replace("gemini/", "")
-    client = GoogleClient(api_key=os.environ["GEMINI_API_KEY"])
-    available_google_models = [
-        model.name.split("/")[-1]
-        for model in client.models.list()
-        if model.name is not None
-    ]
-    if model_id in available_google_models:
-        return f"https://ai.google.dev/gemini-api/docs/models#{model_id}"
-    return None
+    return f"https://ai.google.dev/gemini-api/docs/models#{model_id}"
 
 
 @cache
@@ -274,14 +267,10 @@ def generate_xai_url(model_id: str) -> str | None:
     Returns:
         The URL for the model on xAI, or None if the model does not exist on xAI.
     """
+    if not model_id.startswith("xai/"):
+        return None
     model_id = model_id.replace("xai/", "")
-    client = openai.OpenAI(
-        api_key=os.environ["XAI_API_KEY"], base_url="https://api.x.ai/v1"
-    )
-    available_xai_models = [model.id for model in client.models.list()]
-    if model_id in available_xai_models:
-        return "https://docs.x.ai/docs/models"
-    return None
+    return f"https://docs.x.ai/developers/models/{model_id}"
 
 
 @cache
@@ -296,7 +285,7 @@ def generate_chatdk_url(model_id: str) -> str | None:
         The URL for the model on Chat.dk, or None if the model does not exist on
         Chat.dk.
     """
-    if model_id.startswith("chatdk/"):
-        model_id_without_prefix = model_id.split("/")[1]
-        return f"https://www.ordbogen.ai/docs/models/{model_id_without_prefix}"
-    return None
+    if not model_id.startswith("chatdk/"):
+        return None
+    model_id = model_id.replace("chatdk/", "")
+    return f"https://www.ordbogen.ai/docs/models/{model_id}"
