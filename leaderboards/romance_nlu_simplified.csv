@@ -100,7 +100,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.74,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-2509'>swiss-ai/Apertus-70B-2509</a>,🧠,2.74,70599864480,131072,65536,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,2.74,7298011136,100278,65536,✗,✗
-<a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.76,11168796672,32128,32768,✓,✗
+<a href='https://hf.co/speakleash/Bielik-11B-v3-Base-20250730'>speakleash/Bielik-11B-v3-Base-20250730</a>,🧠,2.75,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.76,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-global'>CohereLabs/tiny-aya-global (val)</a>,📝,2.77,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-Instruct-2509'>swiss-ai/Apertus-8B-Instruct-2509</a>,📝,2.78,8053338176,131072,65536,✗,✗

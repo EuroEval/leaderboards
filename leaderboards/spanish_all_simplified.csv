@@ -15,8 +15,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.78,30532122624,151936,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B-Thinking-2507'>Qwen/Qwen3-4B-Thinking-2507</a>,🤔,1.78,4022468096,151936,262144,✓,✗
 <a href='https://hf.co/google/gemma-3-27b-it'>google/gemma-3-27b-it</a>,📝,1.79,27432406640,262144,8192,✓,✗
-"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3.1-flash-lite-preview'>gemini/gemini-3.1-flash-lite-preview (zero-shot, val)</a>",🤔,1.80,,256128,1048576,✓,✗
+<a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.79,70553706496,128256,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.80,14768307200,151936,40960,✓,✗
+"<a href='https://ai.google.dev/gemini-api/docs/models#gemini-3.1-flash-lite-preview'>gemini/gemini-3.1-flash-lite-preview (zero-shot, val)</a>",🤔,1.80,,256128,1048576,✓,✗
 <a href='https://hf.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503'>mistralai/Mistral-Small-3.1-24B-Instruct-2503</a>,📝,1.80,24011361280,131072,,✓,✗
 "<a href='https://docs.x.ai/docs/models'>xai/grok-4-1-fast-reasoning (zero-shot, val)</a>",🤔,1.84,,,131072,✓,✗
 <a href='https://hf.co/mistralai/Voxtral-Small-24B-2507'>mistralai/Voxtral-Small-24B-2507</a>,📝,1.87,24261800960,131072,8192,✓,✗
@@ -25,8 +26,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.91,,,1047576,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,1.99,12187325040,262144,8192,✓,✗
 <a href='https://hf.co/mii-llm/nesso-4B'>mii-llm/nesso-4B</a>,📝,2.01,4022468096,151936,262144,✗,✗
-<a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.05,8190735360,151936,40960,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,2.05,,256128,1048576,✓,✗
+<a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.05,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.08,21511953984,201088,131072,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,2.09,,100256,272000,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.13,32233522176,100278,65536,✗,✗
@@ -51,8 +52,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.70,12187325040,262144,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.76,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-global'>CohereLabs/tiny-aya-global (val)</a>,📝,2.77,3349227520,262144,500000,✗,✗
-<a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.78,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.78,4300079472,262144,8192,✓,✗
+<a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.78,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B'>meta-llama/Llama-3.1-8B</a>,🧠,2.80,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.81,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.83,8030326784,128264,131072,✓,✗
@@ -65,10 +66,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.99,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.01,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-base'>CohereLabs/tiny-aya-base (val)</a>,🧠,3.02,3349227520,262144,500000,✗,✗
-<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,3.04,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,3.04,4300079472,262144,8192,✓,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-2512'>utter-project/EuroLLM-22B-2512</a>,🧠,3.06,22637328384,128000,32768,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.10,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,3.04,3606752256,128256,131072,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-2512'>utter-project/EuroLLM-22B-2512</a>,🧠,3.07,22637328384,128000,32768,✓,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.11,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/Unbabel/Tower-Plus-2B'>Unbabel/Tower-Plus-2B (val)</a>,📝,3.18,2614341888,256000,8192,✗,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#high</a>,🤔,3.21,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,3.27,1170340608,65536,128000,✗,✗
@@ -95,5 +96,5 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.16,134515008,49152,8192,✓,✗
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.20,107908288,65536,262144,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.26,134515008,49152,8192,✓,✗
-<a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.48,320956992,65536,4096,✓,✗
+<a href='https://hf.co/PleIAs/Baguettotron'>PleIAs/Baguettotron@refs/pr/6#no-thinking</a>,📝,4.49,320956992,65536,4096,✓,✗
 <a href='https://hf.co/PleIAs/Monad'>PleIAs/Monad</a>,🧠,4.87,56656128,8192,2048,✓,✗
