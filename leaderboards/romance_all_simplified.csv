@@ -42,8 +42,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#no-thinking (zero-shot, val)</a>",📝,2.18,,256128,1048576,✓,✗
 <a href='https://hf.co/Unbabel/Tower-Plus-9B'>Unbabel/Tower-Plus-9B (val)</a>,📝,2.20,9241705984,256000,8192,✗,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.23,32233522176,100278,65536,✗,✗
-<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.24,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.24,4022468096,151936,40960,✓,✗
+<a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-2512'>utter-project/EuroLLM-22B-Instruct-2512</a>,📝,2.25,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct'>allenai/Olmo-3.1-32B-Instruct</a>,📝,2.25,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.29,12187325040,262144,8192,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-3B-Reasoning-2512'>mistralai/Ministral-3-3B-Reasoning-2512</a>,📝,2.31,,,,✓,✗
