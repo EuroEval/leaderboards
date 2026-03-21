@@ -178,6 +178,8 @@ def generate_openai_url(model_id: str) -> str | None:
     Returns:
         The URL for the model on OpenAI, or None if the model does not exist on OpenAI.
     """
+    model_id = model_id.replace("openai/", "")
+
     available_openai_models = [
         model_info.id for model_info in openai.models.list().data
     ]
