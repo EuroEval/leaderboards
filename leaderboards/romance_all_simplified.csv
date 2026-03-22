@@ -40,9 +40,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://platform.openai.com/docs/models/gpt-5.4-nano'>openai/gpt-5.4-nano-2026-03-17#low (zero-shot, val)</a>",🤔,2.06,,,400000,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#medium</a>,🤔,2.07,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/google/gemma-3-12b-it'>google/gemma-3-12b-it</a>,📝,2.09,12187325040,262144,8192,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,2.09,,100256,272000,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-8B'>Qwen/Qwen3-8B#no-thinking</a>,📝,2.10,8190735360,151936,40960,✓,✗
 <a href='https://hf.co/mii-llm/nesso-4B'>mii-llm/nesso-4B</a>,📝,2.10,4022468096,151936,262144,✗,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5-nano'>gpt-5-nano-2025-08-07 (zero-shot, val)</a>",🤔,2.10,,100256,272000,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v2.3-Instruct'>speakleash/Bielik-11B-v2.3-Instruct (val)</a>,📝,2.12,11168796672,32128,32768,✓,✓
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#low</a>,🤔,2.12,21511953984,201088,131072,✓,✗
 <a href='https://hf.co/google/gemma-3n-E4B-it'>google/gemma-3n-E4B-it</a>,📝,2.16,7849978192,262400,8192,✓,✗
@@ -55,7 +55,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-12b-pt'>google/gemma-3-12b-pt</a>,🧠,2.28,12187325040,262144,8192,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-3B-Reasoning-2512'>mistralai/Ministral-3-3B-Reasoning-2512</a>,📝,2.29,,,,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-3B-Instruct-2512'>mistralai/Ministral-3-3B-Instruct-2512</a>,📝,2.33,,,,✓,✗
-<a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.34,70599864480,131072,65536,✗,✗
+<a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.35,70599864480,131072,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-SFT'>allenai/Olmo-3.1-32B-Instruct-SFT</a>,📝,2.38,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/arcee-ai/Trinity-Mini'>arcee-ai/Trinity-Mini (val)</a>,🤔,2.38,26123974400,200192,131072,✗,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-micro'>ibm-granite/granite-4.0-micro</a>,📝,2.41,3402836480,100352,131072,✓,✗

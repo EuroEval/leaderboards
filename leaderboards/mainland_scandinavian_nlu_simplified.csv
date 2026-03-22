@@ -90,12 +90,12 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/jhu-clsp/mmBERT-base'>jhu-clsp/mmBERT-base</a>,🔍,2.14,307532547,256000,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.15,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/LGAI-EXAONE/EXAONE-4.0-32B'>LGAI-EXAONE/EXAONE-4.0-32B (val)</a>,📝,2.15,32003216384,102400,131072,✗,✗
-<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.18,32234279936,100352,4096,✗,✗
+<a href='https://hf.co/allenai/OLMo-2-0325-32B-Instruct'>allenai/OLMo-2-0325-32B-Instruct</a>,📝,2.19,32234279936,100352,4096,✗,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.20,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/google/rembert'>google/rembert</a>,🔍,2.20,575923843,250300,512,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-3-5-haiku-20241022 (zero-shot, val)</a>",📝,2.22,,,200000,✓,✗
-<a href='https://hf.co/mistralai/Ministral-3-3B-Reasoning-2512'>mistralai/Ministral-3-3B-Reasoning-2512</a>,📝,2.22,,,,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.23,9152319488,128000,4096,✓,✗
+<a href='https://hf.co/mistralai/Ministral-3-3B-Reasoning-2512'>mistralai/Ministral-3-3B-Reasoning-2512</a>,📝,2.23,,,,✓,✗
 <a href='https://hf.co/upstage/SOLAR-10.7B-v1.0'>upstage/SOLAR-10.7B-v1.0</a>,🧠,2.23,10731524096,32000,4096,✓,✗
 <a href='https://hf.co/norallm/normistral-11b-long'>norallm/normistral-11b-long</a>,🧠,2.24,11429893120,51200,32768,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-4.1-nano'>gpt-4.1-nano-2025-04-14 (zero-shot, val)</a>",📝,2.25,,,1047576,✓,✗
@@ -140,10 +140,10 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/ibm-granite/granite-4.0-h-tiny'>ibm-granite/granite-4.0-h-tiny</a>,📝,2.70,6939037248,100352,131072,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,2.71,108783363,84985,512,✓,✗
 <a href='https://hf.co/jonfd/electra-small-nordic'>jonfd/electra-small-nordic</a>,🔍,2.71,21944195,96105,128,✓,✗
-<a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.73,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.73,7241732096,32000,4096,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.74,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.74,7241748480,32002,32768,✗,✗
+<a href='https://hf.co/Qwen/Qwen2.5-1.5B-Instruct'>Qwen/Qwen2.5-1.5B-Instruct</a>,📝,2.74,1543714304,151936,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,2.75,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/arcee-ai/AFM-4.5B-Base'>arcee-ai/AFM-4.5B-Base</a>,🧠,2.75,4619184640,128004,65536,✓,✗
 <a href='https://hf.co/NbAiLab/borealis-4b-instruct-preview'>NbAiLab/borealis-4b-instruct-preview</a>,📝,2.76,3880263168,262144,8192,✓,✗
@@ -158,7 +158,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.89,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/sarnikowski/electra-small-discriminator-da-256-cased'>sarnikowski/electra-small-discriminator-da-256-cased</a>,🔍,2.91,13354115,28995,512,✓,✗
 <a href='https://hf.co/speakleash/Bielik-1.5B-v3.0-Instruct'>speakleash/Bielik-1.5B-v3.0-Instruct</a>,📝,2.93,1596507648,32000,8192,✓,✗
-<a href='https://hf.co/sarnikowski/convbert-small-da-cased'>sarnikowski/convbert-small-da-cased</a>,🔍,2.94,13014875,28995,512,✓,✗
+<a href='https://hf.co/sarnikowski/convbert-small-da-cased'>sarnikowski/convbert-small-da-cased</a>,🔍,2.95,13014875,28995,512,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.96,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/NbAiLab/borealis-1b-instruct-preview'>NbAiLab/borealis-1b-instruct-preview (val)</a>,📝,2.98,999885952,262144,32768,✓,✗
 <a href='https://hf.co/arcee-ai/Trinity-Nano-Preview'>arcee-ai/Trinity-Nano-Preview</a>,📝,3.10,6120003328,200192,131072,✓,✗
@@ -168,8 +168,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.16,2424375168,99000,28723,✗,✗
 <a href='https://hf.co/Qwen/Qwen3.5-0.8B-Base'>Qwen/Qwen3.5-0.8B-Base (val)</a>,📝,3.16,873436192,248044,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.17,999885952,262144,32768,✓,✗
-<a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct (val)</a>,🤔,3.17,7504568320,128167,32768,✓,✗
-<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.17,7768117248,256000,8192,✓,✗
+<a href='https://hf.co/tencent/Hunyuan-7B-Instruct'>tencent/Hunyuan-7B-Instruct (val)</a>,🤔,3.18,7504568320,128167,32768,✓,✗
+<a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.18,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-20b-instruct'>AI-Sweden-Models/gpt-sw3-20b-instruct</a>,📝,3.24,20918423552,64000,2048,✓,✗
 <a href='https://hf.co/Maltehb/aelaectra-danish-electra-small-cased'>Maltehb/aelaectra-danish-electra-small-cased</a>,🔍,3.24,13738755,32000,128,✓,✗
 <a href='https://hf.co/Maltehb/aelaectra-danish-electra-small-uncased'>Maltehb/aelaectra-danish-electra-small-uncased</a>,🔍,3.28,13738755,32000,128,✓,✗
@@ -194,9 +194,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/arcee-ai/Trinity-Nano-Base'>arcee-ai/Trinity-Nano-Base</a>,📝,3.67,6120003328,200192,131072,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-3b-Preview'>PleIAs/Pleias-3b-Preview</a>,🧠,3.68,3211926528,65536,4096,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.72,2611528704,128000,4096,✓,✗
-<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.81,2611528704,128000,4096,✓,✗
+<a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.82,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,3.85,268098176,262144,32768,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.87,1170340608,65536,128000,✗,✗
+<a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,3.88,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-1.3b'>AI-Sweden-Models/gpt-sw3-1.3b</a>,🧠,3.90,1444532224,64000,2048,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/gpt-sw3-356m'>AI-Sweden-Models/gpt-sw3-356m</a>,🧠,3.93,470607872,64000,2048,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.93,1235814400,128256,131072,✓,✗
@@ -214,7 +214,7 @@ fresh-electra-small,🔍,4.07,13549571,30522,512,✓,✗
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.18,107908288,65536,262144,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.18,361821120,49152,8192,✓,✗
 <a href='https://hf.co/NbAiLab/borealis-270m-instruct-preview'>NbAiLab/borealis-270m-instruct-preview (val)</a>,📝,4.21,268098176,262144,32768,✓,✗
-<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.21,268098176,262144,32768,✓,✗
+<a href='https://hf.co/google/gemma-3-270m-it'>google/gemma-3-270m-it</a>,📝,4.22,268098176,262144,32768,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.27,361821120,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M'>HuggingFaceTB/SmolLM2-135M</a>,🧠,4.28,134515008,49152,8192,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.30,134515008,49152,8192,✓,✗
