@@ -27,7 +27,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/mistralai/Ministral-3-14B-Base-2512'>mistralai/Ministral-3-14B-Base-2512 (val)</a>,🧠,1.84,13945031680,131072,8192,✓,✗
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.84,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-sonnet-4-5-20250929#no-thinking (zero-shot, val)</a>",📝,1.85,,,200000,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.85,,,1047576,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-4.1'>gpt-4.1-2025-04-14 (zero-shot, val)</a>",📝,1.86,,,1047576,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5-mini'>gpt-5-mini-2025-08-07 (zero-shot, val)</a>",🤔,1.87,,100256,272000,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-qwen-32B'>deepcogito/cogito-v1-preview-qwen-32B</a>,📝,1.87,32759790592,151665,131072,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-14B'>Qwen/Qwen3-14B#no-thinking</a>,📝,1.88,14768307200,151936,40960,✓,✗
@@ -62,9 +62,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/intfloat/multilingual-e5-large'>intfloat/multilingual-e5-large</a>,🔍,2.19,559890946,250002,512,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-4B'>Qwen/Qwen3-4B#no-thinking</a>,📝,2.21,4022468096,151936,40960,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-70B-Instruct-2509'>swiss-ai/Apertus-70B-Instruct-2509</a>,📝,2.21,70599864640,131072,65536,✗,✗
-<a href='https://hf.co/google/gemma-3n-E2B-it'>google/gemma-3n-E2B-it</a>,📝,2.22,5439438272,262400,8192,✓,✗
 <a href='https://hf.co/LGAI-EXAONE/EXAONE-4.0-32B'>LGAI-EXAONE/EXAONE-4.0-32B (val)</a>,📝,2.22,32003216384,102400,131072,✗,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-SFT'>allenai/Olmo-3.1-32B-Instruct-SFT</a>,📝,2.23,32233522176,100278,65536,✗,✗
+<a href='https://hf.co/google/gemma-3n-E2B-it'>google/gemma-3n-E2B-it</a>,📝,2.23,5439438272,262400,8192,✓,✗
 <a href='https://hf.co/speakleash/Bielik-11B-v3.0-Instruct'>speakleash/Bielik-11B-v3.0-Instruct</a>,📝,2.23,11168796672,32128,32768,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.23,22637328384,128000,4096,✓,✗
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16#no-thinking</a>,📝,2.24,31577937344,131072,262144,✓,✗
@@ -101,15 +101,15 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/swiss-ai/Apertus-8B-2509'>swiss-ai/Apertus-8B-2509</a>,🧠,2.61,8053338176,131072,65536,✓,✗
 <a href='https://hf.co/jhu-clsp/mmBERT-small'>jhu-clsp/mmBERT-small</a>,🔍,2.61,140645001,256000,8192,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.62,3349227520,262144,500000,✗,✗
-<a href='https://hf.co/Qwen/Qwen3.5-2B-Base'>Qwen/Qwen3.5-2B-Base (val)</a>,📝,2.62,2274067232,248044,8192,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-global'>CohereLabs/tiny-aya-global (val)</a>,📝,2.63,3349227520,262144,500000,✗,✗
+<a href='https://hf.co/Qwen/Qwen3.5-2B-Base'>Qwen/Qwen3.5-2B-Base (val)</a>,📝,2.63,2274067232,248044,8192,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-base'>CohereLabs/tiny-aya-base (val)</a>,🧠,2.64,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/Qwen/Qwen3-1.7B'>Qwen/Qwen3-1.7B#no-thinking</a>,📝,2.66,2031739904,151936,40960,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-1025-7B'>allenai/Olmo-3-1025-7B</a>,🧠,2.67,7298011136,100278,65536,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Think'>allenai/Olmo-3-7B-Think</a>,🤔,2.70,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-Instruct-2509'>swiss-ai/Apertus-8B-Instruct-2509</a>,📝,2.76,8053338176,131072,65536,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.77,3075098624,128256,65536,✓,✗
-<a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.78,7241748480,32002,32768,✗,✗
+<a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.79,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/speakleash/Bielik-4.5B-v3.0-Instruct'>speakleash/Bielik-4.5B-v3.0-Instruct</a>,📝,2.85,4757260288,32000,32768,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.87,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/Unbabel/Tower-Plus-2B'>Unbabel/Tower-Plus-2B (val)</a>,📝,2.88,2614341888,256000,8192,✗,✗

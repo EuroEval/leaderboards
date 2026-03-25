@@ -58,9 +58,9 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LGAI-EXAONE/EXAONE-4.0-32B'>LGAI-EXAONE/EXAONE-4.0-32B (val)</a>,📝,2.45,32003216384,102400,131072,✗,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.48,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct'>allenai/Olmo-3.1-32B-Instruct</a>,📝,2.51,32233522176,100278,65536,✗,✗
-<a href='https://hf.co/mistralai/Ministral-3-3B-Base-2512'>mistralai/Ministral-3-3B-Base-2512 (val)</a>,🧠,2.52,3849090048,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-3B-Reasoning-2512'>mistralai/Ministral-3-3B-Reasoning-2512</a>,📝,2.52,,,,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.1-8B-Instruct'>meta-llama/Llama-3.1-8B-Instruct</a>,📝,2.52,8030261248,128256,131072,✓,✗
+<a href='https://hf.co/mistralai/Ministral-3-3B-Base-2512'>mistralai/Ministral-3-3B-Base-2512 (val)</a>,🧠,2.53,3849090048,131072,8192,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-3B-Instruct-2512'>mistralai/Ministral-3-3B-Instruct-2512</a>,📝,2.54,,,,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-8B'>deepcogito/cogito-v1-preview-llama-8B</a>,📝,2.56,8030261248,128256,131072,✓,✗
 <a href='https://hf.co/openai/gpt-oss-20b'>openai/gpt-oss-20b#high</a>,🤔,2.57,10152345600,201088,131072,✓,✗
