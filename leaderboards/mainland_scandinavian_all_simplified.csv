@@ -89,8 +89,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroLLM-22B-2512'>utter-project/EuroLLM-22B-2512</a>,🧠,2.49,22637328384,128000,32768,✓,✗
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.50,8030326784,128264,131072,✓,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.50,9152319488,128000,4096,✓,✗
-<a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.51,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/ibm-granite/granite-4.0-h-micro'>ibm-granite/granite-4.0-h-micro</a>,📝,2.52,3191396096,100352,131072,✓,✗
+<a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.52,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/allenai/Olmo-3-1125-32B'>allenai/Olmo-3-1125-32B</a>,🧠,2.53,32233522176,100278,65536,✓,✗
 <a href='https://hf.co/arcee-ai/Trinity-Mini'>arcee-ai/Trinity-Mini (val)</a>,🤔,2.54,26123974400,200192,131072,✗,✗
 <a href='https://hf.co/Qwen/Qwen3.5-2B'>Qwen/Qwen3.5-2B (val)</a>,📝,2.55,2274067232,248044,8192,✓,✗
@@ -107,7 +107,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Unbabel/Tower-Plus-2B'>Unbabel/Tower-Plus-2B (val)</a>,📝,2.82,2614341888,256000,8192,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5-instruct'>occiglot/occiglot-7b-eu5-instruct</a>,📝,2.89,7241748480,32002,32768,✗,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,2.90,3606752256,128256,131072,✓,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.92,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.93,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,2.96,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.97,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/Qwen/Qwen3.5-0.8B'>Qwen/Qwen3.5-0.8B (val)</a>,📝,3.01,873436192,248044,8192,✓,✗
