@@ -35,8 +35,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,1.93,,256128,1048576,✓,✗
 "<a href='https://docs.anthropic.com/en/docs/about-claude'>claude-haiku-4-5-20251001 (zero-shot, val)</a>",🤔,1.94,,,200000,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-8B-Reasoning-2512'>mistralai/Ministral-3-8B-Reasoning-2512</a>,🤔,1.95,8918026240,131072,8192,✓,✗
-"<a href='https://platform.openai.com/docs/models/gpt-5.4-nano'>openai/gpt-5.4-nano-2026-03-17#high (zero-shot, val)</a>",🤔,1.95,,,400000,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-30B-A3B-Instruct-2507'>Qwen/Qwen3-30B-A3B-Instruct-2507</a>,📝,1.96,30532122624,151936,262144,✓,✗
+"<a href='https://platform.openai.com/docs/models/gpt-5.4-nano'>openai/gpt-5.4-nano-2026-03-17#high (zero-shot, val)</a>",🤔,1.96,,,400000,✓,✗
 "<a href='https://platform.openai.com/docs/models/gpt-5.4-nano'>openai/gpt-5.4-nano-2026-03-17#medium (zero-shot, val)</a>",🤔,1.96,,,400000,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-14B-Base-2512'>mistralai/Ministral-3-14B-Base-2512 (val)</a>,🧠,1.97,13945031680,131072,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.3-70B-Instruct'>meta-llama/Llama-3.3-70B-Instruct</a>,📝,1.99,70553706496,128256,131072,✓,✗
