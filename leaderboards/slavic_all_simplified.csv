@@ -93,7 +93,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/google/gemma-3-4b-it'>google/gemma-3-4b-it</a>,📝,2.75,4300079472,262144,8192,✓,✗
 <a href='https://hf.co/CohereLabs/tiny-aya-water'>CohereLabs/tiny-aya-water (val)</a>,📝,2.76,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/google/gemma-3-4b-pt'>google/gemma-3-4b-pt</a>,🧠,2.76,4300079472,262144,8192,✓,✗
-<a href='https://hf.co/CohereLabs/tiny-aya-global'>CohereLabs/tiny-aya-global (val)</a>,📝,2.76,3349227520,262144,500000,✗,✗
+<a href='https://hf.co/CohereLabs/tiny-aya-global'>CohereLabs/tiny-aya-global (val)</a>,📝,2.77,3349227520,262144,500000,✗,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B'>utter-project/EuroLLM-9B</a>,🧠,2.80,9152319488,128000,4096,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Think'>allenai/Olmo-3-7B-Think (val)</a>,🤔,2.80,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/google/gemma-4-26B-A4B'>google/gemma-4-26B-A4B (val)</a>,🧠,2.81,25805936206,262144,8192,✓,✗
@@ -106,7 +106,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,3.03,3075098624,128256,65536,✓,✗
 <a href='https://hf.co/Qwen/Qwen3.5-2B-Base'>Qwen/Qwen3.5-2B-Base (val)</a>,🧠,3.08,2274067232,248044,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,3.12,7298011136,100278,65536,✗,✗
-<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.14,7298011136,100278,65536,✗,✗
+<a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.15,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,3.18,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,3.20,3606752256,128256,131072,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-3B-Instruct'>meta-llama/Llama-3.2-3B-Instruct</a>,📝,3.20,3212749824,128256,131072,✓,✗
@@ -124,7 +124,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/speakleash/Bielik-1.5B-v3.0-Instruct'>speakleash/Bielik-1.5B-v3.0-Instruct</a>,📝,3.57,1596507648,32000,8192,✓,✗
 <a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.60,999885952,262144,32768,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.62,1235814400,128256,131072,✓,✗
-<a href='https://hf.co/microsoft/Phi-4-reasoning-plus'>microsoft/Phi-4-reasoning-plus (val)</a>,🤔,3.65,14659507200,100352,32768,✓,✗
+<a href='https://hf.co/microsoft/Phi-4-reasoning-plus'>microsoft/Phi-4-reasoning-plus (val)</a>,🤔,3.66,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/google/gemma-4-E2B'>google/gemma-4-E2B (val)</a>,🧠,3.72,5123178979,262144,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.81,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-1.2b-Preview'>PleIAs/Pleias-1.2b-Preview</a>,🧠,3.81,1195468800,65536,2048,✓,✗
@@ -134,8 +134,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/LiquidAI/LFM2-1.2B'>LiquidAI/LFM2-1.2B</a>,📝,4.03,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.03,268098176,262144,32768,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-700M'>LiquidAI/LFM2-700M</a>,📝,4.04,742489344,65536,128000,✗,✗
-<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.08,353424384,65536,2048,✓,✗
-<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.09,361821120,49152,8192,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.09,353424384,65536,2048,✓,✗
+<a href='https://hf.co/HuggingFaceTB/SmolLM2-360M-Instruct'>HuggingFaceTB/SmolLM2-360M-Instruct</a>,📝,4.10,361821120,49152,8192,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.11,354483968,65536,128000,✗,✗
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct</a>,📝,4.15,107908288,65536,262144,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.16,361821120,49152,8192,✓,✗

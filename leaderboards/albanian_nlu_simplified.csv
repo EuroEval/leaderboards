@@ -194,7 +194,7 @@ fresh-xlm-roberta-base,🔍,4.06,278885778,250002,512,✓,✗
 fresh-electra-small,🔍,4.15,13738755,32000,128,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,4.17,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.21,268098176,262144,32768,✓,✗
-<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.23,353424384,65536,2048,✓,✗
+<a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.24,353424384,65536,2048,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Instruct'>LiquidAI/LFM2.5-1.2B-Instruct</a>,📝,4.25,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-135M-Instruct'>HuggingFaceTB/SmolLM2-135M-Instruct</a>,📝,4.25,134515008,49152,8192,✓,✗
 <a href='https://hf.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base'>tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base</a>,🧠,4.30,107908288,65536,262144,✓,✗

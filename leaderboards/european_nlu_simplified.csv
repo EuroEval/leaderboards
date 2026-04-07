@@ -77,8 +77,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/FacebookAI/xlm-roberta-large'>FacebookAI/xlm-roberta-large</a>,🔍,2.25,561192082,250002,512,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Think'>allenai/Olmo-3.1-32B-Think (val)</a>,🤔,2.25,32233522176,100278,65536,✗,✗
 <a href='https://hf.co/google/gemma-4-31B'>google/gemma-4-31B (val)</a>,🧠,2.25,31273088876,262144,8192,✓,✗
-<a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8 (val)</a>,🤔,2.25,30491811840,131072,262144,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.26,32233522176,100278,65536,✗,✗
+<a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8'>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8 (val)</a>,🤔,2.26,30491811840,131072,262144,✓,✗
 <a href='https://hf.co/Qwen/Qwen3.5-9B'>Qwen/Qwen3.5-9B (val)</a>,🤔,2.27,9653100528,248044,8192,✓,✗
 <a href='https://hf.co/mistralai/Ministral-3-3B-Base-2512'>mistralai/Ministral-3-3B-Base-2512 (val)</a>,🧠,2.27,3849090048,131072,8192,✓,✗
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct'>allenai/Olmo-3.1-32B-Instruct</a>,📝,2.29,32233522176,100278,65536,✗,✗
