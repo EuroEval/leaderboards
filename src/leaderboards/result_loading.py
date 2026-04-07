@@ -95,7 +95,9 @@ def convert_to_old_format(record: dict) -> dict:
         "model_info"
     ].get("additional_details", {})
     new_record = dict(
-        model=record["model_info"]["name"], results=dict(raw={}, total={})
+        model=record["model_info"]["name"],
+        results=dict(raw={}, total={}),
+        euroeval_version=record["eval_library"]["version"],
     )
     new_record |= additional_details
 
