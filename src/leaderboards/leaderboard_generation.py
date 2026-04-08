@@ -548,9 +548,11 @@ def generate_dataframe(
         for orthogonal_task in category_to_orthogonal_datasets[category].values():
             col_name = orthogonal_task.replace("-", "_")
             df[col_name] = df.apply(
-                lambda row: row[col_name]
-                if row.generative_type in ["instruction_tuned", "reasoning"]
-                else "N/A",
+                lambda row: (
+                    row[col_name]
+                    if row.generative_type in ["instruction_tuned", "reasoning"]
+                    else "N/A"
+                ),
                 axis=1,
             )
 

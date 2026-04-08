@@ -37,6 +37,8 @@ dev = [
   "ruff>=0.7.1",
   "nbstripout>=0.7.1",
   "pyrefly>=0.44.2",
+  "types-pyyaml>=6.0.12.20260408",
+  "types-tqdm>=4.67.3.20260408",
 ]
 
 [tool.ruff]
