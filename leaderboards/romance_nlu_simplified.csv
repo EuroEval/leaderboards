@@ -143,7 +143,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/occiglot/occiglot-7b-eu5'>occiglot/occiglot-7b-eu5</a>,🧠,2.73,7241732096,32000,32768,✓,✗
 <a href='https://hf.co/swiss-ai/Apertus-8B-Instruct-2509'>swiss-ai/Apertus-8B-Instruct-2509</a>,📝,2.73,8053338176,131072,65536,✗,✗
 <a href='https://hf.co/utter-project/EuroLLM-9B-Instruct'>utter-project/EuroLLM-9B-Instruct</a>,📝,2.77,9152319488,128000,4096,✗,✗
-<a href='https://hf.co/arcee-ai/AFM-4.5B-Base'>arcee-ai/AFM-4.5B-Base</a>,🧠,2.78,4619184640,128004,65536,✓,✗
+<a href='https://hf.co/arcee-ai/AFM-4.5B-Base'>arcee-ai/AFM-4.5B-Base</a>,🧠,2.79,4619184640,128004,65536,✓,✗
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,2.80,7298011136,100278,65536,✗,✗
 <a href='https://hf.co/LiquidAI/LFM2-2.6B'>LiquidAI/LFM2-2.6B</a>,📝,2.83,2569272320,65536,128000,✗,✗
 <a href='https://hf.co/EuroBERT/EuroBERT-610m'>EuroBERT/EuroBERT-610m</a>,🔍,2.87,755625600,128256,8192,✓,✗
@@ -168,8 +168,8 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/Qwen/Qwen3.5-0.8B-Base'>Qwen/Qwen3.5-0.8B-Base (val)</a>,🧠,3.29,873436192,248044,8192,✓,✗
 <a href='https://hf.co/AI-Sweden-Models/ModernBERT-large'>AI-Sweden-Models/ModernBERT-large</a>,🔍,3.30,395881664,50368,8192,✓,✗
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.34,751632384,151936,40960,✓,✗
-<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.34,999885952,262144,32768,✓,✗
 <a href='https://hf.co/Geotrend/distilbert-base-25lang-cased'>Geotrend/distilbert-base-25lang-cased</a>,🔍,3.35,108867577,84985,512,✓,✗
+<a href='https://hf.co/google/gemma-3-1b-pt'>google/gemma-3-1b-pt</a>,🧠,3.35,999885952,262144,32768,✓,✗
 <a href='https://hf.co/BSC-LT/salamandra-7b'>BSC-LT/salamandra-7b</a>,🧠,3.41,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B'>meta-llama/Llama-3.2-1B</a>,🧠,3.43,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/google/gemma-4-E4B'>google/gemma-4-E4B (val)</a>,🧠,3.44,7996157418,262144,8192,✓,✗
@@ -185,7 +185,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.60,7768117248,256000,8192,✓,✗
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Preview</a>,🧠,3.63,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-large'>answerdotai/ModernBERT-large</a>,🔍,3.64,395881664,50368,8192,✓,✗
-<a href='https://hf.co/google/gemma-4-E2B'>google/gemma-4-E2B (val)</a>,🧠,3.68,5123178979,262144,8192,✓,✗
+<a href='https://hf.co/google/gemma-4-E2B'>google/gemma-4-E2B (val)</a>,🧠,3.69,5123178979,262144,8192,✓,✗
 <a href='https://hf.co/LiquidAI/LFM2.5-1.2B-Base'>LiquidAI/LFM2.5-1.2B-Base</a>,📝,3.70,1170340608,65536,128000,✗,✗
 <a href='https://hf.co/microsoft/Phi-4-reasoning-plus'>microsoft/Phi-4-reasoning-plus (val)</a>,🤔,3.73,14659507200,100352,32768,✓,✗
 <a href='https://hf.co/answerdotai/ModernBERT-base'>answerdotai/ModernBERT-base</a>,🔍,3.77,149655232,50368,8192,✓,✗
@@ -193,7 +193,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge
 <a href='https://hf.co/utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview'>utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview</a>,📝,3.91,2611528704,128000,4096,✓,✗
 <a href='https://hf.co/meta-llama/Llama-3.2-1B-Instruct'>meta-llama/Llama-3.2-1B-Instruct</a>,📝,3.97,1235814400,128256,131072,✓,✗
 <a href='https://hf.co/HuggingFaceTB/SmolLM2-360M'>HuggingFaceTB/SmolLM2-360M</a>,🧠,4.01,361821120,49152,8192,✓,✗
-<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.02,354483968,65536,128000,✗,✗
+<a href='https://hf.co/LiquidAI/LFM2-350M'>LiquidAI/LFM2-350M</a>,📝,4.03,354483968,65536,128000,✗,✗
 <a href='https://hf.co/google/gemma-3-270m'>google/gemma-3-270m</a>,🧠,4.07,268098176,262144,32768,✓,✗
 <a href='https://hf.co/PleIAs/Pleias-350m-Preview'>PleIAs/Pleias-350m-Preview</a>,🧠,4.09,353424384,65536,2048,✓,✗
 <a href='https://hf.co/mii-llm/nesso-0.4B-agentic'>mii-llm/nesso-0.4B-agentic (val)</a>,📝,4.16,560898240,128262,4096,✓,✗
