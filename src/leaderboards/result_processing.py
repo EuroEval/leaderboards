@@ -164,8 +164,6 @@ def add_missing_entries(record: dict, cache: Cache) -> dict:
         record["few_shot"] = True
     if "generative" not in record:
         record["generative"] = False
-    if "euroeval_version" not in record and "scandeval_version" not in record:
-        record["euroeval_version"] = "<9.2.0"
     if "generative_type" not in record:
         record["generative_type"] = get_generative_type(record=record, cache=cache)
     record["merge"] = is_merge(record=record, cache=cache)
