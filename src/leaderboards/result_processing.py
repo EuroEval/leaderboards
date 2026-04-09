@@ -357,15 +357,15 @@ def is_trained_from_scratch(record: dict, cache: Cache) -> str:
 
     # For open/open-weight models, prompt user
     while True:
-        msg = f"Was {model_id!r} trained from scratch or fine-tuned?"
+        msg = f"Was {model_id!r} trained from scratch [s] or fine-tuned [f]?"
         if "/" in model_id:
             msg += f" (https://hf.co/{model_id})"
-        msg += " [scratch/fine-tuned] "
+        msg += " [s/f] "
         user_input = input(msg)
-        if user_input.lower() in {"scratch", "from scratch"}:
+        if user_input.lower() in {"scratch", "from scratch", "s"}:
             cache.trained_from_scratch[model_id] = "scratch"
             return "scratch"
-        if user_input.lower() in {"fine-tuned", "finetuned", "fine tuned"}:
+        if user_input.lower() in {"fine-tuned", "finetuned", "fine tuned", "f"}:
             cache.trained_from_scratch[model_id] = "fine-tuned"
             return "fine-tuned"
         logger.error("Invalid input. Please try again.")
@@ -460,15 +460,15 @@ def is_open(record: dict, cache: Cache) -> str:
 
     # Ask user if it's open-source or open-weight
     while True:
-        msg = f"Is {model_id!r} open-source or open-weight?"
+        msg = f"Is {model_id!r} open-source [s] or open-weight [w]?"
         if "/" in model_id:
             msg += f" (https://hf.co/{model_id})"
-        msg += " [open-source/open-weight] "
+        msg += " [s/w] "
         user_input = input(msg)
-        if user_input.lower() in {"open-source", "open source"}:
+        if user_input.lower() in {"open-source", "open source", "s"}:
             cache.open[model_id] = "open-source"
             return "open-source"
-        if user_input.lower() in {"open-weight", "open weight"}:
+        if user_input.lower() in {"open-weight", "open weight", "w"}:
             cache.open[model_id] = "open-weight"
             return "open-weight"
         logger.error("Invalid input. Please try again.")
