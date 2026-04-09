@@ -25,6 +25,7 @@ logger = logging.getLogger(__name__)
 
 def process_results(
     min_version: str,
+    min_number_of_model_records: int,
     banned_versions: list[str],
     banned_model_patterns: list[re.Pattern],
     api_model_patterns: list[re.Pattern],
@@ -34,6 +35,8 @@ def process_results(
     Args:
         min_version:
             The minimum EuroEval version to include.
+        min_number_of_model_records:
+            The minimum number of records for a model to be included.
         banned_versions:
             A list of banned EuroEval versions to filter out.
         banned_model_patterns:
@@ -120,7 +123,9 @@ def process_results(
     # Remove records for models with few records
     counter = Counter([record["model"] for record in processed_records])
     processed_records = [
-        record for record in processed_records if counter[record["model"]] >= 4
+        record
+        for record in processed_records
+        if counter[record["model"]] >= min_number_of_model_records
     ]
 
     num_invalid_records = num_raw_records - num_duplicates - len(processed_records)
