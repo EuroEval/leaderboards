@@ -6,7 +6,7 @@ import logging
 import re
 import tarfile
 import warnings
-from collections import defaultdict
+from collections import Counter, defaultdict
 from copy import deepcopy
 from pathlib import Path
 
@@ -116,6 +116,13 @@ def process_results(
             api_model_patterns=api_model_patterns,
         )
     ]
+
+    # Remove records for models with few records
+    counter = Counter([record["model"] for record in processed_records])
+    processed_records = [
+        record for record in processed_records if counter[record["model"]] >= 4
+    ]
+
     num_invalid_records = num_raw_records - num_duplicates - len(processed_records)
     if num_invalid_records > 0:
         logger.info(f"Removed {num_invalid_records:,} invalid records.")
@@ -525,7 +532,7 @@ def record_is_valid(
         inner_anchor_match.group(1) if inner_anchor_match else record["model"]
     )
 
-    # Remove records with banned EuroEval versions
+    # Remove records with disallowed EuroEval versions
     if (
         "euroeval_version" not in record
         or record["euroeval_version"] in banned_versions
