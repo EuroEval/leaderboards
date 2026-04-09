@@ -24,6 +24,7 @@ logger = logging.getLogger(__name__)
 
 
 def process_results(
+    min_version: str,
     banned_versions: list[str],
     banned_model_patterns: list[re.Pattern],
     api_model_patterns: list[re.Pattern],
@@ -31,6 +32,8 @@ def process_results(
     """Process EuroEval records from a JSONL file.
 
     Args:
+        min_version:
+            The minimum EuroEval version to include.
         banned_versions:
             A list of banned EuroEval versions to filter out.
         banned_model_patterns:
@@ -107,6 +110,7 @@ def process_results(
         if record is not None
         and record_is_valid(
             record=record,
+            min_version=min_version,
             banned_versions=banned_versions,
             banned_model_patterns=banned_model_patterns,
             api_model_patterns=api_model_patterns,
@@ -191,9 +195,6 @@ def fix_metadata(record: dict, cache: Cache) -> dict | None:
     if record["task"] == "european-values":
         record["validation_split"] = None
         record["few_shot"] = None
-    if "scandeval_version" in record:
-        record["euroeval_version"] = record["scandeval_version"]
-        del record["scandeval_version"]
     if record["model"] in cache.anchor_tag:
         record["model"] = cache.anchor_tag[record["model"]]
     else:
@@ -321,7 +322,7 @@ def is_commercially_licensed(record: dict, cache: Cache) -> bool:
             logger.error("Invalid input. Please try again.")
 
 
-def is_trained_from_scratch(record: dict, cache: Cache) -> str:
+def is_trained_from_scratch(record: dict, cache: Cache) -> bool:
     """Determine if a model was trained from scratch or fine-tuned.
 
     Args:
@@ -344,30 +345,42 @@ def is_trained_from_scratch(record: dict, cache: Cache) -> str:
     model_id = model_id.split("@")[0]
 
     # Check cache first
-    if model_id in cache.trained_from_scratch:
-        return cache.trained_from_scratch[model_id]
+    base_model_cache = {
+        m.split("/")[0] + "/" + m.split("/")[1].split("-")[0] if "/" in m else m: value
+        for m, value in cache.trained_from_scratch.items()
+    }
+    base_model_id = (
+        model_id.split("/")[0] + "/" + model_id.split("/")[1].split("-")[0]
+        if "/" in model_id
+        else model_id
+    )
+    if base_model_id in base_model_cache:
+        value = base_model_cache[base_model_id]
+        if model_id not in cache.trained_from_scratch:
+            cache.trained_from_scratch[model_id] = value
+        return value
 
     # Check if model is open or closed-source
     model_openness = cache.open.get(model_id)
 
     # For closed-source models, auto-return "scratch" without prompting
     if model_openness == "closed-source":
-        cache.trained_from_scratch[model_id] = "scratch"
-        return "scratch"
+        cache.trained_from_scratch[model_id] = True
+        return True
 
     # For open/open-weight models, prompt user
     while True:
-        msg = f"Was {model_id!r} trained from scratch [s] or fine-tuned [f]?"
+        msg = f"Was {model_id!r} trained from scratch? "
         if "/" in model_id:
             msg += f" (https://hf.co/{model_id})"
-        msg += " [s/f] "
+        msg += " [y/n] "
         user_input = input(msg)
-        if user_input.lower() in {"scratch", "from scratch", "s"}:
-            cache.trained_from_scratch[model_id] = "scratch"
-            return "scratch"
-        if user_input.lower() in {"fine-tuned", "finetuned", "fine tuned", "f"}:
-            cache.trained_from_scratch[model_id] = "fine-tuned"
-            return "fine-tuned"
+        if user_input.lower() in {"y", "yes"}:
+            cache.trained_from_scratch[model_id] = True
+            return True
+        if user_input.lower() in {"n", "no"}:
+            cache.trained_from_scratch[model_id] = False
+            return False
         logger.error("Invalid input. Please try again.")
 
 
@@ -445,8 +458,20 @@ def is_open(record: dict, cache: Cache) -> str:
     model_id = model_id.split("@")[0]
 
     # Check cache first
-    if model_id in cache.open:
-        return cache.open[model_id]
+    base_model_cache = {
+        m.split("/")[0] + "/" + m.split("/")[1].split("-")[0] if "/" in m else m: value
+        for m, value in cache.open.items()
+    }
+    base_model_id = (
+        model_id.split("/")[0] + "/" + model_id.split("/")[1].split("-")[0]
+        if "/" in model_id
+        else model_id
+    )
+    if base_model_id in base_model_cache:
+        value = base_model_cache[base_model_id]
+        if model_id not in cache.open:
+            cache.open[model_id] = value
+        return value
 
     # Assume closed-source if not found on HF Hub
     try:
@@ -476,6 +501,7 @@ def is_open(record: dict, cache: Cache) -> str:
 
 def record_is_valid(
     record: dict,
+    min_version: str,
     banned_versions: list[str],
     banned_model_patterns: list[re.Pattern],
     api_model_patterns: list[re.Pattern],
@@ -485,6 +511,12 @@ def record_is_valid(
     Args:
         record:
             The record to validate.
+        min_version:
+            The minimum EuroEval version to consider.
+        banned_versions:
+            The EuroEval versions to ban.
+        banned_model_patterns:
+            The model IDs to ban.
 
     Returns:
         True if the record is valid, False otherwise.
@@ -496,12 +528,11 @@ def record_is_valid(
     )
 
     # Remove records with banned EuroEval versions
-    if record.get("euroeval_version") in banned_versions:
-        log_once(
-            "Removed record with banned EuroEval version: "
-            f"{record['euroeval_version']}",
-            logging_level=logging.WARNING,
-        )
+    if (
+        "euroeval_version" not in record
+        or record["euroeval_version"] in banned_versions
+        or record["euroeval_version"] < min_version
+    ):
         return False
 
     # Remove banned models
@@ -509,10 +540,6 @@ def record_is_valid(
         re.search(pattern=pattern, string=inner_model_id)
         for pattern in banned_model_patterns
     ):
-        log_once(
-            f"Removed record with banned model: {inner_model_id!r}",
-            logging_level=logging.WARNING,
-        )
         return False
 
     # Do not allow few-shot evaluation for API models
@@ -520,10 +547,6 @@ def record_is_valid(
         re.fullmatch(pattern=pattern, string=inner_model_id)
         for pattern in api_model_patterns
     ) and record.get("few_shot", True):
-        log_once(
-            f"Removed record with API model in few-shot evaluation: {inner_model_id!r}",
-            logging_level=logging.WARNING,
-        )
         return False
 
     # Otherwise, the record is valid
@@ -635,8 +658,8 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
                     generative_type=record.get("generative_type", None),
                     commercial=record.get("commercially_licensed", False),
                     merge=record.get("merge", False),
-                    open=record.get("open", "closed-source"),
-                    trained_from_scratch=record.get("trained_from_scratch", "scratch"),
+                    open=record.get("open", None),
+                    trained_from_scratch=record.get("trained_from_scratch", None),
                 )
             )
 

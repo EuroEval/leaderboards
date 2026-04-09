@@ -30,8 +30,7 @@ class Cache:
             A mapping from model IDs to their openness status
             (open-source, open-weight, or closed-source).
         trained_from_scratch:
-            A mapping from model IDs to whether they were trained from scratch
-            or fine-tuned.
+            A mapping from model IDs to whether they were trained from scratch.
     """
 
     generative_type: dict[str, str | None] = field(default_factory=dict)
@@ -39,7 +38,7 @@ class Cache:
     commercially_licensed: dict[str, bool] = field(default_factory=dict)
     anchor_tag: dict[str, str] = field(default_factory=dict)
     open: dict[str, str] = field(default_factory=dict)
-    trained_from_scratch: dict[str, str] = field(default_factory=dict)
+    trained_from_scratch: dict[str, bool] = field(default_factory=dict)
 
     @classmethod
     def from_processed_records(cls, compressed_results_path: Path) -> "Cache":

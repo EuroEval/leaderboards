@@ -22,6 +22,7 @@ load_dotenv()
 
 
 # Constants for leaderboard generation
+MINIMUM_VERSION: str = "14.0.0"
 BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
 BANNED_MODEL_PATTERNS: list[re.Pattern] = [
     re.compile("^meta-llama/Llama-3.1-405B-Instruct$"),  # Temporary ban
@@ -61,6 +62,7 @@ def main(categories: tuple[t.Literal["all", "nlu"]], force: bool) -> None:
             found.
     """
     process_results(
+        min_version=MINIMUM_VERSION,
         banned_versions=BANNED_VERSIONS,
         banned_model_patterns=BANNED_MODEL_PATTERNS,
         api_model_patterns=API_MODEL_PATTERNS,
