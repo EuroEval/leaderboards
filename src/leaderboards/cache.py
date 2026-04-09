@@ -26,12 +26,20 @@ class Cache:
             A mapping from model IDs to whether they are commercially licensed.
         anchor_tag:
             A mapping from model IDs to their anchor tag.
+        open:
+            A mapping from model IDs to their openness status
+            (open-source, open-weight, or closed-source).
+        trained_from_scratch:
+            A mapping from model IDs to whether they were trained from scratch
+            or fine-tuned.
     """
 
     generative_type: dict[str, str | None] = field(default_factory=dict)
     merge: dict[str, bool] = field(default_factory=dict)
     commercially_licensed: dict[str, bool] = field(default_factory=dict)
     anchor_tag: dict[str, str] = field(default_factory=dict)
+    open: dict[str, str] = field(default_factory=dict)
+    trained_from_scratch: dict[str, str] = field(default_factory=dict)
 
     @classmethod
     def from_processed_records(cls, compressed_results_path: Path) -> "Cache":
@@ -91,6 +99,10 @@ class Cache:
                 cache.merge[model_id] = record["merge"]
             if "commercially_licensed" in record:
                 cache.commercially_licensed[model_id] = record["commercially_licensed"]
+            if "open" in record:
+                cache.open[model_id] = record["open"]
+            if "trained_from_scratch" in record:
+                cache.trained_from_scratch[model_id] = record["trained_from_scratch"]
             if record["model"].startswith("<a href="):
                 inner_model_id_match = re.search(r">(.+?)<", record["model"])
                 if inner_model_id_match:

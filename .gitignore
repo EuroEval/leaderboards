@@ -20,3 +20,6 @@ launch.json
 # Raw data
 **/*.jsonl
 **/*.mp4
+
+# Planning documents
+*.md

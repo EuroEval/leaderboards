@@ -508,7 +508,15 @@ def generate_dataframe(
         cols = (
             ["model", "generative_type", "rank"]
             + orthogonal_cols
-            + ["parameters", "vocabulary_size", "context", "commercial", "merge"]
+            + [
+                "parameters",
+                "vocabulary_size",
+                "context",
+                "commercial",
+                "merge",
+                "open",
+                "trained_from_scratch",
+            ]
             + rank_cols[1:]
         )
         if include_dataset_columns:
@@ -542,6 +550,14 @@ def generate_dataframe(
         boolean_columns = ["commercial", "merge"]
         for col in boolean_columns:
             df[col] = df[col].apply(lambda x: "✓" if x else "✗")
+
+        # Convert open values to symbols
+        open_mapping = {"open-source": "✓", "open-weight": "(✓)", "closed-source": "✗"}
+        df["open"] = df["open"].map(open_mapping)
+
+        # Convert trained_from_scratch values to symbols
+        trained_mapping = {"scratch": "✓", "fine-tuned": "✗"}
+        df["trained_from_scratch"] = df["trained_from_scratch"].map(trained_mapping)
 
         # Orthogonal values only makes sense for instruction-tuned and reasoning models,
         # so we set the value to "N/A" for other model types
@@ -578,6 +594,8 @@ def generate_dataframe(
                 "context",
                 "commercial",
                 "merge",
+                "open",
+                "trained_from_scratch",
             ]
         ]
         df_simplified = df_simplified.map(
@@ -599,6 +617,8 @@ def generate_dataframe(
                 "context": "Context",
                 "commercial": "Commercial",
                 "merge": "Merge",
+                "open": "Open",
+                "trained_from_scratch": "Trained from scratch",
             }
             | {rank_col: rank_col.title() for rank_col in rank_cols[1:]}
             | {

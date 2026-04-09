@@ -168,6 +168,8 @@ def add_missing_entries(record: dict, cache: Cache) -> dict:
     record["commercially_licensed"] = is_commercially_licensed(
         record=record, cache=cache
     )
+    record["open"] = is_open(record=record, cache=cache)
+    record["trained_from_scratch"] = is_trained_from_scratch(record=record, cache=cache)
     return record
 
 
@@ -319,6 +321,56 @@ def is_commercially_licensed(record: dict, cache: Cache) -> bool:
             logger.error("Invalid input. Please try again.")
 
 
+def is_trained_from_scratch(record: dict, cache: Cache) -> str:
+    """Determine if a model was trained from scratch or fine-tuned.
+
+    Args:
+        record:
+            A record from the JSONL file.
+        cache:
+            The cache.
+
+    Returns:
+        Either "scratch" or "fine-tuned".
+    """
+    # If model ID is anchor tag, extract the actual model ID
+    model_id = record["model"]
+    if record["model"].startswith("<a href="):
+        model_id_match = re.search(r">(.+?)<", record["model"])
+        if model_id_match:
+            model_id = model_id_match.group(1)
+
+    # Remove revisions from model ID
+    model_id = model_id.split("@")[0]
+
+    # Check cache first
+    if model_id in cache.trained_from_scratch:
+        return cache.trained_from_scratch[model_id]
+
+    # Check if model is open or closed-source
+    model_openness = cache.open.get(model_id)
+
+    # For closed-source models, auto-return "scratch" without prompting
+    if model_openness == "closed-source":
+        cache.trained_from_scratch[model_id] = "scratch"
+        return "scratch"
+
+    # For open/open-weight models, prompt user
+    while True:
+        msg = f"Was {model_id!r} trained from scratch or fine-tuned?"
+        if "/" in model_id:
+            msg += f" (https://hf.co/{model_id})"
+        msg += " [scratch/fine-tuned] "
+        user_input = input(msg)
+        if user_input.lower() in {"scratch", "from scratch"}:
+            cache.trained_from_scratch[model_id] = "scratch"
+            return "scratch"
+        if user_input.lower() in {"fine-tuned", "finetuned", "fine tuned"}:
+            cache.trained_from_scratch[model_id] = "fine-tuned"
+            return "fine-tuned"
+        logger.error("Invalid input. Please try again.")
+
+
 def is_merge(record: dict, cache: Cache) -> bool:
     """Determines if a model is a merged model.
 
@@ -367,6 +419,59 @@ def is_merge(record: dict, cache: Cache) -> bool:
     has_merge_tag = any(tag in (model_info.tags or []) for tag in merge_tags)
     cache.merge[model_id] = has_merge_tag
     return has_merge_tag
+
+
+def is_open(record: dict, cache: Cache) -> str:
+    """Determine if a model is open-source, open-weight, or closed-source.
+
+    Args:
+        record:
+            A record from the JSONL file.
+        cache:
+            The cache.
+
+    Returns:
+        The openness status of the model: "open-source", "open-weight", or
+        "closed-source".
+    """
+    # If model ID is anchor tag, extract the actual model ID
+    model_id = record["model"]
+    if record["model"].startswith("<a href="):
+        model_id_match = re.search(r">(.+?)<", record["model"])
+        if model_id_match:
+            model_id = model_id_match.group(1)
+
+    # Remove revisions from model ID
+    model_id = model_id.split("@")[0]
+
+    # Check cache first
+    if model_id in cache.open:
+        return cache.open[model_id]
+
+    # Assume closed-source if not found on HF Hub
+    try:
+        api = HfApi()
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", category=UserWarning)
+            api.model_info(repo_id=model_id)
+    except (RepositoryNotFoundError, HFValidationError):
+        cache.open[model_id] = "closed-source"
+        return "closed-source"
+
+    # Ask user if it's open-source or open-weight
+    while True:
+        msg = f"Is {model_id!r} open-source or open-weight?"
+        if "/" in model_id:
+            msg += f" (https://hf.co/{model_id})"
+        msg += " [open-source/open-weight] "
+        user_input = input(msg)
+        if user_input.lower() in {"open-source", "open source"}:
+            cache.open[model_id] = "open-source"
+            return "open-source"
+        if user_input.lower() in {"open-weight", "open weight"}:
+            cache.open[model_id] = "open-weight"
+            return "open-weight"
+        logger.error("Invalid input. Please try again.")
 
 
 def record_is_valid(
@@ -530,6 +635,8 @@ def extract_model_metadata(results: list[dict]) -> dict[str, dict]:
                     generative_type=record.get("generative_type", None),
                     commercial=record.get("commercially_licensed", False),
                     merge=record.get("merge", False),
+                    open=record.get("open", "closed-source"),
+                    trained_from_scratch=record.get("trained_from_scratch", "scratch"),
                 )
             )
 
