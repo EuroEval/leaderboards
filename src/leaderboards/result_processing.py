@@ -250,8 +250,15 @@ def get_generative_type(record: dict, cache: Cache) -> str | None:
         if model_id_match:
             model_id = model_id_match.group(1)
 
-    # Remove revisions from model ID
-    model_id = model_id.split("@")[0]
+    if "#thinking" in model_id:
+        cache.generative_type[model_id] = "reasoning"
+        return "reasoning"
+    elif "#no-thinking" in model_id:
+        cache.generative_type[model_id] = "instruction_tuned"
+        return "instruction_tuned"
+
+    # Remove extras from model ID
+    model_id = model_id.split("@")[0].split("#")[0]
 
     while True:
         if model_id in cache.generative_type:
@@ -323,8 +330,8 @@ def is_commercially_licensed(record: dict, cache: Cache) -> bool:
         if model_id_match:
             model_id = model_id_match.group(1)
 
-    # Remove revisions from model ID
-    model_id = model_id.split("@")[0]
+    # Remove extras from model ID
+    model_id = model_id.split("@")[0].split("#")[0]
 
     # Assume that non-generative models are always commercially licensed
     if not record.get("generative", True):
@@ -370,28 +377,26 @@ def is_trained_from_scratch(
         if model_id_match:
             model_id = model_id_match.group(1)
 
-    # Remove revisions from model ID
-    model_id = model_id.split("@")[0]
+    # Remove extras from model ID
+    model_id = model_id.split("@")[0].split("#")[0]
 
     # Check cache first
-    # base_model_cache = {
-    #     (
-    #       m.split("/")[0] + "/" + m.split("/")[1].split("-")[0]
-    #       if "/" in m
-    #       else m: value
-    #     )
-    #     for m, value in cache.trained_from_scratch.items()
-    # }
-    # base_model_id = (
-    #     model_id.split("/")[0] + "/" + model_id.split("/")[1].split("-")[0]
-    #     if "/" in model_id
-    #     else model_id
-    # )
-    # if base_model_id in base_model_cache:
-    #     value = base_model_cache[base_model_id]
-    #     if model_id not in cache.trained_from_scratch:
-    #         cache.trained_from_scratch[model_id] = value
-    #     return value
+    base_model_cache = {
+        (
+            m.split("/")[0] + "/" + m.split("/")[1].split("-")[0] if "/" in m else m
+        ): value
+        for m, value in cache.trained_from_scratch.items()
+    }
+    base_model_id = (
+        model_id.split("/")[0] + "/" + model_id.split("/")[1].split("-")[0]
+        if "/" in model_id
+        else model_id
+    )
+    if base_model_id in base_model_cache:
+        value = base_model_cache[base_model_id]
+        if model_id not in cache.trained_from_scratch:
+            cache.trained_from_scratch[model_id] = value
+        return value
 
     # Check if model is open or closed-source
     model_openness = cache.open.get(model_id)
@@ -445,8 +450,8 @@ def is_merge(record: dict, cache: Cache) -> bool:
         if model_id_match:
             model_id = model_id_match.group(1)
 
-    # Remove revisions from model ID
-    model_id = model_id.split("@")[0]
+    # Remove extras from model ID
+    model_id = model_id.split("@")[0].split("#")[0]
 
     # Return cached value if available
     if model_id in cache.merge:
@@ -496,12 +501,14 @@ def is_open(record: dict, cache: Cache) -> str:
         if model_id_match:
             model_id = model_id_match.group(1)
 
-    # Remove revisions from model ID
-    model_id = model_id.split("@")[0]
+    # Remove revisions and parameters from model ID
+    model_id = model_id.split("@")[0].split("#")[0]
 
     # Check cache first
     base_model_cache = {
-        m.split("/")[0] + "/" + m.split("/")[1].split("-")[0] if "/" in m else m: value
+        (
+            m.split("/")[0] + "/" + m.split("/")[1].split("-")[0] if "/" in m else m
+        ): value
         for m, value in cache.open.items()
     }
     base_model_id = (
