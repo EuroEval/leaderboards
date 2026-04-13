@@ -556,7 +556,7 @@ def generate_dataframe(
         df["open"] = df["open"].map(open_mapping)
 
         # Convert trained_from_scratch values to symbols
-        trained_mapping = {"scratch": "✓", "fine-tuned": "✗"}
+        trained_mapping = {True: "✓", False: "✗"}
         df["trained_from_scratch"] = df["trained_from_scratch"].map(trained_mapping)
 
         # Orthogonal values only makes sense for instruction-tuned and reasoning models,

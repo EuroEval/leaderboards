@@ -29,6 +29,7 @@ def process_results(
     banned_versions: list[str],
     banned_model_patterns: list[re.Pattern],
     api_model_patterns: list[re.Pattern],
+    trained_from_scratch_patterns: list[re.Pattern],
 ) -> None:
     """Process EuroEval records from a JSONL file.
 
@@ -43,6 +44,8 @@ def process_results(
             A list of regex patterns to filter out models that should not be included.
         api_model_patterns:
             A list of regex patterns for API inference models.
+        trained_from_scratch_patterns:
+            A list of regex patterns for trained-from-scratch models.
     """
     results_path = Path("results.tar.gz")
 
@@ -133,7 +136,11 @@ def process_results(
         logger.info(f"Removed {num_invalid_records:,} invalid records.")
 
     processed_records = [
-        add_missing_entries(record=record, cache=cache)
+        add_missing_entries(
+            record=record,
+            trained_from_scratch_patterns=trained_from_scratch_patterns,
+            cache=cache,
+        )
         for record in tqdm(processed_records, desc="Adding missing entries")
     ]
 
@@ -158,12 +165,16 @@ def process_results(
         tar.addfile(tarinfo=processed_tarinfo, fileobj=processed_fileobj)
 
 
-def add_missing_entries(record: dict, cache: Cache) -> dict:
+def add_missing_entries(
+    record: dict, trained_from_scratch_patterns: list[re.Pattern], cache: Cache
+) -> dict:
     """Adds missing entries to a record.
 
     Args:
         record:
             A record from the JSONL file.
+        trained_from_scratch_patterns:
+            A list of regex patterns for trained-from-scratch models.
         cache:
             The cache.
 
@@ -183,7 +194,11 @@ def add_missing_entries(record: dict, cache: Cache) -> dict:
         record=record, cache=cache
     )
     record["open"] = is_open(record=record, cache=cache)
-    record["trained_from_scratch"] = is_trained_from_scratch(record=record, cache=cache)
+    record["trained_from_scratch"] = is_trained_from_scratch(
+        record=record,
+        trained_from_scratch_patterns=trained_from_scratch_patterns,
+        cache=cache,
+    )
     return record
 
 
@@ -332,17 +347,21 @@ def is_commercially_licensed(record: dict, cache: Cache) -> bool:
             logger.error("Invalid input. Please try again.")
 
 
-def is_trained_from_scratch(record: dict, cache: Cache) -> bool:
+def is_trained_from_scratch(
+    record: dict, trained_from_scratch_patterns: list[re.Pattern], cache: Cache
+) -> bool:
     """Determine if a model was trained from scratch or fine-tuned.
 
     Args:
         record:
             A record from the JSONL file.
+        trained_from_scratch_patterns:
+            A list of regex patterns for trained-from-scratch models.
         cache:
             The cache.
 
     Returns:
-        Either "scratch" or "fine-tuned".
+        True if the model was trained from scratch.
     """
     # If model ID is anchor tag, extract the actual model ID
     model_id = record["model"]
@@ -355,20 +374,24 @@ def is_trained_from_scratch(record: dict, cache: Cache) -> bool:
     model_id = model_id.split("@")[0]
 
     # Check cache first
-    base_model_cache = {
-        m.split("/")[0] + "/" + m.split("/")[1].split("-")[0] if "/" in m else m: value
-        for m, value in cache.trained_from_scratch.items()
-    }
-    base_model_id = (
-        model_id.split("/")[0] + "/" + model_id.split("/")[1].split("-")[0]
-        if "/" in model_id
-        else model_id
-    )
-    if base_model_id in base_model_cache:
-        value = base_model_cache[base_model_id]
-        if model_id not in cache.trained_from_scratch:
-            cache.trained_from_scratch[model_id] = value
-        return value
+    # base_model_cache = {
+    #     (
+    #       m.split("/")[0] + "/" + m.split("/")[1].split("-")[0]
+    #       if "/" in m
+    #       else m: value
+    #     )
+    #     for m, value in cache.trained_from_scratch.items()
+    # }
+    # base_model_id = (
+    #     model_id.split("/")[0] + "/" + model_id.split("/")[1].split("-")[0]
+    #     if "/" in model_id
+    #     else model_id
+    # )
+    # if base_model_id in base_model_cache:
+    #     value = base_model_cache[base_model_id]
+    #     if model_id not in cache.trained_from_scratch:
+    #         cache.trained_from_scratch[model_id] = value
+    #     return value
 
     # Check if model is open or closed-source
     model_openness = cache.open.get(model_id)
@@ -377,6 +400,15 @@ def is_trained_from_scratch(record: dict, cache: Cache) -> bool:
     if model_openness == "closed-source":
         cache.trained_from_scratch[model_id] = True
         return True
+
+    # If it matches any of the trained-from-scratch patterns, set it automatically
+    if any(
+        pattern.match(model_id) is not None for pattern in trained_from_scratch_patterns
+    ):
+        return True
+
+    # TEMP
+    return False
 
     # For open/open-weight models, prompt user
     while True:
@@ -492,6 +524,9 @@ def is_open(record: dict, cache: Cache) -> str:
     except (RepositoryNotFoundError, HFValidationError):
         cache.open[model_id] = "closed-source"
         return "closed-source"
+
+    # TEMP
+    return "open-weight"
 
     # Ask user if it's open-source or open-weight
     while True:
