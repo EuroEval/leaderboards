@@ -412,9 +412,6 @@ def is_trained_from_scratch(
     ):
         return True
 
-    # TEMP
-    return False
-
     # For open/open-weight models, prompt user
     while True:
         msg = f"Was {model_id!r} trained from scratch? "
@@ -531,9 +528,6 @@ def is_open(record: dict, cache: Cache) -> str:
     except (RepositoryNotFoundError, HFValidationError):
         cache.open[model_id] = "closed-source"
         return "closed-source"
-
-    # TEMP
-    return "open-weight"
 
     # Ask user if it's open-source or open-weight
     while True:
