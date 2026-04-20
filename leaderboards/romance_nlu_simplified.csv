@@ -40,7 +40,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge,o
 "<a href='https://platform.openai.com/docs/models/gpt-5.4-nano'>openai/gpt-5.4-nano-2026-03-17#low (zero-shot, val)</a>",🤔,2.04,,,400000,✓,✗,✗,✓
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro'>gemini/gemini-2.5-pro (zero-shot, val)</a>",🤔,2.06,,256128,1048576,✓,✗,✗,✓
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash'>gemini/gemini-2.5-flash#thinking (zero-shot, val)</a>",🤔,2.07,,256128,1048576,✓,✗,✗,✓
-<a href='https://hf.co/allenai/Olmo-3.1-32B-Think'>allenai/Olmo-3.1-32B-Think (val)</a>,🤔,2.09,32233522176,100278,65536,✗,✗,(✓),✓
+<a href='https://hf.co/allenai/Olmo-3.1-32B-Think'>allenai/Olmo-3.1-32B-Think (val)</a>,🤔,2.08,32233522176,100278,65536,✗,✗,(✓),✓
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct'>allenai/Olmo-3.1-32B-Instruct</a>,📝,2.09,32233522176,100278,65536,✗,✗,(✓),✓
 <a href='https://hf.co/allenai/Olmo-3.1-32B-Instruct-DPO'>allenai/Olmo-3.1-32B-Instruct-DPO</a>,📝,2.09,32233522176,100278,65536,✗,✗,(✓),✓
 "<a href='https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite'>gemini/gemini-2.5-flash-lite#thinking (zero-shot, val)</a>",🤔,2.10,,256128,1048576,✓,✗,✗,✓
@@ -85,7 +85,7 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge,o
 <a href='https://hf.co/google/gemma-4-31B'>google/gemma-4-31B (val)</a>,🧠,2.33,31273088876,262144,8192,✓,✗,(✓),✓
 <a href='https://hf.co/mistralai/Ministral-3-8B-Instruct-2512'>mistralai/Ministral-3-8B-Instruct-2512 (val)</a>,📝,2.33,7415529472,131072,8192,✓,✗,(✓),✓
 <a href='https://hf.co/utter-project/EuroLLM-22B-Instruct-Preview'>utter-project/EuroLLM-22B-Instruct-Preview</a>,📝,2.33,22637328384,128000,4096,✓,✗,(✓),✓
-<a href='https://hf.co/mistralai/Ministral-3-3B-Base-2512'>mistralai/Ministral-3-3B-Base-2512</a>,🧠,2.35,4251743232,131072,8192,✓,✗,(✓),✓
+<a href='https://hf.co/mistralai/Ministral-3-3B-Base-2512'>mistralai/Ministral-3-3B-Base-2512</a>,🧠,2.34,4251743232,131072,8192,✓,✗,(✓),✓
 <a href='https://hf.co/google/gemma-4-E2B-it'>google/gemma-4-E2B-it (val)</a>,📝,2.35,5123178979,262144,8192,✓,✗,(✓),✓
 <a href='https://hf.co/allenai/Olmo-3-7B-Think'>allenai/Olmo-3-7B-Think (val)</a>,🤔,2.35,7298011136,100278,65536,✗,✗,(✓),✓
 <a href='https://hf.co/allenai/Llama-3.1-Tulu-3-8B-SFT'>allenai/Llama-3.1-Tulu-3-8B-SFT</a>,📝,2.35,8030326784,128264,131072,✓,✗,(✓),✓

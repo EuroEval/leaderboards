@@ -97,14 +97,14 @@ model,generative_type,rank,parameters,vocabulary_size,context,commercial,merge,o
 <a href='https://hf.co/HuggingFaceTB/SmolLM3-3B-Base'>HuggingFaceTB/SmolLM3-3B-Base</a>,🧠,2.98,3075098624,128256,65536,✓,✗,✗,✓
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct'>allenai/Olmo-3-7B-Instruct</a>,📝,2.99,7298011136,100278,65536,✗,✗,(✓),✓
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-DPO'>allenai/Olmo-3-7B-Instruct-DPO</a>,📝,3.02,7298011136,100278,65536,✗,✗,(✓),✓
-<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,3.04,3606752256,128256,131072,✓,✗,(✓),✗
+<a href='https://hf.co/deepcogito/cogito-v1-preview-llama-3B'>deepcogito/cogito-v1-preview-llama-3B</a>,📝,3.05,3606752256,128256,131072,✓,✗,(✓),✗
 <a href='https://hf.co/Qwen/Qwen3.5-0.8B'>Qwen/Qwen3.5-0.8B (val)</a>,📝,3.09,873436192,248044,8192,✓,✗,(✓),✓
-<a href='https://hf.co/Qwen/Qwen3.5-2B-Base'>Qwen/Qwen3.5-2B-Base (val)</a>,🧠,3.13,2274067232,248044,8192,✓,✗,(✓),✓
+<a href='https://hf.co/Qwen/Qwen3.5-2B-Base'>Qwen/Qwen3.5-2B-Base (val)</a>,🧠,3.14,2274067232,248044,8192,✓,✗,(✓),✓
 <a href='https://hf.co/speakleash/Bielik-1.5B-v3.0-Instruct'>speakleash/Bielik-1.5B-v3.0-Instruct</a>,📝,3.22,1596507648,32000,8192,✓,✗,(✓),✓
 <a href='https://hf.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-FP8'>nvidia/NVIDIA-Nemotron-3-Nano-4B-FP8 (val)</a>,🤔,3.23,2680100864,131072,262144,✓,✗,✗,✓
 <a href='https://hf.co/allenai/Olmo-3-7B-Instruct-SFT'>allenai/Olmo-3-7B-Instruct-SFT</a>,📝,3.24,7298011136,100278,65536,✗,✗,(✓),✓
 <a href='https://hf.co/tencent/Hunyuan-4B-Instruct'>tencent/Hunyuan-4B-Instruct (val)</a>,🤔,3.34,4221757440,120818,262144,✓,✗,(✓),✓
-<a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.37,2424375168,99000,28723,✗,✗,(✓),✓
+<a href='https://hf.co/yulan-team/YuLan-Mini-Instruct'>yulan-team/YuLan-Mini-Instruct</a>,📝,3.38,2424375168,99000,28723,✗,✗,(✓),✓
 <a href='https://hf.co/Qwen/Qwen3.5-0.8B-Base'>Qwen/Qwen3.5-0.8B-Base (val)</a>,🧠,3.41,873436192,248044,8192,✓,✗,(✓),✓
 <a href='https://hf.co/Qwen/Qwen3-0.6B'>Qwen/Qwen3-0.6B#no-thinking</a>,📝,3.50,751632384,151936,40960,✓,✗,✗,✓
 <a href='https://hf.co/BSC-LT/salamandra-7b-instruct'>BSC-LT/salamandra-7b-instruct</a>,📝,3.51,7768117248,256000,8192,✓,✗,(✓),✓
